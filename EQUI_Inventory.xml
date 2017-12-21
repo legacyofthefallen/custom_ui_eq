@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
 	<StaticAnimation item="Inv_Seperator1">
@@ -591,7 +591,7 @@
 			<CX>112</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>Playername123456</Text>
+		<Text>Egot</Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -608,7 +608,7 @@
 			<CX>25</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>60 Shadow Knight</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -624,7 +624,7 @@
 			<CX>100</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>60 Shadow Knight</Text>
+		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -641,7 +641,7 @@
 			<CX>112</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>Mithaniel Marr</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -673,7 +673,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignRight>true</AlignRight>
 	</Label>
@@ -701,7 +701,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 	</Label>
 	<Label item="IW_MANA">
@@ -733,7 +733,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignRight>true</AlignRight>
 	</Label>
@@ -761,7 +761,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 	</Label>
 	<Label item="IW_ENDR">
@@ -793,7 +793,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignRight>true</AlignRight>
 	</Label>
@@ -821,7 +821,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 	</Label>
 	<Label item="IW_AC">
@@ -853,7 +853,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -884,7 +884,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<TooltipReference>Evasion: Chance to avoid melee damage</TooltipReference>
 	</Label>
@@ -917,7 +917,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -948,7 +948,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<TooltipReference>Accuracy: Chance to land a hit</TooltipReference>
 	</Label>
@@ -1503,7 +1503,7 @@
 			<CX>30</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -2224,7 +2224,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -2256,7 +2256,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -2300,7 +2300,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -2332,7 +2332,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -2376,7 +2376,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -2408,7 +2408,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -2452,7 +2452,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -2485,7 +2485,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -2530,7 +2530,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -2563,7 +2563,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -2608,7 +2608,7 @@
 			<CX>65</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -2666,7 +2666,7 @@
 			<CX>65</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -2743,7 +2743,7 @@
 			<CX>75</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -2785,7 +2785,7 @@
 			<CX>75</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -2827,7 +2827,7 @@
 			<CX>75</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -2904,7 +2904,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -2936,7 +2936,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -2974,7 +2974,7 @@
 			<CX>30</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<TextColor>
 			<R>214</R>
 			<G>178</G>
@@ -3025,7 +3025,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -3057,7 +3057,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -3095,7 +3095,7 @@
 			<CX>30</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<TextColor>
 			<R>214</R>
 			<G>178</G>
@@ -3146,7 +3146,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -3178,7 +3178,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -3216,7 +3216,7 @@
 			<CX>30</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<TextColor>
 			<R>214</R>
 			<G>178</G>
@@ -3267,7 +3267,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -3299,7 +3299,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -3337,7 +3337,7 @@
 			<CX>30</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<TextColor>
 			<R>214</R>
 			<G>178</G>
@@ -3388,7 +3388,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -3420,7 +3420,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -3458,7 +3458,7 @@
 			<CX>30</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<TextColor>
 			<R>214</R>
 			<G>178</G>
@@ -3509,7 +3509,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -3541,7 +3541,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -3579,7 +3579,7 @@
 			<CX>30</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<TextColor>
 			<R>214</R>
 			<G>178</G>
@@ -3630,7 +3630,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -3662,7 +3662,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -3700,7 +3700,7 @@
 			<CX>30</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<TextColor>
 			<R>214</R>
 			<G>178</G>
@@ -3786,7 +3786,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -3818,7 +3818,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -3862,7 +3862,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -3894,7 +3894,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -3938,7 +3938,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -3970,7 +3970,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -4014,7 +4014,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -4046,7 +4046,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -4090,7 +4090,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -4122,7 +4122,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -4166,7 +4166,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -4198,7 +4198,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -4270,7 +4270,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -4302,7 +4302,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -4346,7 +4346,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -4378,7 +4378,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -4422,7 +4422,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -4454,7 +4454,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -4498,7 +4498,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -4530,7 +4530,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -4574,7 +4574,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -4606,7 +4606,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -4650,7 +4650,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -4682,7 +4682,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -4726,7 +4726,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -4758,7 +4758,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -4802,7 +4802,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -4834,7 +4834,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -4878,7 +4878,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -4910,7 +4910,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -4954,7 +4954,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -4986,7 +4986,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -5065,7 +5065,7 @@
 			<CX>75</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -5107,7 +5107,7 @@
 			<CX>75</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -5149,7 +5149,7 @@
 			<CX>75</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -5191,7 +5191,7 @@
 			<CX>75</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -5268,7 +5268,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -5300,7 +5300,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -5344,7 +5344,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -5376,7 +5376,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -5420,7 +5420,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -5452,7 +5452,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -5496,7 +5496,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -5528,7 +5528,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -5572,7 +5572,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -5604,7 +5604,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -5648,7 +5648,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -5680,7 +5680,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -5724,7 +5724,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -5756,7 +5756,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -5800,7 +5800,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -5832,7 +5832,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -5876,7 +5876,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -5908,7 +5908,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -6202,7 +6202,7 @@
 			<CX>56</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -6234,7 +6234,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -6278,7 +6278,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -6310,7 +6310,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -6350,7 +6350,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -6382,7 +6382,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -6422,7 +6422,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -6455,7 +6455,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -6496,7 +6496,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -6529,7 +6529,7 @@
 			<CX>55</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -6570,7 +6570,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -6648,7 +6648,7 @@
 			<CX>75</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -6686,7 +6686,7 @@
 			<CX>75</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -6724,7 +6724,7 @@
 			<CX>75</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -6782,7 +6782,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -6820,7 +6820,7 @@
 			<CX>30</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<TextColor>
 			<R>214</R>
 			<G>178</G>
@@ -6865,7 +6865,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -6903,7 +6903,7 @@
 			<CX>30</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<TextColor>
 			<R>214</R>
 			<G>178</G>
@@ -6948,7 +6948,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -6986,7 +6986,7 @@
 			<CX>30</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<TextColor>
 			<R>214</R>
 			<G>178</G>
@@ -7031,7 +7031,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -7069,7 +7069,7 @@
 			<CX>30</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<TextColor>
 			<R>214</R>
 			<G>178</G>
@@ -7114,7 +7114,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -7152,7 +7152,7 @@
 			<CX>30</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<TextColor>
 			<R>214</R>
 			<G>178</G>
@@ -7197,7 +7197,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -7235,7 +7235,7 @@
 			<CX>30</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<TextColor>
 			<R>214</R>
 			<G>178</G>
@@ -7280,7 +7280,7 @@
 			<CX>35</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -7318,7 +7318,7 @@
 			<CX>30</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<TextColor>
 			<R>214</R>
 			<G>178</G>
@@ -7383,7 +7383,7 @@
 			<CX>75</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -7421,7 +7421,7 @@
 			<CX>75</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
