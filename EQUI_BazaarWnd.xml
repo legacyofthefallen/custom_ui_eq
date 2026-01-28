@@ -1,4 +1,4 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 
@@ -16,7 +16,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Border>true</Style_Border>
-		<Text>Test text</Text>
+		<Text/>
 	</STMLbox>
 
 	<InvSlot item = "BZR_BazaarSlot0">
@@ -3260,7 +3260,7 @@
 		<TooltipReference>Platinum</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
-		<Text>100000</Text>
+		<Text/>
 		<Template>BDT_PlatinumCoin</Template>
 		<!--<SoundPressed/>-->
 		<!--<SoundUp/>-->
@@ -3291,7 +3291,7 @@
 		<TooltipReference>Gold</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
-		<Text>100000</Text>
+		<Text/>
 		<Template>BDT_GoldCoin</Template>
 		<!--<SoundPressed/>-->
 		<!--<SoundUp/>-->
@@ -3323,7 +3323,7 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<TooltipReference>Silver</TooltipReference>
 		<!--<RadioGroup/>-->
-		<Text>100000</Text>
+		<Text/>
 		<Template>BDT_SilverCoin</Template>
 		<!--<SoundPressed/>-->
 		<!--<SoundUp/>-->
@@ -3354,7 +3354,7 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<TooltipReference>Copper</TooltipReference>
 		<!--<RadioGroup/>-->
-		<Text>100000</Text>
+		<Text/>
 		<Template>BDT_CopperCoin</Template>
 		<!--<SoundPressed/>-->
 		<!--<SoundUp/>-->
