@@ -503,18 +503,6 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>inventory/Equip 32</EQType>
 	</InvSlot>
-	<InvSlot item="InvSlot33">
-		<ScreenID>InvSlot33</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Background>A_RecessedBox</Background>
-		<EQType>inventory/Equip 33</EQType>
-	</InvSlot>
-	<InvSlot item="InvSlot34">
-		<ScreenID>InvSlot34</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Background>A_RecessedBox</Background>
-		<EQType>inventory/Equip 34</EQType>
-	</InvSlot>
 	<!-- END INVENTORY -->
 	
 	<Button item="IW_ConsumeKrono">
