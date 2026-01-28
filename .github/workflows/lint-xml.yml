@@ -1,0 +1,21 @@
+name: Run basic scripts to check for syntactical correctness 
+on:
+  push:
+    branches-ignore: [ main ]
+    tags: 
+    - "v1.*"
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  run-xml-linter:
+    name: XML linter for UI xml files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Action actors
+        run: echo "${{ github.actor }} triggered action by ${{ github.triggering_actor }}"
+      - name: install xml linter from utils
+        run: sudo apt-get install libxml2-utils
+      - name: lint sandbox file
+        run: xmllint *.xml
