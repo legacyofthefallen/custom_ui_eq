@@ -137,7 +137,7 @@
 			<CX>17</CX>
 			<CY>17</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<TextColor>
 			<R>0</R>
 			<G>0</G>
@@ -161,7 +161,7 @@
 			<CX>17</CX>
 			<CY>17</CY>
 		</Size>
-		<Text>1</Text>
+		<Text/>
 		<TextColor>
 			<R>0</R>
 			<G>0</G>
