@@ -275,7 +275,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Select amount of Platinum you will pay.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>60000</Text>
+		<Text/>
 		<Template>BDT_PlatinumCoin</Template>
 		<DecalOffset>
 			<X>2</X>
@@ -303,7 +303,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Select amount of Gold you will pay.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>60000</Text>
+		<Text/>
 		<Template>BDT_GoldCoin</Template>
 		<DecalOffset>
 			<X>2</X>
@@ -331,7 +331,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Select amount of Silver you will pay.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>60000</Text>
+		<Text/>
 		<Template>BDT_SilverCoin</Template>
 		<DecalOffset>
 			<X>2</X>
@@ -359,7 +359,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Select amount of Copper you will pay.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>60000</Text>
+		<Text/>
 		<Template>BDT_CopperCoin</Template>
 		<DecalOffset>
 			<X>2</X>
@@ -637,7 +637,7 @@
 		<Style_VScroll>true</Style_VScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Border>true</Style_Border>
-		<Text>No Text</Text>
+		<Text/>
 	</STMLbox>
 
 	<Button item = "BTR_ListLinesButton">
