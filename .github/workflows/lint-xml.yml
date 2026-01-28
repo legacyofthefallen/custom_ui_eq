@@ -10,7 +10,7 @@ on:
 jobs:
   run-xml-linter:
     name: XML linter for UI xml files
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v5
       - name: Action actors
