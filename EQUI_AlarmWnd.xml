@@ -51,7 +51,7 @@
 			<CX>30</CX>
 			<CY>22</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 	</Editbox>
 	<Label item="ALRW_MinutesLabel">
 		<ScreenID>ALRW_MinutesLabel</ScreenID>
@@ -82,7 +82,7 @@
 			<CX>30</CX>
 			<CY>22</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 	</Editbox>
 	<Button item="ALRW_CancelButton">
 		<ScreenID>ALRW_CancelButton</ScreenID>
