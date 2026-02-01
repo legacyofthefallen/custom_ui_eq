@@ -34,7 +34,7 @@
 	<Label item="BZC_TotalPrice">
 		<ScreenID>BZC_TotalPrice</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>Item Price: [xxxxx]</Text>
+		<Text/>
 		<Font>3</Font>
 		<AlignCenter>true</AlignCenter>
 		<AutoStretch>true</AutoStretch>
@@ -82,7 +82,7 @@
 	<Label item="BZC_TokenLabel">
 		<ScreenID>BZC_TokenLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>x 2</Text>
+		<Text/>
 		<TooltipReference>Cost to ship directly to you.</TooltipReference>
 		<Font>3</Font>
 		<AlignCenter>true</AlignCenter>
@@ -132,7 +132,7 @@
 	<Label item="BZC_PlatLabel">
 		<ScreenID>BZC_PlatLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>10000p</Text>
+		<Text/>
 		<TooltipReference>Cost to ship to your parcels.</TooltipReference>
 		<Font>3</Font>
 		<AutoStretch>true</AutoStretch>
