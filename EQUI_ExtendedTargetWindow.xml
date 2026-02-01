@@ -6,7 +6,7 @@
 		<ScreenID>ETW_AggroPct0</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>314</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -88,7 +88,7 @@
 	<Label item="ETW_HPLabel0">
 		<ScreenID>ETW_HPLabel0</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -138,7 +138,7 @@
 		<ScreenID>ETW_AggroPct1</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>315</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -220,7 +220,7 @@
 	<Label item="ETW_HPLabel1">
 		<ScreenID>ETW_HPLabel1</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -270,7 +270,7 @@
 		<ScreenID>ETW_AggroPct2</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>316</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -352,7 +352,7 @@
 	<Label item="ETW_HPLabel2">
 		<ScreenID>ETW_HPLabel2</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -402,7 +402,7 @@
 		<ScreenID>ETW_AggroPct3</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>317</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -484,7 +484,7 @@
 	<Label item="ETW_HPLabel3">
 		<ScreenID>ETW_HPLabel3</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -534,7 +534,7 @@
 		<ScreenID>ETW_AggroPct4</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>318</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -616,7 +616,7 @@
 	<Label item="ETW_HPLabel4">
 		<ScreenID>ETW_HPLabel4</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -666,7 +666,7 @@
 		<ScreenID>ETW_AggroPct5</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>319</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -748,7 +748,7 @@
 	<Label item="ETW_HPLabel5">
 		<ScreenID>ETW_HPLabel5</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -798,7 +798,7 @@
 		<ScreenID>ETW_AggroPct6</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>320</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -880,7 +880,7 @@
 	<Label item="ETW_HPLabel6">
 		<ScreenID>ETW_HPLabel6</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -930,7 +930,7 @@
 		<ScreenID>ETW_AggroPct7</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>321</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -1012,7 +1012,7 @@
 	<Label item="ETW_HPLabel7">
 		<ScreenID>ETW_HPLabel7</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -1062,7 +1062,7 @@
 		<ScreenID>ETW_AggroPct8</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>322</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -1144,7 +1144,7 @@
 	<Label item="ETW_HPLabel8">
 		<ScreenID>ETW_HPLabel8</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -1194,7 +1194,7 @@
 		<ScreenID>ETW_AggroPct9</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>323</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -1276,7 +1276,7 @@
 	<Label item="ETW_HPLabel9">
 		<ScreenID>ETW_HPLabel9</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -1326,7 +1326,7 @@
 		<ScreenID>ETW_AggroPct10</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>324</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -1408,7 +1408,7 @@
 	<Label item="ETW_HPLabel10">
 		<ScreenID>ETW_HPLabel10</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -1458,7 +1458,7 @@
 		<ScreenID>ETW_AggroPct11</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>325</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -1540,7 +1540,7 @@
 	<Label item="ETW_HPLabel11">
 		<ScreenID>ETW_HPLabel11</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -1590,7 +1590,7 @@
 		<ScreenID>ETW_AggroPct12</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>326</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -1672,7 +1672,7 @@
 	<Label item="ETW_HPLabel12">
 		<ScreenID>ETW_HPLabel12</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -1722,7 +1722,7 @@
 		<ScreenID>ETW_AggroPct13</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>327</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -1804,7 +1804,7 @@
 	<Label item="ETW_HPLabel13">
 		<ScreenID>ETW_HPLabel13</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -1854,7 +1854,7 @@
 		<ScreenID>ETW_AggroPct14</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>328</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -1936,7 +1936,7 @@
 	<Label item="ETW_HPLabel14">
 		<ScreenID>ETW_HPLabel14</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -1986,7 +1986,7 @@
 		<ScreenID>ETW_AggroPct15</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>329</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -2068,7 +2068,7 @@
 	<Label item="ETW_HPLabel15">
 		<ScreenID>ETW_HPLabel15</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -2118,7 +2118,7 @@
 		<ScreenID>ETW_AggroPct16</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>330</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -2200,7 +2200,7 @@
 	<Label item="ETW_HPLabel16">
 		<ScreenID>ETW_HPLabel16</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -2250,7 +2250,7 @@
 		<ScreenID>ETW_AggroPct17</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>331</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -2332,7 +2332,7 @@
 	<Label item="ETW_HPLabel17">
 		<ScreenID>ETW_HPLabel17</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -2382,7 +2382,7 @@
 		<ScreenID>ETW_AggroPct18</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>332</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -2464,7 +2464,7 @@
 	<Label item="ETW_HPLabel18">
 		<ScreenID>ETW_HPLabel18</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -2514,7 +2514,7 @@
 		<ScreenID>ETW_AggroPct19</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>333</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -2596,7 +2596,7 @@
 	<Label item="ETW_HPLabel19">
 		<ScreenID>ETW_HPLabel19</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -2646,7 +2646,7 @@
 		<ScreenID>ETW_AggroPct20</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>391</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -2728,7 +2728,7 @@
 	<Label item="ETW_HPLabel20">
 		<ScreenID>ETW_HPLabel20</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -2778,7 +2778,7 @@
 		<ScreenID>ETW_AggroPct21</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>392</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -2860,7 +2860,7 @@
 	<Label item="ETW_HPLabel21">
 		<ScreenID>ETW_HPLabel21</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -2910,7 +2910,7 @@
 		<ScreenID>ETW_AggroPct22</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>393</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -2992,7 +2992,7 @@
 	<Label item="ETW_HPLabel22">
 		<ScreenID>ETW_HPLabel22</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
