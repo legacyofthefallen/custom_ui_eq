@@ -550,7 +550,7 @@
 	<Label item="GW_HPLabel1">
 		<ScreenID>HPLabel1</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>2</Font>
@@ -580,7 +580,7 @@
 	<Label item="GW_HPLabel2">
 		<ScreenID>HPLabel2</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>2</Font>
@@ -610,7 +610,7 @@
 	<Label item="GW_HPLabel3">
 		<ScreenID>HPLabel3</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>2</Font>
@@ -640,7 +640,7 @@
 	<Label item="GW_HPLabel4">
 		<ScreenID>HPLabel4</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>2</Font>
@@ -670,7 +670,7 @@
 	<Label item="GW_HPLabel5">
 		<ScreenID>HPLabel5</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>2</Font>
@@ -1115,7 +1115,7 @@
 		<ScreenID>GW_AggroPctPlayer1</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>309</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -1128,7 +1128,7 @@
 		<ScreenID>GW_AggroPctPlayer2</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>310</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -1141,7 +1141,7 @@
 		<ScreenID>GW_AggroPctPlayer3</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>311</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -1154,7 +1154,7 @@
 		<ScreenID>GW_AggroPctPlayer4</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>312</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -1167,7 +1167,7 @@
 		<ScreenID>GW_AggroPctPlayer5</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text>78</Text>
+		<Text/>
 		<EQType>313</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
