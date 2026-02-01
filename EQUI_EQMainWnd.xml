@@ -356,7 +356,7 @@
 			<CX>150</CX>
 			<CY>100</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
@@ -380,7 +380,7 @@
 			<CX>150</CX>
 			<CY>100</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
@@ -409,7 +409,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Click this to open the menu</TooltipReference>
 		<Style_Checkbox>true</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<ButtonDrawTemplate>
 			<Normal>A_EQBtnNormal</Normal>
 			<Pressed>A_EQBtnPressed</Pressed>
@@ -459,7 +459,7 @@
 			<CX>52</CX>
 			<CY>94</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
