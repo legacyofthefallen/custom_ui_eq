@@ -32,7 +32,7 @@
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<Text>00:00:00</Text>
+		<Text/>
 		<TooltipReference>Items in this storage will be deleted the next time you zone after this timer counts down.</TooltipReference>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
@@ -69,7 +69,7 @@
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
-		<Text>000</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
