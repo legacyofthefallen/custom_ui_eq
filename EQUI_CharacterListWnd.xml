@@ -401,7 +401,7 @@
 		<TopAnchorOffset>16</TopAnchorOffset>
 		<RightAnchorOffset>4</RightAnchorOffset>
 		<BottomAnchorOffset>2</BottomAnchorOffset>
-		<Text>1/8</Text>
+		<Text/>
 		<TextColor>
 			<R>255</R>
 			<G>233</G>
