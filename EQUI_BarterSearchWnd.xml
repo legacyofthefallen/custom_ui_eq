@@ -98,7 +98,7 @@
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <TooltipReference>Enter a partial name of the item you wish to find a Buyer for.</TooltipReference>
-    <Text>Test</Text>
+    <Text/>
     <ListHeight>100</ListHeight>
     <Button>BDT_Combo</Button>
   </Combobox>
