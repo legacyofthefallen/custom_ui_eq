@@ -3387,7 +3387,7 @@
     <Style_VScroll>true</Style_VScroll>
     <Style_Border>true</Style_Border>
     <Style_Sizable>true</Style_Sizable>
-    <Text>No Text</Text>
+    <Text/>
   </STMLbox>
   <Editbox item="CC_Name_Edit">
     <ScreenID>CC_Name_Edit</ScreenID>
@@ -4016,7 +4016,7 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <TooltipReference />
     <Style_Checkbox>false</Style_Checkbox>
-    <Text>100</Text>
+    <Text/>
     <ButtonDrawTemplate>
       <Normal>A_RecessedBox</Normal>
     </ButtonDrawTemplate>
@@ -4090,7 +4090,7 @@
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Checkbox>false</Style_Checkbox>
-    <Text>100</Text>
+    <Text/>
     <ButtonDrawTemplate>
       <Normal>A_RecessedBox</Normal>
     </ButtonDrawTemplate>
@@ -4164,7 +4164,7 @@
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Checkbox>false</Style_Checkbox>
-    <Text>100</Text>
+    <Text/>
     <ButtonDrawTemplate>
       <Normal>A_RecessedBox</Normal>
     </ButtonDrawTemplate>
@@ -4238,7 +4238,7 @@
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Checkbox>false</Style_Checkbox>
-    <Text>100</Text>
+    <Text/>
     <ButtonDrawTemplate>
       <Normal>A_RecessedBox</Normal>
     </ButtonDrawTemplate>
@@ -4312,7 +4312,7 @@
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Checkbox>false</Style_Checkbox>
-    <Text>100</Text>
+    <Text/>
     <ButtonDrawTemplate>
       <Normal>A_RecessedBox</Normal>
     </ButtonDrawTemplate>
@@ -4386,7 +4386,7 @@
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Checkbox>false</Style_Checkbox>
-    <Text>100</Text>
+    <Text/>
     <ButtonDrawTemplate>
       <Normal>A_RecessedBox</Normal>
     </ButtonDrawTemplate>
@@ -4460,7 +4460,7 @@
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Checkbox>false</Style_Checkbox>
-    <Text>100</Text>
+    <Text/>
     <ButtonDrawTemplate>
       <Normal>A_RecessedBox</Normal>
     </ButtonDrawTemplate>
@@ -4534,7 +4534,7 @@
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Checkbox>false</Style_Checkbox>
-    <Text>100</Text>
+    <Text/>
     <ButtonDrawTemplate>
       <Normal>A_RecessedBox</Normal>
     </ButtonDrawTemplate>
