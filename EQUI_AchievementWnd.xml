@@ -125,7 +125,7 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Transparent>true</Style_Transparent>
     <AlignRight>true</AlignRight>
-    <Text>0 / 100</Text>
+    <Text/>
     <ResizeHeightToText>true</ResizeHeightToText>
     <TextColor>
       <R>176</R>
