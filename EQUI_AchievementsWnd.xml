@@ -126,7 +126,7 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Style_Transparent>true</Style_Transparent>
     <AlignRight>true</AlignRight>
-    <Text>0 / 100</Text>
+    <Text/>
     <ResizeHeightToText>true</ResizeHeightToText>
     <TextColor>
       <R>176</R>
@@ -409,7 +409,7 @@
 			<CX>200</CX>
 			<CY>15</CY>
 		</Size>
-		<Text>General: 12/34</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 	</Label>
 
@@ -460,7 +460,7 @@
 	<Label item="ACH_SubcategorySummaryCompareLabel">
 		<ScreenID>ACH_SubcategorySummaryCompareLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>General: 12/34</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
@@ -652,7 +652,7 @@
 			<CX>180</CX>
 			<CY>15</CY>
 		</Size>
-		<Text>Total Score: x Points</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 	</Label>
 	
@@ -721,7 +721,7 @@
 	<Label item="ACH_TotalCompareScore">
 		<ScreenID>ACH_TotalCompareScore</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text>Total Score: x Points</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>25</TopAnchorOffset>
