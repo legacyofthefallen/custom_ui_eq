@@ -528,7 +528,7 @@
 		<TooltipReference>Drop coins here or click to pick up Platinum</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
-		<Text>60000</Text>
+		<Text/>
 		<Template>BDT_PlatinumCoin</Template>
 		<DecalOffset>
 			<X>2</X>
@@ -627,7 +627,7 @@
 		<TooltipReference>Drop coins here or click to pick up Platinum</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
-		<Text>60000</Text>
+		<Text/>
 		<Template>BDT_PlatinumCoin</Template>
 		<DecalOffset>
 			<X>2</X>
@@ -654,7 +654,7 @@
 		<TooltipReference>Drop coins here or click to pick up Gold</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
-		<Text>60000</Text>
+		<Text/>
 		<Template>BDT_GoldCoin</Template>
 		<!--	
 			<SoundPressed/>
@@ -686,7 +686,7 @@
 		<TooltipReference>Drop coins here or click to pick up Silver</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
-		<Text>60000</Text>
+		<Text/>
 		<Template>BDT_SilverCoin</Template>
 		<!-- 
 			<SoundPressed/>
@@ -718,7 +718,7 @@
 		<TooltipReference>Drop coins here or click to pick up Copper</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
-		<Text>60000</Text>
+		<Text/>
 		<Template>BDT_CopperCoin</Template>
 		<!-- 
 			<SoundPressed/>
