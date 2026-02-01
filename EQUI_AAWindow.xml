@@ -213,7 +213,7 @@
 			<CX>60</CX>
 			<CY>20</CY>
 		</Size>
-		<Text>100%</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -369,7 +369,7 @@
 			<CX>100</CX>
 			<CY>20</CY>
 		</Size>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -386,7 +386,7 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -403,7 +403,7 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -875,7 +875,7 @@
 			<CX>100</CX>
 			<CY>14</CY>
 		</Size>
-		<Text />
+		<Text/>
 		<TextColor>
 			<R>51</R>
 			<G>204</G>
@@ -896,7 +896,7 @@
 			<CX>100</CX>
 			<CY>14</CY>
 		</Size>
-		<Text />
+		<Text/>
 		<TextColor>
 			<R>51</R>
 			<G>204</G>
@@ -1134,7 +1134,7 @@
 			<CX>100</CX>
 			<CY>20</CY>
 		</Size>
-		<Text>100</Text>
+		<Text/>
 		<EQType>337</EQType>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
@@ -1151,7 +1151,7 @@
 			<CX>30</CX>
 			<CY>20</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<EQType>336</EQType>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
