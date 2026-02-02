@@ -132,7 +132,7 @@
 			<CX>24</CX>
 			<CY>20</CY>
 		</Size>
-		<Text>255</Text>
+		<Text/>
 		<NoWrap>false</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -193,7 +193,7 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text>10000</Text>
+		<Text/>
 		<NoWrap>false</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -211,7 +211,7 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text>6645</Text>
+		<Text/>
 		<NoWrap>false</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -229,7 +229,7 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text>4444</Text>
+		<Text/>
 		<NoWrap>false</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -247,7 +247,7 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text>5555</Text>
+		<Text/>
 		<NoWrap>false</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
