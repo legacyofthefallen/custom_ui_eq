@@ -17,7 +17,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>true</Style_Checkbox>
-    <Text />
+    <Text/>
     <Template>BDT_Checkbox</Template>
   </Button>
 
@@ -48,7 +48,7 @@
     <LeftAnchorOffset>43</LeftAnchorOffset>
     <BottomAnchorOffset>24</BottomAnchorOffset>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <Text>0/0</Text>
+    <Text/>
   </Label>
 
   <Label item ="TASK_TaskTimerLabel">
@@ -694,7 +694,7 @@
 
   <Label item="STASK_NumPlayersValue">
     <ScreenID>STASK_NumPlayersValue</ScreenID>
-    <Text />
+    <Text/>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -729,7 +729,7 @@
 
   <Label item="STASK_MinPlayersValue">
     <ScreenID>STASK_MinPlayersValue</ScreenID>
-    <Text />
+    <Text/>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -764,7 +764,7 @@
 
   <Label item="STASK_MaxPlayersValue">
     <ScreenID>STASK_MaxPlayersValue</ScreenID>
-    <Text />
+    <Text/>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -799,7 +799,7 @@
 
   <Label item="STASK_MinLevelValue">
     <ScreenID>STASK_MinLevelValue</ScreenID>
-    <Text />
+    <Text/>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -834,7 +834,7 @@
 
   <Label item="STASK_MaxLevelValue">
     <ScreenID>STASK_MaxLevelValue</ScreenID>
-    <Text />
+    <Text/>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -932,6 +932,4 @@
     <Style_Sizable>true</Style_Sizable>
     <Pieces>TaskSubwindows</Pieces>
   </Screen>
-
-
 </XML>
