@@ -15,7 +15,7 @@
       <CX>95</CX>
       <CY>40</CY>
     </Size>
-    <Text>Trader Name</Text>
+    <Text/>
     <NoWrap>false</NoWrap>
     <AlignCenter>true</AlignCenter>
     <AlignRight>false</AlignRight>
@@ -159,7 +159,7 @@
     <!--<TooltipReference/>-->
     <Style_Checkbox>false</Style_Checkbox>
     <!--<RadioGroup/>-->
-    <Text>60000</Text>
+    <Text/>
     <Template>BDT_PlatinumCoin</Template>
     <!--<SoundPressed/>-->
     <!--<SoundUp/>-->
@@ -189,7 +189,7 @@
     <!--<TooltipReference/>-->
     <Style_Checkbox>false</Style_Checkbox>
     <!--<RadioGroup/>-->
-    <Text>60000</Text>
+    <Text/>
     <Template>BDT_GoldCoin</Template>
     <!--<SoundPressed/>-->
     <!--<SoundUp/>-->
@@ -219,7 +219,7 @@
     <!--<TooltipReference/>-->
     <Style_Checkbox>false</Style_Checkbox>
     <!--<RadioGroup/>-->
-    <Text>60000</Text>
+    <Text/>
     <Template>BDT_SilverCoin</Template>
     <!--<SoundPressed/>-->
     <!--<SoundUp/>-->
@@ -249,7 +249,7 @@
     <!--<TooltipReference/>-->
     <Style_Checkbox>false</Style_Checkbox>
     <!--<RadioGroup/>-->
-    <Text>60000</Text>
+    <Text/>
     <Template>BDT_CopperCoin</Template>
     <!--<SoundPressed/>-->
     <!--<SoundUp/>-->
@@ -278,7 +278,7 @@
       <CX>95</CX>
       <CY>40</CY>
     </Size>
-    <Text>My Name</Text>
+    <Text/>
     <NoWrap>false</NoWrap>
     <AlignCenter>true</AlignCenter>
     <AlignRight>false</AlignRight>
@@ -421,7 +421,7 @@
     <TooltipReference>Drop coins here</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
     <!--<RadioGroup/>-->
-    <Text>60000</Text>
+    <Text/>
     <Template>BDT_PlatinumCoin</Template>
     <!--<SoundPressed/>-->
     <!--<SoundUp/>-->
@@ -451,7 +451,7 @@
     <TooltipReference>Drop coins here</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
     <!--<RadioGroup/>-->
-    <Text>60000</Text>
+    <Text/>
     <Template>BDT_GoldCoin</Template>
     <!--<SoundPressed/>-->
     <!--<SoundUp/>-->
@@ -481,7 +481,7 @@
     <TooltipReference>Drop coins here</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
     <!--<RadioGroup/>-->
-    <Text>60000</Text>
+    <Text/>
     <Template>BDT_SilverCoin</Template>
     <!--<SoundPressed/>-->
     <!--<SoundUp/>-->
@@ -511,7 +511,7 @@
     <TooltipReference>Drop coins here</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
     <!--<RadioGroup/>-->
-    <Text>60000</Text>
+    <Text/>
     <Template>BDT_CopperCoin</Template>
     <!--<SoundPressed/>-->
     <!--<SoundUp/>-->
