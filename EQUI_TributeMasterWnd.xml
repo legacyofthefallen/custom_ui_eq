@@ -521,7 +521,7 @@
 			<CX>44</CX>
 			<CY>24</CY>
 		</Size>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>false</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -543,7 +543,7 @@
 		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
-		<Text>9999</Text>
+		<Text/>
 		<Template>BDT_PlatinumCoin</Template>
 		<DecalOffset>
 			<X>1</X>
@@ -634,7 +634,7 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<Template>BDT_Checkbox</Template>
 	</Button>
 	
