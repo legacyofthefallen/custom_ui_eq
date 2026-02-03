@@ -18,7 +18,7 @@
 		<TooltipReference>Drop coins here</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<RadioGroup/>
-		<Text>60000</Text>
+		<Text/>
 		<Template>BDT_PlatinumCoin</Template>
 		<DecalOffset>
 			<X>2</X>
@@ -46,7 +46,7 @@
 		<TooltipReference>Drop coins here</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
-		<Text>60000</Text>
+		<Text/>
 		<Template>BDT_GoldCoin</Template>
 		<DecalOffset>
 			<X>2</X>
@@ -74,7 +74,7 @@
 		<TooltipReference>Drop coins here</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
-		<Text>60000</Text>
+		<Text/>
 		<Template>BDT_SilverCoin</Template>
 		<DecalOffset>
 			<X>2</X>
@@ -101,7 +101,7 @@
 		<TooltipReference>Drop coins here</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
-		<Text>60000</Text>
+		<Text/>
 		<Template>BDT_CopperCoin</Template>
 		<DecalOffset>
 			<X>2</X>
