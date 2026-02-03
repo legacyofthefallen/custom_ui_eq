@@ -15,7 +15,7 @@
 		<TopAnchorOffset>4</TopAnchorOffset>
 		<RightAnchorOffset>4</RightAnchorOffset>
 		<BottomAnchorOffset>24</BottomAnchorOffset>
-		<Text>Bob the Merchant</Text>
+		<Text/>
 		<NoWrap>false</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -684,7 +684,7 @@
 			<CY>14</CY>
 		</Size>
 		<PrependText>Total Parcel Count: </PrependText>
-		<Text>0</Text>
+		<Text/>
 		<TextColor>
 			<R>255</R>
 			<G>255</G>
