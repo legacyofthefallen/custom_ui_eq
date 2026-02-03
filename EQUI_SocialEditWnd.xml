@@ -48,12 +48,12 @@
 		</Size>
 		<TooltipReference>Choose a color for this social name</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>A</Text>
-		<TextColor>
+		<Text/>
+		<BackgroundTextureTint>
 				<R>240</R>
 				<G>240</G>
 				<B>240</B>
-		</TextColor>
+		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "SEW_TC1Button">
@@ -70,12 +70,12 @@
 		</Size>
 		<TooltipReference>Choose a color for this social name</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>A</Text>
-		<TextColor>
+		<Text/>
+		<BackgroundTextureTint>
 				<R>240</R>
 				<G>180</G>
 				<B>0</B>
-		</TextColor>
+		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "SEW_TC2Button">
@@ -92,12 +92,12 @@
 		</Size>
 		<TooltipReference>Choose a color for this social name</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>A</Text>
-		<TextColor>
+		<Text/>
+		<BackgroundTextureTint>
 				<R>0</R>
 				<G>128</G>
 				<B>0</B>
-		</TextColor>
+		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "SEW_TC3Button">
@@ -114,12 +114,12 @@
 		</Size>
 		<TooltipReference>Choose a color for this social name</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>A</Text>
-		<TextColor>
+		<Text/>
+		<BackgroundTextureTint>
 				<R>180</R>
 				<G>100</G>
 				<B>0</B>
-		</TextColor>
+		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "SEW_TC4Button">
@@ -136,12 +136,12 @@
 		</Size>
 		<TooltipReference>Choose a color for this social name</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>A</Text>
-		<TextColor>
+		<Text/>
+		<BackgroundTextureTint>
 				<R>0</R>
 				<G>0</G>
 				<B>128</B>
-		</TextColor>
+		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "SEW_TC5Button">
@@ -158,12 +158,12 @@
 		</Size>
 		<TooltipReference>Choose a color for this social name</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>A</Text>
-		<TextColor>
+		<Text/>
+		<BackgroundTextureTint>
 				<R>240</R>
 				<G>0</G>
 				<B>240</B>
-		</TextColor>
+		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "SEW_TC6Button">
@@ -180,12 +180,12 @@
 		</Size>
 		<TooltipReference>Choose a color for this social name</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>A</Text>
-		<TextColor>
+		<Text/>
+		<BackgroundTextureTint>
 				<R>128</R>
 				<G>128</G>
 				<B>128</B>
-		</TextColor>
+		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "SEW_TC7Button">
@@ -202,12 +202,12 @@
 		</Size>
 		<TooltipReference>Choose a color for this social name</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>A</Text>
-		<TextColor>
+		<Text/>
+		<BackgroundTextureTint>
 				<R>224</R>
 				<G>224</G>
 				<B>224</B>
-		</TextColor>
+		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "SEW_TC8Button">
@@ -224,12 +224,12 @@
 		</Size>
 		<TooltipReference>Choose a color for this social name</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>A</Text>
-		<TextColor>
+		<Text/>
+		<BackgroundTextureTint>
 				<R>130</R>
 				<G>130</G>
 				<B>0</B>
-		</TextColor>
+		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "SEW_TC9Button">
@@ -246,12 +246,12 @@
 		</Size>
 		<TooltipReference>Choose a color for this social name</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>A</Text>
-		<TextColor>
+		<Text/>
+		<BackgroundTextureTint>
 				<R>96</R>
 				<G>96</G>
 				<B>96</B>
-		</TextColor>
+		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "SEW_TC10Button">
@@ -268,12 +268,12 @@
 		</Size>
 		<TooltipReference>Choose a color for this social name</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>A</Text>
-		<TextColor>
+		<Text/>
+		<BackgroundTextureTint>
 				<R>0</R>
 				<G>0</G>
 				<B>0</B>
-		</TextColor>
+		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "SEW_TC11Button">
@@ -290,12 +290,12 @@
 		</Size>
 		<TooltipReference>Choose a color for this social name</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>A</Text>
-		<TextColor>
+		<Text/>
+		<BackgroundTextureTint>
 				<R>140</R>
 				<G>0</G>
 				<B>0</B>
-		</TextColor>
+		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "SEW_TC12Button">
@@ -312,12 +312,12 @@
 		</Size>
 		<TooltipReference>Choose a color for this social name</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>A</Text>
-		<TextColor>
+		<Text/>
+		<BackgroundTextureTint>
 				<R>160</R>
 				<G>160</G>
 				<B>160</B>
-		</TextColor>
+		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "SEW_TC13Button">
@@ -334,12 +334,12 @@
 		</Size>
 		<TooltipReference>Choose a color for this social name</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>A</Text>
-		<TextColor>
+		<Text/>
+		<BackgroundTextureTint>
 				<R>240</R>
 				<G>0</G>
 				<B>0</B>
-		</TextColor>
+		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "SEW_TC14Button">
@@ -356,12 +356,12 @@
 		</Size>
 		<TooltipReference>Choose a color for this social name</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>A</Text>
-		<TextColor>
+		<Text/>
+		<BackgroundTextureTint>
 				<R>0</R>
 				<G>240</G>
 				<B>0</B>
-		</TextColor>
+		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "SEW_TC15Button">
@@ -378,12 +378,12 @@
 		</Size>
 		<TooltipReference>Choose a color for this social name</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>A</Text>
-		<TextColor>
+		<Text/>
+		<BackgroundTextureTint>
 				<R>240</R>
 				<G>240</G>
 				<B>0</B>
-		</TextColor>
+		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "SEW_TC16Button">
@@ -400,12 +400,12 @@
 		</Size>
 		<TooltipReference>Choose a color for this social name</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>A</Text>
-		<TextColor>
+		<Text/>
+		<BackgroundTextureTint>
 				<R>0</R>
 				<G>0</G>
 				<B>240</B>
-		</TextColor>
+		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "SEW_TC17Button">
@@ -422,12 +422,12 @@
 		</Size>
 		<TooltipReference>Choose a color for this social name</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>A</Text>
-		<TextColor>
+		<Text/>
+		<BackgroundTextureTint>
 				<R>0</R>
 				<G>100</G>
 				<B>240</B>
-		</TextColor>
+		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "SEW_TC18Button">
@@ -444,12 +444,12 @@
 		</Size>
 		<TooltipReference>Choose a color for this social name</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>A</Text>
-		<TextColor>
+		<Text/>
+		<BackgroundTextureTint>
 				<R>0</R>
 				<G>240</G>
 				<B>240</B>
-		</TextColor>
+		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "SEW_TC19Button">
@@ -466,12 +466,12 @@
 		</Size>
 		<TooltipReference>Choose a color for this social name</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>A</Text>
-		<TextColor>
+		<Text/>
+		<BackgroundTextureTint>
 				<R>128</R>
 				<G>0</G>
 				<B>128</B>
-		</TextColor>
+		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
 
