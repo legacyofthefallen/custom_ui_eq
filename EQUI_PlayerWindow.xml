@@ -282,7 +282,7 @@
 		<ScreenID>Player_CombatTimerLabel</ScreenID>
 		<EQType>137</EQType>
 		<RelativePosition>true</RelativePosition>
-		<Text>00:30</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -400,7 +400,7 @@
 		<ScreenID>HPLabel</ScreenID>
 		<EQType>19</EQType>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>1</Font>
@@ -480,7 +480,7 @@
 		<EQType>20</EQType>
 		<Font>1</Font>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AutoStretch>true</AutoStretch>
@@ -531,7 +531,7 @@
 		<EQType>21</EQType>
 		<Font>1</Font>
 		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AutoStretch>true</AutoStretch>
