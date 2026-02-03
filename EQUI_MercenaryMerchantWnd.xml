@@ -142,7 +142,7 @@
 			<CX>42</CX>
 			<CY>16</CY>
 		</Size>
-		<Text>123</Text>
+		<Text/>
 		<AlignRight>true</AlignRight>
 	</Label>
 
@@ -175,7 +175,7 @@
 			<CX>10</CX>
 			<CY>16</CY>
 		</Size>
-		<Text>123</Text>
+		<Text/>
 		<AlignRight>true</AlignRight>
 	</Label>
 
@@ -208,7 +208,7 @@
 			<CX>36</CX>
 			<CY>16</CY>
 		</Size>
-		<Text>123</Text>
+		<Text/>
 		<AlignRight>true</AlignRight>
 	</Label>
 
@@ -256,7 +256,7 @@
 			<CX>42</CX>
 			<CY>16</CY>
 		</Size>
-		<Text>123</Text>
+		<Text/>
 		<AlignRight>true</AlignRight>
 	</Label>
 
@@ -289,7 +289,7 @@
 			<CX>10</CX>
 			<CY>16</CY>
 		</Size>
-		<Text>123</Text>
+		<Text/>
 		<AlignRight>true</AlignRight>
 	</Label>
 
@@ -322,7 +322,7 @@
 			<CX>36</CX>
 			<CY>16</CY>
 		</Size>
-		<Text>123</Text>
+		<Text/>
 		<AlignRight>true</AlignRight>
 	</Label>
 
