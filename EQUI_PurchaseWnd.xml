@@ -27,7 +27,7 @@
 			<CX>60</CX>
 			<CY>25</CY>
 		</Size>
-		<Text>...</Text>
+		<Text/>
 		<Font>2</Font>
 	</Label>
 	<Button item="PCW_AvailableFundsIcon">
@@ -213,7 +213,7 @@
 	</Label>
 	<Label item="PCW_ProductWasPrice">
 		<ScreenID>PCW_ProductWasPrice</ScreenID>
-		<Text>200</Text>
+		<Text/>
 		<TextColor>
 			<R>255</R>
 			<G>0</G>
@@ -243,7 +243,7 @@
 	</Label>
 	<Label item="PCW_ProductPrice">
 		<ScreenID>PCW_ProductPrice</ScreenID>
-		<Text>200</Text>
+		<Text/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>120</TopAnchorOffset>
@@ -287,7 +287,7 @@
 	</Label>
 	<Label item="PCW_Discount">
 		<ScreenID>PCW_Discount</ScreenID>
-		<Text>1000</Text>
+		<Text/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>100</TopAnchorOffset>
@@ -331,7 +331,7 @@
 	</Label>
 	<Label item="PCW_Qty">
 		<ScreenID>PCW_Qty</ScreenID>
-		<Text>5</Text>
+		<Text/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>80</TopAnchorOffset>
@@ -356,7 +356,7 @@
 	</Label>
 	<Label item="PCW_Total">
 		<ScreenID>PCW_Total</ScreenID>
-		<Text>1000</Text>
+		<Text/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>60</TopAnchorOffset>
