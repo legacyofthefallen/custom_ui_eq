@@ -149,7 +149,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Style_Transparent>true</Style_Transparent>
-		<Text />
+		<Text/>
 		<Template>BDT_CheckboxTransparent</Template>
 	</Button>
 	

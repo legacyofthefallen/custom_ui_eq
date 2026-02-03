@@ -1043,7 +1043,7 @@
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text />
+		<Text/>
 		<ButtonDrawTemplate>
 			<Disabled>SBW_LeftSplBkBtnDisabled</Disabled>
 			<Flyby>SBW_LeftSplBkBtnFlyby</Flyby>
@@ -1065,7 +1065,7 @@
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text />
+		<Text/>
 		<ButtonDrawTemplate>
 			<Disabled>SBW_RightSplBkBtnDisabled</Disabled>
 			<Flyby>SBW_RightSplBkBtnFlyby</Flyby>
@@ -1174,7 +1174,7 @@
 		</Size>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text />
+		<Text/>
 		<ButtonDrawTemplate>
 			<Flyby>Default_SpellBookClose</Flyby>
 		</ButtonDrawTemplate>

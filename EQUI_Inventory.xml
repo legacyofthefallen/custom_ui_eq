@@ -1534,7 +1534,7 @@
 			<CX>32</CX>
 			<CY>14</CY>
 		</Size>
-		<Text />
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>

@@ -85,7 +85,7 @@
 		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
-		<Text />
+		<Text/>
 		<ButtonDrawTemplate>
 			<Normal>A_RightArrowBtnNormal</Normal>
 			<Pressed>A_RightArrowBtnPressed</Pressed>
@@ -114,7 +114,7 @@
 		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
-		<Text />
+		<Text/>
 		<ButtonDrawTemplate>
 			<Normal>A_LeftArrowBtnNormal</Normal>
 			<Pressed>A_LeftArrowBtnPressed</Pressed>
