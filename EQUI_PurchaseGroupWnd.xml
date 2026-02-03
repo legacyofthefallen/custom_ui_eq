@@ -4,7 +4,7 @@
 	
 	<STMLbox item="PGW_WindowText">
 		<ScreenID>PGW_WindowText</ScreenID>
-		<Text></Text>
+		<Text/>
 		<Font>5</Font>
 		<Style_AutoVScroll>true</Style_AutoVScroll>
 		<Style_VScroll>true</Style_VScroll>
@@ -148,7 +148,7 @@
 	</Button>
 	<Label item="PGW_ProductWasPrice">
 		<ScreenID>PGW_ProductWasPrice</ScreenID>
-		<Text>200</Text>
+		<Text/>
 		<TextColor>
 			<R>255</R>
 			<G>0</G>
@@ -199,7 +199,7 @@
 	</Button>
 	<Label item="PGW_ProductPrice">
 		<ScreenID>PGW_ProductPrice</ScreenID>
-		<Text>200</Text>
+		<Text/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>30</TopAnchorOffset>
@@ -245,7 +245,7 @@
 	</Button>
 	<Label item="PGW_Discount">
 		<ScreenID>PGW_Discount</ScreenID>
-		<Text>1000</Text>
+		<Text/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>70</TopAnchorOffset>
@@ -291,7 +291,7 @@
 	</Button>
 	<Label item="PGW_Total">
 		<ScreenID>PGW_Total</ScreenID>
-		<Text>1000</Text>
+		<Text/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>95</TopAnchorOffset>
