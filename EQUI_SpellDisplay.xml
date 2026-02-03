@@ -16,7 +16,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<Style_Border>true</Style_Border>
-		<Text>Test text</Text>
+		<Text/>
 	</STMLbox>
 	<Button item="SDW_IconButton">
 		<ScreenID>SDW_IconButton</ScreenID>
