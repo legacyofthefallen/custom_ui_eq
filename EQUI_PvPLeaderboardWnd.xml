@@ -89,7 +89,7 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <Text>99</Text>
+    <Text/>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -133,7 +133,7 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <Text>0</Text>
+    <Text/>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -155,7 +155,7 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <Text>0</Text>
+    <Text/>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -177,7 +177,7 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <Text>0</Text>
+    <Text/>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -199,7 +199,7 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>true</RightAnchorToLeft>
-    <Text>0</Text>
+    <Text/>
     <TextColor>
       <R>255</R>
       <G>255</G>
