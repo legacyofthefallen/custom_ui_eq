@@ -634,7 +634,7 @@
 		<ScreenID>PW_AggroPctPlayerLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text></Text>
+		<Text/>
 		<EQType>306</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -647,7 +647,7 @@
 		<ScreenID>PW_AggroNameSecondaryLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text></Text>
+		<Text/>
 		<EQType>304</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
@@ -662,7 +662,7 @@
 		<ScreenID>PW_AggroPctSecondaryLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
-		<Text></Text>
+		<Text/>
 		<EQType>308</EQType>
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
