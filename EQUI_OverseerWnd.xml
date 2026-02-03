@@ -240,7 +240,7 @@
 			<CY>20</CY>
 		</Size>
 		<AlignRight>true</AlignRight>
-		<Text>66h 58m 59s</Text>
+		<Text/>
 	</Label>
 
 	<Label item="OW_ALL_SuccessLabel">
@@ -267,7 +267,7 @@
 			<CX>100</CX>
 			<CY>20</CY>
 		</Size>
-		<Text>5</Text>
+		<Text/>
 		<AlignRight>true</AlignRight>
 	</Label>
 
@@ -842,7 +842,7 @@
 		<RightAnchorOffset>30</RightAnchorOffset>
 		<TopAnchorOffset>1</TopAnchorOffset>
 		<BottomAnchorOffset>20</BottomAnchorOffset>
-		<Text>x0</Text>
+		<Text/>
 	</Label>
 
 	<Button item="OW_OQP_MinionScreenImage">
@@ -864,7 +864,7 @@
 		<Template>BDT_SmallNormal</Template>
 		<RelativePosition>true</RelativePosition>
 		<Font>1</Font>
-		<Text>Gebartik</Text>
+		<Text/>
 		<Location>
 			<X>-3</X>
 			<Y>67</Y>
@@ -1044,7 +1044,7 @@
 			<CX>65</CX>
 			<CY>20</CY>
 		</Size>
-		<Text>888</Text>
+		<Text/>
 		<AppendText>h</AppendText>
 	</Label>
 
@@ -1058,7 +1058,7 @@
 			<CX>65</CX>
 			<CY>20</CY>
 		</Size>
-		<Text>88</Text>
+		<Text/>
 		<AppendText>m</AppendText>
 	</Label>
 
@@ -1188,7 +1188,7 @@
 			<CY>20</CY>
 		</Size>
 		<AlignRight>true</AlignRight>
-		<Text>99</Text>
+		<Text/>
 	</Label>
 
 	<Gauge item="OW_QSP_CategoryGauge">
@@ -1298,7 +1298,7 @@
 			<CY>20</CY>
 		</Size>
 		<AlignRight>true</AlignRight>
-		<Text>36</Text>
+		<Text/>
 	</Label>
 
 	<Label item="OW_QSP_StatsMinionsIncapacitatedLabel">
@@ -1327,7 +1327,7 @@
 			<CY>20</CY>
 		</Size>
 		<AlignRight>true</AlignRight>
-		<Text>7</Text>
+		<Text/>
 	</Label>
 
 	<Label item="OW_QSP_StatsMinionsIdleLabel">
@@ -1356,7 +1356,7 @@
 			<CY>20</CY>
 		</Size>
 		<AlignRight>true</AlignRight>
-		<Text>8</Text>
+		<Text/>
 	</Label>
 
 	<Label item="OW_QSP_StatsMinionsActiveLabel">
@@ -1385,7 +1385,7 @@
 			<CY>20</CY>
 		</Size>
 		<AlignRight>true</AlignRight>
-		<Text>21</Text>
+		<Text/>
 	</Label>
 
 	<Label item="OW_QSP_StatsQuestsActiveLabel">
@@ -1414,7 +1414,7 @@
 			<CY>20</CY>
 		</Size>
 		<AlignRight>true</AlignRight>
-		<Text>0/0</Text>
+		<Text/>
 		<TooltipReference>This count does not include any active conversion quests</TooltipReference>
 	</Label>
 
@@ -1444,7 +1444,7 @@
 			<CY>20</CY>
 		</Size>
 		<AlignRight>true</AlignRight>
-		<Text>191</Text>
+		<Text/>
 	</Label>
 
 	<Label item="OW_QSP_StatsQuestsCriticalSuccessLabel">
@@ -1473,7 +1473,7 @@
 			<CY>20</CY>
 		</Size>
 		<AlignRight>true</AlignRight>
-		<Text>20</Text>
+		<Text/>
 	</Label>
 
 	<Label item="OW_QSP_StatsQuestsSuccessLabel">
@@ -1502,7 +1502,7 @@
 			<CY>20</CY>
 		</Size>
 		<AlignRight>true</AlignRight>
-		<Text>111</Text>
+		<Text/>
 	</Label>
 
 	<Label item="OW_QSP_StatsQuestsFailureLabel">
@@ -1531,7 +1531,7 @@
 			<CY>20</CY>
 		</Size>
 		<AlignRight>true</AlignRight>
-		<Text>52</Text>
+		<Text/>
 	</Label>
 
 	<Label item="OW_QSP_StatsQuestsCriticalFailureLabel">
@@ -1560,7 +1560,7 @@
 			<CY>20</CY>
 		</Size>
 		<AlignRight>true</AlignRight>
-		<Text>8</Text>
+		<Text/>
 	</Label>
 
 	<Label item="OW_QSP_StatsQuestsAbandonedLabel">
@@ -1589,7 +1589,7 @@
 			<CY>20</CY>
 		</Size>
 		<AlignRight>true</AlignRight>
-		<Text>10</Text>
+		<Text/>
 	</Label>
 
 	<Screen item="OW_QSP_StatsList">
