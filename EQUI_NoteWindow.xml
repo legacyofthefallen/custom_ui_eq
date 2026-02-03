@@ -26,7 +26,7 @@
 			<CX>285</CX>
 			<CY>238</CY>
 		</Size>
-		<Text>Test text</Text>
+		<Text/>
 	</STMLbox>
 
 	<StaticAnimation item = "NW_BG1">
