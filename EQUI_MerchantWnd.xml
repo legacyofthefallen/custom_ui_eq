@@ -602,7 +602,7 @@
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
-		<Text />
+		<Text/>
 		<Template>BDT_Checkbox</Template>
 	</Button>
 	<Label item="MW_UsableLabel">
