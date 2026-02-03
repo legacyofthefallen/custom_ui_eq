@@ -336,7 +336,7 @@
 			<CX>100</CX>
 			<CY>15</CY>
 		</Size>
-		<Text>8 / 100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 	</Label>
 	<Label item="REIW_YardNonRealEstateItemsCount">
@@ -350,7 +350,7 @@
 			<CX>100</CX>
 			<CY>15</CY>
 		</Size>
-		<Text>*4 / 10 vault</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 	</Label>
 	<Label item="REIW_YardNpcItemsCount">
@@ -364,7 +364,7 @@
 			<CX>100</CX>
 			<CY>15</CY>
 		</Size>
-		<Text>4 / 10 pets</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 	</Label>
 	<Label item="REIW_HouseItemsLabel">
@@ -392,7 +392,7 @@
 			<CX>100</CX>
 			<CY>15</CY>
 		</Size>
-		<Text>32 / 100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 	</Label>
 	<Label item="REIW_HouseNonRealEstateItemsCount">
@@ -406,7 +406,7 @@
 			<CX>100</CX>
 			<CY>15</CY>
 		</Size>
-		<Text>*4 / 10 vault</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 	</Label>
 	<Label item="REIW_MovingCrateItemsLabel">
@@ -434,7 +434,7 @@
 			<CX>100</CX>
 			<CY>15</CY>
 		</Size>
-		<Text>32 / 100</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 	</Label>
 	<Label item="REIW_MovingCrateNonRealEstateItemsCount">
@@ -448,7 +448,7 @@
 			<CX>100</CX>
 			<CY>15</CY>
 		</Size>
-		<Text>*4 / 10 vault</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 	</Label>
 	
