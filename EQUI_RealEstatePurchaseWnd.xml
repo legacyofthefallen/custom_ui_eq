@@ -208,7 +208,7 @@
 			<X>55</X>
 			<Y>0</Y>
 		</Location>
-		<Text>2000</Text>
+		<Text/>
 	</Label>
 	<Label item="REPW_Vault_Capacity_Label">
 		<ScreenID>REPW_Vault_Capacity_Label</ScreenID>
@@ -232,7 +232,7 @@
 			<X>150</X>
 			<Y>0</Y>
 		</Location>
-		<Text>2000</Text>
+		<Text/>
 	</Label>
 	<Label item="REPW_Npc_Capacity_Label">
 		<ScreenID>REPW_Npc_Capacity_Label</ScreenID>
@@ -256,7 +256,7 @@
 			<X>240</X>
 			<Y>0</Y>
 		</Location>
-		<Text>2000</Text>
+		<Text/>
 	</Label>
 	<Screen item="REPW_Capacity_Screen">
 		<RelativePosition>true</RelativePosition>
