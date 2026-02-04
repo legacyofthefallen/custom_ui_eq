@@ -550,7 +550,7 @@
 	</Button>
 	<Label item="MKPW_ClaimAmount">
 		<ScreenID>MKPW_ClaimAmount</ScreenID>
-		<Text/>
+		<Text>500 Reward</Text>
 		<Font>5</Font>
 		<Location>
 			<X>50</X>
