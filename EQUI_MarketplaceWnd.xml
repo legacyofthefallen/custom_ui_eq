@@ -155,7 +155,7 @@
 	</Label>
 	<Label item="MKPW_AvailableTimeLeft_Label">
 		<ScreenID>MKPW_AvailableTimeLeft_Label</ScreenID>
-		<Text>00:00:00:00</Text>
+		<Text/>
 		<TooltipReference>Time Left to Purchase This</TooltipReference>
 		<Font>2</Font>
 		<TextColor>
@@ -174,7 +174,7 @@
 	</Label>
 	<Label item="MKPW_Was_Label">
 		<ScreenID>MKPW_Was_Label</ScreenID>
-		<Text>Was [1000]</Text>
+		<Text/>
 		<Font>2</Font>
 		<TextColor>
 			<R>255</R>
@@ -211,7 +211,7 @@
 	</Label>
 	<Label item="MKPW_SaleTimeLeft_Label">
 		<ScreenID>MKPW_SaleTimeLeft_Label</ScreenID>
-		<Text>00:00:00:00</Text>
+		<Text/>
 		<TooltipReference>Time Left On Sale</TooltipReference>
 		<Font>2</Font>
 		<TextColor>
@@ -230,7 +230,7 @@
 	</Label>
 	<Label item="MKPW_ItemCost_Label">
 		<ScreenID>MKPW_ItemCost_Label</ScreenID>
-		<Text>100</Text>
+		<Text/>
 		<Font>2</Font>
 		<Location>
 			<X>153</X>
@@ -550,7 +550,7 @@
 	</Button>
 	<Label item="MKPW_ClaimAmount">
 		<ScreenID>MKPW_ClaimAmount</ScreenID>
-		<Text>500 Reward</Text>
+		<Text/>
 		<Font>5</Font>
 		<Location>
 			<X>50</X>
@@ -683,7 +683,7 @@
 	</Label>
 	<Label item="MKPW_ItemOfWeekPrice">
 		<ScreenID>MKPW_ItemOfWeekPrice</ScreenID>
-		<Text>100</Text>
+		<Text/>
 		<Font>5</Font>
 		<Location>
 			<X>86</X>
@@ -715,7 +715,7 @@
 	</Button>
 	<Label item="MKPW_ItemOfWeekWas">
 		<ScreenID>MKPW_ItemOfWeekWas</ScreenID>
-		<Text>Was [1000]</Text>
+		<Text/>
 		<Font>4</Font>
 		<TextColor>
 			<R>255</R>
@@ -925,7 +925,7 @@
 	</Button>
 	<Label item="MKPW_DetailsPlayerStudioLabel">
 		<ScreenID>MKPW_DetailsPlayerStudioLabel</ScreenID>
-		<Text>Made By: Player Name</Text>
+		<Text/>
 		<Font>1</Font>
 		<TextColor>
 			<R>214</R>
@@ -977,7 +977,7 @@
 	</Label>
 	<Label item="MKPW_DetailsAvailableTimeLeft_Label">
 		<ScreenID>MKPW_DetailsAvailableTimeLeft_Label</ScreenID>
-		<Text>00:00:00:00</Text>
+		<Text/>
 		<TooltipReference>Time Left to Purchase This</TooltipReference>
 		<Font>2</Font>
 		<TextColor>
@@ -1015,7 +1015,7 @@
 	</Label>
 	<Label item="MKPW_DetailsSaleTimeLeft_Label">
 		<ScreenID>MKPW_DetailsSaleTimeLeft_Label</ScreenID>
-		<Text>00:00:00:00</Text>
+		<Text/>
 		<TooltipReference>Time Left On Sale</TooltipReference>
 		<Font>2</Font>
 		<TextColor>
@@ -1053,7 +1053,7 @@
 	</Label>
 	<Label item="MKPW_WasPrice">
 		<ScreenID>MKPW_WasPrice</ScreenID>
-		<Text>100</Text>
+		<Text/>
 		<Font>2</Font>
 		<TextColor>
 			<R>255</R>
@@ -1082,7 +1082,7 @@
 	</Label>
 	<Label item="MKPW_BuyPrice">
 		<ScreenID>MKPW_BuyPrice</ScreenID>
-		<Text>100</Text>
+		<Text/>
 		<Font>2</Font>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>12</TopAnchorOffset>
@@ -1139,7 +1139,7 @@
 	</Label>
 	<Label item="MKPW_BuyDiscount">
 		<ScreenID>MKPW_BuyDiscount</ScreenID>
-		<Text>0</Text>
+		<Text/>
 		<Font>2</Font>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>29</TopAnchorOffset>
@@ -1181,7 +1181,7 @@
 	</Label>
 	<Label item="MKPW_BuyTotal">
 		<ScreenID>MKPW_BuyTotal</ScreenID>
-		<Text>10000</Text>
+		<Text/>
 		<Font>2</Font>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>70</TopAnchorOffset>
@@ -1523,7 +1523,7 @@
 	</Label>
 	<Label item="MKPW_ConfirmPurchase_Price">
 		<ScreenID>MKPW_ConfirmPurchase_Price</ScreenID>
-		<Text>200</Text>
+		<Text/>
 		<Location>
 			<X>155</X>
 			<Y>75</Y>
@@ -1580,7 +1580,7 @@
 	</Label>
 	<Label item="MKPW_ConfirmPurchase_Discount">
 		<ScreenID>MKPW_ConfirmPurchase_Discount</ScreenID>
-		<Text>1000</Text>
+		<Text/>
 		<Location>
 			<X>155</X>
 			<Y>95</Y>
@@ -1624,7 +1624,7 @@
 	</Label>
 	<Label item="MKPW_ConfirmPurchase_Qty">
 		<ScreenID>MKPW_ConfirmPurchase_Qty</ScreenID>
-		<Text>5</Text>
+		<Text/>
 		<Location>
 			<X>140</X>
 			<Y>115</Y>
@@ -1649,7 +1649,7 @@
 	</Label>
 	<Label item="MKPW_ConfirmPurchase_Total">
 		<ScreenID>MKPW_ConfirmPurchase_Total</ScreenID>
-		<Text>1000</Text>
+		<Text/>
 		<Location>
 			<X>155</X>
 			<Y>135</Y>
@@ -1813,7 +1813,7 @@
 	</Label>
 	<Label item="MKPW_CreditCardPurchaseSelection_Price">
 		<ScreenID>MKPW_CreditCardPurchaseSelection_Price</ScreenID>
-		<Text>200</Text>
+		<Text/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>75</TopAnchorOffset>
 		<BottomAnchorOffset>105</BottomAnchorOffset>
@@ -1945,7 +1945,7 @@
 	</Label>
 	<Label item="MKPW_CreditCardPurchase_Price">
 		<ScreenID>MKPW_CreditCardPurchase_Price</ScreenID>
-		<Text>$20.00</Text>
+		<Text/>
 		<Location>
 			<X>125</X>
 			<Y>37</Y>
@@ -1973,7 +1973,7 @@
 	</Label>
 	<Label item="MKPW_CreditCardPurchase_Tax">
 		<ScreenID>MKPW_CreditCardPurchase_Tax</ScreenID>
-		<Text>$20.00</Text>
+		<Text/>
 		<Location>
 			<X>125</X>
 			<Y>52</Y>
@@ -2001,7 +2001,7 @@
 	</Label>
 	<Label item="MKPW_CreditCardPurchase_Total">
 		<ScreenID>MKPW_CreditCardPurchase_Total</ScreenID>
-		<Text>$20.00</Text>
+		<Text/>
 		<Location>
 			<X>125</X>
 			<Y>67</Y>
@@ -2029,7 +2029,7 @@
 	</Label>
 	<Label item="MKPW_CreditCardPurchase_TodaysCharge">
 		<ScreenID>MKPW_CreditCardPurchase_TodaysCharge</ScreenID>
-		<Text>$20.00</Text>
+		<Text/>
 		<Location>
 			<X>125</X>
 			<Y>52</Y>
@@ -2057,7 +2057,7 @@
 	</Label>
 	<Label item="MKPW_CreditCardPurchase_RecurringCharge">
 		<ScreenID>MKPW_CreditCardPurchase_RecurringCharge</ScreenID>
-		<Text>$20.00</Text>
+		<Text/>
 		<Location>
 			<X>125</X>
 			<Y>67</Y>
@@ -2106,7 +2106,7 @@
 			<CY>17</CY>
 		</Size>
 		<Style_Transparent>true</Style_Transparent>
-		<Text></Text>
+		<Text/>
 	</Label>
 	<Label item="MKPW_CreditCardPurchase_SecCodeLabel">
 		<ScreenID>MKPW_CreditCardPurchase_SecCodelabel</ScreenID>
@@ -2293,7 +2293,7 @@
 	<!-- Fund Confirm Page -->
 	<Label item="MKPW_FundConfirmStationCash">
 		<ScreenID>MKPW_FundConfirmStationCash</ScreenID>
-		<Text></Text>
+		<Text/>
 		<Location>
 			<X>55</X>
 			<Y>10</Y>
@@ -2305,7 +2305,7 @@
 	</Label>
 	<Label item="MKPW_FundConfirmStationCashPromo">
 		<ScreenID>MKPW_FundConfirmStationCashPromo</ScreenID>
-		<Text>100</Text>
+		<Text/>
 		<Location>
 			<X>55</X>
 			<Y>23</Y>
@@ -2368,7 +2368,7 @@
 	</Label>
 	<Label item="MKPW_FundConfirmPrice">
 		<ScreenID>MKPW_FundConfirmPrice</ScreenID>
-		<Text></Text>
+		<Text/>
 		<AlignRight>true</AlignRight>
 		<Location>
 			<X>120</X>
@@ -2394,7 +2394,7 @@
 	</Label>
 	<Label item="MKPW_FundConfirmTax">
 		<ScreenID>MKPW_FundConfirmTax</ScreenID>
-		<Text>0.00</Text>
+		<Text/>
 		<AlignRight>true</AlignRight>
 		<Location>
 			<X>120</X>
@@ -2420,7 +2420,7 @@
 	</Label>
 	<Label item="MKPW_FundConfirmTotal">
 		<ScreenID>MKPW_FundConfirmTotal</ScreenID>
-		<Text>0.00</Text>
+		<Text/>
 		<AlignRight>true</AlignRight>
 		<Location>
 			<X>120</X>
@@ -2487,7 +2487,7 @@
 		<BottomAnchorOffset>100</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Transparent>true</Style_Transparent>
-		<Text></Text>
+		<Text/>
 	</Label>
 	<Label item="MKPW_FundConfirm_SecCodeLabel">
 		<ScreenID>MKPW_FundConfirm_SecCodelabel</ScreenID>
@@ -3512,7 +3512,7 @@
 	</Button>
 	<Label item="MKPW_PreviewPlayerStudioLabel">
 		<ScreenID>MKPW_PreviewPlayerStudioLabel</ScreenID>
-		<Text>Made By: Player Name</Text>
+		<Text/>
 		<Font>1</Font>
 		<TextColor>
 			<R>214</R>
