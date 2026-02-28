@@ -1113,7 +1113,7 @@
 	</Button>
 	<Label item="MKPW_BuyPrice_MoneyTypeLabel">
 		<ScreenID>MKPW_BuyPrice_MoneyTypeLabel</ScreenID>
-		<Text>$</Text>
+		<Text/>
 		<Font>4</Font>
 		<Location>
 			<X>136</X>
@@ -1211,7 +1211,7 @@
 	</Button>
 	<Label item="MKPW_BuyTotal_MoneyTypeLabel">
 		<ScreenID>MKPW_BuyTotal_MoneyTypeLabel</ScreenID>
-		<Text>$</Text>
+		<Text/>
 		<Font>4</Font>
 		<Location>
 			<X>136</X>
@@ -1554,7 +1554,7 @@
 	</Button>
 	<Label item="MKPW_ConfirmPurchase_PriceMoneyType">
 		<ScreenID>MKPW_ConfirmPurchase_PriceMoneyType</ScreenID>
-		<Text>$</Text>
+		<Text/>
 		<Font>4</Font>
 		<Location>
 			<X>146</X>
@@ -1680,7 +1680,7 @@
 	</Button>
 	<Label item="MKPW_ConfirmPurchase_TotalMoneyType">
 		<ScreenID>MKPW_ConfirmPurchase_TotalMoneyType</ScreenID>
-		<Text>$</Text>
+		<Text/>
 		<Font>4</Font>
 		<Location>
 			<X>146</X>
