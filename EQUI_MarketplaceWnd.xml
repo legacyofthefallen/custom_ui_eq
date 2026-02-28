@@ -262,7 +262,7 @@
 	</Button>
 	<Label item="MKPW_ItemCost_CreditCardMoneyTypeLabel">
 		<ScreenID>MKPW_ItemCost_CreditCardMoneyTypeLabel</ScreenID>
-		<Text>$</Text>
+		<Text/>
 		<Font>4</Font>
 		<Location>
 			<X>144</X>
