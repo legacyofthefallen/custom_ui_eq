@@ -117,7 +117,7 @@
 	</Label>
 	<Label item="PCW_AvailableTimeLeftLabel">
 		<ScreenID>PCW_AvailableTimeLeftLabel</ScreenID>
-		<Text>00:00:00:00</Text>
+		<Text/>
 		<TooltipReference>Time Left to Purchase This</TooltipReference>
 		<Font>2</Font>
 		<TextColor>
@@ -156,7 +156,7 @@
 	</Label>
 	<Label item="PCW_SaleTimeLeft">
 		<ScreenID>PCW_SaleTimeLeft</ScreenID>
-		<Text>00:00:00:00</Text>
+		<Text/>
 		<TooltipReference>Time Left On Sale</TooltipReference>
 		<Font>2</Font>
 		<TextColor>
@@ -387,7 +387,7 @@
 	</Button>
 	<Label item="PCW_TotalMoneyType">
 		<ScreenID>PCW_TotalMoneyType</ScreenID>
-		<Text>$</Text>
+		<Text/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>

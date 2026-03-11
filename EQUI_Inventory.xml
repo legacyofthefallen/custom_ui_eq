@@ -1635,7 +1635,7 @@
 			<CY>24</CY>
 		</Size>
 		<TooltipReference>Radiant Crystals</TooltipReference>
-		<Text>9999</Text>
+		<Text/>
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextAlignRight>true</TextAlignRight>
 		<TextOffsetX>10</TextOffsetX>
@@ -1664,7 +1664,7 @@
 			<CY>24</CY>
 		</Size>
 		<TooltipReference>Ebon Crystals</TooltipReference>
-		<Text>9999</Text>
+		<Text/>
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextAlignRight>true</TextAlignRight>
 		<TextOffsetX>10</TextOffsetX>
@@ -1692,7 +1692,7 @@
 			<CX>115</CX>
 			<CY>24</CY>
 		</Size>
-		<Text>9999</Text>
+		<Text/>
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextAlignRight>true</TextAlignRight>
 		<TextOffsetX>10</TextOffsetX>
@@ -1717,7 +1717,7 @@
 			<CX>115</CX>
 			<CY>24</CY>
 		</Size>
-		<Text>9999</Text>
+		<Text/>
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextAlignRight>true</TextAlignRight>
 		<TextOffsetX>10</TextOffsetX>
@@ -1742,7 +1742,7 @@
 			<CX>115</CX>
 			<CY>24</CY>
 		</Size>
-		<Text>9999</Text>
+		<Text/>
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextAlignRight>true</TextAlignRight>
 		<TextOffsetX>10</TextOffsetX>
@@ -1767,7 +1767,7 @@
 			<CX>115</CX>
 			<CY>24</CY>
 		</Size>
-		<Text>9999</Text>
+		<Text/>
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextAlignRight>true</TextAlignRight>
 		<TextOffsetX>10</TextOffsetX>
