@@ -18,4 +18,9 @@ jobs:
       - name: install xml linter from utils
         run: sudo apt-get install libxml2-utils
       - name: lint xml files
-        run: ls *.xml | xmllint 
+        run: |
+          for file in $(ls *.xml); 
+          then
+            xmllint $file
+          done;
+
