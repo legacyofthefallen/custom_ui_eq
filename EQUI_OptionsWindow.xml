@@ -3643,8 +3643,7 @@
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references accessed Mar 11, 2026-->
-		<Text>&tdot;</Text>
+		<Text>&#8230;</Text>
 		<TooltipReference>File Selector</TooltipReference>
 		<Template>BDT_SmallNormal</Template>
 	</Button>

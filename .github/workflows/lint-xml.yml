@@ -21,6 +21,7 @@ jobs:
         run: |
           for file in $(ls *.xml); 
           do
+            echo Linting $file
             xmllint $file
           done;
 
