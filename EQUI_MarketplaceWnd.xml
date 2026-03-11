@@ -26,8 +26,7 @@
 			<CX>60</CX>
 			<CY>25</CY>
 		</Size>
-		<!--https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references accessed Mar 11, 2026-->
-		<Text>&tdot;</Text>
+		<Text>&#8230;</Text>
 		<Font>5</Font>
 	</Label>
 	<Button item="MKPW_AvailableFundsUpper_Icon">
