@@ -3643,7 +3643,7 @@
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>&#8230</Text>
+		<Text>&#8230;</Text>
 		<TooltipReference>File Selector</TooltipReference>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
