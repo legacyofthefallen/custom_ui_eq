@@ -20,7 +20,7 @@ jobs:
       - name: lint xml files
         run: |
           for file in $(ls *.xml); 
-          then
+          do
             xmllint $file
           done;
 
