@@ -42,7 +42,7 @@
 	</Label>
 	<Label item="PGW_AvailableTimeLeft">
 		<ScreenID>PGW_AvailableTimeLeft</ScreenID>
-		<Text>00:00:00:00</Text>
+		<Text/>
 		<TooltipReference>Time Left to Purchase This</TooltipReference>
 		<Font>2</Font>
 		<TextColor>
