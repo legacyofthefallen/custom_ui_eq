@@ -34,7 +34,7 @@
 	</Button>
 	<Label item="IFW_KeepValueLabel">
 		<ScreenID>IFW_KeepValueLabel</ScreenID>
-		<Text>0</Text>
+		<Text/>
 		<Size>
 			<CX>40</CX>
 			<CY>20</CY>
@@ -91,7 +91,7 @@
 	</Button>
 	<Label item="IFW_DestroyValueLabel">
 		<ScreenID>IFW_DestroyValueLabel</ScreenID>
-		<Text>0</Text>
+		<Text/>
 		<Size>
 			<CX>40</CX>
 			<CY>20</CY>
@@ -157,7 +157,7 @@
 	</Label>
 	<Label item="IFW_MinValueLabel">
 		<ScreenID>IFW_MinValueLabel</ScreenID>
-		<Text>0</Text>
+		<Text/>
 		<Size>
 			<CX>20</CX>
 			<CY>15</CY>
@@ -171,7 +171,7 @@
 	</Label>
 	<Label item="IFW_MaxValueLabel">
 		<ScreenID>IFW_MaxValueLabel</ScreenID>
-		<Text>0</Text>
+		<Text/>
 		<Size>
 			<CX>20</CX>
 			<CY>30</CY>
@@ -185,7 +185,7 @@
 	</Label>
 	<Label item="IFW_ResultValueLabel">
 		<ScreenID>IFW_ResultValueLabel</ScreenID>
-		<Text>0</Text>
+		<Text/>
 		<Size>
 			<CX>20</CX>
 			<CY>15</CY>
@@ -270,7 +270,7 @@
 		<BottomAnchorOffset>10</BottomAnchorOffset>
 		<LeftAnchorOffset>230</LeftAnchorOffset>
 		<RightAnchorOffset>10</RightAnchorOffset>
-		<Text>0</Text>
+		<Text/>
 		<PrependText>Currency: </PrependText>
 		<NoWrap>true</NoWrap>
 		<AlignRight>true</AlignRight>
