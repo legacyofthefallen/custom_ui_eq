@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
 	<Label item="GT_GuildNameLabel">
@@ -226,7 +226,7 @@
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
-		<Text />
+		<Text/>
 		<Template>BDT_Checkbox</Template>
 	</Button>
 	<Label item="GT_AltFlagLabel">
@@ -592,7 +592,7 @@
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
-		<Text />
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -1156,7 +1156,7 @@
 	<Label item="GT_TimeRemainingValueLabel">
 		<ScreenID>TimeRemainingValueLabel</ScreenID>
 		<Font>3</Font>
-		<Text>00:00:00</Text>
+		<Text/>
 		<Size>
 			<CX>50</CX>
 			<CY>15</CY>
@@ -1183,11 +1183,11 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
-		<Text />
+		<Text/>
 		<Template>BDT_Checkbox</Template>
 	</Button>
 	<Label item="GT_ShowAllPossibleBannersLabel">
-		<ScreenID />
+		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>316</LeftAnchorOffset>
@@ -1514,7 +1514,7 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
-		<Text />
+		<Text/>
 		<Template>BDT_Checkbox</Template>
 	</Button>
 	<Listbox item="GT_Permissions_List">
@@ -1715,7 +1715,7 @@
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
-		<Text />
+		<Text/>
 		<Template>BDT_Checkbox</Template>
 	</Button>
 	<Label item="GT_ShowOfflineLabel">
@@ -1749,7 +1749,7 @@
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
-		<Text />
+		<Text/>
 		<Template>BDT_Checkbox</Template>
 	</Button>
 	<Label item="GT_HideAltLabel">
@@ -1848,7 +1848,7 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<Text>000</Text>
+		<Text/>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Button item="GT_PageRight_Button">
@@ -1894,12 +1894,11 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<Text />
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	
 	<Screen item="GuildManagementWnd">
 		<ScreenID />
 		<RelativePosition>false</RelativePosition>
