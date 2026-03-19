@@ -1,7 +1,6 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
 	<Button item = "CJNPC_EnableCheckbox">
 		<ScreenID>EnableButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -16,10 +15,9 @@
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-
 	<Label item = "CJNPC_EnableLabel">
 		<ScreenID>EnableLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -37,7 +35,6 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Button item = "CJNPC_SearchButton">
 		<ScreenID>SearchButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -57,7 +54,6 @@
 		<Text>Search</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Combobox item = "CJNPC_CategoryFilter">
 		<ScreenID>CategoryFilter</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -76,7 +72,6 @@
 		<Choices>NONE</Choices>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-
 	<Listbox item = "CJNPC_NPCList">
 		<ScreenID>NPCList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -104,7 +99,6 @@
 			<Heading>Most Recent</Heading>
 		</Columns>
 	</Listbox>
-
 	<Listbox item = "CJNPC_DialogList">
 		<ScreenID>DialogList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -133,7 +127,6 @@
 			<Heading>Preview</Heading>
 		</Columns>
 	</Listbox>
-
 	<STMLbox item = "CJNPC_Text">
 		<ScreenID>Text</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -150,9 +143,8 @@
 		<Style_VScroll>true</Style_VScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Border>true</Style_Border>
-		<Text>No Text</Text>
+		<Text/>
 	</STMLbox>
-
 	<VerticalLayoutBox item = "CJNPC_Layout">
 		<ScreenID>Layout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -173,7 +165,6 @@
 		<Pieces>CJNPC_DialogList</Pieces>
 		<Pieces>CJNPC_Text</Pieces>
 	</VerticalLayoutBox>
-
 	<Button item = "CJNPC_DeleteNPCButton">
 		<ScreenID>DeleteNPCButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -193,7 +184,6 @@
 		<Text>Delete NPC</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Button item = "CJNPC_DeleteTextButton">
 		<ScreenID>DeleteTextButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -213,7 +203,6 @@
 		<Text>Delete Entry</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Combobox item = "CJNPC_CategorySelect">
 		<ScreenID>CategorySelect</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -232,8 +221,6 @@
 		<Choices>NONE</Choices>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-
-
 	<Button item = "CJNPC_CategoryButton">
 		<ScreenID>CategoryButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -253,7 +240,6 @@
 		<Text>Edit Categories</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Button item = "CJNPC_SaveButton">
 		<ScreenID>SaveButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -273,8 +259,6 @@
 		<Text>Save</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
-
 	<Screen item = "JournalNPCWnd">
 		<ScreenID/>
 		<RelativePosition>false</RelativePosition>
@@ -311,5 +295,4 @@
 		<Pieces>CJNPC_CategoryFilter</Pieces>
 		<Pieces>CJNPC_CategorySelect</Pieces>
 	</Screen>
-
 </XML>
