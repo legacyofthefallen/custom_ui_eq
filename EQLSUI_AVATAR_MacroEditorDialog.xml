@@ -31,7 +31,6 @@
 			<Heading>Macro:</Heading>
 		</Columns>
 	</Listbox>
-
 <!-- Edit labels/boxes -->
 	<Label item = "MACRO_IDLabel">
 		<ScreenID>IDLabel</ScreenID>
@@ -159,7 +158,6 @@
 				<B>255</B>
 		</TextColor>
 	</Editbox>
-
 <!-- Add macro Buttons -->
 	<Button item = "MACRO_AddButton">
 		<ScreenID>AddButton</ScreenID>
@@ -189,7 +187,6 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
 <!-- OK/Cancel Buttons -->
 	<Button item = "MACRO_OKButton">
 		<ScreenID>OKButton</ScreenID>
@@ -310,7 +307,6 @@
 		<Pieces>MACRO_AddButton</Pieces>
 		<Pieces>MACRO_UseButton</Pieces>
 	</Screen>
-
 <!-- Used to obscure the backing window and prevent UI events from going through to it -->
 	<Screen item = "macrodialog">
 		<RelativePosition>true</RelativePosition>
@@ -322,7 +318,6 @@
 			<CX>640</CX>
 			<CY>480</CY>
 		</Size>
-
 		<Text/>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
