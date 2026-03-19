@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
   <Combobox item="ADOW_MemoryModeCombobox">
@@ -65,13 +65,13 @@
     <BottomAnchorOffset>0</BottomAnchorOffset>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
-    <Text />
+    <Text/>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Style_Border>false</Style_Border>
     <Style_Checkbox>true</Style_Checkbox>
-    <Text />
+    <Text/>
     <Template>BDT_Checkbox</Template>
   </Button>
   <Label item="ADOW_DisableTattoosLabel">
@@ -126,13 +126,13 @@
     <BottomAnchorOffset>0</BottomAnchorOffset>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
-    <Text />
+    <Text/>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Style_Border>false</Style_Border>
     <Style_Checkbox>true</Style_Checkbox>
-    <Text />
+    <Text/>
     <Template>BDT_Checkbox</Template>
   </Button>
   <Label item="ADOW_EnablePostEffectsLabel">
@@ -187,13 +187,13 @@
     <BottomAnchorOffset>0</BottomAnchorOffset>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
-    <Text />
+    <Text/>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Style_Border>false</Style_Border>
     <Style_Checkbox>true</Style_Checkbox>
-    <Text />
+    <Text/>
     <Template>BDT_Checkbox</Template>
   </Button>
   <Label item="ADOW_FloraLabel">
@@ -248,13 +248,13 @@
     <BottomAnchorOffset>0</BottomAnchorOffset>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
-    <Text />
+    <Text/>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Style_Border>false</Style_Border>
     <Style_Checkbox>true</Style_Checkbox>
-    <Text />
+    <Text/>
     <Template>BDT_Checkbox</Template>
   </Button>
   <Button item="ADOW_WaterSwapCheckbox">
@@ -278,13 +278,13 @@
     <BottomAnchorOffset>0</BottomAnchorOffset>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
-    <Text />
+    <Text/>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Style_Border>false</Style_Border>
     <Style_Checkbox>true</Style_Checkbox>
-    <Text />
+    <Text/>
     <Template>BDT_Checkbox</Template>
   </Button>
   <Button item="ADOW_20PixelShadersCheckbox">
@@ -308,13 +308,13 @@
     <BottomAnchorOffset>0</BottomAnchorOffset>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
-    <Text />
+    <Text/>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Style_Border>false</Style_Border>
     <Style_Checkbox>true</Style_Checkbox>
-    <Text />
+    <Text/>
     <Template>BDT_Checkbox</Template>
   </Button>
   <Button item="ADOW_EnableBloomCheckbox">
@@ -338,13 +338,13 @@
     <BottomAnchorOffset>0</BottomAnchorOffset>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
-    <Text />
+    <Text/>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Style_Border>false</Style_Border>
     <Style_Checkbox>true</Style_Checkbox>
-    <Text />
+    <Text/>
     <Template>BDT_Checkbox</Template>
   </Button>
   <Label item="ADOW_EnableBloomLabel">
@@ -802,7 +802,7 @@
     <BottomAnchorOffset>0</BottomAnchorOffset>
     <LeftAnchorOffset>0</LeftAnchorOffset>
     <RightAnchorOffset>0</RightAnchorOffset>
-    <Text />
+    <Text/>
     <TextColor>
       <Alpha>255</Alpha>
       <R>0</R>
@@ -814,7 +814,7 @@
     <Style_Transparent>false</Style_Transparent>
     <Style_Border>false</Style_Border>
     <Style_Checkbox>true</Style_Checkbox>
-    <Text />
+    <Text/>
     <Template>BDT_Checkbox</Template>
   </Button>
   <Label item="ADOW_AdvancedLightingLabel">
@@ -1064,7 +1064,7 @@
       <CX>60</CX>
       <CY>16</CY>
     </Size>
-    <Text>10</Text>
+    <Text/>
     <NoWrap>true</NoWrap>
     <AlignCenter>false</AlignCenter>
     <AlignRight>true</AlignRight>
