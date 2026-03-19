@@ -1,4 +1,4 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 <!-- Action Buttons -->
@@ -88,7 +88,6 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-
 		<Text>Confirmation</Text>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
@@ -104,7 +103,6 @@
 		<Pieces>YESNO_NoButton</Pieces>
 		<Pieces>YESNO_Display</Pieces>
 	</Screen>
-
 <!-- Used to obscure the backing window and prevent UI events from going through to it -->
 	<Screen item = "yesnodialog">
 		<RelativePosition>true</RelativePosition>
@@ -116,8 +114,7 @@
 			<CX>640</CX>
 			<CY>480</CY>
 		</Size>
-
-		<Text></Text>
+		<Text/>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
