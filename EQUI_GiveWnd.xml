@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-
   <STMLbox item ="GVW_GiveName">
     <ScreenID>GVW_GiveName</ScreenID>
     <!--<Font>3</Font>-->
@@ -20,7 +19,6 @@
     <AlignCenter>true</AlignCenter>
     <AlignRight>false</AlignRight>
   </STMLbox>
-
   <InvSlot item = "GVW_MyItemSlot0">
     <ScreenID>GVW_MyItemSlot0</ScreenID>
     <!--<Font>3</Font>-->
@@ -81,7 +79,6 @@
     <Background>A_RecessedBox</Background>
     <EQType>3003</EQType>
   </InvSlot>
-
   <Button item = "GVW_MyMoney0">
     <ScreenID>GVW_MyMoney0</ScreenID>
     <!--<Font>3</Font>-->
@@ -190,7 +187,6 @@
       <CY>18</CY>
     </DecalSize>
   </Button>
-
   <Button item = "GVW_Give_Button">
     <ScreenID>GVW_Give_Button</ScreenID>
     <!--<Font>3</Font>-->
@@ -210,7 +206,6 @@
     <Text>Give</Text>
     <Template>BDT_Normal</Template>
   </Button>
-
   <Button item = "GVW_Cancel_Button">
     <ScreenID>GVW_Cancel_Button</ScreenID>
     <!--<Font>3</Font>-->
@@ -231,8 +226,6 @@
     <Text>Cancel</Text>
     <Template>BDT_Normal</Template>
   </Button>
-
-
   <Screen item = "GiveWnd">
     <ScreenID>GiveWnd</ScreenID>
     <RelativePosition>false</RelativePosition>
@@ -266,5 +259,4 @@
     <Pieces>GVW_Give_Button</Pieces>
     <Pieces>GVW_Cancel_Button</Pieces>
   </Screen>
-
 </XML>

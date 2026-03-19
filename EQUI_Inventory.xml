@@ -558,7 +558,6 @@
 		<TooltipReference>Upgrade current character to a fully equipped Heroic Character.</TooltipReference>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Combobox item="IW_HeroicUpgradeSelection">
 		<ScreenID>IW_HeroicUpgradeSelection</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -577,7 +576,6 @@
 		<Button>BDT_Combo</Button>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-
 	<!-- START CHAR INFO -->
 	<Label item="IW_Name">
 		<ScreenID>NameLabel</ScreenID>
@@ -2195,7 +2193,6 @@
 			<CY>401</CY>
 		</Size>
 	</Page>
-
 	<!-- START STATS -->
 	<Label item="IWS_HP">
 		<RelativePosition>true</RelativePosition>
@@ -5925,7 +5922,6 @@
 		<Pieces>IWS_FrenzyDivider</Pieces>
 		<Pieces>IWS_MaxFrenzy</Pieces>
 	</Screen>
-
 	<TileLayoutBox item="IW_Stats">
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -6000,7 +5996,6 @@
 		<Pieces>Screen:IWS_RoundKickScreen</Pieces>
 		<Pieces>Screen:IWS_TigerClawScreen</Pieces>
 	</TileLayoutBox>
-
 	<Page item="IW_StatPage">
 		<ScreenID>StatPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -7845,7 +7840,6 @@
 	<!-- IS_LEGS		18 -->
 	<InvSlot item="PersonaInvSlot18">
 		<ScreenID>PersonaInvSlot18</ScreenID>
-
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>

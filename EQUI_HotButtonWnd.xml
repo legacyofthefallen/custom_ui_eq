@@ -1141,7 +1141,6 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-
 	<SpellGem item="HB_SpellGem">
 		<ScreenID>HB_SpellGem</ScreenID>
 		<Location>

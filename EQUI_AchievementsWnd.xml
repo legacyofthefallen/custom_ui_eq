@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-
 	<LayoutStrategy item="ACH_Layout">
 		<Padding>0</Padding>
 		<ResizeVertical>true</ResizeVertical>
 		<ResizeHorizontal>false</ResizeHorizontal>
 	</LayoutStrategy>
-
 	<Label item="ACH_AchievementDescription_Label">
 		<ScreenID>ACH_AchievementDescription_Label</ScreenID>
 		<Text>[Description]</Text>
@@ -29,7 +27,6 @@
 		<Style_Transparent>true</Style_Transparent>
 		<ResizeHeightToText>true</ResizeHeightToText>
 	</Label>
-
 	<Label item="ACH_AchievementTimeStamp_Label">
 		<ScreenID>ACH_AchievementTimeStamp_Label</ScreenID>
 		<Text>[Timestamp]</Text>
@@ -89,7 +86,6 @@
 		<Text/>
 		<Template>BDT_CheckboxTransparent</Template>
 	</Button>
-
 	<Label item="ACH_AchievementSub_Label">
 		<ScreenID>ACH_AchievementSub_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -111,7 +107,6 @@
 			<B>66</B>
 		</TextColor>
 	</Label>
-
   <Label item="ACH_AchievementSub_CountLabel">
     <ScreenID>ACH_AchievementSub_CountLabel</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -200,7 +195,6 @@
 		<Pieces>ACH_AchievementViewRewardButton</Pieces>
 		<Pieces>ACH_Spacer</Pieces>
 	</Screen>
-
 	<Label item="ACH_FilterLabel">
 		<ScreenID>ACH_FilterLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -215,7 +209,6 @@
 		<Text>Show:</Text>
 		<NoWrap>true</NoWrap>
 	</Label>
-
 	<Button item="ACH_OpenButton">
 		<ScreenID>ACH_OpenButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -231,7 +224,6 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-
 	<Label item="ACH_OpenButtonLabel">
 		<ScreenID>ACH_OpenButtonLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -246,7 +238,6 @@
 		<Text>Open</Text>
 		<NoWrap>true</NoWrap>
 	</Label>
-
 	<Button item="ACH_CompleteButton">
 		<ScreenID>ACH_CompleteButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -262,7 +253,6 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-
 	<Label item="ACH_CompleteButtonLabel">
 		<ScreenID>ACH_CompleteButtonLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -277,7 +267,6 @@
 		<Text>Complete</Text>
 		<NoWrap>true</NoWrap>
 	</Label>
-
 	<Button item="ACH_LockedButton">
 		<ScreenID>ACH_LockedButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -293,7 +282,6 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-
 	<Label item="ACH_LockedButtonLabel">
 		<ScreenID>ACH_OpenButtonLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -308,7 +296,6 @@
 		<Text>Locked</Text>
 		<NoWrap>true</NoWrap>
 	</Label>
-
 	<Label item="ACH_CategorySummaryLabel">
 		<ScreenID>ACH_CategorySummaryLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -323,7 +310,6 @@
 		<Text>Category: EverQuest</Text>
 		<NoWrap>true</NoWrap>
 	</Label>
-
 	<Button item="ACH_DoCompareButton">
 		<ScreenID>ACH_DoCompareButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -346,7 +332,6 @@
 		<RightAnchorOffset>35</RightAnchorOffset>
 		<Template>BDT_BigNormal</Template>
 	</Button>
-
 	<Button item="ACH_OutputFileButton">
 		<ScreenID>ACH_OutputFileButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -397,7 +382,6 @@
 		<LeftAnchorOffset>12</LeftAnchorOffset>
 		<RightAnchorOffset>192</RightAnchorOffset>
 	</Gauge>
-
 	<Label item="ACH_SubcategorySummaryLabel">
 		<ScreenID>ACH_SubcategorySummaryLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -412,7 +396,6 @@
 		<Text/>
 		<NoWrap>true</NoWrap>
 	</Label>
-
 	<Label item="ACH_CategorySummaryCompareLabel">
 		<ScreenID>ACH_CategorySummaryCompareLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -426,7 +409,6 @@
 		<LeftAnchorOffset>194</LeftAnchorOffset>
 		<RightAnchorOffset>12</RightAnchorOffset>
 	</Label>
-
 	<Gauge item="ACH_ExpansionCompletedSummaryCompareGauge">
 		<ScreenID>ACH_ExpansionCompletedSummaryCompareGauge</ScreenID>
 		<TextColor>
@@ -456,7 +438,6 @@
 		<LeftAnchorOffset>192</LeftAnchorOffset>
 		<RightAnchorOffset>12</RightAnchorOffset>
 	</Gauge>
-
 	<Label item="ACH_SubcategorySummaryCompareLabel">
 		<ScreenID>ACH_SubcategorySummaryCompareLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -470,7 +451,6 @@
 		<LeftAnchorOffset>194</LeftAnchorOffset>
 		<RightAnchorOffset>10</RightAnchorOffset>
 	</Label>
-
 	<Screen item="ACH_Item_Summary">
 		<ScreenID>ACH_Item_Summary</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -491,7 +471,6 @@
 		<Pieces>Gauge:ACH_ExpansionCompletedSummaryCompareGauge</Pieces>
 		<Pieces>Label:ACH_SubcategorySummaryCompareLabel</Pieces>
 	</Screen>
-
 	<VerticalLayoutBox item="ACH_AchievementsSummary">
 		<ScreenID>ACH_AchievementsSummary</ScreenID>
 		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
@@ -514,7 +493,6 @@
 		<Spacing>3</Spacing>
 		<Pieces>Screen:ACH_Item_Summary</Pieces>
 	</VerticalLayoutBox>
-
 	<VerticalLayoutBox item="ACH_Achievements">
 		<ScreenID>ACH_Achievements</ScreenID>
 		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
@@ -537,7 +515,6 @@
 		<Spacing>8</Spacing>
 		<!-- Don't put any pieces in here -->
 	</VerticalLayoutBox>
-
 	<Page item ="ACH_AchievementsPage">
 		<ScreenID>ACH_AchievementsPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -552,7 +529,6 @@
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>VerticalLayoutBox:ACH_Achievements</Pieces>
 	</Page>
-
 	<Page item ="ACH_AchievementsSummaryPage">
 		<ScreenID>ACH_AchievementsSummaryPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -567,7 +543,6 @@
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>VerticalLayoutBox:ACH_AchievementsSummary</Pieces>
 	</Page>
-
 	<TabBox item ="ACH_AchievementSubwindows">
 		<ScreenID>ACH_AchievementSubwindows</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -835,7 +810,6 @@
 		<Pieces>Gauge:ACH_TotalCompareCompleted</Pieces>
 		<Pieces>Gauge:ACH_ExpansionCompareCompleted</Pieces>
 	</Screen>
-
 	<HorizontalLayoutBox item="ACH_Main_Layout">
 		<ScreenID>ACH_Main_Layout</ScreenID>
 		<RelativePosition>true</RelativePosition>

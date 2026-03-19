@@ -64,7 +64,6 @@
 		<FirstPieceTemplate>true</FirstPieceTemplate>
 		<Pieces>LW_LootSlotTemplate</Pieces>
 	</TileLayoutBox>
-
 	<Button item="LW_DoneButton">
 		<ScreenID>DoneButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -84,8 +83,6 @@
 		<Text>Done</Text>
 		<Template>BDT_BigNormal</Template>
 	</Button>
-
-
 	<Button item="LW_LootAllButton">
 		<ScreenID>LootAllButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -105,8 +102,6 @@
 		<Text>Loot All</Text>
 		<Template>BDT_BigNormal</Template>
 	</Button>
-
-
 	<Screen item="LootWnd">
 		<RelativePosition>false</RelativePosition>
 		<Text>Loot</Text>

@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-
 	<TextureInfo item = "menuicons01.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-
 	<Ui2DAnimation item = "A_MenuIcons">
 		<Cycle>false</Cycle>
 		<Grid>true</Grid>
@@ -184,7 +182,6 @@
 			<NormalDecal/>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Screen item = "CascadeSeparatorItemWnd">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
@@ -209,7 +206,6 @@
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>CSepIW_Button</Pieces>
 	</Screen>
-
 	<Button item = "CSubIW_Button">
 		<ScreenID>Button</ScreenID>
 		<!--<Font>3</Font>-->
@@ -241,7 +237,6 @@
 			<CY>24</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "CSubIW_Arrow">
 		<ScreenID>Arrow</ScreenID>
 		<!--<Font>3</Font>-->
@@ -263,8 +258,6 @@
 			<NormalDecal/>
 		</ButtonDrawTemplate>
 	</Button>
-
-
 	<Screen item = "CascadeSubmenuItemWnd">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
@@ -290,7 +283,6 @@
 		<Pieces>CSubIW_Arrow</Pieces>
 		<Pieces>CSubIW_Button</Pieces>
 	</Screen>
-
 	<Button item = "CCmdIW_Button">
 		<ScreenID>Button</ScreenID>
 		<!--<Font>3</Font>-->
@@ -319,7 +311,6 @@
 			<CY>24</CY>
 		</DecalSize>
 	</Button>
-
 	<Screen item = "CascadeCommandItemWnd">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
@@ -344,7 +335,6 @@
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>CCmdIW_Button</Pieces>
 	</Screen>
-
 	<Screen item = "CascadeSubWnd">
 		<ScreenID/>
 		<RelativePosition>false</RelativePosition>
@@ -368,7 +358,6 @@
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
 	</Screen>
-
 	<Screen item = "CascadeTopWnd">
 		<ScreenID/>
 		<RelativePosition>false</RelativePosition>
@@ -418,7 +407,6 @@
 			<PressedFlyby>A_EQBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Button item = "EQM_SCButton">
 		<ScreenID>SCButton</ScreenID>
 		<RelativePosition>true</RelativePosition>

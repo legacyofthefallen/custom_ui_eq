@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-
 	<Label item = "ASTW_TimeLeftLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
@@ -19,7 +18,6 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-
 	<Label item = "ASTW_TimerLabel">
 		<ScreenID>TimerLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -38,7 +36,6 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Label item = "ASTW_ItemCountLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
@@ -56,7 +53,6 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-
 	<Label item = "ASTW_CountLabel">
 		<ScreenID>CountLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -74,7 +70,6 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Listbox item = "ASTW_ItemList">
 		<ScreenID>ItemList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -102,7 +97,6 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-
 	<Button item = "ASTW_GetButton">
 		<ScreenID>GetButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -120,7 +114,6 @@
 		<Text>Get</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item = "ASTW_DoneButton">
 		<ScreenID>DoneButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -138,7 +131,6 @@
 		<Text>Done</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Screen item = "AltStorageWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -169,5 +161,4 @@
 		<Pieces>ASTW_DoneButton</Pieces>
 		<Pieces>ASTW_GetButton</Pieces>
 	</Screen>
-
 </XML>

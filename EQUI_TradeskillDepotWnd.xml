@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-	
 	<Label item="TD_NoDataLabel">
 		<ScreenID>TD_NoDataLabel</ScreenID>
 		<AutoStretch>true</AutoStretch>
@@ -27,7 +26,6 @@
 		<Style_Minimizebox>false</Style_Minimizebox>
 		<Pieces>TD_NoDataLabel</Pieces>
 	</Screen>
-
 	<Listbox item="TD_Item_List">
 		<ScreenID>TD_Item_List</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -53,7 +51,6 @@
 			<Heading>Qty</Heading>
 		</Columns>
 	</Listbox>
-
 	<Button item="TD_Inspect_Button">
 		<ScreenID>TD_Inspect_Button</ScreenID>
 		<AutoStretch>true</AutoStretch>
@@ -69,7 +66,6 @@
 		<Text>Inspect</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item="TD_Selected_Item_Slot">
 		<ScreenID>TD_Selected_Item_Slot</ScreenID>
 		<AutoStretch>true</AutoStretch>
@@ -89,7 +85,6 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-
 	<Label item="TD_Selected_Item_Label">
 		<ScreenID>TD_Selected_Item_Label</ScreenID>
 		<AutoStretch>true</AutoStretch>
@@ -102,7 +97,6 @@
 		<RightAnchorOffset>85</RightAnchorOffset>
 		<Text>Selected Item</Text>
 	</Label>
-
 	<Button item="TD_Withdraw_Button">
 		<ScreenID>TD_Withdraw_Button</ScreenID>
 		<AutoStretch>true</AutoStretch>
@@ -116,7 +110,6 @@
 		<Text>Withdraw</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item="TD_Exit_Button">
 		<ScreenID>TD_Exit_Button</ScreenID>
 		<AutoStretch>true</AutoStretch>
@@ -132,7 +125,6 @@
 		<Text>Exit</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Label item="TD_Item_Count_Label">
 		<ScreenID>TD_Item_Count_Label</ScreenID>
 		<Location>
@@ -146,7 +138,6 @@
 		<Text>Total Count:</Text>
 		<NoWrap>true</NoWrap>
 	</Label>
-
 	<Label item="TD_Item_Count_Number">
 		<ScreenID>TD_Item_Count_Number</ScreenID>
 		<Location>
@@ -160,7 +151,6 @@
 		<Text/>
 		<NoWrap>true</NoWrap>
 	</Label>
-	
 	<Editbox item="TD_SearchItem_Input">
 		<ScreenID>TD_SearchItem_Input</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -175,7 +165,6 @@
 		<BottomAnchorOffset>24</BottomAnchorOffset>
 		<Style_Border>true</Style_Border>
 	</Editbox>
-	
 	<Button item = "TD_SearchItem_Button">
 		<ScreenID>TD_SearchItem_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -207,7 +196,6 @@
 		<TextOffsetX>10</TextOffsetX>
 		<Template>BDT_FindItem</Template>
 	</Button>
-
 	<Screen item="TradeskillDepotWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -238,6 +226,4 @@
 		<Pieces>TD_SearchItem_Input</Pieces>
 		<Pieces>TD_SearchItem_Button</Pieces>
 	</Screen>
-
-
 </XML>

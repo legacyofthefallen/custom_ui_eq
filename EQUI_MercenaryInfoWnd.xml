@@ -45,7 +45,6 @@
 			<NormalDecal>A_PlatinumCoin</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Label item="MIW_PurchaseCostGoldText">
 		<ScreenID>PurchaseCostGoldText</ScreenID>
 		<EQType>mercenary/InfoWnd/PurchaseCostGoldText</EQType>

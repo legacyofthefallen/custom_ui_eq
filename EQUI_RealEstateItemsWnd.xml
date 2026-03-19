@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-
 	<Listbox item="REIW_ItemList">
 		<ScreenID>REIW_ItemList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -310,7 +309,6 @@
 		<Text>Unowned</Text>
 		<NoWrap>true</NoWrap>
 	</Label>
-
 	<Label item="REIW_YardItemsLabel">
 		<ScreenID>REIW_YardItemsLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -496,7 +494,6 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<Text>Location</Text>
 	</Label>
-
 	<Button item="REIW_Move_Inventory_Button">
 		<ScreenID>REIW_Move_Inventory_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -719,7 +716,6 @@
 			<Disabled>A_LocateDisabledBtn</Disabled>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Button item="REIW_Trophies_Button">
 		<ScreenID>REIW_Trophies_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -874,7 +870,6 @@
 			<Disabled>A_MoveAllToStorageDisabledBtn</Disabled>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Screen item="REIW_Summary_Screen">
 		<ScreenID>REIW_Summary_Screen</ScreenID>
 		<DrawTemplate>WDT_SimpleFilgree</DrawTemplate>
@@ -1375,7 +1370,6 @@
 		<Button>BDT_Combo</Button>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-
 	<Screen item="REIW_LayoutLoad_Screen">
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>

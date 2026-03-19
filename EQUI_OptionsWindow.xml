@@ -2243,7 +2243,6 @@
 		<Text/>
 		<NoWrap>true</NoWrap>
 	</Label>
-
 	<Button item="ODP_ApplyUIScaleButton">
 		<ScreenID>ODP_ApplyUIScaleButton</ScreenID>
 		<Location>
@@ -3571,8 +3570,6 @@
 		<Button>BDT_Combo</Button>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-
-
 	<Button item="ONP_SavePersonaChatCheckbox">
 		<ScreenID>ONP_SavePersonaChatCheckbox</ScreenID>
 		<AutoStretch>true</AutoStretch>
@@ -3594,8 +3591,6 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-
-
 	<Button item="ONP_ChangeSelectedColorButton">
 		<ScreenID>ONP_ChangeSelectedColorButton</ScreenID>
 		<AutoStretch>true</AutoStretch>
@@ -3767,7 +3762,6 @@
 			<CY>480</CY>
 		</Size>
 	</Page>
-
 	<!-- *********** Options Tab Window, Top level *********** -->
 	<TabBox item="OPTW_OptionsSubwindows">
 		<ScreenID>OPTW_OptionsSubwindows</ScreenID>
