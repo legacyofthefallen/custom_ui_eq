@@ -1,4 +1,4 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Label item ="ISW_Type_Label">
@@ -86,7 +86,7 @@
 		<LeftAnchorOffset>257</LeftAnchorOffset>
 		<RightAnchorOffset>283</RightAnchorOffset>
 		<Style_Transparent>true</Style_Transparent>
-		<Text>000</Text>
+		<Text/>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Button item="ISW_PageRight_Button">
