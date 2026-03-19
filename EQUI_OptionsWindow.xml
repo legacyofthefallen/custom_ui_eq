@@ -1345,6 +1345,23 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
+		<Button item="OGP_SpellAutoGrantCheckBox">
+		<ScreenID>OGP_SpellAutoGrantCheckBox</ScreenID>
+		<Size>
+			<CX>180</CX>
+			<CY>20</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<Text>Auto-Grant Spells</Text>
+		<TooltipReference>When enabled, you will automatically scribe new spells when leveling up. Some spells may not be auto-granted, such as spells within a certain threshold of the current expansion.</TooltipReference>
+		<Template>BDT_CheckboxWithText</Template>
+		<DecalSize>
+			<CX>16</CX>
+			<CY>16</CY>
+		</DecalSize>
+		<TextAlignCenter>false</TextAlignCenter>
+		<TextOffsetX>20</TextOffsetX>
+	</Button>
 	<VerticalLayoutBox item="OGP_LeftLayout">
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<Location>
@@ -1364,6 +1381,7 @@
 		<Pieces>OGP_LootAutosplitCheckbox</Pieces>
 		<Pieces>OGP_AnonymousCheckbox</Pieces>
 		<Pieces>OGP_RoleplayingCheckbox</Pieces>
+		<Pieces>OGP_SpellAutoGrantCheckBox</Pieces>
 		<Pieces>OGP_PetWindowPopupCheckbox</Pieces>
 		<Pieces>OGP_AllowContextMenusCheckbox</Pieces>
 		<Pieces>OGP_LeftClickHelpText</Pieces>
@@ -1773,6 +1791,27 @@
 		<Text>Video Modes</Text>
 		<TooltipReference>Select your screen's resolution, color, and refresh rate settings.</TooltipReference>
 		<Template>BDT_BigNormal</Template>
+	</Button>
+	<!-- Borderless window -->
+	<Button item="ODP_BorderlessCheckbox">
+		<ScreenID>ODP_BorderlessCheckbox</ScreenID>
+		<Location>
+			<X>10</X>
+			<Y>257</Y>
+		</Location>
+		<Size>
+			<CX>180</CX>
+			<CY>18</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<Text>Borderless Fullscreen</Text>
+		<Template>BDT_CheckboxWithText</Template>
+		<DecalSize>
+			<CX>16</CX>
+			<CY>16</CY>
+		</DecalSize>
+		<TextAlignCenter>false</TextAlignCenter>
+		<TextOffsetX>20</TextOffsetX>
 	</Button>
 	<!-- Allow window resizing -->
 	<Button item="ODP_AllowWindowResizingCheckbox">
@@ -3001,6 +3040,7 @@
 		<Pieces>ODP_SetFullscreenButton</Pieces>
 		<Pieces>ODP_SetWindowedButton</Pieces>
 		<Pieces>ODP_VideoModesButton</Pieces>
+		<Pieces>ODP_BorderlessCheckbox</Pieces>
 		<Pieces>ODP_AllowWindowResizingCheckbox</Pieces>
 		<Pieces>ODP_AlwaysOnTopCheckbox</Pieces>
 		<Pieces>ODP_ShowBuffTimerCheckbox</Pieces>
@@ -3643,7 +3683,7 @@
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>&#8230;</Text>
+		<Text>...</Text>
 		<TooltipReference>File Selector</TooltipReference>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
