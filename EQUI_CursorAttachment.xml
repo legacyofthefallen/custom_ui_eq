@@ -1,7 +1,6 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
 	<StaticAnimation item = "CA_Anim">
 		<ScreenID>CA_Anim</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -15,7 +14,6 @@
 		</Size>
 		<Animation>BuffIcons</Animation>
 	</StaticAnimation>
-
 	<StaticAnimation item = "CA_Anim2">
 		<ScreenID>CA_Anim2</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -29,7 +27,6 @@
 		</Size>
 		<Animation>BuffIcons</Animation>
 	</StaticAnimation>
-
 	<SpellGem item = "CA_SpellGem">
 		<ScreenID>CA_SpellGem</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -47,7 +44,6 @@
 			<Highlight>A_SpellGemHighlight</Highlight>
 		</SpellGemDrawTemplate>
 	</SpellGem>
-
 	<Screen item = "CursorAttachment">
 		<ScreenID/>
 		<Font/>
@@ -71,5 +67,4 @@
 		<Pieces>CA_Anim2</Pieces>
 		<Pieces>CA_SpellGem</Pieces>
 	</Screen>
-
 </XML>
