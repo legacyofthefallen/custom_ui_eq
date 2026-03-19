@@ -1,7 +1,6 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
 	<Label item ="BUGW_TypeLabel">
 		<ScreenID>TypeLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -16,7 +15,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<Text>Category</Text>
 	</Label>
-	
 	<Combobox item = "BUGW_BugTypes">
 		<ScreenID>BugTypes</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -35,7 +33,6 @@
 		<Choices>Other</Choices>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-
 	<Button item = "BUGW_LocationButton">
 		<ScreenID>LocationButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -54,7 +51,6 @@
 		<Text>Update Location</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Label item ="BUGW_LocLabel">
 		<ScreenID>Loc</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -67,12 +63,11 @@
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
-		<Text>0</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-
 	<STMLbox item = "BUGW_Prompt">
 		<ScreenID>Prompt</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -91,7 +86,6 @@
 		<Style_Border>true</Style_Border>
 		<Text>Prompt Area</Text>
 	</STMLbox>
-
 	<Editbox item = "BUGW_Edit">
 		<ScreenID>Edit</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -110,7 +104,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<Style_Multiline>true</Style_Multiline>
 	</Editbox>
-
 	<Button item="BUGW_DupButton">
 		<ScreenID>DupButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -130,7 +123,6 @@
 		<TooltipReference>Check this box if you are able to reliably reproduce this bug (be sure to include your steps).</TooltipReference>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-
 	<Label item ="BUGW_DupLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
@@ -148,7 +140,6 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Button item="BUGW_CrashButton">
 		<ScreenID>CrashButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -168,7 +159,6 @@
 		<TooltipReference>Check this box if this bug causes your client to crash.</TooltipReference>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-
 	<Label item ="BUGW_CrashLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
@@ -187,7 +177,6 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Label item ="BUGW_OptionsLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
@@ -205,7 +194,6 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Button item="BUGW_FlagsButton">
 		<ScreenID>FlagsButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -225,7 +213,6 @@
 		<TooltipReference>Check this box to send your character flags along with the bug info.</TooltipReference>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-
 	<Label item = "BUGW_FlagsLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
@@ -244,7 +231,6 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Button item="BUGW_TargetButton">
 		<ScreenID>TargetButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -264,7 +250,6 @@
 		<TooltipReference>Check this box to send your current target info along with the bug.</TooltipReference>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-
 	<Label item = "BUGW_TargetLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
@@ -283,7 +268,6 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Label item ="BUGW_TargetInfo">
 		<ScreenID>TargetInfo</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -296,12 +280,11 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<Text>a death beetle</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Button item = "BUGW_CancelButton">
 		<ScreenID>CancelButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -320,7 +303,6 @@
 		<Text>Cancel</Text>
 		<Template>BDT_Square</Template>
 	</Button>
-
 	<Button item = "BUGW_SendButton">
 		<ScreenID>SendButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -339,7 +321,6 @@
 		<Text>Post</Text>
 		<Template>BDT_Square</Template>
 	</Button>
-
 	<Screen item = "BugReportWindow">
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -379,5 +360,4 @@
 		<Pieces>BUGW_SendButton</Pieces>
 		<Pieces>BUGW_BugTypes</Pieces>
 	</Screen>
-
 </XML>
