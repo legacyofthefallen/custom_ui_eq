@@ -106,7 +106,6 @@
 			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 	</Gauge>
-
 	<Gauge item="PIW_PetTargetHPGauge">
 		<ScreenID>PetTargetHPGauge</ScreenID>
 		<!--<Font>3</Font>-->
@@ -153,7 +152,6 @@
 			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 	</Gauge>
-
 	<Button item="PIW_Pet0_Button">
 		<ScreenID>Pet0_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -172,7 +170,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item="PIW_Pet1_Button">
 		<ScreenID>Pet1_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -191,7 +188,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item="PIW_Pet2_Button">
 		<ScreenID>Pet2_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -210,7 +206,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item="PIW_Pet3_Button">
 		<ScreenID>Pet3_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -229,7 +224,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item="PIW_Pet4_Button">
 		<ScreenID>Pet4_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -248,7 +242,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item="PIW_Pet5_Button">
 		<ScreenID>Pet5_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -267,7 +260,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item="PIW_Pet6_Button">
 		<ScreenID>Pet6_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -304,7 +296,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item="PIW_Pet8_Button">
 		<ScreenID>Pet8_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -323,7 +314,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item="PIW_Pet9_Button">
 		<ScreenID>Pet9_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -342,7 +332,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item="PIW_Pet10_Button">
 		<ScreenID>Pet10_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -454,7 +443,6 @@
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>TileLayoutBox:PIW_BuffButtons</Pieces>
 	</Screen>
-
 	<Screen item="PetInfoWindow">
 		<RelativePosition>false</RelativePosition>
 		<Location>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-
   <Button item="TASK_CheckBoxTemplate">
     <ScreenID>TASK_CheckBoxTemplate</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -20,7 +19,6 @@
     <Text/>
     <Template>BDT_Checkbox</Template>
   </Button>
-
   <Label item ="TASK_TaskLabel">
     <ScreenID/>
     <Font>4</Font>
@@ -39,7 +37,6 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-
   <Label item ="TASK_CountLabel">
     <ScreenID>TASK_CountLabel</ScreenID>
     <Font>4</Font>
@@ -50,7 +47,6 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Text/>
   </Label>
-
   <Label item ="TASK_TaskTimerLabel">
     <ScreenID/>
     <Font>4</Font>
@@ -69,7 +65,6 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>true</AlignRight>
   </Label>
-
   <Label item ="TASK_TaskTimer">
     <ScreenID/>
     <Font>4</Font>
@@ -88,8 +83,6 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-
-
   <Listbox item = "TASK_TaskList">
     <ScreenID>TASK_TaskList</ScreenID>
     <DrawTemplate>WDT_Inner</DrawTemplate>
@@ -133,7 +126,6 @@
     <Style_Border>true</Style_Border>
     <Style_VScroll>true</Style_VScroll>
   </Listbox>
-
   <Screen item = "TASK_TaskWnd">
     <ScreenID>TASK_TaskWnd</ScreenID>
     <!--<Font/>-->
@@ -162,7 +154,6 @@
     <Pieces>TASK_TaskTimer</Pieces>
     <Pieces>TASK_CheckBoxTemplate</Pieces>
   </Screen>
-
   <Label item ="TASK_TaskElementLabel">
     <ScreenID/>
     <Font>4</Font>
@@ -181,7 +172,6 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-
   <Button item = "TASK_PreviewRewardButton">
     <ScreenID>TASK_PreviewRewardButton</ScreenID>
     <!--<Font>3</Font>-->
@@ -239,7 +229,6 @@
     <Text>Remove</Text>
     <Template>BDT_SmallNormal</Template>
   </Button>
-
   <Listbox item = "TASK_TaskElementList">
     <ScreenID>TASK_TaskElementList</ScreenID>
     <DrawTemplate>WDT_Inner</DrawTemplate>
@@ -268,7 +257,6 @@
     <Style_Border>true</Style_Border>
     <Style_VScroll>true</Style_VScroll>
   </Listbox>
-
   <Screen item = "TASK_TaskElementWnd">
     <ScreenID>TASK_TaskElementWnd</ScreenID>
     <!--<Font/>-->
@@ -296,7 +284,6 @@
     <Pieces>TASK_AbandonButton</Pieces>
     <Pieces>TASK_PreviewRewardButton</Pieces>
   </Screen>
-
   <STMLbox item = "TASK_Description">
     <ScreenID>TASK_Description</ScreenID>
     <DrawTemplate>WDT_Inner</DrawTemplate>
@@ -315,7 +302,6 @@
     <Style_Border>true</Style_Border>
     <Text>Description Area</Text>
   </STMLbox>
-
   <VerticalLayoutBox item = "TASK_Layout">
     <ScreenID>TASK_Layout</ScreenID>
     <DrawTemplate>WDT_Inner</DrawTemplate>
@@ -336,14 +322,11 @@
     <Pieces>Screen:TASK_TaskElementWnd</Pieces>
     <Pieces>TASK_Description</Pieces>
   </VerticalLayoutBox>
-
   <!-- Task List page -->
   <Page item = "TaskListPage">
     <ScreenID>TaskListPage</ScreenID>
     <RelativePosition>true</RelativePosition>
-
     <!-- Pages are sized and positioned by their parent tab -->
-
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -358,7 +341,6 @@
     <Style_Sizable>true</Style_Sizable>
     <Pieces>VerticalLayoutBox:TASK_Layout</Pieces>
   </Page>
-
   <!-- Quest History -->
   <Label item ="QUEST_TaskLabel">
     <ScreenID/>
@@ -378,7 +360,6 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-
   <Listbox item = "QUEST_TaskList">
     <ScreenID>QUEST_TaskList</ScreenID>
     <DrawTemplate>WDT_Inner</DrawTemplate>
@@ -406,7 +387,6 @@
     <Style_Border>true</Style_Border>
     <Style_VScroll>true</Style_VScroll>
   </Listbox>
-
   <Screen item = "QUEST_TaskWnd">
     <ScreenID>QUEST_TaskWnd</ScreenID>
     <!--<Font/>-->
@@ -431,7 +411,6 @@
     <Pieces>QUEST_TaskLabel</Pieces>
     <Pieces>QUEST_TaskList</Pieces>
   </Screen>
-
   <Label item ="QUEST_TaskElementLabel">
     <ScreenID/>
     <Font>4</Font>
@@ -450,7 +429,6 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-
   <Listbox item = "QUEST_TaskElementList">
     <ScreenID>QUEST_TaskElementList</ScreenID>
     <DrawTemplate>WDT_Inner</DrawTemplate>
@@ -478,7 +456,6 @@
     <Style_Border>true</Style_Border>
     <Style_VScroll>true</Style_VScroll>
   </Listbox>
-
   <Screen item = "QUEST_TaskElementWnd">
     <ScreenID>QUEST_TaskElementWnd</ScreenID>
     <!--<Font/>-->
@@ -503,7 +480,6 @@
     <Pieces>QUEST_TaskElementLabel</Pieces>
     <Pieces>QUEST_TaskElementList</Pieces>
   </Screen>
-
   <VerticalLayoutBox item = "QUEST_Layout">
     <ScreenID>QUEST_Layout</ScreenID>
     <DrawTemplate>WDT_Inner</DrawTemplate>
@@ -523,14 +499,11 @@
     <Pieces>Screen:QUEST_TaskWnd</Pieces>
     <Pieces>Screen:QUEST_TaskElementWnd</Pieces>
   </VerticalLayoutBox>
-
   <!-- Quest History page -->
   <Page item = "TaskQuestHistoryPage">
     <ScreenID>TaskQuestHistoryPage</ScreenID>
     <RelativePosition>true</RelativePosition>
-
     <!-- Pages are sized and positioned by their parent tab -->
-
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -545,7 +518,6 @@
     <Style_Sizable>true</Style_Sizable>
     <Pieces>VerticalLayoutBox:QUEST_Layout</Pieces>
   </Page>
-
   <!-- Shared Task Members -->
   <Listbox item = "STASK_MemberList">
     <ScreenID>STASK_MemberList</ScreenID>
@@ -576,7 +548,6 @@
     </Columns>
   </Listbox>
   <!-- END members -->
-
   <Button item = "STASK_AddPlayerButton">
     <ScreenID>STASK_AddPlayerButton</ScreenID>
     <!--<Font>3</Font>-->
@@ -596,7 +567,6 @@
     <Text>Add Player</Text>
     <Template>BDT_SmallNormal</Template>
   </Button>
-
   <Button item = "STASK_RemovePlayerButton">
     <ScreenID>STASK_RemovePlayerButton</ScreenID>
     <!--<Font>3</Font>-->
@@ -616,7 +586,6 @@
     <Text>Remove Player</Text>
     <Template>BDT_SmallNormal</Template>
   </Button>
-
   <Button item = "STASK_MakeLeaderButton">
     <ScreenID>STASK_MakeLeaderButton</ScreenID>
     <!--<Font>3</Font>-->
@@ -636,7 +605,6 @@
     <Text>Make Leader</Text>
     <Template>BDT_SmallNormal</Template>
   </Button>
-
   <Button item = "STASK_InviteRaidButton">
     <ScreenID>STASK_InviteRaidButton</ScreenID>
     <!--<Font>3</Font>-->
@@ -656,7 +624,6 @@
     <Text>Invite Raid</Text>
     <Template>BDT_SmallNormal</Template>
   </Button>
-
   <Button item = "STASK_InviteExpedButton">
     <ScreenID>STASK_InviteExpedButton</ScreenID>
     <!--<Font>3</Font>-->
@@ -676,7 +643,6 @@
     <Text>Invite Exped</Text>
     <Template>BDT_SmallNormal</Template>
   </Button>
-
   <Label item="STASK_NumPlayers">
     <ScreenID>STASK_NumPlayers</ScreenID>
     <Text>Number of Players:</Text>
@@ -691,7 +657,6 @@
     <TopAnchorOffset>5</TopAnchorOffset>
     <AutoStretch>true</AutoStretch>
   </Label>
-
   <Label item="STASK_NumPlayersValue">
     <ScreenID>STASK_NumPlayersValue</ScreenID>
     <Text/>
@@ -711,7 +676,6 @@
     <TopAnchorOffset>5</TopAnchorOffset>
     <AutoStretch>true</AutoStretch>
   </Label>
-
   <Label item="STASK_MinPlayers">
     <ScreenID>STASK_MinPlayers</ScreenID>
     <Text>Min Players:</Text>
@@ -726,7 +690,6 @@
     <TopAnchorOffset>5</TopAnchorOffset>
     <AutoStretch>true</AutoStretch>
   </Label>
-
   <Label item="STASK_MinPlayersValue">
     <ScreenID>STASK_MinPlayersValue</ScreenID>
     <Text/>
@@ -746,7 +709,6 @@
     <TopAnchorOffset>5</TopAnchorOffset>
     <AutoStretch>true</AutoStretch>
   </Label>
-
   <Label item="STASK_MaxPlayers">
     <ScreenID>STASK_MaxPlayers</ScreenID>
     <Text>Max Players:</Text>
@@ -761,7 +723,6 @@
     <TopAnchorOffset>5</TopAnchorOffset>
     <AutoStretch>true</AutoStretch>
   </Label>
-
   <Label item="STASK_MaxPlayersValue">
     <ScreenID>STASK_MaxPlayersValue</ScreenID>
     <Text/>
@@ -781,7 +742,6 @@
     <TopAnchorOffset>5</TopAnchorOffset>
     <AutoStretch>true</AutoStretch>
   </Label>
-
   <Label item="STASK_MinLevel">
     <ScreenID>STASK_MinLevel</ScreenID>
     <Text>Min Level:</Text>
@@ -796,7 +756,6 @@
     <TopAnchorOffset>5</TopAnchorOffset>
     <AutoStretch>true</AutoStretch>
   </Label>
-
   <Label item="STASK_MinLevelValue">
     <ScreenID>STASK_MinLevelValue</ScreenID>
     <Text/>
@@ -816,7 +775,6 @@
     <TopAnchorOffset>5</TopAnchorOffset>
     <AutoStretch>true</AutoStretch>
   </Label>
-
   <Label item="STASK_MaxLevel">
     <ScreenID>STASK_MaxLevel</ScreenID>
     <Text>Max Level:</Text>
@@ -831,7 +789,6 @@
     <TopAnchorOffset>5</TopAnchorOffset>
     <AutoStretch>true</AutoStretch>
   </Label>
-
   <Label item="STASK_MaxLevelValue">
     <ScreenID>STASK_MaxLevelValue</ScreenID>
     <Text/>
@@ -851,14 +808,11 @@
     <TopAnchorOffset>5</TopAnchorOffset>
     <AutoStretch>true</AutoStretch>
   </Label>
-
   <!-- Shared Task page -->
   <Page item = "TaskSharedTaskPage">
     <ScreenID>TaskSharedTaskPage</ScreenID>
     <RelativePosition>true</RelativePosition>
-
     <!-- Pages are sized and positioned by their parent tab -->
-
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -888,24 +842,20 @@
     <Pieces>STASK_MaxLevel</Pieces>
     <Pieces>STASK_MaxLevelValue</Pieces>
   </Page>
-
   <TabBox item = "TaskSubwindows">
     <ScreenID>TaskSubwindows</ScreenID>
     <RelativePosition>true</RelativePosition>
-
     <AutoStretch>true</AutoStretch>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-
     <TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
     <PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
     <Pages>TaskListPage</Pages>
     <Pages>TaskSharedTaskPage</Pages>
     <Pages>TaskQuestHistoryPage</Pages>
   </TabBox>
-
   <Screen item = "TaskWnd">
     <!--<ScreenID/>-->
     <!--<Font/>-->

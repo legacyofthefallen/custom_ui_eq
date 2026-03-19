@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-
 	<Label item="MMTW_TypeLabel">
 		<ScreenID>TypeLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -15,7 +14,6 @@
 		</Size>
 		<Text>Type:</Text>
 	</Label>
-
 	<Combobox item="MMTW_TypeComboBox">
 		<ScreenID>TypeComboBox</ScreenID>
 		<EQType>mercenary/MerchantWnd/TypeComboBox</EQType>
@@ -34,7 +32,6 @@
 		<Button>BDT_Combo</Button>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-
 	<Listbox item="MMTW_SubtypeListBox">
 		<ScreenID>SubtypeListBox</ScreenID>
 		<EQType>mercenary/MerchantWnd/SubtypeListBox</EQType>
@@ -54,7 +51,6 @@
 			<Heading>Available Mercenaries</Heading>
 		</Columns>
 	</Listbox>
-
 	<Listbox item="MMTW_StanceListBox">
 		<ScreenID>StanceListBox</ScreenID>
 		<EQType>mercenary/MerchantWnd/StanceListBox</EQType>
@@ -74,7 +70,6 @@
 			<Heading>Stance</Heading>
 		</Columns>
 	</Listbox>
-
 	<VerticalLayoutBox item ="MMTW_SubtypeStanceVerticalLayout">
 		<ScreenID>SubtypeStanceVerticalLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -95,7 +90,6 @@
 		<Pieces>Listbox:MMTW_SubtypeListBox</Pieces>
 		<Pieces>Listbox:MMTW_StanceListBox</Pieces>
 	</VerticalLayoutBox>
-
 	<LayoutBox item ="MMTW_SelectionLayout">
 		<ScreenID>SelectionLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -115,7 +109,6 @@
 		<Pieces>Label:MMTW_TypeLabel</Pieces>
 		<Pieces>Combobox:MMTW_TypeComboBox</Pieces>
 	</LayoutBox>
-
 	<Label item="MMTW_PurchaseCostLabel">
 		<ScreenID>PurchaseCostLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -129,7 +122,6 @@
 		</Size>
 		<Text>Purchase Cost:</Text>
 	</Label>
-
 	<Label item="MMTW_PurchaseCostPlatText">
 		<ScreenID>PurchaseCostPlatText</ScreenID>
 		<EQType>mercenary/MerchantWnd/PurchaseCostPlatText</EQType>
@@ -145,7 +137,6 @@
 		<Text/>
 		<AlignRight>true</AlignRight>
 	</Label>
-
 	<Button item="MMTW_PurchaseCostPlatIcon">
 		<ScreenID>PurchaseCostPlatIcon</ScreenID>
 		<EQType>mercenary/MerchantWnd/PurchaseCostPlatIcon</EQType>
@@ -162,7 +153,6 @@
 			<NormalDecal>A_PlatinumCoin</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Label item="MMTW_PurchaseCostGoldText">
 		<ScreenID>PurchaseCostGoldText</ScreenID>
 		<EQType>mercenary/MerchantWnd/PurchaseCostGoldText</EQType>
@@ -178,7 +168,6 @@
 		<Text/>
 		<AlignRight>true</AlignRight>
 	</Label>
-
 	<Button item="MMTW_PurchaseCostGoldIcon">
 		<ScreenID>PurchaseCostGoldIcon</ScreenID>
 		<EQType>mercenary/MerchantWnd/PurchaseCostGoldIcon</EQType>
@@ -195,7 +184,6 @@
 			<NormalDecal>A_GoldCoin</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Label item="MMTW_AltPurchaseCostText">
 		<ScreenID>AltPurchaseCostText</ScreenID>
 		<EQType>mercenary/MerchantWnd/AltPurchaseCostText</EQType>
@@ -211,7 +199,6 @@
 		<Text/>
 		<AlignRight>true</AlignRight>
 	</Label>
-
 	<Button item="MMTW_AltPurchaseCostIcon">
 		<ScreenID>AltPurchaseCostIcon</ScreenID>
 		<EQType>mercenary/MerchantWnd/AltPurchaseCostIcon</EQType>
@@ -228,7 +215,6 @@
 			<NormalDecal>A_GoldCoin</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Label item="MMTW_UpkeepCostLabel">
 		<ScreenID>UpkeepCostLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -243,7 +229,6 @@
 		</Size>
 		<Text>Upkeep Cost:</Text>
 	</Label>
-
 	<Label item="MMTW_UpkeepCostPlatText">
 		<ScreenID>UpkeepCostPlatText</ScreenID>
 		<EQType>mercenary/MerchantWnd/UpkeepCostPlatText</EQType>
@@ -259,7 +244,6 @@
 		<Text/>
 		<AlignRight>true</AlignRight>
 	</Label>
-
 	<Button item="MMTW_UpkeepCostPlatIcon">
 		<ScreenID>UpkeepCostPlatIcon</ScreenID>
 		<EQType>mercenary/MerchantWnd/UpkeepCostPlatIcon</EQType>
@@ -276,7 +260,6 @@
 			<NormalDecal>A_PlatinumCoin</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Label item="MMTW_UpkeepCostGoldText">
 		<ScreenID>UpkeepCostGoldText</ScreenID>
 		<EQType>mercenary/MerchantWnd/UpkeepCostGoldText</EQType>
@@ -292,7 +275,6 @@
 		<Text/>
 		<AlignRight>true</AlignRight>
 	</Label>
-
 	<Button item="MMTW_UpkeepCostGoldIcon">
 		<ScreenID>UpkeepCostGoldIcon</ScreenID>
 		<EQType>mercenary/MerchantWnd/UpkeepCostGoldIcon</EQType>
@@ -309,7 +291,6 @@
 			<NormalDecal>A_GoldCoin</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Label item="MMTW_AltUpkeepCostText">
 		<ScreenID>AltUpkeepCostText</ScreenID>
 		<EQType>mercenary/MerchantWnd/AltUpkeepCostText</EQType>
@@ -325,7 +306,6 @@
 		<Text/>
 		<AlignRight>true</AlignRight>
 	</Label>
-
 	<Button item="MMTW_AltUpkeepCostIcon">
 		<ScreenID>AltUpkeepCostIcon</ScreenID>
 		<EQType>mercenary/MerchantWnd/AltUpkeepCostIcon</EQType>
@@ -342,7 +322,6 @@
 			<NormalDecal>A_GoldCoin</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Label item="MMTW_AltCurrencyDividerText">
 		<ScreenID>AltCurrencyDividerText</ScreenID>
 		<EQType>mercenary/MerchantWnd/AltCurrencyDividerText</EQType>
@@ -356,7 +335,6 @@
 		</Size>
 		<Text>or</Text>
 	</Label>
-
 	<STMLbox item="MMTW_InfoText">
 		<ScreenID>InfoText</ScreenID>
 		<EQType>mercenary/MerchantWnd/InfoText</EQType>
@@ -373,7 +351,6 @@
 		<Style_Border>true</Style_Border>
 		<TooltipReference>Mercenary Description</TooltipReference>
 	</STMLbox>
-
 	<STMLbox item="MMTW_StanceInfoText">
 		<ScreenID>StanceInfoText</ScreenID>
 		<EQType>mercenary/MerchantWnd/StanceInfoText</EQType>
@@ -390,7 +367,6 @@
 		<Style_Border>true</Style_Border>
 		<TooltipReference>Stance Description</TooltipReference>
 	</STMLbox>
-
 	<VerticalLayoutBox item ="MMTW_InfoTextStanceTextVerticalLayout">
 		<ScreenID>InfoTextStanceTextVerticalLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -411,7 +387,6 @@
 		<Pieces>STMLbox:MMTW_InfoText</Pieces>
 		<Pieces>STMLbox:MMTW_StanceInfoText</Pieces>
 	</VerticalLayoutBox>
-
 	<LayoutBox item ="MMTW_InfoLayout">
 		<ScreenID>InfoLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -427,7 +402,6 @@
 		<Style_Border>false</Style_Border>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_Transparent>true</Style_Transparent>
-
 		<!-- Purchasing -->
 		<Pieces>Label:MMTW_PurchaseCostLabel</Pieces>
 		<Pieces>Label:MMTW_PurchaseCostPlatText</Pieces>
@@ -444,10 +418,8 @@
         <Pieces>Label:MMTW_AltUpkeepCostText</Pieces>
 		<Pieces>Button:MMTW_AltUpkeepCostIcon</Pieces>
 		<Pieces>Label:MMTW_AltCurrencyDividerText</Pieces>
-
 		<Pieces>VerticalLayoutBox:MMTW_InfoTextStanceTextVerticalLayout</Pieces>
 	</LayoutBox>
-
 	<HorizontalLayoutBox item ="MMTW_Layout">
 		<ScreenID>Layout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -468,7 +440,6 @@
 		<Pieces>LayoutBox:MMTW_SelectionLayout</Pieces>
 		<Pieces>LayoutBox:MMTW_InfoLayout</Pieces>
 	</HorizontalLayoutBox>
-
 	<Button item="MMTW_HireButton">
 		<ScreenID>HireButton</ScreenID>
 		<EQType>mercenary/MerchantWnd/HireButton</EQType>
@@ -488,7 +459,6 @@
 		<TooltipReference>Hire your mercenary.</TooltipReference>
 		<Template>BDT_BigNormal</Template>
 	</Button>
-
 	<VerticalLayoutBox item="MMTW_VerticalTopLayout">
 		<ScreenID>VerticalTopLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -509,7 +479,6 @@
 		<Pieces>LayoutBox:MMTW_Layout</Pieces>
 		<Pieces>Button:MMTW_HireButton</Pieces>
 	</VerticalLayoutBox>
-
 	<Screen item = "MMTW_MerchantWnd">
 		<ScreenID>MerchantWnd</ScreenID>
 		<EQType>mercenary/MerchantWnd</EQType>
@@ -534,5 +503,4 @@
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>MMTW_VerticalTopLayout</Pieces>
 	</Screen>
-
 </XML>

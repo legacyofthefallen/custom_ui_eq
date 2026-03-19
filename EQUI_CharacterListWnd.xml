@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-
 	<Ui2DAnimation item="CLW_EQIcon">
 		<Cycle>false</Cycle>
 		<Grid>false</Grid>
@@ -269,7 +268,6 @@
 		</Size>
 		<Animation>CLW_EQIcon</Animation>
 	</StaticAnimation>
-
 	<Screen item="CLW_LogoScreen">
 		<ScreenID>CC_LogoScreen</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -293,7 +291,6 @@
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>CLW_LogoAnim</Pieces>
 	</Screen>
-
 	<StaticAnimation item="CLW_Title">
 		<ScreenID>Title</ScreenID>
 		<Location>
@@ -306,7 +303,6 @@
 		</Size>
 		<Animation>A_CharacterSelect</Animation>
 	</StaticAnimation>
-
 	<StaticAnimation item="CLW_FreePlayerAnim">
 		<ScreenID>CLW_FreePlayerAnim</ScreenID>
 		<AutoStretch>true</AutoStretch>
@@ -364,7 +360,6 @@
 			<Width>30</Width>
 		</Columns>
 	</Listbox>
-
 	<Button item="CLW_Buy_Slot_Button">
 		<ScreenID>Buy_Slot_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -388,7 +383,6 @@
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Label item="CLW_Count_Label">
 		<ScreenID>Count_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -411,7 +405,6 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-
 	<Screen item = "CLW_CharactersScreen">
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -432,7 +425,6 @@
 		<Pieces>CLW_Count_Label</Pieces>
 		<Pieces>CLW_Buy_Slot_Button</Pieces>
 	</Screen>
-
 	<Button item="CLW_Create_Button">
 		<ScreenID>Create_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -474,7 +466,6 @@
 			<CY>18</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item="CLW_Delete_Button">
 		<ScreenID>Delete_Button</ScreenID>
 		<!--<Font>3</Font>-->
@@ -518,7 +509,6 @@
 			<CY>18</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item="CLW_Tutorial_Button">
 		<ScreenID>Tutorial_Button</ScreenID>
 		<!--<Font>3</Font>-->
@@ -562,7 +552,6 @@
 			<CY>18</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item="CLW_Home_Button">
 		<ScreenID>Home_Button</ScreenID>
 		<!--<Font>3</Font>-->
@@ -606,7 +595,6 @@
 			<CY>18</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item="CLW_Play_Button">
 		<ScreenID>Play_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -677,7 +665,6 @@
 		<TextOffsetX>22</TextOffsetX>
 		<TextOffsetY>1</TextOffsetY>
 	</Button>
-
 	<Screen item = "CLW_ButtonsScreen">
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -899,7 +886,6 @@
 		<Pieces>CLW_FreeToAllAccess_Button</Pieces>
 		<Pieces>CLW_SilverToAllAccess_Button</Pieces>
 	</Screen>
-
 	<Button item="CLW_Rotate_Button">
 		<ScreenID>Rotate_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1000,6 +986,4 @@
 		<Pieces>CLW_BottomScreen</Pieces>
 		<Pieces>CLW_MarketplaceButton</Pieces>
 	</Screen>
-
-
 </XML>

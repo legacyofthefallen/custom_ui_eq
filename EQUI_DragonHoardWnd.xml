@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-
 	<Label item="DH_Item_Count_Label">
 		<ScreenID>DH_Item_Count_Label</ScreenID>
 		<Location>
@@ -15,7 +14,6 @@
 		<Text>Total Count:</Text>
 		<NoWrap>true</NoWrap>
 	</Label>
-
 	<Label item="DH_Item_Count_Number">
 		<ScreenID>DH_Item_Count_Number</ScreenID>
 		<Location>
@@ -29,7 +27,6 @@
 		<Text/>
 		<NoWrap>true</NoWrap>
 	</Label>
-
 	<Editbox item="DH_SearchItem_Input">
 		<ScreenID>DH_SearchItem_Input</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -76,7 +73,6 @@
 		<TextOffsetX>10</TextOffsetX>
 		<Template>BDT_FindItem</Template>
 	</Button>
-
 	<Listbox item="DH_Item_List">
 		<ScreenID>DH_Item_List</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -102,7 +98,6 @@
 			<Heading>Qty</Heading>
 		</Columns>
 	</Listbox>
-
 	<Button item="DH_Retrieve_Button">
 		<ScreenID>DH_Retrieve_Button</ScreenID>
 		<AutoStretch>true</AutoStretch>
@@ -116,7 +111,6 @@
 		<Text>Retrieve</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item="DH_Selected_Item_Slot">
 		<ScreenID>DH_Selected_Item_Slot</ScreenID>
 		<AutoStretch>true</AutoStretch>
@@ -228,5 +222,4 @@
 		<Pieces>DH_Preview_Button</Pieces>
 		<Pieces>DH_Exit_Button</Pieces>
 	</Screen>
-
 </XML>

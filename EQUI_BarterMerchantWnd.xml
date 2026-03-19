@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-
 	<Label item = "BTRMERCH_MerchantNameLabel">
 		<ScreenID>MerchantNameLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -19,7 +18,6 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Listbox item = "BTRMERCH_BuyLineList">
 		<ScreenID>BuyLineList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -52,7 +50,6 @@
 			<Heading>Price</Heading>
 		</Columns>
 	</Listbox>
-
 	<Listbox item = "BTRMERCH_DetailList">
 		<ScreenID>DetailList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -81,7 +78,6 @@
 			<Heading>Qty</Heading>
 		</Columns>
 	</Listbox>
-
 	<VerticalLayoutBox item = "BTRMERCH_BuyLineLayout">
 		<ScreenID>BuyLineLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -101,7 +97,6 @@
 		<Pieces>Listbox:BTRMERCH_BuyLineList</Pieces>
 		<Pieces>Listbox:BTRMERCH_DetailList</Pieces>
 	</VerticalLayoutBox>
-
 	<Button item = "BTRMERCH_SellButton">
 		<ScreenID>SellButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -120,7 +115,6 @@
 		<Text>Sell</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Screen item = "BarterMerchantWnd">
 		<ScreenID/>
 		<RelativePosition>false</RelativePosition>
@@ -148,5 +142,4 @@
 		<Pieces>VerticalLayoutBox:BTRMERCH_BuyLineLayout</Pieces>
 		<Pieces>Button:BTRMERCH_SellButton</Pieces>
 	</Screen>
-
 </XML>

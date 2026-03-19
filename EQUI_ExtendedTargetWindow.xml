@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-
 	<Label item="ETW_AggroPct0">
 		<ScreenID>ETW_AggroPct0</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -529,7 +528,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
-
 	<Label item="ETW_AggroPct4">
 		<ScreenID>ETW_AggroPct4</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1321,7 +1319,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
-
 	<Label item="ETW_AggroPct10">
 		<ScreenID>ETW_AggroPct10</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1849,7 +1846,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
-
 	<Label item="ETW_AggroPct14">
 		<ScreenID>ETW_AggroPct14</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -2641,7 +2637,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
-
 	<Label item="ETW_AggroPct20">
 		<ScreenID>ETW_AggroPct20</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -2773,7 +2768,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
-
 	<Label item="ETW_AggroPct21">
 		<ScreenID>ETW_AggroPct21</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -2905,7 +2899,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
-
 	<Label item="ETW_AggroPct22">
 		<ScreenID>ETW_AggroPct22</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -3037,7 +3030,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
-
 	<Screen item="ExtendedTargetWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>

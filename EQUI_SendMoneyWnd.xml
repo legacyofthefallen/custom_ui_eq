@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-
 	<Button item = "SMW_MyMoney0">
 		<ScreenID>SMW_MyMoney0</ScreenID>
 		<!--<Font>3</Font>-->
@@ -112,7 +111,6 @@
 			<CY>18</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "SMW_Deposit_Button">
 		<ScreenID>SMW_Deposit_Button</ScreenID>
 		<!--<Font>3</Font>-->
@@ -133,7 +131,6 @@
 		<Text>Deposit</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item = "SMW_Cancel_Button">
 		<ScreenID>SMW_Cancel_Button</ScreenID>
 		<!--<Font>3</Font>-->
@@ -154,8 +151,6 @@
 		<Text>Cancel</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
-
 	<Screen item = "SendMoneyWnd">
 		<!--<ScreenID/>-->
 		<RelativePosition>false</RelativePosition>
@@ -184,5 +179,4 @@
 		<Pieces>SMW_Deposit_Button</Pieces>
 		<Pieces>SMW_Cancel_Button</Pieces>
 	</Screen>
-
 </XML>

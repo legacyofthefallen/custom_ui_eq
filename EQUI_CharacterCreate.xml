@@ -1302,7 +1302,6 @@
     <Disabled>RaceClassOverlay</Disabled>
     <PressedFlyby>RaceClassOverlay</PressedFlyby>
   </ButtonDrawTemplate>
-
   <Button item="CC_Race_Barbarian_Button_Male">
     <ScreenID>CC_Race_Barbarian_Button_Male</ScreenID>
     <RadioGroup>RaceMale</RadioGroup>
@@ -2584,7 +2583,6 @@
       <CY>48</CY>
     </DecalSize>
   </Button>
-
   <Button item="CC_Class_Bard_Button">
     <ScreenID>CC_Class_Bard_Button</ScreenID>
     <RadioGroup>Class</RadioGroup>
@@ -3369,7 +3367,6 @@
       <CY>48</CY>
     </DecalSize>
   </Button>
-
   <STMLbox item="CC_Help">
     <ScreenID>CC_Help</ScreenID>
     <DrawTemplate>WDT_Inner</DrawTemplate>
@@ -3693,7 +3690,6 @@
       <CY>21</CY>
     </DecalSize>
   </Button>
-
   <Combobox item="CC_HeroicUpgradeSelection">
     <ScreenID>CC_HeroicUpgradeSelection</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -3713,7 +3709,6 @@
     <Style_Border>true</Style_Border>
     <AlignCenter>true</AlignCenter>
   </Combobox>
-
   <Button item="CC_CreateHeroicCharacter_Button">
     <ScreenID>CC_CreateHeroicCharacter_Button</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -3784,7 +3779,6 @@
     <Pieces>CC_HeroicUpgradeSelection</Pieces>
     <Pieces>CC_CreateHeroicCharacter_Button</Pieces>
   </Screen>
-
   <Button item="CC_Advanced_Button">
     <ScreenID>CC_Advanced_Button</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -3948,7 +3942,6 @@
     </BackgroundTextureTint>
     <Template>BDT_Normal</Template>
   </Button>
-
   <Screen item="CC_HelpScreen">
     <ScreenID>CC_HelpScreen</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -3983,7 +3976,6 @@
     <Pieces>CC_Buy_Race_Button</Pieces>
     <Pieces>CC_Buy_Class_Button</Pieces>
   </Screen>
-
   <Button item="CCA_Points_Left_Button">
     <ScreenID>CCA_Points_Left_Button</ScreenID>
     <RelativePosition>true</RelativePosition>

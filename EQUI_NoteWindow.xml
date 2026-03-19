@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-
 	<STMLbox item = "NW_NoteDisplay">
 		<ScreenID>Note</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -28,7 +27,6 @@
 		</Size>
 		<Text/>
 	</STMLbox>
-
 	<StaticAnimation item = "NW_BG1">
 		<ScreenID>BG1</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -81,7 +79,6 @@
 		</Size>
 		<Animation>A_NoteBG04</Animation>
 	</StaticAnimation>
-
 	<Button item = "NW_DoneButton">
 		<ScreenID>DoneButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -105,26 +102,20 @@
 		<!--<<SoundUp/>-->
 		<!--<SoundFlyby/>-->
 	</Button>
-
 	<Button item="NW_ScribeButton">
 		<ScreenID>ScribeButton</ScreenID>
 		<!--<Font>3</Font>-->
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<LeftAnchorOffset>294</LeftAnchorOffset>
-
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<TopAnchorOffset>26</TopAnchorOffset>
-
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<RightAnchorOffset>218</RightAnchorOffset>
-
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<BottomAnchorOffset>2</BottomAnchorOffset>
-
 		<Style_Transparent>false</Style_Transparent>
 		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
@@ -132,26 +123,19 @@
 		<Text>Scribe</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item="NW_CastSpellButton">
 		<ScreenID>CastSpellButton</ScreenID>
-
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<LeftAnchorOffset>130</LeftAnchorOffset>
-
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<TopAnchorOffset>26</TopAnchorOffset>
-
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<RightAnchorOffset>34</RightAnchorOffset>
-
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<BottomAnchorOffset>2</BottomAnchorOffset>
-
 		<Style_Transparent>false</Style_Transparent>
 		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
@@ -159,7 +143,6 @@
 		<Text>Cast Spell</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Screen item = "NoteWindow">
 		<!--<ScreenID/>-->
 		<!--<Font>3</Font>-->
@@ -192,5 +175,4 @@
 		<Pieces>NW_CastSpellButton</Pieces>
 		<Pieces>NW_ScribeButton</Pieces>
 	</Screen>
-
 </XML>

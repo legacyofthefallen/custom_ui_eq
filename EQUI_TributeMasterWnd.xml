@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-
 	<Label item ="TMW_TimeText">
 		<ScreenID>TMW_TimeText</ScreenID>
 		<Font>4</Font>
@@ -200,8 +199,6 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
-
 	<Screen item = "TMW_LabelWnd">
 		<ScreenID>TMW_LabelWnd</ScreenID>
 		<!--<Font/>-->
@@ -235,7 +232,6 @@
 		<Pieces>TMW_TotalPointsText</Pieces>
 		<Pieces>TMW_TotalPointsLabel</Pieces>
 	</Screen>
-
 	<Label item ="TMW_ActiveLabel">
 		<ScreenID/>
 		<Font>4</Font>
@@ -254,7 +250,6 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Listbox item = "TMW_ActiveBenefitList">
 		<ScreenID>TMW_ActiveBenefitList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -282,7 +277,6 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-
 	<Button item = "TMW_DowngradeButton">
 		<ScreenID>TMW_DowngradeButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -302,7 +296,6 @@
 		<Text>Downgrade</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Screen item = "TMW_ActiveBenefitArea">
 		<ScreenID/>
 		<!--<Font/>-->
@@ -328,7 +321,6 @@
 		<Pieces>TMW_ActiveLabel</Pieces>
 		<Pieces>TMW_DowngradeButton</Pieces>
 	</Screen>
-
 	<Label item ="TMW_AvailableBenefitLabel">
 		<ScreenID/>
 		<Font>4</Font>
@@ -347,7 +339,6 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Listbox item = "TMW_AvailableBenefitList">
 		<ScreenID>TMW_AvailableBenefitList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -379,7 +370,6 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-
 	<Button item = "TMW_UpgradeButton">
 		<ScreenID>TMW_UpgradeButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -399,7 +389,6 @@
 		<Text>Upgrade</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Screen item = "TMW_BenefitMasterArea">
 		<ScreenID/>
 		<!--<Font/>-->
@@ -445,8 +434,6 @@
 		<Pieces>Screen:TMW_BenefitMasterArea</Pieces>
 		<Pieces>Screen:TMW_ActiveBenefitArea</Pieces>
 	</HorizontalLayoutBox>
-
-
 	<STMLbox item = "TMW_Description">
 		<ScreenID>TMW_Description</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -465,7 +452,6 @@
 		<Style_Border>false</Style_Border>
 		<Text>Description Area</Text>
 	</STMLbox>
-
 	<Button item = "TMW_SelectedItem">
 		<ScreenID>TMW_SelectedItem</ScreenID>
 		<!--<Font>3</Font>-->
@@ -490,7 +476,6 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-
 	<Label item ="TMW_ValueText">
 		<ScreenID/>
 		<Font>4</Font>
@@ -508,7 +493,6 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-
 	<Label item ="TMW_ValueLabel">
 		<ScreenID>TMW_ValueLabel</ScreenID>
 		<Font>4</Font>
@@ -526,7 +510,6 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Button item = "TMW_CoinButton">
 		<ScreenID>TMW_CoinButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -554,7 +537,6 @@
 			<CY>18</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "TMW_DonateButton">
 		<ScreenID>TMW_DonateButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -572,7 +554,6 @@
 		<Text>Donate</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Screen item = "TMW_DonateWnd">
 		<ScreenID>TMW_DonateWnd</ScreenID>
 		<!--<Font/>-->
@@ -752,6 +733,4 @@
 		<Pieces>TMW_StatusButton</Pieces>
 		<Pieces>TMW_LockButton</Pieces>
 	</Screen>
-
-
 </XML>

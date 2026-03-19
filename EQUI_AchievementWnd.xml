@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-
 	<LayoutStrategy item="ACHI_Layout">
 		<Padding>0</Padding>
 		<ResizeVertical>true</ResizeVertical>
 		<ResizeHorizontal>false</ResizeHorizontal>
 	</LayoutStrategy>
-
 	<Label item="ACHI_AchievementDescription_Label">
 		<ScreenID>ACHI_AchievementDescription_Label</ScreenID>
 		<Text>[Description]</Text>
@@ -24,7 +22,6 @@
 		<Style_Transparent>true</Style_Transparent>
 		<ResizeHeightToText>true</ResizeHeightToText>
 	</Label>
-
 	<Label item="ACHI_AchievementPath_Label">
 		<ScreenID>ACHI_AchievementPath_Label</ScreenID>
 		<Text>[Category -> Branch]</Text>
@@ -110,7 +107,6 @@
 			<B>66</B>
 		</TextColor>
 	</Label>
-
   <Label item="ACHI_AchievementSub_CountLabel">
     <ScreenID>ACHI_AchievementSub_CountLabel</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -318,7 +314,6 @@
 		<Style_Closebox>false</Style_Closebox>
 		<Pieces>VerticalLayoutBox:ACHI_SubAchievements</Pieces>
 	</Screen>
-
 	<StaticTintedBlendAnimation item="ACHI_AchievementIcon">
 		<ScreenID>ACHI_AchievementIcon</ScreenID>
 		<Location>
@@ -363,7 +358,6 @@
 		<Text>View Mine</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Screen item="AchievementWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-
   <STMLbox item ="TRDW_OtherName">
     <ScreenID>TRDW_OtherName</ScreenID>
     <DrawTemplate>WDT_Inner</DrawTemplate>
@@ -20,7 +19,6 @@
     <AlignCenter>true</AlignCenter>
     <AlignRight>false</AlignRight>
   </STMLbox>
-
   <InvSlot item = "TRDW_TradeSlot8">
     <ScreenID>TRDW_TradeSlot8</ScreenID>
     <!--<Font>3</Font>-->
@@ -141,8 +139,6 @@
     <Background>A_RecessedBox</Background>
     <EQType>inventory/Trade 15</EQType>
   </InvSlot>
-
-
   <Button item = "TRDW_HisMoney0">
     <ScreenID>TRDW_HisMoney0</ScreenID>
     <!--<Font>3</Font>-->
@@ -263,8 +259,6 @@
       <CY>18</CY>
     </DecalSize>
   </Button>
-
-
   <STMLbox item ="TRDW_SelfName">
     <ScreenID>TRDW_SelfName</ScreenID>
     <DrawTemplate>WDT_Inner</DrawTemplate>
@@ -403,8 +397,6 @@
     <Background>A_RecessedBox</Background>
     <EQType>inventory/Trade 7</EQType>
   </InvSlot>
-
-
   <Button item = "TRDW_MyMoney0">
     <ScreenID>TRDW_MyMoney0</ScreenID>
     <!--<Font>3</Font>-->
@@ -525,7 +517,6 @@
       <CY>18</CY>
     </DecalSize>
   </Button>
-
   <Button item = "TRDW_Trade_Button">
     <ScreenID>TRDW_Trade_Button</ScreenID>
     <!--<Font>3</Font>-->
@@ -547,7 +538,6 @@
     <!--<SoundUp/>-->
     <!--<SoundFlyby/>-->
   </Button>
-
   <Button item = "TRDW_Cancel_Button">
     <ScreenID>TRDW_Cancel_Button</ScreenID>
     <!--<Font>3</Font>-->
@@ -569,8 +559,6 @@
     <!--<SoundUp/>-->
     <!--<SoundFlyby/>-->
   </Button>
-
-
   <Screen item = "TradeWnd">
     <ScreenID>TradeWnd</ScreenID>
     <!--<Font/>-->
@@ -622,5 +610,4 @@
     <Pieces>TRDW_Trade_Button</Pieces>
     <Pieces>TRDW_Cancel_Button</Pieces>
   </Screen>
-
 </XML>
