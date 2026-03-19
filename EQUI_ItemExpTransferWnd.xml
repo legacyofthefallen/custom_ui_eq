@@ -1,8 +1,6 @@
-<?xml version = "1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
-
 	<Label item = "IEXP_FromItemLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
@@ -20,7 +18,6 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Button item = "IEXP_FromItemIcon">
 		<ScreenID>FromItemIcon</ScreenID>
 		<!--<Font>3</Font>-->
@@ -48,8 +45,6 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-
-
 	<Label item = "IEXP_FromPreviewLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
@@ -67,7 +62,6 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<STMLbox item = "IEXP_FromPreviewView">
 		<ScreenID>FromPreviewView</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -83,9 +77,8 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<Style_Border>true</Style_Border>
-		<Text>Test text</Text>
+		<Text/>
 	</STMLbox>
-
 	<Button item = "IEXP_FromPreviewIcon">
 		<ScreenID>FromPreviewIcon</ScreenID>
 		<!--<Font>3</Font>-->
@@ -120,7 +113,6 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-	
 	<Screen item = "IEXP_FromPreview">
 		<ScreenID>FromPreview</ScreenID>
 		<!--<Font/>-->
@@ -148,7 +140,6 @@
 		<Pieces>IEXP_FromPreviewView</Pieces>
 		<Pieces>IEXP_FromPreviewIcon</Pieces>
 	</Screen>
-	
 	<Label item = "IEXP_CompatibilityLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
@@ -166,7 +157,6 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-
 	<Label item = "IEXP_CompatibilityValue">
 		<ScreenID>CompatibilityValue</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -179,12 +169,11 @@
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<Text>100%</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Label item = "IEXP_MaxTransferLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
@@ -202,7 +191,6 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-	
 	<Label item = "IEXP_MaxTransferValue">
 		<ScreenID>MaxTransferValue</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -215,12 +203,11 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<Text>10</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Button item = "IEXP_TransferButton">
 		<ScreenID>TransferButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -239,7 +226,6 @@
 		<Text>Transfer</Text>
 		<Template>BDT_Square</Template>
 	</Button>
-	
 	<Screen item = "IEXP_Status">
 		<ScreenID>Status</ScreenID>
 		<!--<Font/>-->
@@ -267,7 +253,6 @@
 		<Pieces>IEXP_MaxTransferValue</Pieces>
 		<Pieces>IEXP_TransferButton</Pieces>
 	</Screen>
-	
 	<Label item = "IEXP_ToItemLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
@@ -285,7 +270,6 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Button item = "IEXP_ToItemIcon">
 		<ScreenID>ToItemIcon</ScreenID>
 		<!--<Font>3</Font>-->
@@ -313,7 +297,6 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-
 	<Label item = "IEXP_ToPreviewLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
@@ -331,7 +314,6 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<STMLbox item = "IEXP_ToPreviewView">
 		<ScreenID>ToPreviewView</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -347,9 +329,8 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<Style_Border>true</Style_Border>
-		<Text>Test text</Text>
+		<Text/>
 	</STMLbox>
-
 	<Button item = "IEXP_ToPreviewIcon">
 		<ScreenID>ToPreviewIcon</ScreenID>
 		<!--<Font>3</Font>-->
@@ -384,7 +365,6 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-
 	<Screen item = "IEXP_ToPreview">
 		<ScreenID>ToPreview</ScreenID>
 		<!--<Font/>-->
@@ -412,7 +392,6 @@
 		<Pieces>IEXP_ToPreviewIcon</Pieces>
 		<Pieces>IEXP_ToPreviewLabel</Pieces>
 	</Screen>
-	
 	<VerticalLayoutBox item="IEXP_Layout">
 		<ScreenID>Layout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -433,7 +412,6 @@
 		<Pieces>Screen:IEXP_Status</Pieces>
 		<Pieces>Screen:IEXP_ToPreview</Pieces>
 	</VerticalLayoutBox>	
-
 	<Screen item = "ItemExpTransferWnd">
 		<!--<ScreenID/>-->
 		<!--<Font/>-->
@@ -460,6 +438,4 @@
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>VerticalLayoutBox:IEXP_Layout</Pieces>
 	</Screen>
-
-	
 </XML>
