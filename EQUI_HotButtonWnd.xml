@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
 	<Ui2DAnimation item="A_HotButton1Normal">
@@ -1597,7 +1597,7 @@
 			<CX>10</CX>
 			<CY>11</CY>
 		</Size>
-		<Text>10</Text>
+		<Text/>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Button item="HB_PageDownButton">
@@ -1634,7 +1634,7 @@
 			<CX>10</CX>
 			<CY>11</CY>
 		</Size>
-		<Text>10</Text>
+		<Text/>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 	<Button item="HB_PageRightButton">
