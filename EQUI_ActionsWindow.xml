@@ -1,10 +1,7 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
-
 <!-- Actions Socials Page -->
-
 	<Button item = "ASP_SocialPageLeftButton">
 		<ScreenID>ASP_SocialPageLeftButton</ScreenID>
 		<!--<Font>3</Font>-->	
@@ -17,10 +14,9 @@
 			<CX>22</CX>
 			<CY>12</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<Template>BDT_HSBLeft</Template>
 	</Button>
-
 	<Label item ="ASP_CurrentSocialPageLabel">
 		<ScreenID>ASP_CurrentSocialPageLabel</ScreenID>
 		<Font>2</Font>
@@ -38,7 +34,6 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Button item = "ASP_SocialPageRightButton">
 		<ScreenID>ASP_SocialPageRightButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -51,10 +46,9 @@
 			<CX>22</CX>
 			<CY>12</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<Template>BDT_HSBRight</Template>
 	</Button>
-
 	<Button item = "ASP_SocialButton1">
 		<ScreenID>ASP_SocialButton1</ScreenID>
 		<Font>2</Font>
@@ -67,10 +61,9 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Button item = "ASP_SocialButton7">
 		<ScreenID>ASP_SocialButton7</ScreenID>
 		<Font>2</Font>
@@ -83,10 +76,9 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Button item = "ASP_SocialButton2">
 		<ScreenID>ASP_SocialButton2</ScreenID>
 		<Font>2</Font>
@@ -99,10 +91,9 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Button item = "ASP_SocialButton8">
 		<ScreenID>ASP_SocialButton8</ScreenID>
 		<Font>2</Font>
@@ -115,10 +106,9 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Button item = "ASP_SocialButton3">
 		<ScreenID>ASP_SocialButton3</ScreenID>
 		<Font>2</Font>
@@ -131,10 +121,9 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Button item = "ASP_SocialButton9">
 		<ScreenID>ASP_SocialButton9</ScreenID>
 		<Font>2</Font>
@@ -147,10 +136,9 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Button item = "ASP_SocialButton4">
 		<ScreenID>ASP_SocialButton4</ScreenID>
 		<Font>2</Font>
@@ -163,10 +151,9 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Button item = "ASP_SocialButton10">
 		<ScreenID>ASP_SocialButton10</ScreenID>
 		<Font>2</Font>
@@ -179,10 +166,9 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Button item = "ASP_SocialButton5">
 		<ScreenID>ASP_SocialButton5</ScreenID>
 		<Font>2</Font>
@@ -195,10 +181,9 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Button item = "ASP_SocialButton11">
 		<ScreenID>ASP_SocialButton11</ScreenID>
 		<Font>2</Font>
@@ -211,10 +196,9 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Button item = "ASP_SocialButton6">
 		<ScreenID>ASP_SocialButton6</ScreenID>
 		<Font>2</Font>
@@ -227,10 +211,9 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Button item = "ASP_SocialButton12">
 		<ScreenID>ASP_SocialButton12</ScreenID>
 		<Font>2</Font>
@@ -243,10 +226,9 @@
 			<CX>50</CX>
 			<CY>20</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Page item = "ActionsSocialsPage">
 		<ScreenID>ActionsSocialsPage</ScreenID>
 		<!--<Font>3</Font>-->
@@ -274,9 +256,7 @@
 			<Pieces>ASP_SocialButton11</Pieces>
 			<Pieces>ASP_SocialButton12</Pieces>
 	</Page>
-
 <!-- Actions Main Page -->
-
 	<!-- Note that the Who Button is being "replaced" by the Find button, so here it has been shrunk to have 0x0 dimensions. The button still exists in the window, so you can feel free to put it back in your own custom skin, if you desire.-->
 	<Button item = "AMP_WhoButton">
 		<ScreenID>AMP_WhoButton</ScreenID>
@@ -293,7 +273,6 @@
 		<Text>Who</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item = "AMP_FindButton">
 		<ScreenID>AMP_FindButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -324,7 +303,6 @@
 		<Text>End Find</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item = "AMP_InviteButton">
 		<ScreenID>AMP_InviteButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -339,7 +317,6 @@
 		<Text>Invite</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item = "AMP_FollowButton">
 		<ScreenID>AMP_FollowButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -354,8 +331,6 @@
 		<Text>Follow</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
-
 	<Button item = "AMP_DisbandButton">
 		<ScreenID>AMP_DisbandButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -370,8 +345,6 @@
 		<Text>Disband</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
-	
 	<Button item = "AMP_CampButton">
 		<ScreenID>AMP_CampButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -387,7 +360,6 @@
 		<Text>Camp (Exit)</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item = "AMP_SitButton">
 		<ScreenID>AMP_SitButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -403,7 +375,6 @@
 		<Text>Sit</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item = "AMP_StandButton">
 		<ScreenID>AMP_StandButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -419,7 +390,6 @@
 		<Text>Stand</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item = "AMP_RunButton">
 		<ScreenID>AMP_RunButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -435,7 +405,6 @@
 		<Text>Run</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item = "AMP_WalkButton">
 		<ScreenID>AMP_WalkButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -451,7 +420,6 @@
 		<Text>Walk</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Page item = "ActionsMainPage">
 		<ScreenID>ActionsMainPage</ScreenID>
 		<!--<Font>3</Font>-->
@@ -475,9 +443,7 @@
 			<Pieces>AMP_RunButton</Pieces>
 			<Pieces>AMP_WalkButton</Pieces>
 	</Page>
-
 <!-- Actions Combat Page -->
-
 	<Button item = "ACP_MeleeAttackButton">
 		<ScreenID>ACP_MeleeAttackButton</ScreenID>
 		<Font>1</Font>
@@ -497,7 +463,6 @@
 		</DecalSize>
 		<Template>BDT_Square</Template>
 	</Button>
-
 	<Button item = "ACP_RangeAttackButton">
 		<ScreenID>ACP_RangeAttackButton</ScreenID>
 		<Font>1</Font>
@@ -517,7 +482,6 @@
 		</DecalSize>
 		<Template>BDT_Square</Template>
 	</Button>
-
 	<Button item = "ACP_FirstAbilityButton">
 		<ScreenID>ACP_FirstAbilityButton</ScreenID>
 		<Font>1</Font>
@@ -533,8 +497,6 @@
 		<Text>1</Text>
 		<Template>BDT_Square</Template>
 	</Button>
-
-
 	<Button item = "ACP_SecondAbilityButton">
 		<ScreenID>ACP_SecondAbilityButton</ScreenID>
 		<Font>1</Font>
@@ -550,7 +512,6 @@
 		<Text>2</Text>
 		<Template>BDT_Square</Template>
 	</Button>
-
 	<Button item = "ACP_ThirdAbilityButton">
 		<ScreenID>ACP_ThirdAbilityButton</ScreenID>
 		<Font>1</Font>
@@ -566,7 +527,6 @@
 		<Text>3</Text>
 		<Template>BDT_Square</Template>
 	</Button>
-
 	<Button item = "ACP_FourthAbilityButton">
 		<ScreenID>ACP_FourthAbilityButton</ScreenID>
 		<Font>1</Font>
@@ -582,8 +542,6 @@
 		<Text>4</Text>
 		<Template>BDT_Square</Template>
 	</Button>
-
-
 	<Page item = "ActionsCombatPage">
 		<ScreenID>ActionsCombatPage</ScreenID>
 		<!--<Font>3</Font>-->
@@ -602,9 +560,7 @@
 			<Pieces>ACP_ThirdAbilityButton</Pieces>
 			<Pieces>ACP_FourthAbilityButton</Pieces>
 	</Page>
-
 <!-- Actions Abilities Page -->
-
 	<Button item = "AAP_FirstAbilityButton">
 		<ScreenID>AAP_FirstAbilityButton</ScreenID>
 		<Font>1</Font>
@@ -620,7 +576,6 @@
 		<Text>1</Text>
 		<Template>BDT_Square</Template>
 	</Button>
-
 	<Button item = "AAP_SecondAbilityButton">
 		<ScreenID>AAP_SecondAbilityButton</ScreenID>
 		<Font>1</Font>
@@ -636,7 +591,6 @@
 		<Text>2</Text>
 		<Template>BDT_Square</Template>
 	</Button>
-
 	<Button item = "AAP_ThirdAbilityButton">
 		<ScreenID>AAP_ThirdAbilityButton</ScreenID>
 		<Font>1</Font>
@@ -652,8 +606,6 @@
 		<Text>3</Text>
 		<Template>BDT_Square</Template>
 	</Button>
-
-
 	<Button item = "AAP_FourthAbilityButton">
 		<ScreenID>AAP_FourthAbilityButton</ScreenID>
 		<Font>1</Font>
@@ -669,7 +621,6 @@
 		<Text>4</Text>
 		<Template>BDT_Square</Template>
 	</Button>
-
 	<Button item = "AAP_FifthAbilityButton">
 		<ScreenID>AAP_FifthAbilityButton</ScreenID>
 		<Font>1</Font>
@@ -685,7 +636,6 @@
 		<Text>5</Text>
 		<Template>BDT_Square</Template>
 	</Button>
-
 	<Button item = "AAP_SixthAbilityButton">
 		<ScreenID>AAP_SixthAbilityButton</ScreenID>
 		<Font>1</Font>
@@ -701,8 +651,6 @@
 		<Text>6</Text>
 		<Template>BDT_Square</Template>
 	</Button>
-
-
 	<Page item = "ActionsAbilitiesPage">
 		<ScreenID>ActionsAbilitiesPage</ScreenID>
 		<!--<Font>3</Font>-->
@@ -721,21 +669,16 @@
 			<Pieces>AAP_FifthAbilityButton</Pieces>
 			<Pieces>AAP_SixthAbilityButton</Pieces>
 	</Page>
-
-
 <!-- TabBox Brings all the Actions Pages Together -->
-
 	<TabBox item = "ACTW_ActionsSubwindows">
 		<ScreenID>ACTW_ActionsSubwindows</ScreenID>
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
-
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-
 		<TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
 		<PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
 			<Pages>ActionsMainPage</Pages>
@@ -743,8 +686,6 @@
 			<Pages>ActionsCombatPage</Pages>
 			<Pages>ActionsSocialsPage</Pages>
 	</TabBox>
-
-
 	<Screen item = "ActionsWindow">
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -768,5 +709,4 @@
 		<Escapable>false</Escapable>
 		<Pieces>ACTW_ActionsSubwindows</Pieces>
 	</Screen>
-
 </XML>
