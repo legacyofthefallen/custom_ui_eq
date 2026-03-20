@@ -1,7 +1,6 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
 	<Editbox item = "TEW_Entry">
 		<ScreenID>Entry</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -16,7 +15,6 @@
 			<CY>24</CY>
 		</Size>
 	</Editbox>
-
 	<Label item ="TEW_Prompt">
 		<ScreenID>Prompt</ScreenID>
 		<!--<Font>3</Font>-->
@@ -34,7 +32,6 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Button item = "TEW_OKButton">
 		<ScreenID>OK</ScreenID>
 		<!--<Font>3</Font>-->
@@ -54,7 +51,6 @@
 		<Text>OK</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item = "TEW_CancelButton">
 		<ScreenID>Cancel</ScreenID>
 		<!--<Font>3</Font>-->
@@ -74,8 +70,6 @@
 		<Text>Cancel</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
-
 	<Screen item = "TextEntryWnd">
 		<!--<ScreenID/>-->
 		<!--<Font/>-->
@@ -102,5 +96,4 @@
 		<Pieces>TEW_CancelButton</Pieces>
 		<Pieces>TEW_Prompt</Pieces>
 	</Screen>
-
 </XML>
