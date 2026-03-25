@@ -104,7 +104,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<TooltipReference>Get tech support</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>TECH CHAT</Text>
+		<Text/>
 		<TextColor>
 				<R>255</R>
 				<G>255</G>
