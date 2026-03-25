@@ -1,7 +1,6 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" decoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
 	<Listbox item = "AW_AuraList">
 		<ScreenID>AuraList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -26,7 +25,6 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-
 	<Screen item = "AuraWindow">
 		<!--<ScreenID/>-->
 		<RelativePosition>false</RelativePosition>
@@ -53,5 +51,4 @@
 		<Escapable>false</Escapable>
 		<Pieces>AW_AuraList</Pieces>
 	</Screen>
-
 </XML>
