@@ -1,23 +1,19 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
 	<Button item = "Credits_OKButton">
 		<ScreenID>OKButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
-
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>40</LeftAnchorOffset>
 		<RightAnchorOffset>155</RightAnchorOffset>
 		<TopAnchorOffset>55</TopAnchorOffset>
 		<BottomAnchorOffset>24</BottomAnchorOffset>
-
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
-
 		<TooltipReference>Close this window.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>OK</Text>
@@ -34,7 +30,6 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	
 	<Label item = "Credits_WndLabel">
 		<ScreenID>WndLabel</ScreenID>
 		<Font>5</Font>
@@ -57,7 +52,6 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 <!-- Current -->
 	<STMLbox item = "Credits_Current">
 		<ScreenID>Credits_Current</ScreenID>
@@ -98,7 +92,6 @@
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>Credits_Current</Pieces>
 	</Page>
-	
 <!-- Previous -->
 	<STMLbox item = "Credits_Previous">
 		<ScreenID>Credits_Previous</ScreenID>
@@ -139,7 +132,6 @@
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>Credits_Previous</Pieces>
 	</Page>
-	
 	<TabBox item = "Credits_TabWnd">
 		<ScreenID>Credits_TabWnd</ScreenID>
 		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
@@ -160,7 +152,6 @@
 		<Pages>Credits_Current_Page</Pages>
 		<Pages>Credits_Previous_Page</Pages>
 	</TabBox>
-
 	<Screen item = "credits">
 		<!--<ScreenID/>-->
 		<RelativePosition>true</RelativePosition>
@@ -172,7 +163,6 @@
 			<CX>640</CX>
 			<CY>480</CY>
 		</Size>
-
 		<Text>News</Text>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
@@ -194,7 +184,4 @@
 		<Pieces>Credits_TabWnd</Pieces>
 		<Pieces>Credits_WndLabel</Pieces>
 	</Screen>
-
-
-
 </XML>
