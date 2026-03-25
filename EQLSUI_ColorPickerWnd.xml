@@ -13,7 +13,7 @@
 			<CY>20</CY>
 		</Size>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>
+		<Text/>
 		<TextColor>
 				<R>240</R>
 				<G>0</G>
@@ -83,7 +83,7 @@
 			<CY>20</CY>
 		</Size>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<TextColor>
 				<R>0</R>
 				<G>0</G>
@@ -118,7 +118,7 @@
 			<CY>20</CY>
 		</Size>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<TextColor>
 				<R>240</R>
 				<G>240</G>
@@ -153,7 +153,7 @@
 			<CY>20</CY>
 		</Size>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<TextColor>
 				<R>240</R>
 				<G>240</G>
@@ -188,7 +188,7 @@
 			<CY>20</CY>
 		</Size>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<TextColor>
 				<R>127</R>
 				<G>0</G>
@@ -223,7 +223,7 @@
 			<CY>20</CY>
 		</Size>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<TextColor>
 				<R>0</R>
 				<G>127</G>
@@ -258,7 +258,7 @@
 			<CY>20</CY>
 		</Size>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<TextColor>
 				<R>0</R>
 				<G>0</G>
@@ -293,7 +293,7 @@
 			<CY>20</CY>
 		</Size>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<TextColor>
 				<R>127</R>
 				<G>127</G>
@@ -328,7 +328,7 @@
 			<CY>20</CY>
 		</Size>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<TextColor>
 				<R>127</R>
 				<G>127</G>
@@ -363,7 +363,7 @@
 			<CY>20</CY>
 		</Size>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<TextColor>
 				<R>0</R>
 				<G>240</G>
@@ -398,7 +398,7 @@
 			<CY>20</CY>
 		</Size>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<TextColor>
 				<R>0</R>
 				<G>127</G>
@@ -433,7 +433,7 @@
 			<CY>20</CY>
 		</Size>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<TextColor>
 				<R>240</R>
 				<G>127</G>
@@ -468,7 +468,7 @@
 			<CY>20</CY>
 		</Size>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<TextColor>
 				<R>127</R>
 				<G>64</G>
@@ -503,7 +503,7 @@
 			<CY>20</CY>
 		</Size>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<TextColor>
 				<R>0</R>
 				<G>0</G>
@@ -634,7 +634,7 @@
 			<CY>30</CY>
 		</Size>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<TextColor>
 				<R>0</R>
 				<G>0</G>
