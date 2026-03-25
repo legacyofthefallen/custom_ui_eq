@@ -1,7 +1,6 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
 	<Button item = "CPW_TC0Button">
 		<ScreenID>CPW_TC0Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -14,7 +13,7 @@
 			<CY>20</CY>
 		</Size>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+		<Text>
 		<TextColor>
 				<R>240</R>
 				<G>0</G>
@@ -49,7 +48,7 @@
 			<CY>20</CY>
 		</Size>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<TextColor>
 				<R>0</R>
 				<G>240</G>
@@ -527,7 +526,6 @@
 			<NormalDecal>A_WhitePixel</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Editbox item = "CPW_RedSliderInput">
 		<ScreenID>CPW_RedSliderInput</ScreenID>
 		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
@@ -547,7 +545,6 @@
 				<B>0</B>
 		</TextColor>
 	</Editbox>
-
 	<Slider item = "CPW_RedSlider">
 		<ScreenID>CPW_RedSlider</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -561,7 +558,6 @@
 		</Size>
 		<SliderArt>SDT_DefSlider</SliderArt>
 	</Slider>
-
 	<Editbox item = "CPW_GreenSliderInput">
 		<ScreenID>CPW_GreenSliderInput</ScreenID>
 		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
@@ -581,7 +577,6 @@
 				<B>0</B>
 		</TextColor>
 	</Editbox>
-
 	<Slider item = "CPW_GreenSlider">
 		<ScreenID>CPW_GreenSlider</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -595,7 +590,6 @@
 		</Size>
 		<SliderArt>SDT_DefSlider</SliderArt>
 	</Slider>
-
 	<Editbox item = "CPW_BlueSliderInput">
 		<ScreenID>CPW_BlueSliderInput</ScreenID>
 		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
@@ -615,7 +609,6 @@
 				<B>200</B>
 		</TextColor>
 	</Editbox>
-
 	<Slider item = "CPW_BlueSlider">
 		<ScreenID>CPW_BlueSlider</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -629,7 +622,6 @@
 		</Size>
 		<SliderArt>SDT_DefSlider</SliderArt>
 	</Slider>
-
 	<Button item = "CPW_TC15Button">
 		<ScreenID>CPW_TC15Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -665,7 +657,6 @@
 			<NormalDecal>A_WhitePixel</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Button item = "CPW_Accept_Button">
 		<ScreenID>CPW_Accept_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -693,7 +684,6 @@
 			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Screen item = "ColorPickerWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -737,5 +727,4 @@
 		<Pieces>CPW_TC15Button</Pieces>
 		<Pieces>CPW_Accept_Button</Pieces>
 	</Screen>
-
 </XML>
