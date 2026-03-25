@@ -1,7 +1,6 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
 <!-- Define textures/animations here since they are not commonly used -->
 	<TextureInfo item = "EQLS_ESRBSplash01.tga">
 		<Size>
@@ -234,8 +233,6 @@
 		<Animation>A_ESRBSplash06</Animation>
 	</StaticAnimation>
 <!-- End textures/animations -->
-
-
 	<Screen item = "ratingsplash">
 		<!--<ScreenID/>-->
 		<RelativePosition>true</RelativePosition>
