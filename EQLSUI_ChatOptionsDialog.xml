@@ -1,8 +1,6 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
-
 <!-- The various color options -->
 	<Button item = "CHATOPTIONS_AdminNameButton">
 		<ScreenID>CHATOPTIONS_AdminNameButton</ScreenID>
@@ -60,7 +58,6 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Button item = "CHATOPTIONS_GuideNameButton">
 		<ScreenID>CHATOPTIONS_GuideNameButton</ScreenID>
 		<Font>4</Font>
@@ -117,7 +114,6 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Button item = "CHATOPTIONS_PlayerNameButton">
 		<ScreenID>CHATOPTIONS_PlayerNameButton</ScreenID>
 		<Font>4</Font>
@@ -259,7 +255,6 @@
 		</ButtonDrawTemplate>
 	</Button>
 <!-- END The various color options -->
-
 <!-- Font -->
 	<Button item = "CHATOPTIONS_FontLeftButton">
 		<ScreenID>CHATOPTIONS_FontLeftButton</ScreenID>
@@ -275,7 +270,7 @@
 		</Size>
 		<TooltipReference></TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<TextColor>
 				<R>255</R>
 				<G>255</G>
@@ -301,7 +296,7 @@
 			<CX>25</CX>
 			<CY>25</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<TextColor>
 				<R>255</R>
 				<G>218</G>
@@ -325,7 +320,7 @@
 		</Size>
 		<TooltipReference></TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<TextColor>
 				<R>255</R>
 				<G>255</G>
@@ -362,7 +357,6 @@
 		<AlignRight>false</AlignRight>
 	</Label>
 <!-- END Font -->
-
 <!-- Misc -->
 	<Button item = "CHATOPTIONS_RestoreDefaultsButton">
 		<ScreenID>CHATOPTIONS_RestoreDefaultsButton</ScreenID>
@@ -449,8 +443,6 @@
 		</ButtonDrawTemplate>
 	</Button>
 <!-- END Misc -->
-
-
 <!-- The actual box of the dialog -->	
 	<Screen item = "CHATOPTIONS_Box">
 		<ScreenID>CHATOPTIONS_Box</ScreenID>
@@ -464,7 +456,6 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-
 		<Text>Confirmation</Text>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
@@ -476,7 +467,6 @@
 		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
-		
 		<Pieces>CHATOPTIONS_AdminNameButton</Pieces>
 		<Pieces>CHATOPTIONS_AdminChatButton</Pieces>
 		<Pieces>CHATOPTIONS_GuideNameButton</Pieces>
@@ -494,8 +484,6 @@
 		<Pieces>CHATOPTIONS_OKButton</Pieces>
 		<Pieces>CHATOPTIONS_CancelButton</Pieces>
 	</Screen>
-
-
 <!-- The wrapper window -->
 	<Screen item = "chatoptions">
 		<!--<ScreenID/>-->
@@ -521,5 +509,4 @@
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>CHATOPTIONS_Box</Pieces>
 	</Screen>
-
 </XML>
