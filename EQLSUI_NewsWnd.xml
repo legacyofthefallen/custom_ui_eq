@@ -1,23 +1,19 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
 	<Button item = "NEWS_OKButton">
 		<ScreenID>OKButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
-
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>40</LeftAnchorOffset>
 		<RightAnchorOffset>155</RightAnchorOffset>
 		<TopAnchorOffset>55</TopAnchorOffset>
 		<BottomAnchorOffset>24</BottomAnchorOffset>
-
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
-
 		<TooltipReference>Close this window.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>OK</Text>
@@ -34,7 +30,6 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	
 	<STMLbox item = "NEWS_Display">
 		<ScreenID>Display</ScreenID>
 		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
@@ -73,7 +68,6 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	
 	<Screen item = "news">
 		<!--<ScreenID/>-->
 		<RelativePosition>true</RelativePosition>
@@ -85,7 +79,6 @@
 			<CX>640</CX>
 			<CY>480</CY>
 		</Size>
-
 		<Text>News</Text>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
@@ -107,5 +100,4 @@
 		<Pieces>NEWS_Display</Pieces>
 		<Pieces>NEWS_WndLabel</Pieces>
 	</Screen>
-
 </XML>
