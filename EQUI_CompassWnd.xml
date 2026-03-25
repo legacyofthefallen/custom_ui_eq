@@ -1,7 +1,6 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
 	<StaticAnimation item = "CMPW_Overlay">
 		<ScreenID>CompassOverlay</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -15,7 +14,6 @@
 		</Size>
 		<Animation>A_CompassOverlay</Animation>
 	</StaticAnimation>
-
 	<StaticAnimation item = "CMPW_Strip1">
 		<ScreenID>CompassStrip1</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -29,7 +27,6 @@
 		</Size>
 		<Animation>A_CompassStrip</Animation>
 	</StaticAnimation>
-
 	<StaticAnimation item = "CMPW_Strip2">
 		<ScreenID>CompassStrip2</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -43,7 +40,6 @@
 		</Size>
 		<Animation>A_CompassStrip</Animation>
 	</StaticAnimation>
-
 	<Screen item = "CompassWindow">
 		<!--<ScreenID/>-->
 		<!--<Font/>-->
@@ -71,5 +67,4 @@
 		<Pieces>CMPW_Strip2</Pieces>
 		<Pieces>CMPW_Overlay</Pieces>
 	</Screen>
-
 </XML>
