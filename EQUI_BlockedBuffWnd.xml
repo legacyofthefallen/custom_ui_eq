@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
   <Button item = "BBW_AddSpellToBlock">
@@ -22,7 +22,6 @@
     <Text>Add by name</Text>
     <Template>BDT_Normal</Template>
   </Button>
-
   <Editbox item = "BBW_EditSpellToBlock">
     <ScreenID>BBW_EditSpellToBlock</ScreenID>
     <DrawTemplate>WDT_Inner</DrawTemplate>
@@ -43,7 +42,6 @@
     <Style_Border>true</Style_Border>
     <TooltipReference>Enter a name for this label here.</TooltipReference>
   </Editbox>
-
   <Button item="BBW_Blocked_Buff_Template">
     <ScreenID>Blocked_Buff_Template</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -61,7 +59,6 @@
       <CY>30</CY>
     </DecalSize>
   </Button>
-
   <TileLayoutBox item ="BBW_Buttons">
     <ScreenID>Blocked_Buff_Buttons</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -78,7 +75,6 @@
     <FirstPieceTemplate>true</FirstPieceTemplate>
     <Pieces>BBW_Blocked_Buff_Template</Pieces>
   </TileLayoutBox>
-
   <Screen item = "BlockedBuffWnd">
     <RelativePosition>false</RelativePosition>
     <Location>
@@ -102,6 +98,5 @@
     <Pieces>TileLayoutBox:BBW_Buttons</Pieces>
     <Pieces>BBW_AddSpellToBlock</Pieces>
     <Pieces>BBW_EditSpellToBlock</Pieces>
-
   </Screen>
 </XML>
