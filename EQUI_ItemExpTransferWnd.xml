@@ -32,7 +32,7 @@
 		</Size>
 		<TooltipReference>Place Source item for transfer here</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<ButtonDrawTemplate>
 			<Normal>A_RecessedBox</Normal>
 		</ButtonDrawTemplate>
@@ -284,7 +284,7 @@
 		</Size>
 		<TooltipReference>Place Destination item for transfer here</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text></Text>
+		<Text/>
 		<ButtonDrawTemplate>
 			<Normal>A_RecessedBox</Normal>
 		</ButtonDrawTemplate>
