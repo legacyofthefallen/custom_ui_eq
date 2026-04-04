@@ -277,7 +277,7 @@
 	</Label>
 	<Button item="IFW_FuseButton">
 		<ScreenID>IFW_FuseButton</ScreenID>
-		<TooltipReference></TooltipReference>
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>

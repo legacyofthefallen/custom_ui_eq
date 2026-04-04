@@ -97,11 +97,11 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Columns>
       <Width>25</Width>
-      <Heading></Heading>
+      <Heading/>
     </Columns>
     <Columns>
       <Width>25</Width>
-      <Heading></Heading>
+      <Heading/>
     </Columns>
     <Columns>
       <Width>220</Width>
@@ -374,7 +374,7 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Columns>
       <Width>40</Width>
-      <Heading></Heading>
+      <Heading/>
     </Columns>
     <Columns>
       <Width>220</Width>

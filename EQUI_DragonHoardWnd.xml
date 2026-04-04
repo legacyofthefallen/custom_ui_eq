@@ -87,7 +87,7 @@
 		<Style_VScroll>true</Style_VScroll>
 		<Columns>
 			<Width>24</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 		<Columns>
 			<Width>200</Width>

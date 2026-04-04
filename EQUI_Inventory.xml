@@ -6036,7 +6036,7 @@
 		<Style_VScroll>true</Style_VScroll>
 		<Columns>
 			<Width>14</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 		<Columns>
 			<Width>175</Width>
@@ -6052,7 +6052,7 @@
 		</Columns>
 		<Columns>
 			<Width>20</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 	</Listbox>
 	<STMLbox item="IW_AltCurr_PointInfo">

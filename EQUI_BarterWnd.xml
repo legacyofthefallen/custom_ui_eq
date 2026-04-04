@@ -35,7 +35,7 @@
 		<Style_VScroll>true</Style_VScroll>
 		<Columns>
 			<Width>24</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 		<Columns>
 			<Width>250</Width>
@@ -154,7 +154,7 @@
 		<Style_VScroll>true</Style_VScroll>
 		<Columns>
 			<Width>24</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 		<Columns>
 			<Width>140</Width>
@@ -235,7 +235,7 @@
 		<Style_VScroll>true</Style_VScroll>
 		<Columns>
 			<Width>24</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 		<Columns>
 			<Width>140</Width>
@@ -498,7 +498,7 @@
 		</Columns>
 		<Columns>
 			<Width>24</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 		<Columns>
 			<Width>150</Width>
