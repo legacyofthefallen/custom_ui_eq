@@ -266,7 +266,7 @@
 		</Columns>
 		<Columns>
 			<Width>0</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 	</Listbox>
 	<!-- Put the list in a window so we can have a background -->
@@ -316,7 +316,7 @@
 		</Columns>
 		<Columns>
 			<Width>0</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 	</Listbox>
 	<!-- Put the list in a window so we can have a background -->

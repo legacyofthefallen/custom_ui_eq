@@ -84,7 +84,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<Columns>
 			<Width>24</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 		<Columns>
 			<Width>180</Width>
