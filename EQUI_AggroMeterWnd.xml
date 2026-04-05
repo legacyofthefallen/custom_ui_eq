@@ -48,7 +48,7 @@
 	<Label item="AMW_AggroGaugeLabel">
 		<ScreenID>AMW_AggroGaugeLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Text></Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<Font>2</Font>
