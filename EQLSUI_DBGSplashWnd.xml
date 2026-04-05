@@ -2,47 +2,47 @@
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
 <!-- Define textures/animations here since they are not commonly used -->
-	<TextureInfo item = "EQLS_ESRBSplash01.tga">
+	<TextureInfo item = "eqls_dbgsplash01.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQLS_ESRBSplash02.tga">
+	<TextureInfo item = "eqls_dbgsplash02.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQLS_ESRBSplash03.tga">
+	<TextureInfo item = "eqls_dbgsplash03.tga">
 		<Size>
 			<CX>128</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQLS_ESRBSplash04.tga">
+	<TextureInfo item = "eqls_dbgsplash04.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQLS_ESRBSplash05.tga">
+	<TextureInfo item = "eqls_dbgsplash05.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQLS_ESRBSplash06.tga">
+	<TextureInfo item = "eqls_dbgsplash06.tga">
 		<Size>
 			<CX>128</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-<!--2DAnimations -->
-	<Ui2DAnimation item = "A_ESRBSplash01">
+<!-- 2D animations -->
+	<Ui2DAnimation item = "A_DBGSplash01">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>EQLS_ESRBSplash01.tga</Texture>
+			<Texture>eqls_dbgsplash01.tga</Texture>
 			<Location>
 				<X>0</X>
 				<Y>0</Y>
@@ -58,10 +58,10 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_ESRBSplash02">
+	<Ui2DAnimation item = "A_DBGSplash02">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>EQLS_ESRBSplash02.tga</Texture>
+			<Texture>eqls_dbgsplash02.tga</Texture>
 			<Location>
 				<X>0</X>
 				<Y>0</Y>
@@ -77,10 +77,10 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_ESRBSplash03">
+	<Ui2DAnimation item = "A_DBGSplash03">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>EQLS_ESRBSplash03.tga</Texture>
+			<Texture>eqls_dbgsplash03.tga</Texture>
 			<Location>
 				<X>0</X>
 				<Y>0</Y>
@@ -96,10 +96,10 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_ESRBSplash04">
+	<Ui2DAnimation item = "A_DBGSplash04">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>EQLS_ESRBSplash04.tga</Texture>
+			<Texture>eqls_dbgsplash04.tga</Texture>
 			<Location>
 				<X>0</X>
 				<Y>0</Y>
@@ -115,10 +115,10 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_ESRBSplash05">
+	<Ui2DAnimation item = "A_DBGSplash05">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>EQLS_ESRBSplash05.tga</Texture>
+			<Texture>eqls_dbgsplash05.tga</Texture>
 			<Location>
 				<X>0</X>
 				<Y>0</Y>
@@ -134,10 +134,10 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_ESRBSplash06">
+	<Ui2DAnimation item = "A_DBGSplash06">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>EQLS_ESRBSplash06.tga</Texture>
+			<Texture>eqls_dbgsplash06.tga</Texture>
 			<Location>
 				<X>0</X>
 				<Y>0</Y>
@@ -154,8 +154,8 @@
 		</Frames>
 	</Ui2DAnimation>
 <!-- Static animations -->
-	<StaticAnimation item = "ESRB_Background1">
-		<ScreenID>SPLASH_Background1</ScreenID>
+	<StaticAnimation item = "DBG_Background1">
+		<ScreenID>DBG_Background1</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
@@ -165,10 +165,10 @@
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
-		<Animation>A_ESRBSplash01</Animation>
+		<Animation>A_DBGSplash01</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "ESRB_Background2">
-		<ScreenID>SPLASH_Background2</ScreenID>
+	<StaticAnimation item = "DBG_Background2">
+		<ScreenID>DBG_Background2</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>256</X>
@@ -178,10 +178,10 @@
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
-		<Animation>A_ESRBSplash02</Animation>
+		<Animation>A_DBGSplash02</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "ESRB_Background3">
-		<ScreenID>SPLASH_Background3</ScreenID>
+	<StaticAnimation item = "DBG_Background3">
+		<ScreenID>DBG_Background3</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>512</X>
@@ -191,10 +191,10 @@
 			<CX>128</CX>
 			<CY>256</CY>
 		</Size>
-		<Animation>A_ESRBSplash03</Animation>
+		<Animation>A_DBGSplash03</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "ESRB_Background4">
-		<ScreenID>SPLASH_Background4</ScreenID>
+	<StaticAnimation item = "DBG_Background4">
+		<ScreenID>DBG_Background4</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
@@ -204,10 +204,10 @@
 			<CX>256</CX>
 			<CY>224</CY>
 		</Size>
-		<Animation>A_ESRBSplash04</Animation>
+		<Animation>A_DBGSplash04</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "ESRB_Background5">
-		<ScreenID>SPLASH_Background5</ScreenID>
+	<StaticAnimation item = "DBG_Background5">
+		<ScreenID>DBG_Background5</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>256</X>
@@ -217,10 +217,10 @@
 			<CX>256</CX>
 			<CY>224</CY>
 		</Size>
-		<Animation>A_ESRBSplash05</Animation>
+		<Animation>A_DBGSplash05</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "ESRB_Background6">
-		<ScreenID>SPLASH_Background6</ScreenID>
+	<StaticAnimation item = "DBG_Background6">
+		<ScreenID>DBG_Background6</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>512</X>
@@ -230,10 +230,10 @@
 			<CX>128</CX>
 			<CY>224</CY>
 		</Size>
-		<Animation>A_ESRBSplash06</Animation>
+		<Animation>A_DBGSplash06</Animation>
 	</StaticAnimation>
 <!-- End textures/animations -->
-	<Screen item = "ratingsplash">
+	<Screen item = "dbgsplash">
 		<!--<ScreenID/>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -255,11 +255,11 @@
 		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>false</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
-		<Pieces>ESRB_Background1</Pieces>
-		<Pieces>ESRB_Background2</Pieces>
-		<Pieces>ESRB_Background3</Pieces>
-		<Pieces>ESRB_Background4</Pieces>
-		<Pieces>ESRB_Background5</Pieces>
-		<Pieces>ESRB_Background6</Pieces>
+		<Pieces>DBG_Background1</Pieces>
+		<Pieces>DBG_Background2</Pieces>
+		<Pieces>DBG_Background3</Pieces>
+		<Pieces>DBG_Background4</Pieces>
+		<Pieces>DBG_Background5</Pieces>
+		<Pieces>DBG_Background6</Pieces>
 	</Screen>
 </XML>
