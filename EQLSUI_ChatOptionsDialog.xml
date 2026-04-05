@@ -268,7 +268,7 @@
 			<CX>19</CX>
 			<CY>23</CY>
 		</Size>
-		<TooltipReference></TooltipReference>
+		<TooltipReference/>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
@@ -318,7 +318,7 @@
 			<CX>19</CX>
 			<CY>23</CY>
 		</Size>
-		<TooltipReference></TooltipReference>
+		<TooltipReference/>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>

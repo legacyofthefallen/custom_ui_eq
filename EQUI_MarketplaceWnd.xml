@@ -478,7 +478,7 @@
 		<Style_Transparent>true</Style_Transparent>
 		<Columns>
 			<Width>10</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 		<Columns>
 			<Location>
@@ -490,7 +490,7 @@
 				<CY>19</CY>
 			</DecalSize>
 			<Width>24</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 		<Columns>
 			<Width>310</Width>
@@ -506,7 +506,7 @@
 				<CY>14</CY>
 			</DecalSize>
 			<Width>18</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 		<Columns>
 			<Width>75</Width>

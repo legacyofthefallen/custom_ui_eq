@@ -216,7 +216,7 @@
 		<Columns>
 			<Width>10</Width>
 			<Tooltip>Voice Chat</Tooltip>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 	</Listbox>
 	<Button item="RAID_LockButton">

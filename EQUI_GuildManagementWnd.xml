@@ -85,11 +85,11 @@
 		</Columns>
 		<Columns>
 			<Width>15</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 		<Columns>
 			<Width>10</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 	</Listbox>
 	<Button item="GT_MakeLeaderButton">
@@ -844,7 +844,7 @@
 		<Style_VScroll>true</Style_VScroll>
 		<Columns>
 			<Width>0</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 		<Columns>
 			<Width>400</Width>
@@ -1580,7 +1580,7 @@
 		<Style_HScroll>true</Style_HScroll>
 		<Columns>
 			<Width>16</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 		<Columns>
 			<Width>130</Width>
@@ -1592,7 +1592,7 @@
 		</Columns>
 		<Columns>
 			<Width>10</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 	</Listbox>
 	<Listbox item="GT_Rank_List">
@@ -1610,7 +1610,7 @@
 		<TooltipReference>Double-click to change the name of the rank.</TooltipReference>
 		<Columns>
 			<Width>16</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 		<Columns>
 			<Width>140</Width>
