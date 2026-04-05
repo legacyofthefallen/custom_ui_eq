@@ -1,7 +1,6 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
   <Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
   <!-- Buttons -->
 	<Button item = "SERVERSELECT_ExitButton">
 		<ScreenID>ExitButton</ScreenID>
@@ -157,7 +156,7 @@
     </Size>
     <TooltipReference>Start the game!</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
-    <Text></Text>
+    <Text/>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -257,7 +256,6 @@
     </ButtonDrawTemplate>
   </Button>
   <!-- End of buttons -->
-
   <!-- Labels -->
   <Label item = "SERVERSELECT_ExpansionsLabel">
     <ScreenID>ExpansionsLabel</ScreenID>
@@ -271,7 +269,7 @@
 			<CX>100</CX>
       <CY>35</CY>
     </Size>
-    <Text></Text>
+    <Text/>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -326,7 +324,6 @@
 		<AlignRight>false</AlignRight>
   </Label>
   <!-- End of Labels -->
-
   <!-- Server list -->
   <Listbox item = "SERVERSELECT_ServerList">
     <ScreenID>ServerList</ScreenID>
@@ -377,7 +374,6 @@
 	  <Tooltip>Whether the server requires an All Access Membership to log in.</Tooltip>
     </Columns>
   </Listbox>
-
   <!-- Put the Label in a window so we can have a background -->
   <Screen item = "SERVERSELECT_ServerListBackground">
     <ScreenID>ServerListBackground</ScreenID>
@@ -391,7 +387,7 @@
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <Text></Text>
+    <Text/>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -403,7 +399,6 @@
     <Style_Sizable>false</Style_Sizable>
   </Screen>
   <!-- End of server list -->
-
   <!-- Description block -->
   <Label item ="SERVERSELECT_DescriptionLabel">
     <ScreenID>DescriptionLabel</ScreenID>
@@ -462,7 +457,7 @@
 			<CX>700</CX>
 			<CY>69</CY>
     </Size>
-    <Text></Text>
+    <Text/>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
@@ -476,7 +471,6 @@
     <Pieces>SERVERSELECT_Description</Pieces>
   </Screen>
   <!-- End of Description block -->
-
   <Screen item = "serverselect">
     <!--<ScreenID/>-->
     <RelativePosition>true</RelativePosition>
@@ -522,5 +516,4 @@
     <Pieces>SERVERSELECT_ExpansionsLabel</Pieces>
     <Pieces>SERVERSELECT_ViewServerCharactersButton</Pieces>
   </Screen>
-
 </XML>
