@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
   <Label item="AMW_AggroTargetNameLabel">
     <ScreenID>AMW_AggroTargetNameLabel</ScreenID>
     <RelativePosition>true</RelativePosition>
-    <Text></Text>
+    <Text/>
     <NoWrap>true</NoWrap>
     <AlignCenter>true</AlignCenter>
     <Font>2</Font>
@@ -84,7 +84,7 @@
 			<CX>30</CX>
 			<CY>22</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<EQType>307</EQType>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
@@ -101,7 +101,7 @@
 			<CX>150</CX>
 			<CY>22</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<EQType>303</EQType>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
