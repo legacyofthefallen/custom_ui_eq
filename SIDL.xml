@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes">
 		<ElementType name="Class">
@@ -244,7 +244,6 @@
 			<superType type="StaticScreenPiece" />
 			<element name="Animation" type="Ui2DAnimation:item" />
 		</ElementType>
-
 		<ElementType name="StaticTintedBlendAnimation">
 			<superType type="StaticScreenPiece" />
 			<element name="Texture1" type="Ui2DAnimation:item" />
@@ -256,7 +255,6 @@
 			<element name="LayerOneTextureIndex" type="int" />
 			<element name="LayerTwoTextureIndex" type="int" />
 		</ElementType>
-
 		<ElementType name="StaticText">
 			<superType type="StaticScreenPiece" />
 			<element name="NoWrap" type="boolean">
@@ -628,22 +626,18 @@
 			<element name="CursorResizeNWSE" type="Ui2DAnimation:item" />
 			<element name="CursorDrag" type="Ui2DAnimation:item" />
 		</ElementType>
-		
 		<ElementType name="Screens">
 			<element name="ScreenName" type="string" />
 			<element name="InitialSettings" type="string" minOccurs="0" maxOccurs="*" />
 		</ElementType>
-		
 		<ElementType name="TopLevelWindowList">
 			<superType type="Class" />
 			<element name="Screens" type="Screens" minOccurs="0" maxOccurs="*" />
 		</ElementType>
-
 		<ElementType name="HotButton">
 			<superType type="Button"/>
 			<element name="InvSlot" type="InvSlot:item"/>
 			<element name="SpellGem" type="SpellGem:item"/>
 		</ElementType>
-
 	</Schema>
 </XML>
