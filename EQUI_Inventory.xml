@@ -516,7 +516,6 @@
 		<EQType>inventory/Equip 34</EQType>
 	</InvSlot>
 	<!-- END INVENTORY -->
-	
 	<Button item="IW_ConsumeKrono">
 		<ScreenID>IW_ConsumeKrono</ScreenID>
 		<Font>2</Font>
@@ -1060,7 +1059,7 @@
 			<CX>50</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>255</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -1094,7 +1093,7 @@
 			<CX>50</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>255</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -1128,7 +1127,7 @@
 			<CX>50</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>255</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -1162,7 +1161,7 @@
 			<CX>50</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>255</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -1196,7 +1195,7 @@
 			<CX>50</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>255</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -1230,7 +1229,7 @@
 			<CX>50</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>255</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -1264,7 +1263,7 @@
 			<CX>50</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>255</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -1298,7 +1297,7 @@
 			<CX>50</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>255</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -1332,7 +1331,7 @@
 			<CX>50</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>255</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -1366,7 +1365,7 @@
 			<CX>50</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>255</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -1400,7 +1399,7 @@
 			<CX>50</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>255</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -1434,7 +1433,7 @@
 			<CX>50</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>255</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -1468,7 +1467,7 @@
 			<CX>50</CX>
 			<CY>14</CY>
 		</Size>
-		<Text>255</Text>
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -1620,7 +1619,6 @@
 		</GaugeDrawTemplate>
 	</Gauge>
 	<!-- END CHAR INFO -->
-	
 	<Button item="IW_GoodPoints">
 		<ScreenID>IW_GoodPoints</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -6018,7 +6016,6 @@
 		<Pieces>TileLayoutBox:IW_Stats</Pieces>
 	</Page>
 	<!-- END STATS -->
-	
 	<!-- START ALT CURR -->
 	<Listbox item="IW_AltCurr_PointList">
 		<ScreenID>AltCurr_PointList</ScreenID>
@@ -6168,7 +6165,6 @@
 		</Size>
 	</Page>
 	<!-- END ALT CURR -->
-	
 	<!-- START MERC -->
 	<Label item="IWM_HP">
 		<RelativePosition>true</RelativePosition>
@@ -7565,7 +7561,6 @@
 		<Pieces>TileLayoutBox:IWM_Slots</Pieces>
 	</Page>
 	<!-- END MERC -->
-	
 	<!-- START PERSONA -->
 	<!-- IS_CHARM		1 -->
 	<InvSlot item="PersonaInvSlot0">
@@ -7912,7 +7907,6 @@
 		<Background>A_InvAmmo</Background>
 		<EQType>personaInventory/Equip 22</EQType>
 	</InvSlot>
-	
 	<Button item="IWP_SaveEquip">
 		<ScreenID>IWP_SaveEquip</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -7941,7 +7935,7 @@
 		<Text>Load Set</Text>
 		<Template>BDT_Normal</Template>
 	</Button>	
-	<StaticAnimation item="PersonaAnim">
+	<!-- <StaticAnimation item="PersonaAnim">
 		<ScreenID>PersonaAnim</ScreenID>
 		<Location>
 			<X>3</X>
@@ -7951,8 +7945,8 @@
 			<CX>75</CX>
 			<CY>142</CY>
 		</Size>
-		<!-- Do NOT include an animation here since it messes with other UIs.	Instead an animation instance is dynamically created and used. -->
-	</StaticAnimation>
+		Do NOT include an animation here since it messes with other UIs.	Instead an animation instance is dynamically created and used.
+	</StaticAnimation> -->
 	<Screen item="IWP_CharacterView">
 		<ScreenID>IWP_CharacterView</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -7971,7 +7965,7 @@
 		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
-		<Pieces>PersonaAnim</Pieces>
+		<Pieces>ClassAnim</Pieces>
 	</Screen>
 	
 	<Listbox item="IWP_PersonaList">
@@ -8133,7 +8127,6 @@
 		<Pieces>IWP_AutoSave</Pieces>
 		<Pieces>IWP_UseLockedSlots</Pieces>
 	</VerticalLayoutBox>
-	
 	<Page item="IW_PersonaPage">
 		<ScreenID>PersonaPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -8184,7 +8177,6 @@
 			<CY>401</CY>
 		</Size>
 	</Page>
-	
 	<TabBox item="IW_Subwindows">
 		<ScreenID>IW_Subwindows</ScreenID>
 		<RelativePosition>true</RelativePosition>
