@@ -1,12 +1,9 @@
 <?xml version = "1.0"?>
 <!-- Monolithic Parameter File -->
 <!-- The composite section must come first and be followed by the schema -->
-
-
-
 <XML ID = "EQInterfaceDefinitionLanguage">
     <Composite>
-        <Include>SIDL.xml</Include>
+        <Include>SIDL.xdr</Include>
         <Include>EQLSUI_Animations.xml</Include>
         <Include>EQLSUI_Templates.xml</Include>
 		<Include>EQLSUI_EulaWnd.xml</Include>

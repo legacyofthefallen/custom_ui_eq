@@ -1,7 +1,6 @@
 <?xml version = "1.0" encoding="utf-8"?>
 <!-- Monolithic Parameter File -->
 <!-- The composite section must come first and be followed by the schema -->
-
 <!-- defines for gauges set the EQType tag in Gauge definitions to one of these numbers -->
 <!-- GAUGETYPE_HP                1 -->
 <!-- GAUGETYPE_MANA              2 -->
@@ -43,10 +42,9 @@
 <!-- GAUGETYPE_STA_PARTY3        38 -->
 <!-- GAUGETYPE_STA_PARTY4        39 -->
 <!-- GAUGETYPE_STA_PARTY5        40 -->
-
 <XML ID = "EQInterfaceDefinitionLanguage">
   <Composite>
-    <Include>SIDL.xml</Include>
+    <Include>SIDL.xdr</Include>
     <Include>EQUI_DragItems.xml</Include>
     <Include>EQUI_SpellIcons.xml</Include>
     <Include>EQUI_Animations.xml</Include>
