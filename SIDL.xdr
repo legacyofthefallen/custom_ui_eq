@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes">
 		<ElementType name="Class">
@@ -6,49 +6,25 @@
 		</ElementType>
 		<ElementType name="RGB">
 			<superType type="Class" />
-			<element name="Alpha" type="int">
-				<default>255</default>
-			</element>
-			<element name="R" type="int">
-				<default>0</default>
-			</element>
-			<element name="G" type="int">
-				<default>0</default>
-			</element>
-			<element name="B" type="int">
-				<default>0</default>
-			</element>
+			<element name="Alpha" type="int"/>
+			<element name="R" type="int"/>
+			<element name="G" type="int"/>
+			<element name="B" type="int"/>
 		</ElementType>
 		<ElementType name="TextRGB">
 			<superType type="Class" />
-			<element name="Alpha" type="int">
-				<default>255</default>
-			</element>
-			<element name="R" type="int">
-				<default>255</default>
-			</element>
-			<element name="G" type="int">
-				<default>255</default>
-			</element>
-			<element name="B" type="int">
-				<default>255</default>
-			</element>
+			<element name="Alpha" type="int"/>
+			<element name="R" type="int"/>
+			<element name="G" type="int"/>
+			<element name="B" type="int"/>
 		</ElementType>
 		<ElementType name="Point">
-			<element name="X" type="int">
-				<default>0</default>
-			</element>
-			<element name="Y" type="int">
-				<default>0</default>
-			</element>
+			<element name="X" type="int"/>
+			<element name="Y" type="int"/>
 		</ElementType>
 		<ElementType name="Size">
-			<element name="CX" type="int">
-				<default>0</default>
-			</element>
-			<element name="CY" type="int">
-				<default>0</default>
-			</element>
+			<element name="CX" type="int"/>
+			<element name="CY" type="int"/>
 		</ElementType>
 		<ElementType name="TextureInfo">
 			<superType type="Class" />
@@ -60,9 +36,7 @@
 			<element name="Location" type="Point" />
 			<element name="Size" type="Size" />
 			<element name="Hotspot" type="Point" />
-			<element name="Duration" type="int">
-				<default>1000</default>
-			</element>
+			<element name="Duration" type="int"/>
 			<element name="Shading" type="RGB" minOccurs="0" maxOccurs="*" />
 			<element name="Specular" type="RGB" minOccurs="0" maxOccurs="*" />
 		</ElementType>
@@ -71,12 +45,8 @@
 			<element name="Cycle" type="boolean" />
 			<element name="Grid" type="boolean" />
 			<element name="Vertical" type="boolean" />
-			<element name="CellWidth" type="int">
-				<default>0</default>
-			</element>
-			<element name="CellHeight" type="int">
-				<default>0</default>
-			</element>
+			<element name="CellWidth" type="int"/>
+			<element name="CellHeight" type="int"/>
 			<element name="Frames" type="Frame" minOccurs="0" maxOccurs="*" />
 		</ElementType>
 		<ElementType name="ButtonDrawTemplate">
@@ -105,9 +75,15 @@
 		</ElementType>
 		<ElementType name="SpellGemDrawTemplate">
 			<superType type="Class" />
-			<element name="Holder" type="Ui2DAnimation:item" />
-			<element name="Background" type="Ui2DAnimation:item" />
-			<element name="Highlight" type="Ui2DAnimation:item" />
+			<element name="Holder" type="Ui2DAnimation:item">
+				<default>A_SpellGemHolder</default>
+			</element>
+			<element name="Background" type="Ui2DAnimation:item">
+				<default>A_SpellGemBackground</default>
+			</element>
+			<element name="Highlight" type="Ui2DAnimation:item">
+				<default>A_SpellGemHighlight</default>
+			</element>
 		</ElementType>
 		<ElementType name="FrameTemplate">
 			<superType type="Class" />
@@ -124,18 +100,10 @@
 			<element name="Left" type="Ui2DAnimation:item" />
 			<element name="LeftBottom" type="Ui2DAnimation:item" />
 			<element name="Middle" type="Ui2DAnimation:item" />
-			<element name="OverlapLeft" type = "int">
-				<default>0</default>
-			</element>
-			<element name="OverlapTop" type = "int">
-				<default>0</default>
-			</element>
-			<element name="OverlapRight" type = "int">
-				<default>0</default>
-			</element>
-			<element name="OverlapBottom" type = "int">
-				<default>0</default>
-			</element>
+			<element name="OverlapLeft" type = "int"/>
+			<element name="OverlapTop" type = "int"/>
+			<element name="OverlapRight" type = "int"/>
+			<element name="OverlapBottom" type = "int"/>
 		</ElementType>
 		<ElementType name="ScrollbarDrawTemplate">
 			<superType type="Class" />
@@ -169,76 +137,36 @@
 		<ElementType name="ScreenPiece">
 			<superType type="Class" />
 			<element name="ScreenID" type="string" />
-			<element name="Font" type="int">
-				<default>3</default>
-			</element>
-			<element name="RelativePosition" type="boolean">
-				<default>true</default>
-			</element>
+			<element name="Font" type="int"/>
+			<element name="RelativePosition" type="boolean"/>
 			<element name="Location" type="Point" />
 			<element name="Size" type="Size" />
-			<element name="AutoStretch" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="AutoStretchVertical" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="AutoStretchHorizontal" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="TopAnchorToTop" type = "boolean">
-				<default>true</default>
-			</element>
-			<element name="LeftAnchorToLeft" type = "boolean">
-				<default>true</default>
-			</element>
-			<element name="BottomAnchorToTop" type = "boolean">
-				<default>true</default>
-			</element>
-			<element name="RightAnchorToLeft" type = "boolean">
-				<default>true</default>
-			</element>
-			<element name="TopAnchorOffset" type="int">
-				<default>0</default>
-			</element>
-			<element name="BottomAnchorOffset" type="int">
-				<default>0</default>
-			</element>
-			<element name="LeftAnchorOffset" type="int">
-				<default>0</default>
-			</element>
-			<element name="RightAnchorOffset" type="int">
-				<default>0</default>
-			</element>
-			<element name="MinVSize" type="int">
-				<default>0</default>
-			</element>
-			<element name="MinHSize" type="int">
-				<default>0</default>
-			</element>
-			<element name="MaxVSize" type="int">
-				<default>0</default>
-			</element>
-			<element name="MaxHSize" type="int">
-				<default>0</default>
-			</element>
+			<element name="AutoStretch" type="boolean"/>
+			<element name="AutoStretchVertical" type="boolean"/>
+			<element name="AutoStretchHorizontal" type="boolean"/>
+			<element name="TopAnchorToTop" type = "boolean"/>
+			<element name="LeftAnchorToLeft" type = "boolean"/>
+			<element name="BottomAnchorToTop" type = "boolean"/>
+			<element name="RightAnchorToLeft" type = "boolean"/>
+			<element name="TopAnchorOffset" type="int"/>
+			<element name="BottomAnchorOffset" type="int"/>
+			<element name="LeftAnchorOffset" type="int"/>
+			<element name="RightAnchorOffset" type="int"/>
+			<element name="MinVSize" type="int"/>
+			<element name="MinHSize" type="int"/>
+			<element name="MaxVSize" type="int"/>
+			<element name="MaxHSize" type="int"/>
 			<element name="Text" type="string" />
 			<element name="TextColor" type="TextRGB" />
 			<element name="DisabledColor" type="RGB" />
-			<element name="UseInLayoutHorizontal" type = "boolean">
-				<default>true</default>
-			</element>
-			<element name="UseInLayoutVertical" type = "boolean">
-				<default>true</default>
-			</element>
+			<element name="UseInLayoutHorizontal" type = "boolean"/>
+			<element name="UseInLayoutVertical" type = "boolean"/>
 			<element name="BackgroundTextureTint" type="RGB" />
 			<element name="DisabledBackgroundTextureTint" type="RGB" />
 		</ElementType>
 		<ElementType name="StaticScreenPiece">
 			<superType type="ScreenPiece" />
-			<element name="AutoDraw" type="boolean">
-				<default>true</default>
-			</element>
+			<element name="AutoDraw" type="boolean"/>
 		</ElementType>
 		<ElementType name="StaticAnimation">
 			<superType type="StaticScreenPiece" />
@@ -257,15 +185,9 @@
 		</ElementType>
 		<ElementType name="StaticText">
 			<superType type="StaticScreenPiece" />
-			<element name="NoWrap" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="AlignCenter" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="AlignRight" type="boolean">
-				<default>false</default>
-			</element>
+			<element name="NoWrap" type="boolean"/>
+			<element name="AlignCenter" type="boolean"/>
+			<element name="AlignRight" type="boolean"/>
 		</ElementType>
 		<ElementType name="StaticFrame">
 			<superType type="StaticScreenPiece" />
@@ -280,12 +202,8 @@
 		<ElementType name="LayoutStrategy">
 			<superType type="Class" />
 			<element name="Padding" type="int" />
-			<element name="ResizeHorizontal" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="ResizeVertical" type="boolean">
-				<default>false</default>
-			</element>
+			<element name="ResizeHorizontal" type="boolean"/>
+			<element name="ResizeVertical" type="boolean"/>
 		</ElementType>
 		<ElementType name="LayoutVertical">
 			<superType type="LayoutStrategy" />
@@ -295,30 +213,14 @@
 		</ElementType>
 		<ElementType name="Control">
 			<superType type="ScreenPiece" />
-			<element name="Style_VScroll" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="Style_HScroll" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="Style_AutoVScroll" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="Style_AutoHScroll" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="Style_Transparent" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="Style_TransparentControl" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="Style_Border" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="Style_Tooltip" type="boolean">
-				<default>true</default>
-			</element>
+			<element name="Style_VScroll" type="boolean"/>
+			<element name="Style_HScroll" type="boolean"/>
+			<element name="Style_AutoVScroll" type="boolean"/>
+			<element name="Style_AutoHScroll" type="boolean"/>
+			<element name="Style_Transparent" type="boolean"/>
+			<element name="Style_TransparentControl" type="boolean"/>
+			<element name="Style_Border" type="boolean"/>
+			<element name="Style_Tooltip" type="boolean"/>
 			<element name="TooltipReference" type="string" />
 			<element name="EQType" type="string" />
 			<element name="DrawTemplate" type="WindowDrawTemplate:item" />
@@ -347,46 +249,24 @@
 			<superType type="Control" />
 			<element name="Columns" type="ListboxColumn" minOccurs="0" maxOccurs="*" />
 			<element name="OwnerDraw" type="boolean" />
-			<element name="ShowHeader" type="boolean">
-				<default>true</default>
-			</element>
+			<element name="ShowHeader" type="boolean"/>
 		</ElementType>
 		<ElementType name="Button">
 			<superType type="Control" />
-			<element name="Style_Checkbox" type="boolean">
-				<default>false</default>
-			</element>
+			<element name="Style_Checkbox" type="boolean"/>
 			<element name="RadioGroup" type="string" />
 			<element name="Text" type="string" />
 			<element name="MouseoverColor" type="RGB" />
 			<element name="PressedColor" type="RGB" />
-			<element name="UseCustomMouseoverColor" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="UseCustomDisabledColor" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="UseCustomPressedColor" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="NoWrap" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="TextAlignCenter" type="boolean">
-				<default>true</default>
-			</element>
-			<element name="TextAlignRight" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="TextAlignVCenter" type="boolean">
-				<default>true</default>
-			</element>
-			<element name="TextOffsetX" type="int">
-				<default>0</default>
-			</element>
-			<element name="TextOffsetY" type="int">
-				<default>0</default>
-			</element>
+			<element name="UseCustomMouseoverColor" type="boolean"/>
+			<element name="UseCustomDisabledColor" type="boolean"/>
+			<element name="UseCustomPressedColor" type="boolean"/>
+			<element name="NoWrap" type="boolean"/>
+			<element name="TextAlignCenter" type="boolean"/>
+			<element name="TextAlignRight" type="boolean"/>
+			<element name="TextAlignVCenter" type="boolean"/>
+			<element name="TextOffsetX" type="int"/>
+			<element name="TextOffsetY" type="int"/>
 			<element name="ButtonDrawTemplate" type="ButtonDrawTemplate" />
 			<element name="Template" type="ButtonDrawTemplate:item" />
 			<element name="SoundPressed" type="string" />
@@ -401,44 +281,26 @@
 			<element name="FillTint" type="RGB" />
 			<element name="DrawLinesFill" type="boolean" />
 			<element name="LinesFillTint" type="RGB" />
-			<element name="TextOffsetX" type="int">
-				<default>0</default>
-			</element>
-			<element name="TextOffsetY" type="int">
-				<default>0</default>
-			</element>
-			<element name="GaugeOffsetX" type="int">
-				<default>0</default>
-			</element>
-			<element name="GaugeOffsetY" type="int">
-				<default>16</default>
-			</element>
+			<element name="TextOffsetX" type="int"/>
+			<element name="TextOffsetY" type="int"/>
+			<element name="GaugeOffsetX" type="int"/>
+			<element name="GaugeOffsetY" type="int"/>
 		</ElementType>
 		<ElementType name="SpellGem">
 			<superType type="Control" />
-			<element name="SpellGemDrawTemplate" type="SpellGemDrawTemplate" />
-			<element name="SpellIconOffsetX" type="int">
-				<default>8</default>
-			</element>
-			<element name="SpellIconOffsetY" type="int">
-				<default>4</default>
-			</element>
-			<element name="SpellIconSizeX" type="int">
-				<default>24</default>
-			</element>
-			<element name="SpellIconSizeY" type="int">
-				<default>24</default>
-			</element>
+			<element name="SpellGemDrawTemplate" type="SpellGemDrawTemplate"/>
+			<element name="SpellIconOffsetX" type="int"/>
+			<element name="SpellIconOffsetY" type="int"/>
+			<element name="RelativePosition" type="boolean"/>
+			<element name="SpellIconSizeX" type="int"/>
+			<element name="SpellIconSizeY" type="int"/>
+			<!-- <element name="Size" type="Size:item"/> -->
 		</ElementType>
 		<ElementType name="InvSlot">
 			<superType type="Control" />
 			<element name="Background" type="Ui2DAnimation:item" />
-			<element name="ItemOffsetX" type="int">
-				<default>0</default>
-			</element>
-			<element name="ItemOffsetY" type="int">
-				<default>0</default>
-			</element>
+			<element name="ItemOffsetX" type="int"/>
+			<element name="ItemOffsetY" type="int"/>
 		</ElementType>
 		<ElementType name="Editbox">
 			<superType type="Control" />
@@ -450,26 +312,16 @@
 		</ElementType>
 		<ElementType name="Label">
 			<superType type="Control" />
-			<element name="NoWrap" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="AlignCenter" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="AlignRight" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="ResizeHeightToText" type="boolean">
-				<default>false</default>
-			</element>
+			<element name="NoWrap" type="boolean"/>
+			<element name="AlignCenter" type="boolean"/>
+			<element name="AlignRight" type="boolean"/>
+			<element name="ResizeHeightToText" type="boolean"/>
 			<element name="PrependText" type="string" />
 			<element name="AppendText" type="string" />
 		</ElementType>
 		<ElementType name="STMLbox">
 			<superType type="Control" />
-			<element name="AlignCenter" type="boolean">
-				<default>false</default>
-			</element>
+			<element name="AlignCenter" type="boolean"/>
 		</ElementType>
 		<ElementType name="TreeView">
 			<superType type="Listbox" />
@@ -479,9 +331,7 @@
 			<element name = "Button" type = "ButtonDrawTemplate:item"/>
 			<element name = "ListHeight" type = "int"/>
 			<element name = "Choices" type = "string" minOccurs = "0" maxOccurs = "*" />
-			<element name = "AutoStretchList" type="boolean">
-				<default>false</default>
-			</element>
+			<element name = "AutoStretchList" type="boolean"/>
 		</ElementType>
 		<ElementType name="Page">
 			<superType type="Control" />
@@ -494,74 +344,42 @@
 		</ElementType>
 		<ElementType name="TabBox">
 			<superType type="Control" />
-			<element name="ShowTabs" type="boolean">
-				<default>true</default>
-			</element>
+			<element name="ShowTabs" type="boolean"/>
 			<element name="TabBorderTemplate" type="FrameTemplate:item" />
-			<element name="TabStyle" type="int">
-				<default>0</default>
-			</element>
-			<element name="TabWidth" type="int" />
+			<element name="TabStyle" type="int"/>
+			<element name="TabWidth" type="int"/>
 			<element name="PageBorderTemplate" type="FrameTemplate:item" />
 			<element name="Pages" type="Page:item" minOccurs="0" maxOccurs="*" />
 		</ElementType>
 		<ElementType name="LayoutBox">
 			<superType type="Control" />
-			<element name = "Spacing" type = "int">
-				<default>5</default>
-			</element>
-			<element name="ResizeLast" type="boolean">
-				<default>true</default>
-			</element>
-			<element name = "PaddingLeft" type = "int">
-				<default>0</default>
-			</element>
-			<element name = "PaddingRight" type = "int">
-				<default>0</default>
-			</element>
-			<element name = "PaddingTop" type = "int">
-				<default>0</default>
-			</element>
-			<element name = "PaddingBottom" type = "int">
-				<default>0</default>
-			</element>
+			<element name = "Spacing" type = "int"/>
+			<element name="ResizeLast" type="boolean"/>
+			<element name = "PaddingLeft" type = "int"/>
+			<element name = "PaddingRight" type = "int"/>
+			<element name = "PaddingTop" type = "int"/>
+			<element name = "PaddingBottom" type = "int"/>
 			<element name="Pieces" type="ScreenPiece:item" minOccurs="0" maxOccurs="*" />
 		</ElementType>
 		<ElementType name="HorizontalLayoutBox">
 			<superType type="LayoutBox" />
-			<element name = "Style_Dividers" type = "boolean">
-				<default>true</default>
-			</element>
+			<element name = "Style_Dividers" type = "boolean"/>
 		</ElementType>
 		<ElementType name="VerticalLayoutBox">
 			<superType type="LayoutBox" />
-			<element name = "Style_Dividers" type = "boolean">
-				<default>true</default>
-			</element>
+			<element name = "Style_Dividers" type = "boolean"/>
 		</ElementType>
 		<ElementType name="FinderBox">
 			<superType type="VerticalLayoutBox" />
 		</ElementType>
 		<ElementType name="TileLayoutBox">
 			<superType type="LayoutBox" />
-			<element name = "HorizontalFirst" type = "boolean">
-				<default>true</default>
-			</element>
-			<element name = "AnchorToTop" type = "boolean">
-				<default>true</default>
-			</element>
-			<element name = "AnchorToLeft" type = "boolean">
-				<default>true</default>
-			</element>
-			<element name = "SecondarySpacing" type = "int">
-				<default>5</default>
-			</element>
-			<element name = "FirstPieceTemplate" type = "boolean">
-				<default>false</default>
-			</element>
-			<element name = "SnapToChildren" type = "boolean">
-				<default>false</default>
-			</element>
+			<element name = "HorizontalFirst" type = "boolean"/>
+			<element name = "AnchorToTop" type = "boolean"/>
+			<element name = "AnchorToLeft" type = "boolean"/>
+			<element name = "SecondarySpacing" type = "int"/>
+			<element name = "FirstPieceTemplate" type = "boolean"/>
+			<element name = "SnapToChildren" type = "boolean"/>
 		</ElementType>
 		<ElementType name="NamedTemplatePiece">
 			<superType type="Class" />
@@ -580,40 +398,18 @@
 			<element name="Style_Maximizebox" type="boolean" />
 			<element name="Style_Qmarkbox" type="boolean" />
 			<element name="Style_Minimizebox" type="boolean" />
-			<element name="Style_Sizable" type="boolean">
-				<default>false</default>
-			</element>
-			<element name="Style_SizableBorderTop" type="boolean">
-				<default>true</default>
-			</element>
-			<element name="Style_SizableBorderBottom" type="boolean">
-				<default>true</default>
-			</element>
-			<element name="Style_SizableBorderLeft" type="boolean">
-				<default>true</default>
-			</element>
-			<element name="Style_SizableBorderRight" type="boolean">
-				<default>true</default>
-			</element>
-			<element name="Style_SizableBorderTopLeft" type="boolean">
-				<default>true</default>
-			</element>
-			<element name="Style_SizableBorderTopRight" type="boolean">
-				<default>true</default>
-			</element>
-			<element name="Style_SizableBorderBottomLeft" type="boolean">
-				<default>true</default>
-			</element>
-			<element name="Style_SizableBorderBottomRight" type="boolean">
-				<default>true</default>
-			</element>
+			<element name="Style_Sizable" type="boolean"/>
+			<element name="Style_SizableBorderTop" type="boolean"/>
+			<element name="Style_SizableBorderBottom" type="boolean"/>
+			<element name="Style_SizableBorderLeft" type="boolean"/>
+			<element name="Style_SizableBorderRight" type="boolean"/>
+			<element name="Style_SizableBorderTopLeft" type="boolean"/>
+			<element name="Style_SizableBorderTopRight" type="boolean"/>
+			<element name="Style_SizableBorderBottomLeft" type="boolean"/>
+			<element name="Style_SizableBorderBottomRight" type="boolean"/>
 			<element name="Style_ClientMovable" type="boolean" />
-			<element name="Escapable" type="boolean">
-				<default>true</default>
-			</element>
-			<element name="ToggleBorder" type="boolean">
-				<default>false</default>
-			</element>
+			<element name="Escapable" type="boolean"/>
+			<element name="ToggleBorder" type="boolean"/>
 			<element name="Pieces" type="ScreenPiece:item" minOccurs="0" maxOccurs="*" />
 		</ElementType>
 		<ElementType name="SuiteDefaults">
@@ -625,6 +421,7 @@
 			<element name="CursorResizeNESW" type="Ui2DAnimation:item" />
 			<element name="CursorResizeNWSE" type="Ui2DAnimation:item" />
 			<element name="CursorDrag" type="Ui2DAnimation:item" />
+			<element name="CursorIBeam" type="Ui2DAnimation:item" />
 		</ElementType>
 		<ElementType name="Screens">
 			<element name="ScreenName" type="string" />
