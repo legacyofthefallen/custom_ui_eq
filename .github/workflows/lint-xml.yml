@@ -1,11 +1,11 @@
 name: Run basic scripts to check for syntactical correctness 
 on:
   push:
-    branches-ignore: [ main ]
+    branches-ignore: [ master ]
     tags: 
     - "v1.*"
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   run-xml-linter:
@@ -24,4 +24,3 @@ jobs:
             echo Linting $file
             xmllint $file
           done;
-
