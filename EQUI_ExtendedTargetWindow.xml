@@ -264,7 +264,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
- 
 	<Label item="ETW_AggroPct2">
 		<ScreenID>ETW_AggroPct2</ScreenID>
 		<RelativePosition>true</RelativePosition>
