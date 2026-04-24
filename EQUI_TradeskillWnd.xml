@@ -1,7 +1,6 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
 	<Label item ="COMBW_MinTrivialText">
 		<ScreenID/>
 		<Font>3</Font>
@@ -19,12 +18,11 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Editbox item="COMBW_MinTrivialEdit">
 		<ScreenID>MinTrivialEdit</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<Style_Border>true</Style_Border>
 		<Location>
 			<X>106</X>
@@ -35,7 +33,6 @@
 			<CY>24</CY>
 		</Size>
 	</Editbox>
-	
 	<Label item ="COMBW_MaxTrivialText">
 		<ScreenID/>
 		<Font>3</Font>
@@ -53,7 +50,6 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Editbox item="COMBW_MaxTrivialEdit">
 		<ScreenID>MaxTrivialEdit</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -69,7 +65,6 @@
 			<CY>24</CY>
 		</Size>
 	</Editbox>
-
 	<Label item ="COMBW_SearchTextText">
 		<ScreenID/>
 		<Font>3</Font>
@@ -87,7 +82,6 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Editbox item="COMBW_SearchTextEdit">
 		<ScreenID>SearchTextEdit</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -103,7 +97,6 @@
 			<CY>24</CY>
 		</Size>
 	</Editbox>
-
 	<Button item = "COMBW_SearchButton">
 		<ScreenID>SearchButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -122,7 +115,6 @@
 		<Text>Search Recipes</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Screen item = "COMBW_SearchArea">
 		<ScreenID/>
 		<!--<Font/>-->
@@ -152,7 +144,6 @@
 		<Pieces>COMBW_SearchTextEdit</Pieces>
 		<Pieces>COMBW_SearchButton</Pieces>
 	</Screen>
-
 	<Label item ="COMBW_KnownRecipeText">
 		<ScreenID/>
 		<Font>3</Font>
@@ -171,7 +162,6 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Listbox item = "COMBW_RecipeList">
 		<ScreenID>RecipeList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -195,7 +185,6 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-
 	<Screen item = "COMBW_RecipeListArea">
 		<ScreenID/>
 		<!--<Font/>-->
@@ -220,7 +209,6 @@
 		<Pieces>COMBW_KnownRecipeText</Pieces>
 		<Pieces>COMBW_RecipeList</Pieces>
 	</Screen>
-
 	<Label item ="COMBW_FavoritesText">
 		<ScreenID/>
 		<Font>4</Font>
@@ -239,7 +227,6 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Button item = "COMBW_AddFavoriteButton">
 		<ScreenID>AddFavoriteButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -258,7 +245,6 @@
 		<Text>Add</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Button item = "COMBW_RemoveFavoriteButton">
 		<ScreenID>RemoveFavoriteButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -277,7 +263,6 @@
 		<Text>Remove</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Button item = "COMBW_ShowFavoritesButton">
 		<ScreenID>ShowFavoritesButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -296,7 +281,6 @@
 		<Text>Show</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Screen item = "COMBW_FavoritesArea">
 		<ScreenID/>
 		<!--<Font/>-->
@@ -323,7 +307,6 @@
 		<Pieces>COMBW_RemoveFavoriteButton</Pieces>
 		<Pieces>COMBW_ShowFavoritesButton</Pieces>
 	</Screen>
-	
 	<Screen item = "COMBW_LeftSideArea">
 		<ScreenID/>
 		<!--<Font/>-->
@@ -349,8 +332,6 @@
 		<Pieces>COMBW_RecipeListArea</Pieces>
 		<Pieces>COMBW_SearchArea</Pieces>
 	</Screen>
-
-
 	<Label item ="COMBW_SkillLabel">
 		<ScreenID>SkillLabel</ScreenID>
 		<Font>4</Font>
@@ -369,7 +350,6 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Button item = "COMBW_ContainerIcon">
 		<ScreenID>ContainerIcon</ScreenID>
 		<!--<Font>3</Font>-->
@@ -394,7 +374,6 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-
 	<Label item ="COMBW_ContainerName">
 		<ScreenID>ContainerName</ScreenID>
 		<Font>3</Font>
@@ -413,7 +392,6 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Button item = "COMBW_ExperimentButton">
 		<ScreenID>ExperimentButton</ScreenID>
 		<!--<Font>3</Font>-->
@@ -433,7 +411,6 @@
 		<Text>Experiment</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Button item = "COMBW_RequiredIcon0">
 		<ScreenID>RequiredIcon0</ScreenID>
 		<!--<Font>3</Font>-->
@@ -482,7 +459,6 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "COMBW_RequiredIcon2">
 		<ScreenID>RequiredIcon2</ScreenID>
 		<!--<Font>3</Font>-->
@@ -531,7 +507,6 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "COMBW_RequiredIcon4">
 		<ScreenID>RequiredIcon4</ScreenID>
 		<!--<Font>3</Font>-->
@@ -580,7 +555,6 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "COMBW_RequiredIcon6">
 		<ScreenID>RequiredIcon6</ScreenID>
 		<!--<Font>3</Font>-->
@@ -629,7 +603,6 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "COMBW_RequiredIcon8">
 		<ScreenID>RequiredIcon8</ScreenID>
 		<!--<Font>3</Font>-->
@@ -678,7 +651,6 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-
 	<Screen item = "COMBW_ComponentArea">
 		<ScreenID/>
 		<!--<Font/>-->
@@ -711,7 +683,6 @@
 		<Pieces>COMBW_RequiredIcon8</Pieces>
 		<Pieces>COMBW_RequiredIcon9</Pieces>
 	</Screen>
-
 	<Screen item = "COMBW_ContainerArea">
 		<ScreenID/>
 		<!--<Font/>-->
@@ -739,7 +710,6 @@
 		<Pieces>COMBW_ExperimentButton</Pieces>
 		<Pieces>COMBW_ComponentArea</Pieces>
 	</Screen>
-    
 	<Button item="COMBW_MakeAllCheckbox">
 		<ScreenID>MakeAllCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -764,7 +734,6 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-
 	<Button item = "COMBW_CombineButton">
 		<ScreenID>CombineButton</ScreenID>
 		<Font>4</Font>
@@ -784,7 +753,6 @@
 		<Text>Combine</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Button item = "COMBW_AutoInvButton">
 		<ScreenID>AutoInvButton</ScreenID>
 		<Font>4</Font>
@@ -804,7 +772,6 @@
 		<Text>Auto-Inventory</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Button item = "COMBW_PersonalDepotButton">
 		<ScreenID>PersonalDepotButton</ScreenID>
 		<Font>4</Font>
@@ -824,7 +791,6 @@
 		<Text>Tradeskill Depot</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	
 	<Button item="COMBW_PersonalDepotCheckbox">
 		<ScreenID>PersonalDepotCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -876,7 +842,6 @@
 		<Pieces>COMBW_PersonalDepotCheckbox</Pieces>
 		<Pieces>COMBW_CloseButton</Pieces>
 	</Screen>
-
 	<Button item = "COMBW_CloseButton">
 		<ScreenID>CloseButton</ScreenID>
 		<Font>3</Font>
@@ -896,7 +861,6 @@
 		<Text>Close</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
 	<Screen item = "COMBW_RightSideArea">
 		<ScreenID/>
 		<!--<Font/>-->
@@ -921,7 +885,6 @@
 		<Pieces>COMBW_ContainerArea</Pieces>
 		<Pieces>COMBW_CombineArea</Pieces>
 	</Screen>
-
 	<Screen item = "TradeskillWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -944,5 +907,4 @@
 		<Pieces>COMBW_LeftSideArea</Pieces>
 		<Pieces>COMBW_RightSideArea</Pieces>
 	</Screen>
-
 </XML>
