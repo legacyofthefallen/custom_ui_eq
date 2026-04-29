@@ -3397,8 +3397,6 @@
     <Pieces>IDW_Row24Col1Stat</Pieces>
     <Pieces>IDW_Row25Col1Stat</Pieces>
     <Pieces>IDW_Row26Col1Stat</Pieces>
-    
-    
     <Pieces>IDW_Row1Col1Value</Pieces>
     <Pieces>IDW_Row2Col1Value</Pieces>
     <Pieces>IDW_Row3Col1Value</Pieces>
@@ -3425,7 +3423,6 @@
     <Pieces>IDW_Row24Col1Value</Pieces>
     <Pieces>IDW_Row25Col1Value</Pieces>
     <Pieces>IDW_Row26Col1Value</Pieces>
-    
     <Pieces>IDW_Row1Col2Stat</Pieces>
     <Pieces>IDW_Row2Col2Stat</Pieces>
     <Pieces>IDW_Row3Col2Stat</Pieces>
@@ -3452,8 +3449,6 @@
     <Pieces>IDW_Row24Col2Stat</Pieces>
     <Pieces>IDW_Row25Col2Stat</Pieces>
     <Pieces>IDW_Row26Col2Stat</Pieces>
-    
-    
     <Pieces>IDW_Row1Col2Value</Pieces>
     <Pieces>IDW_Row2Col2Value</Pieces>
     <Pieces>IDW_Row3Col2Value</Pieces>
@@ -3480,7 +3475,6 @@
     <Pieces>IDW_Row24Col2Value</Pieces>
     <Pieces>IDW_Row25Col2Value</Pieces>
     <Pieces>IDW_Row26Col2Value</Pieces>
-    
     <Pieces>IDW_Row1Col3Stat</Pieces>
     <Pieces>IDW_Row2Col3Stat</Pieces>
     <Pieces>IDW_Row3Col3Stat</Pieces>
@@ -3507,7 +3501,6 @@
     <Pieces>IDW_Row24Col3Stat</Pieces>
     <Pieces>IDW_Row25Col3Stat</Pieces>
     <Pieces>IDW_Row26Col3Stat</Pieces>
-    
     <Pieces>IDW_Row1Col3Value</Pieces>
     <Pieces>IDW_Row2Col3Value</Pieces>
     <Pieces>IDW_Row3Col3Value</Pieces>
@@ -3534,9 +3527,6 @@
     <Pieces>IDW_Row24Col3Value</Pieces>
     <Pieces>IDW_Row25Col3Value</Pieces>
     <Pieces>IDW_Row26Col3Value</Pieces>
-    
-    
-    
     <Pieces>IDW_Heroic1</Pieces>
     <Pieces>IDW_Heroic2</Pieces>
     <Pieces>IDW_Heroic3</Pieces>
@@ -3550,7 +3540,6 @@
     <Pieces>IDW_Heroic11</Pieces>
     <Pieces>IDW_Heroic12</Pieces>
     <Pieces>IDW_Heroic13</Pieces>
-    
     <Location>
       <X>0</X>
       <Y>22</Y>
