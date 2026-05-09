@@ -1,7 +1,6 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
 	<Listbox item = "ZPW_ZoneList">
 		<ScreenID>ZPW_ZoneList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -25,7 +24,6 @@
 			<Heading>Transfer Info</Heading>
 		</Columns>
 	</Listbox>
-
 	<Screen item = "ZonePathWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -47,6 +45,4 @@
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>ZPW_ZoneList</Pieces>
 	</Screen>
-
-
 </XML>
