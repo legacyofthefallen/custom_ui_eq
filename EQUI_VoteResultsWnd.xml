@@ -1,7 +1,6 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	
 	<Button item="VRW_Vote_Btn">
 		<ScreenID>VRW_Vote_Btn</ScreenID>
 		<RelativePosition>true</RelativePosition>
