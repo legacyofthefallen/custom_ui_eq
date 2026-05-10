@@ -1,7 +1,6 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
 	<LayoutVertical item="VW_VerticalLayout">
 		<Padding>0</Padding>
 		<ResizeVertical>true</ResizeVertical>
@@ -12,7 +11,6 @@
 		<ResizeVertical>true</ResizeVertical>
 		<ResizeHorizontal>true</ResizeHorizontal>
 	</LayoutHorizontal>
-
 	<Label item="VW_Question_Label">
 		<ScreenID>VW_Question_Label</ScreenID>
 		<Size>
@@ -28,7 +26,6 @@
 		</TextColor>
 		<ResizeHeightToText>true</ResizeHeightToText>
 	</Label>
-	
 	<Button item="VW_Btn">
 		<ScreenID>VW_Btn</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -75,8 +72,6 @@
 		<Pieces>VW_Btn_Spacer</Pieces>
 		<Pieces>VW_Btn_Label</Pieces>
 	</Screen>
-
-
 	<Button item="VW_Radio">
 		<ScreenID>VW_Radio</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -124,7 +119,6 @@
 		<Pieces>VW_Radio_Spacer</Pieces>
 		<Pieces>VW_Radio_Label</Pieces>
 	</Screen>
-
 	<Button item="VW_Checkbox">
 		<ScreenID>VW_Checkbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -171,7 +165,6 @@
 		<Pieces>VW_Checkbox_Spacer</Pieces>
 		<Pieces>VW_Checkbox_Label</Pieces>
 	</Screen>
-
 	<VerticalLayoutBox item="VW_Main_Layout">
 		<ScreenID>VW_Main_Layout</ScreenID>
 		<DrawTemplate>WDT_Def</DrawTemplate>
@@ -191,7 +184,6 @@
 		<Style_Dividers>false</Style_Dividers>
 		<Spacing>5</Spacing>
 	</VerticalLayoutBox>
-	
 	<Button item="VW_Close_Button">
 		<ScreenID>VW_Close_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -209,7 +201,6 @@
 		<Text>Close</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	
 	<Screen item="VoteWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
