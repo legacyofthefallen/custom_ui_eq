@@ -53,7 +53,7 @@
 		</Columns>
 		<Columns>
 			<Width>10</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 	</Listbox>
 	<Label item="VRW_Selection_Label">
@@ -137,11 +137,11 @@
 		</Columns>
 		<Columns>
 			<Width>300</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 		<Columns>
 			<Width>50</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 	</Listbox>
 	<Screen item="VRW_Top_Screen">
