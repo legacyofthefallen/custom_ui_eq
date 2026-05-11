@@ -170,7 +170,7 @@
 		<Style_VScroll>true</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>true</Style_Transparent>
-		<Text>Tasks</Text>
+		<Text>Quests</Text>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Style_ClientMovable>true</Style_ClientMovable>
 		<Style_Titlebar>true</Style_Titlebar>
