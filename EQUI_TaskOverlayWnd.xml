@@ -30,7 +30,7 @@
 			<CX>200</CX>
 			<CY>16</CY>
 		</Size>
-		<Text>
+		<Text/>
 		<Font>2</Font>
 	</Label>
 	<Label item="TO_TaskStepStatus">
@@ -44,7 +44,7 @@
 			<CX>35</CX>
 			<CY>16</CY>
 		</Size>
-		<Text>
+		<Text/>
 		<Font>2</Font>
 	</Label>
 	<Screen item="TO_TaskStepTemplate">
