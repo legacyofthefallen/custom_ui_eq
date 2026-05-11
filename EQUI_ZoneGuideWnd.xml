@@ -687,7 +687,7 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
-		<Text />
+		<Text/>
 		<TooltipReference>Disable this zone connection from being used while generating paths.</TooltipReference>
 		<ButtonDrawTemplate>
 			<Normal>A_TransparentCheckBoxNormal</Normal>
