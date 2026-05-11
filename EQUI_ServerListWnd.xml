@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
   <Button item="SL_RefreshButton">
@@ -48,7 +48,6 @@
   </Label>
   <Label item="SL_ServerListPrompt">
     <ScreenID>SL_ServerListPrompt</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>5</X>
@@ -93,7 +92,6 @@
   </Listbox>
   <Button item="SL_DisableReminderButton">
     <ScreenID>SL_DisableReminderButton</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>18</X>
@@ -104,15 +102,12 @@
       <CY>36</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
-    <!--<TooltipReference/>-->
     <Style_Checkbox>false</Style_Checkbox>
-    <!--<RadioGroup/>-->
     <Text>Disable Reminder</Text>
     <Template>BDT_Normal</Template>
   </Button>
   <Button item="SL_TransferButton">
     <ScreenID>SL_TransferButton</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>156</X>
@@ -123,15 +118,12 @@
       <CY>46</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
-    <!--<TooltipReference/>-->
     <Style_Checkbox>false</Style_Checkbox>
-    <!--<RadioGroup/>-->
     <Text>Transfer</Text>
     <Template>BDT_Normal</Template>
   </Button>
   <Button item="SL_CloseButton">
     <ScreenID>SL_CloseButton</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>303</X>
@@ -142,15 +134,11 @@
       <CY>36</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
-    <!--<TooltipReference/>-->
     <Style_Checkbox>false</Style_Checkbox>
-    <!--<RadioGroup/>-->
     <Text>Remind Me Later</Text>
     <Template>BDT_Normal</Template>
   </Button>
   <Screen item="ServerListWnd">
-    <!--<ScreenID/>-->
-    <!--<Font/>-->
     <RelativePosition>false</RelativePosition>
     <Location>
       <X>280</X>
@@ -162,7 +150,6 @@
     </Size>
     <Text>Server Transfer List</Text>
     <Style_Transparent>false</Style_Transparent>
-    <!--<TooltipReference/>-->
     <DrawTemplate>WDT_Rounded</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Closebox>true</Style_Closebox>
