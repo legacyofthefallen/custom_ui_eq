@@ -21,6 +21,6 @@ jobs:
         run: |
           for file in $(ls *.xml SIDL.xdr); 
           do
-            echo Linting $file with output
+            echo Linting $file without output
             xmllint --noout $file
           done;
