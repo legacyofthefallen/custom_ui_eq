@@ -19,7 +19,7 @@ jobs:
         run: sudo apt-get install libxml2-utils
       - name: lint xml files
         run: |
-          for file in $(ls *.xml); 
+          for file in $(ls *.xml SIDL.xdr); 
           do
             echo Linting $file
             xmllint $file
