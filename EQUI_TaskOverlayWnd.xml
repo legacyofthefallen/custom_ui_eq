@@ -1,7 +1,6 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-	
 	<Button item="TO_TaskStepCheckBox">
 		<ScreenID>TO_TaskStepCheckBox</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -17,10 +16,9 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
-		<Text />
+		<Text/>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	
 	<Label item="TO_TaskStepTitle">
 		<ScreenID>TO_TaskStepTitle</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -32,10 +30,9 @@
 			<CX>200</CX>
 			<CY>16</CY>
 		</Size>
-		<Text></Text>
+		<Text>
 		<Font>2</Font>
 	</Label>
-	
 	<Label item="TO_TaskStepStatus">
 		<ScreenID>TO_TaskStepStatus</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -47,10 +44,9 @@
 			<CX>35</CX>
 			<CY>16</CY>
 		</Size>
-		<Text></Text>
+		<Text>
 		<Font>2</Font>
 	</Label>
-	
 	<Screen item="TO_TaskStepTemplate">
 		<ScreenID>TO_TaskStepTemplate</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -61,11 +57,9 @@
 		<Style_Border>false</Style_Border>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_TransparentControl>true</Style_TransparentControl>
-		<!--<Pieces>TO_TaskStepCheckBox</Pieces>-->
 		<Pieces>TO_TaskStepTitle</Pieces>
 		<Pieces>TO_TaskStepStatus</Pieces>
 	</Screen>
-	
 	<TileLayoutBox item = "TO_TaskSteps">
 		<ScreenID>TO_TaskSteps</ScreenID>
 		<Size>
@@ -83,7 +77,6 @@
 		<FirstPieceTemplate>false</FirstPieceTemplate>
 		<SnapToChildren>true</SnapToChildren>
 	</TileLayoutBox>
-	
 	<Button item="TO_TaskCheckBox">
 		<ScreenID>TO_TaskCheckBox</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -99,10 +92,9 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
-		<Text />
+		<Text/>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	
 	<STMLbox item="TO_TaskTitle">
 		<ScreenID>TO_TaskTitle</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -115,10 +107,9 @@
 			<CX>200</CX>
 			<CY>16</CY>
 		</Size>
-		<Text></Text>
+		<Text/>
 		<Font>2</Font>
 	</STMLbox>
-	
 	<Screen item="TO_TaskInfo">
 		<ScreenID>TO_TaskInfo</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -131,13 +122,11 @@
 		<Pieces>TO_TaskCheckBox</Pieces>
 		<Pieces>TO_TaskTitle</Pieces>
 	</Screen>
-	
 	<LayoutVertical item="TO_LayoutV">
 		<Padding>2</Padding>
 		<ResizeVertical>true</ResizeVertical>
 		<ResizeHorizontal>false</ResizeHorizontal>
 	</LayoutVertical>
-	
 	<Screen item="TO_TaskTemplate">
 		<ScreenID>TO_TaskTemplate</ScreenID>
 		<Layout>TO_LayoutV</Layout>
@@ -151,7 +140,6 @@
 		<Pieces>Screen:TO_TaskInfo</Pieces>
 		<Pieces>TileLayoutBox:TO_TaskSteps</Pieces>
 	</Screen>
-	
 	<TileLayoutBox item = "TO_TaskList">
 		<RelativePosition>true</RelativePosition>
 		<ScreenID>TO_TaskList</ScreenID>
@@ -169,7 +157,6 @@
 		<FirstPieceTemplate>false</FirstPieceTemplate>
 		<SnapToChildren>true</SnapToChildren>
 	</TileLayoutBox>
-	
 	<Screen item="TaskOverlayWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -183,7 +170,7 @@
 		<Style_VScroll>true</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>true</Style_Transparent>
-		<Text></Text>
+		<Text/>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Style_ClientMovable>true</Style_ClientMovable>
 		<Style_Titlebar>true</Style_Titlebar>
