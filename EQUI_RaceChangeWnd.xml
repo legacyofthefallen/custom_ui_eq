@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-  
   	<Ui2DAnimation item="RCW_RaceIcon">
 		<Cycle>false</Cycle>
 		<Grid>false</Grid>
@@ -43,7 +42,6 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>	
-
 	<Ui2DAnimation item="RCW_BarbarianFemaleIcon">
 		<Cycle>false</Cycle>
 		<Grid>false</Grid>
@@ -291,7 +289,6 @@
 		<Disabled>RaceClassOverlay</Disabled>
 		<PressedFlyby>RaceClassOverlay</PressedFlyby>
 	</ButtonDrawTemplate>
-
 	<StaticAnimation item="RCW_RaceAnim">
 		<ScreenID>RCW_RaceAnim</ScreenID>
 		<Location>
@@ -304,7 +301,6 @@
 		</Size>
 		<Animation>RCW_RaceIcon</Animation>
 	</StaticAnimation>
-
 	<Button item="RCW_Male_Race_Barbarian_Button">
 		<ScreenID>RCW_Male_Race_Barbarian_Button</ScreenID>
 		<RadioGroup>RCW_MaleRace</RadioGroup>
@@ -1580,7 +1576,6 @@
 			<CY>48</CY>
 		</DecalSize>
 	</Button>
-
 	<Screen item="RCW_RaceScreen">
 		<ScreenID>RCW_RaceScreen</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1651,7 +1646,6 @@
 		<Pieces>RCW_Race_Drakkin_Overlay_Button</Pieces>
 		<Pieces>RCW_RaceAnim</Pieces>
 	</Screen>
-
 	<Label item="RCW_Prompt">
 		<ScreenID>RCW_Prompt</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1668,7 +1662,6 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
 	<Label item="RCW_StartingCity_Label">
 		<ScreenID>RCW_StartingCity_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1743,7 +1736,6 @@
 		<Button>BDT_Combo</Button>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-  
 	<Button item="RCW_DisableReminderButton">
 		<ScreenID>RCW_DisableReminderButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1759,7 +1751,6 @@
 		<Text>Disable Reminder</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item="RCW_CloseButton">
 		<ScreenID>RCW_CloseButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1775,7 +1766,6 @@
 		<Text>Remind Me Later</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Button item="RCW_SubmitButton">
 		<ScreenID>RCW_SubmitButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1791,7 +1781,6 @@
 		<Text>Submit Race</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Screen item="RaceChangeWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -1819,5 +1808,4 @@
 		<Pieces>RCW_Deity_Label</Pieces>
 		<Pieces>RCW_Deity_Combo</Pieces>
 	</Screen>
-
 </XML>
