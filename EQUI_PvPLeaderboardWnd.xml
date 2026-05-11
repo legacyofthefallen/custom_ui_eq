@@ -209,7 +209,6 @@
     <AlignCenter>true</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-  <!-- Refresh Button -->
   <Button item="PvpLeaderboard_RefreshButton">
     <ScreenID>PvpLeaderboard_RefreshButton</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -229,7 +228,6 @@
     <Text>Refresh</Text>
     <Template>BDT_Normal</Template>
   </Button>
-  <!-- Done Button -->
   <Button item="PvpLeaderboard_DoneButton">
     <ScreenID>PvpLeaderboard_DoneButton</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -249,7 +247,6 @@
     <Text>Done</Text>
     <Template>BDT_Normal</Template>
   </Button>
-  <!-- The PvP Leaderboard Window -->
   <Screen item="PvpLeaderboardWnd">
     <RelativePosition>false</RelativePosition>
     <Location>
