@@ -3368,7 +3368,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
-    <Text />
+    <Text/>
     <TooltipReference>Zoom In. (Or use Mouse Wheel)</TooltipReference>
     <Template>BDT_ZoomIn</Template>
   </Button>
@@ -3387,7 +3387,7 @@
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
-    <Text />
+    <Text/>
     <TooltipReference>Zoom Out. (Or use Mouse Wheel)</TooltipReference>
     <Template>BDT_ZoomOut</Template>
   </Button>
