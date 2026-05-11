@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-  <Label item="AMW_AggroTargetNameLabel">
-    <ScreenID>AMW_AggroTargetNameLabel</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <Text/>
-    <NoWrap>true</NoWrap>
-    <AlignCenter>true</AlignCenter>
-    <Font>2</Font>
-    <EQType>302</EQType>
-    <AutoStretch>true</AutoStretch>
-    <TopAnchorOffset>2</TopAnchorOffset>
-    <BottomAnchorOffset>15</BottomAnchorOffset>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>2</LeftAnchorOffset>
-    <RightAnchorOffset>2</RightAnchorOffset>
-    <Style_Tooltip>false</Style_Tooltip>
-  </Label>
+	<Label item="AMW_AggroTargetNameLabel">
+		<ScreenID>AMW_AggroTargetNameLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Text/>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+		<Font>2</Font>
+		<EQType>302</EQType>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>2</TopAnchorOffset>
+		<BottomAnchorOffset>15</BottomAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<LeftAnchorOffset>2</LeftAnchorOffset>
+		<RightAnchorOffset>2</RightAnchorOffset>
+		<Style_Tooltip>false</Style_Tooltip>
+	</Label>
 	<Gauge item="AMW_AggroGauge">
 		<ScreenID>AMW_AggroGauge</ScreenID>
 		<TextColor>
