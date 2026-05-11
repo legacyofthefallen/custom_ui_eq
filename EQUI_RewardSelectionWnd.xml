@@ -1,7 +1,6 @@
-<?xml version = "1.0"?>
+<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
 	<Listbox item = "RewardSelectionOptionList">
 		<ScreenID>RewardSelectionOptionList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -24,7 +23,6 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-
 	<Listbox item = "RewardSelectionItemList">
 		<ScreenID>RewardSelectionItemList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -46,7 +44,6 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-
 	<HorizontalLayoutBox item = "RewardSelectionTopLayout">
 		<ScreenID>RewardSelectionTopLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -67,10 +64,8 @@
 		<Pieces>Listbox:RewardSelectionOptionList</Pieces>
 		<Pieces>Listbox:RewardSelectionItemList</Pieces>
 	</HorizontalLayoutBox>
-
 	<Screen item = "RewardSelectionTopPane">
 		<ScreenID>RewardSelectionTopPane</ScreenID>
-		<!--<Font/>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
@@ -90,8 +85,6 @@
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>HorizontalLayoutBox:RewardSelectionTopLayout</Pieces>
 	</Screen>
-
-	
 	<STMLbox item = "RewardSelectionDescriptionArea">
 		<ScreenID>RewardSelectionDescriptionArea</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -110,7 +103,6 @@
 	</STMLbox>
 	<Button item = "RewardSelectionIconButton">
 		<ScreenID>RewardSelectionIconButton</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>70</LeftAnchorOffset>
@@ -124,9 +116,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Template>BDT_RedBuff</Template>
 		<SoundPressed/>
 		<SoundUp/>
@@ -140,10 +130,8 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-
 	<Button item = "RewardSelectionInspectButton">
 		<ScreenID>RewardSelectionInspectButton</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>160</LeftAnchorOffset>
@@ -162,7 +150,6 @@
 	</Button>
 	<Button item = "RewardSelectionPreviewButton">
 		<ScreenID>RewardSelectionPreviewButton</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>85</LeftAnchorOffset>
@@ -181,7 +168,6 @@
 	</Button>
 	<Button item = "RewardSelectionChooseButton">
 		<ScreenID>RewardSelectionChooseButton</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>160</LeftAnchorOffset>
@@ -198,10 +184,8 @@
 		<Text>Select Option</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
 	<Screen item = "RewardSelectionBottomPane">
 		<ScreenID>RewardSelectionBottomPane</ScreenID>
-		<!--<Font/>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
@@ -225,9 +209,6 @@
 		<Pieces>Button:RewardSelectionPreviewButton</Pieces>
 		<Pieces>Button:RewardSelectionChooseButton</Pieces>
 	</Screen>
-
-	
-	
 	<VerticalLayoutBox item = "RewardSelectionWindowLayout">
 		<ScreenID>RewardSelectionWindowLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -251,9 +232,6 @@
 	<Page item = "RewardPageTemplate">
 		<ScreenID>RewardPageTemplate</ScreenID>
 		<RelativePosition>true</RelativePosition>
-
-		<!-- Pages are sized and positioned by their parent tab -->
-
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
@@ -271,20 +249,16 @@
 	<TabBox item = "RewardPageTabWindow">
 		<ScreenID>RewardPageTabWindow</ScreenID>
 		<RelativePosition>true</RelativePosition>
-
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-
 		<TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
 		<PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
 		<Pages>Page:RewardPageTemplate</Pages>
 	</TabBox>
 	<Screen item = "RewardSelectionWnd">
-		<!--<ScreenID/>-->
-		<!--<Font/>-->
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>100</X>
@@ -296,7 +270,6 @@
 		</Size>
 		<Text>Select a Reward</Text>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Closebox>true</Style_Closebox>
