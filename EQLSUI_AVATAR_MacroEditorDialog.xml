@@ -1,7 +1,6 @@
 ﻿<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-<!-- Macro list -->
 	<Listbox item = "MACRO_MacroList">
 		<ScreenID>MacroList</ScreenID>
 		<Font>4</Font>
@@ -31,7 +30,6 @@
 			<Heading>Macro:</Heading>
 		</Columns>
 	</Listbox>
-<!-- Edit labels/boxes -->
 	<Label item = "MACRO_IDLabel">
 		<ScreenID>IDLabel</ScreenID>
 		<Font>4</Font>
@@ -158,7 +156,6 @@
 				<B>255</B>
 		</TextColor>
 	</Editbox>
-<!-- Add macro Buttons -->
 	<Button item = "MACRO_AddButton">
 		<ScreenID>AddButton</ScreenID>
 		<Font>4</Font>
@@ -187,7 +184,6 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-<!-- OK/Cancel Buttons -->
 	<Button item = "MACRO_OKButton">
 		<ScreenID>OKButton</ScreenID>
 		<Font>4</Font>
@@ -272,7 +268,6 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-<!-- The actual dialog -->	
 	<Screen item = "MACRO_Window">
 		<ScreenID>Window</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -288,7 +283,6 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
@@ -307,7 +301,6 @@
 		<Pieces>MACRO_AddButton</Pieces>
 		<Pieces>MACRO_UseButton</Pieces>
 	</Screen>
-<!-- Used to obscure the backing window and prevent UI events from going through to it -->
 	<Screen item = "macrodialog">
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -322,7 +315,6 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
