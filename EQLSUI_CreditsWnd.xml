@@ -52,7 +52,6 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-<!-- Current -->
 	<STMLbox item = "Credits_Current">
 		<ScreenID>Credits_Current</ScreenID>
 		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
@@ -72,8 +71,7 @@
 	<Page item = "Credits_Current_Page">
 		<ScreenID>Credits_Current_Page</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<!-- Pages are sized and positioned by their parent tab -->
-		<Style_VScroll>false</Style_VScroll>
+				<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Current Expansion</TooltipReference>
@@ -92,7 +90,6 @@
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>Credits_Current</Pieces>
 	</Page>
-<!-- Previous -->
 	<STMLbox item = "Credits_Previous">
 		<ScreenID>Credits_Previous</ScreenID>
 		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
@@ -112,8 +109,7 @@
 	<Page item = "Credits_Previous_Page">
 		<ScreenID>Credits_Previous_Page</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<!-- Pages are sized and positioned by their parent tab -->
-		<Style_VScroll>false</Style_VScroll>
+				<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Previous Expansions</TooltipReference>
@@ -153,8 +149,7 @@
 		<Pages>Credits_Previous_Page</Pages>
 	</TabBox>
 	<Screen item = "credits">
-		<!--<ScreenID/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -167,8 +162,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+				<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>

@@ -80,8 +80,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<!-- Done Button -->
-	<Button item = "AdvStats_RefreshButton">
+		<Button item = "AdvStats_RefreshButton">
 		<ScreenID>AdvStats_RefreshButton</ScreenID>
 		<Location>
 			<X>5</X>
@@ -98,8 +97,7 @@
 		<Text>Refresh</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<!-- Done Button -->
-	<Button item = "AdvStats_LeaderboardButton">
+		<Button item = "AdvStats_LeaderboardButton">
 		<ScreenID>AdvStats_LeaderboardButton</ScreenID>
 		<Location>
 			<X>188</X>
@@ -116,8 +114,7 @@
 		<Text>Leaderboard</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<!-- Done Button -->
-	<Button item = "AdvStats_DoneButton">
+		<Button item = "AdvStats_DoneButton">
 		<ScreenID>AdvStats_DoneButton</ScreenID>
 		<Location>
 			<X>370</X>
@@ -134,8 +131,7 @@
 		<Text>Done</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<!-- The Adventure Stats Window -->
-	<Screen item = "AdventureStatsWnd">
+		<Screen item = "AdventureStatsWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>100</X>

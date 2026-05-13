@@ -66,8 +66,7 @@
 	</Button>
 	<Button item = "IOF_SelectedItem">
 		<ScreenID>IOF_SelectedItem</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -91,8 +90,7 @@
 	</Button>
 	<Label item ="IOF_SelectedItemLabel">
 		<ScreenID>IOF_SelectedItemLabel</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -145,8 +143,7 @@
 	</Button>
 	<Button item = "IOF_Done_Button">
 		<ScreenID>IOF_Done_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>

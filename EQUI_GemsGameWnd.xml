@@ -3,8 +3,7 @@
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Label item ="GGW_Instructions">
 		<ScreenID>GGW_Instructions</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>20</Y>
@@ -20,8 +19,7 @@
 	</Label>
 	<Label item ="GGW_Instructions2">
 		<ScreenID>GGW_Instructions2</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>50</Y>
@@ -37,8 +35,7 @@
 	</Label>
 	<Label item ="GGW_Instructions3">
 		<ScreenID>GGW_Instructions3</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>180</Y>
@@ -54,8 +51,7 @@
 	</Label>
 	<Label item ="GGW_Score">
 		<ScreenID>GGW_Score</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>405</X>
 			<Y>5</Y>
@@ -71,8 +67,7 @@
 	</Label>
 	<Label item ="GGW_ScoreNbr">
 		<ScreenID>GGW_ScoreNbr</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>405</X>
 			<Y>22</Y>
@@ -88,8 +83,7 @@
 	</Label>
 	<Label item ="GGW_Wave">
 		<ScreenID>GGW_Wave</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>405</X>
 			<Y>45</Y>
@@ -105,8 +99,7 @@
 	</Label>
 	<Label item ="GGW_WaveNbr">
 		<ScreenID>GGW_WaveNbr</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>445</X>
 			<Y>45</Y>
@@ -122,8 +115,7 @@
 	</Label>
 	<Label item ="GGW_Next">
 		<ScreenID>GGW_Next</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>430</X>
 			<Y>95</Y>
@@ -139,8 +131,7 @@
 	</Label>
 	<Label item ="GGW_Special">
 		<ScreenID>GGW_Special</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>420</X>
 			<Y>240</Y>
@@ -827,8 +818,7 @@
 	</Label>
 	<Button item = "GGW_StartButton">
 		<ScreenID>GGW_StartButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>405</X>
 			<Y>330</Y>
@@ -838,16 +828,13 @@
 			<CY>24</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Start</Text>
+				<Style_Checkbox>false</Style_Checkbox>
+				<Text>Start</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "GGW_DoneButton">
 		<ScreenID>GGW_DoneButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>405</X>
 			<Y>370</Y>
@@ -857,14 +844,11 @@
 			<CY>24</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Done</Text>
+				<Style_Checkbox>false</Style_Checkbox>
+				<Text>Done</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<!-- THIS DETERMINES WHAT THE GEMS IN THIS MINI GAME LOOK LIKE -->
-	<SpellGem item = "GGW_SpellGem">
+		<SpellGem item = "GGW_SpellGem">
 		<ScreenID>GGW_SpellGem</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -872,20 +856,15 @@
 			<Y>5</Y>
 		</Location>
 		<Size>
-			<CX>38</CX><!-- was 40 -->
-			<CY>30</CY><!-- was 32 -->
-		</Size>
+			<CX>38</CX>			<CY>30</CY>		</Size>
 		<SpellGemDrawTemplate>
 			<Holder>A_SpellGemHolder</Holder>
 			<Background>A_SpellGemBackground</Background>
 			<Highlight>A_SpellGemHighlight</Highlight>
 		</SpellGemDrawTemplate>
-		<SpellIconOffsetX>7</SpellIconOffsetX><!-- was 8 -->
-		<SpellIconOffsetY>3</SpellIconOffsetY><!-- was 4 -->
-	</SpellGem>
+		<SpellIconOffsetX>7</SpellIconOffsetX>		<SpellIconOffsetY>3</SpellIconOffsetY>	</SpellGem>
 	<Screen item = "GemsGameWnd">
-		<!--<ScreenID/>-->
-		<RelativePosition>false</RelativePosition>
+				<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>50</Y>

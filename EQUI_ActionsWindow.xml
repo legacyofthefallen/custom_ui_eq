@@ -1,7 +1,6 @@
 <?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-<!-- Actions Socials Page -->
 	<Button item = "ASP_SocialPageLeftButton">
 		<ScreenID>ASP_SocialPageLeftButton</ScreenID>
 		<!--<Font>3</Font>-->	
@@ -36,8 +35,7 @@
 	</Label>
 	<Button item = "ASP_SocialPageRightButton">
 		<ScreenID>ASP_SocialPageRightButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>73</X>
 			<Y>5</Y>
@@ -231,8 +229,7 @@
 	</Button>
 	<Page item = "ActionsSocialsPage">
 		<ScreenID>ActionsSocialsPage</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
@@ -256,12 +253,9 @@
 			<Pieces>ASP_SocialButton11</Pieces>
 			<Pieces>ASP_SocialButton12</Pieces>
 	</Page>
-<!-- Actions Main Page -->
-	<!-- Note that the Who Button is being "replaced" by the Find button, so here it has been shrunk to have 0x0 dimensions. The button still exists in the window, so you can feel free to put it back in your own custom skin, if you desire.-->
-	<Button item = "AMP_WhoButton">
+		<Button item = "AMP_WhoButton">
 		<ScreenID>AMP_WhoButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
 			<Y>10</Y>
@@ -275,8 +269,7 @@
 	</Button>
 	<Button item = "AMP_FindButton">
 		<ScreenID>AMP_FindButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
 			<Y>10</Y>
@@ -290,8 +283,7 @@
 	</Button>
 	<Button item = "AMP_EndFindButton">
 		<ScreenID>AMP_EndFindButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
 			<Y>10</Y>
@@ -347,8 +339,7 @@
 	</Button>
 	<Button item = "AMP_CampButton">
 		<ScreenID>AMP_CampButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
 			<Y>70</Y>
@@ -362,8 +353,7 @@
 	</Button>
 	<Button item = "AMP_SitButton">
 		<ScreenID>AMP_SitButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
 			<Y>90</Y>
@@ -377,8 +367,7 @@
 	</Button>
 	<Button item = "AMP_StandButton">
 		<ScreenID>AMP_StandButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
 			<Y>90</Y>
@@ -392,8 +381,7 @@
 	</Button>
 	<Button item = "AMP_RunButton">
 		<ScreenID>AMP_RunButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
 			<Y>110</Y>
@@ -407,8 +395,7 @@
 	</Button>
 	<Button item = "AMP_WalkButton">
 		<ScreenID>AMP_WalkButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
 			<Y>110</Y>
@@ -422,8 +409,7 @@
 	</Button>
 	<Page item = "ActionsMainPage">
 		<ScreenID>ActionsMainPage</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
@@ -443,7 +429,6 @@
 			<Pieces>AMP_RunButton</Pieces>
 			<Pieces>AMP_WalkButton</Pieces>
 	</Page>
-<!-- Actions Combat Page -->
 	<Button item = "ACP_MeleeAttackButton">
 		<ScreenID>ACP_MeleeAttackButton</ScreenID>
 		<Font>1</Font>
@@ -544,8 +529,7 @@
 	</Button>
 	<Page item = "ActionsCombatPage">
 		<ScreenID>ActionsCombatPage</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
@@ -560,7 +544,6 @@
 			<Pieces>ACP_ThirdAbilityButton</Pieces>
 			<Pieces>ACP_FourthAbilityButton</Pieces>
 	</Page>
-<!-- Actions Abilities Page -->
 	<Button item = "AAP_FirstAbilityButton">
 		<ScreenID>AAP_FirstAbilityButton</ScreenID>
 		<Font>1</Font>
@@ -653,8 +636,7 @@
 	</Button>
 	<Page item = "ActionsAbilitiesPage">
 		<ScreenID>ActionsAbilitiesPage</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
@@ -669,11 +651,9 @@
 			<Pieces>AAP_FifthAbilityButton</Pieces>
 			<Pieces>AAP_SixthAbilityButton</Pieces>
 	</Page>
-<!-- TabBox Brings all the Actions Pages Together -->
 	<TabBox item = "ACTW_ActionsSubwindows">
 		<ScreenID>ACTW_ActionsSubwindows</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>

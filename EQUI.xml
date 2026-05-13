@@ -1,47 +1,4 @@
 <?xml version = "1.0" encoding="utf-8"?>
-<!-- Monolithic Parameter File -->
-<!-- The composite section must come first and be followed by the schema -->
-<!-- defines for gauges set the EQType tag in Gauge definitions to one of these numbers -->
-<!-- GAUGETYPE_HP                1 -->
-<!-- GAUGETYPE_MANA              2 -->
-<!-- GAUGETYPE_STAMINA           3 -->
-<!-- GAUGETYPE_EXP               4 -->
-<!-- GAUGETYPE_ALTEXP            5 -->
-<!-- GAUGETYPE_TARGET            6 -->
-<!-- GAUGETYPE_CASTING           7 -->
-<!-- GAUGETYPE_BREATH            8 -->
-<!-- GAUGETYPE_MEMORIZE          9 -->
-<!-- GAUGETYPE_SCRIBE            10 -->
-<!-- GAUGETYPE_HP_PARTY1         11 -->
-<!-- GAUGETYPE_HP_PARTY2         12 -->
-<!-- GAUGETYPE_HP_PARTY3         13 -->
-<!-- GAUGETYPE_HP_PARTY4         14 -->
-<!-- GAUGETYPE_HP_PARTY5         15 -->
-<!-- GAUGETYPE_PET_HP            16 -->
-<!-- GAUGETYPE_PET_HP_PARTY1     17 -->
-<!-- GAUGETYPE_PET_HP_PARTY2     18 -->
-<!-- GAUGETYPE_PET_HP_PARTY3     19 -->
-<!-- GAUGETYPE_PET_HP_PARTY4     20 -->
-<!-- GAUGETYPE_PET_HP_PARTY5     21 -->
-<!-- GAUGETYPE_MUSIC_PROGRESS    22 -->
-<!-- GAUGETYPE_GROUPLEADEXP      23 -->
-<!-- GAUGETYPE_RAIDLEADEXP       24 -->
-<!-- GAUGETYPE_UNUSED            25 -->
-<!-- GAUGETYPE_COMBAT_EFFECT_TIME26 -->
-<!-- GAUGETYPE_TARGET_OF_TARGET  27 -->
-<!-- GAUGETYPE_RESPAWN_TIMER     28 -->
-<!-- GAUGETYPE_INCOMBAT_TIMER    29 -->
-<!-- GAUGETYPE_WEBWINDOW         30 -->
-<!-- GAUGETYPE_MANA_PARTY1       31 -->
-<!-- GAUGETYPE_MANA_PARTY2       32 -->
-<!-- GAUGETYPE_MANA_PARTY3       33 -->
-<!-- GAUGETYPE_MANA_PARTY4       34 -->
-<!-- GAUGETYPE_MANA_PARTY5       35 -->
-<!-- GAUGETYPE_STA_PARTY1        36 -->
-<!-- GAUGETYPE_STA_PARTY2        37 -->
-<!-- GAUGETYPE_STA_PARTY3        38 -->
-<!-- GAUGETYPE_STA_PARTY4        39 -->
-<!-- GAUGETYPE_STA_PARTY5        40 -->
 <XML ID = "EQInterfaceDefinitionLanguage">
   <Composite>
     <Include>SIDL.xdr</Include>

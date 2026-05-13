@@ -294,8 +294,7 @@
 			<element name="RelativePosition" type="boolean"/>
 			<element name="SpellIconSizeX" type="int"/>
 			<element name="SpellIconSizeY" type="int"/>
-			<!-- <element name="Size" type="Size:item"/> -->
-		</ElementType>
+					</ElementType>
 		<ElementType name="InvSlot">
 			<superType type="Control" />
 			<element name="Background" type="Ui2DAnimation:item" />

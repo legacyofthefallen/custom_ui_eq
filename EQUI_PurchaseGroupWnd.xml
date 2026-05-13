@@ -62,8 +62,7 @@
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 	</Label>
 	
-	<!-- Confirmation Page -->
-	<Label item="PGW_ProductName">
+		<Label item="PGW_ProductName">
 		<ScreenID>PGW_ProductName</ScreenID>
 		<Text>Item</Text>
 		<Font>3</Font>

@@ -144,8 +144,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Text>Shroud Bank</Text>
+				<Text>Shroud Bank</Text>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Closebox>true</Style_Closebox>

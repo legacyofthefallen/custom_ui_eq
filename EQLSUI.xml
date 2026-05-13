@@ -1,6 +1,4 @@
 <?xml version = "1.0"?>
-<!-- Monolithic Parameter File -->
-<!-- The composite section must come first and be followed by the schema -->
 <XML ID = "EQInterfaceDefinitionLanguage">
     <Composite>
         <Include>SIDL.xdr</Include>

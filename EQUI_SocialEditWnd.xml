@@ -3,8 +3,7 @@
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Label item ="SEW_NameInputLabel">
 		<ScreenID>SEW_NameInputLabel</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>5</LeftAnchorOffset>
 		<TopAnchorOffset>212</TopAnchorOffset>
@@ -33,8 +32,7 @@
 	</Editbox>
 	<Button item = "SEW_TC0Button">
 		<ScreenID>SEW_TC0Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>100</X>
 			<Y>5</Y>
@@ -55,8 +53,7 @@
 	</Button>
 	<Button item = "SEW_TC1Button">
 		<ScreenID>SEW_TC1Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>124</X>
 			<Y>5</Y>
@@ -77,8 +74,7 @@
 	</Button>
 	<Button item = "SEW_TC2Button">
 		<ScreenID>SEW_TC2Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>148</X>
 			<Y>5</Y>
@@ -99,8 +95,7 @@
 	</Button>
 	<Button item = "SEW_TC3Button">
 		<ScreenID>SEW_TC3Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>172</X>
 			<Y>5</Y>
@@ -121,8 +116,7 @@
 	</Button>
 	<Button item = "SEW_TC4Button">
 		<ScreenID>SEW_TC4Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>196</X>
 			<Y>5</Y>
@@ -143,8 +137,7 @@
 	</Button>
 	<Button item = "SEW_TC5Button">
 		<ScreenID>SEW_TC5Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>220</X>
 			<Y>5</Y>
@@ -165,8 +158,7 @@
 	</Button>
 	<Button item = "SEW_TC6Button">
 		<ScreenID>SEW_TC6Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>244</X>
 			<Y>5</Y>
@@ -187,8 +179,7 @@
 	</Button>
 	<Button item = "SEW_TC7Button">
 		<ScreenID>SEW_TC7Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>268</X>
 			<Y>5</Y>
@@ -209,8 +200,7 @@
 	</Button>
 	<Button item = "SEW_TC8Button">
 		<ScreenID>SEW_TC8Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>292</X>
 			<Y>5</Y>
@@ -231,8 +221,7 @@
 	</Button>
 	<Button item = "SEW_TC9Button">
 		<ScreenID>SEW_TC9Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>316</X>
 			<Y>5</Y>
@@ -253,8 +242,7 @@
 	</Button>
 	<Button item = "SEW_TC10Button">
 		<ScreenID>SEW_TC10Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>100</X>
 			<Y>30</Y>
@@ -275,8 +263,7 @@
 	</Button>
 	<Button item = "SEW_TC11Button">
 		<ScreenID>SEW_TC11Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>124</X>
 			<Y>30</Y>
@@ -297,8 +284,7 @@
 	</Button>
 	<Button item = "SEW_TC12Button">
 		<ScreenID>SEW_TC12Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>148</X>
 			<Y>30</Y>
@@ -319,8 +305,7 @@
 	</Button>
 	<Button item = "SEW_TC13Button">
 		<ScreenID>SEW_TC13Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>172</X>
 			<Y>30</Y>
@@ -341,8 +326,7 @@
 	</Button>
 	<Button item = "SEW_TC14Button">
 		<ScreenID>SEW_TC14Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>196</X>
 			<Y>30</Y>
@@ -363,8 +347,7 @@
 	</Button>
 	<Button item = "SEW_TC15Button">
 		<ScreenID>SEW_TC15Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>220</X>
 			<Y>30</Y>
@@ -385,8 +368,7 @@
 	</Button>
 	<Button item = "SEW_TC16Button">
 		<ScreenID>SEW_TC16Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>244</X>
 			<Y>30</Y>
@@ -407,8 +389,7 @@
 	</Button>
 	<Button item = "SEW_TC17Button">
 		<ScreenID>SEW_TC17Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>268</X>
 			<Y>30</Y>
@@ -429,8 +410,7 @@
 	</Button>
 	<Button item = "SEW_TC18Button">
 		<ScreenID>SEW_TC18Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>292</X>
 			<Y>30</Y>
@@ -451,8 +431,7 @@
 	</Button>
 	<Button item = "SEW_TC19Button">
 		<ScreenID>SEW_TC19Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>316</X>
 			<Y>30</Y>
@@ -561,14 +540,12 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Clear all commands</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Clear</Text>
+				<Text>Clear</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item = "SEW_Accept_Button">
 		<ScreenID>SEW_Accept_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>69</LeftAnchorOffset>
 		<TopAnchorOffset>28</TopAnchorOffset>
@@ -581,13 +558,11 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Accept your changes</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Accept</Text>
+				<Text>Accept</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Screen item = "SocialEditWnd">
-		<!--<ScreenID/>-->
-		<RelativePosition>false</RelativePosition>
+				<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>200</X>
 			<Y>100</Y>

@@ -45,8 +45,7 @@
 	</Listbox>
 	<Label item ="TRNW_ExpLabel">
 		<ScreenID>ExpLabel</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>456</X>
 			<Y>2</Y>
@@ -62,8 +61,7 @@
 	</Label>
 	<Gauge item = "TRNW_ExpGauge">
 		<ScreenID>ExpGauge</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>456</X>
 			<Y>24</Y>
@@ -76,8 +74,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<FillTint>
+				<FillTint>
 				<R>240</R>
 				<G>240</G>
 				<B>0</B>
@@ -100,8 +97,7 @@
 	</Gauge>
 	<Label item ="TRNW_PracticeLabel">
 		<ScreenID>PracticeLabel</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>456</X>
 			<Y>48</Y>
@@ -117,8 +113,7 @@
 	</Label>
 	<Label item ="TRNW_PracticeCount">
 		<ScreenID>PracticeCount</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>530</X>
 			<Y>48</Y>
@@ -134,8 +129,7 @@
 	</Label>
 	<Button item = "TRNW_TrainButton">
 		<ScreenID>TrainButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>460</X>
 			<Y>78</Y>
@@ -147,19 +141,13 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Train</Text>
+				<Style_Checkbox>false</Style_Checkbox>
+				<Text>Train</Text>
 		<Template>BDT_Normal</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
-	</Button>
+							</Button>
 	<Label item ="TRNW_MoneyLabel">
 		<ScreenID>MoneyLabel</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>456</X>
 			<Y>108</Y>
@@ -175,8 +163,7 @@
 	</Label>
 	<Label item ="TRNW_CoinCount0">
 		<ScreenID>CoinCount0</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>494</X>
 			<Y>136</Y>
@@ -192,8 +179,7 @@
 	</Label>
 	<Label item ="TRNW_CoinCount1">
 		<ScreenID>CoinCount1</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>494</X>
 			<Y>156</Y>
@@ -209,8 +195,7 @@
 	</Label>
 	<Label item ="TRNW_CoinCount2">
 		<ScreenID>CoinCount2</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>494</X>
 			<Y>176</Y>
@@ -226,8 +211,7 @@
 	</Label>
 	<Label item ="TRNW_CoinCount3">
 		<ScreenID>CoinCount3</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>494</X>
 			<Y>196</Y>
@@ -295,8 +279,7 @@
 	</StaticAnimation>
 	<Button item = "TW_DoneButton">
 		<ScreenID>DoneButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>460</X>
 			<Y>226</Y>
@@ -307,19 +290,12 @@
 		</Size>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Done</Text>
+				<Style_Checkbox>false</Style_Checkbox>
+				<Text>Done</Text>
 		<Template>BDT_Normal</Template>
-		<!--<SoundPressed/>-->
-		<!--<<SoundUp/>-->
-		<!--<SoundFlyby/>-->
-	</Button>
+							</Button>
 	<Screen item = "TrainWindow">
-		<!--<ScreenID/>-->
-		<!--<Font/>-->
-		<RelativePosition>false</RelativePosition>
+						<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>120</X>
 			<Y>20</Y>
@@ -331,8 +307,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Text>Training Window</Text>
+				<Text>Training Window</Text>
 		<DrawTemplate>WDT_Rounded</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Qmarkbox>true</Style_Qmarkbox>

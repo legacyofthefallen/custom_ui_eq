@@ -2,8 +2,7 @@
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
 	
-	<!-- Upper Available Funds -->
-	<Label item="PCW_AvailableFundsLabel">
+		<Label item="PCW_AvailableFundsLabel">
 		<ScreenID>PCW_AvailableFundsLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -50,8 +49,7 @@
 		</DecalSize>
 	</Button>
 	
-	<!-- Confirmation Page -->
-	<Label item="PCW_ProductName">
+		<Label item="PCW_ProductName">
 		<ScreenID>PCW_ProductName</ScreenID>
 		<Text>Item</Text>
 		<Font>3</Font>
@@ -431,8 +429,7 @@
 		<Animation>A_DividerMiddle</Animation>
 	</StaticAnimation>
 	
-	<!-- Complete/Cancel/Add funds for purchase buttons -->
-	<Button item="PCW_CompleteBtn">
+		<Button item="PCW_CompleteBtn">
 		<ScreenID>PCW_CompleteBtn</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>

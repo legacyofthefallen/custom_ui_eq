@@ -1,7 +1,6 @@
 <?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-<!-- Accept/Decline buttons -->
 	<Button item = "SplashEx_OKButton">
 		<ScreenID>SplashEx_OKButton</ScreenID>
 		<Font>4</Font>
@@ -30,7 +29,6 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-<!-- The Splash text -->
 	<STMLbox item = "SplashEx_Display">
 		<ScreenID>SplashEx_Display</ScreenID>
 		<Font>4</Font>
@@ -48,7 +46,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<Style_Border>true</Style_Border>
 	</STMLbox>
-<!-- Window label -->
 	<Label item = "SplashEx_WndLabel">
 		<ScreenID>SplashEx_WndLabel</ScreenID>
 		<Font>5</Font>
@@ -72,8 +69,7 @@
 		<AlignRight>false</AlignRight>
 	</Label>
 	<Screen item = "SplashExWindow">
-		<!--<ScreenID/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -92,8 +88,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+				<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>

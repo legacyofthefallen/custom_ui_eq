@@ -77,9 +77,7 @@
 		<Template>BDT_Normal</Template>
 	</Button>
 	
-	<!-- START INVENTORY -->
-	<!-- IS_CHARM		1 -->
-	<InvSlot item="InvSlot0">
+			<InvSlot item="InvSlot0">
 		<ScreenID>InvSlot0</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -93,8 +91,7 @@
 		<Background>A_InvCharm</Background>
 		<EQType>inventory/Equip 0</EQType>
 	</InvSlot>
-	<!-- IS_L_EAR		1 -->
-	<InvSlot item="InvSlot1">
+		<InvSlot item="InvSlot1">
 		<ScreenID>InvSlot1</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -108,8 +105,7 @@
 		<Background>A_InvEar</Background>
 		<EQType>inventory/Equip 1</EQType>
 	</InvSlot>
-	<!-- IS_HEAD		2 -->
-	<InvSlot item="InvSlot2">
+		<InvSlot item="InvSlot2">
 		<ScreenID>InvSlot2</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -123,8 +119,7 @@
 		<Background>A_InvHead</Background>
 		<EQType>inventory/Equip 2</EQType>
 	</InvSlot>
-	<!-- IS_FACE		3 -->
-	<InvSlot item="InvSlot3">
+		<InvSlot item="InvSlot3">
 		<ScreenID>InvSlot3</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -138,8 +133,7 @@
 		<Background>A_InvFace</Background>
 		<EQType>inventory/Equip 3</EQType>
 	</InvSlot>
-	<!-- IS_R_EAR		4 -->
-	<InvSlot item="InvSlot4">
+		<InvSlot item="InvSlot4">
 		<ScreenID>InvSlot4</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -153,8 +147,7 @@
 		<Background>A_InvEar</Background>
 		<EQType>inventory/Equip 4</EQType>
 	</InvSlot>
-	<!-- IS_NECK		5 -->
-	<InvSlot item="InvSlot5">
+		<InvSlot item="InvSlot5">
 		<ScreenID>InvSlot5</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -168,8 +161,7 @@
 		<Background>A_InvNeck</Background>
 		<EQType>inventory/Equip 5</EQType>
 	</InvSlot>
-	<!-- IS_SHOULDERS	6 -->
-	<InvSlot item="InvSlot6">
+		<InvSlot item="InvSlot6">
 		<ScreenID>InvSlot6</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -183,8 +175,7 @@
 		<Background>A_InvShoulders</Background>
 		<EQType>inventory/Equip 6</EQType>
 	</InvSlot>
-	<!-- IS_ARMS		7 -->
-	<InvSlot item="InvSlot7">
+		<InvSlot item="InvSlot7">
 		<ScreenID>InvSlot7</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -198,8 +189,7 @@
 		<Background>A_InvArms</Background>
 		<EQType>inventory/Equip 7</EQType>
 	</InvSlot>
-	<!-- IS_ABOUT_BODY	8 -->
-	<InvSlot item="InvSlot8">
+		<InvSlot item="InvSlot8">
 		<ScreenID>InvSlot8</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -213,8 +203,7 @@
 		<Background>A_InvAboutBody</Background>
 		<EQType>inventory/Equip 8</EQType>
 	</InvSlot>
-	<!-- IS_L_WRIST		9 -->
-	<InvSlot item="InvSlot9">
+		<InvSlot item="InvSlot9">
 		<ScreenID>InvSlot9</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -228,8 +217,7 @@
 		<Background>A_InvWrist</Background>
 		<EQType>inventory/Equip 9</EQType>
 	</InvSlot>
-	<!-- IS_R_WRIST		10 -->
-	<InvSlot item="InvSlot10">
+		<InvSlot item="InvSlot10">
 		<ScreenID>InvSlot10</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -243,8 +231,7 @@
 		<Background>A_InvWrist</Background>
 		<EQType>inventory/Equip 10</EQType>
 	</InvSlot>
-	<!-- IS_RANGE		11 -->
-	<InvSlot item="InvSlot11">
+		<InvSlot item="InvSlot11">
 		<ScreenID>InvSlot11</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -258,8 +245,7 @@
 		<Background>A_InvRange</Background>
 		<EQType>inventory/Equip 11</EQType>
 	</InvSlot>
-	<!-- IS_HANDS		12 -->
-	<InvSlot item="InvSlot12">
+		<InvSlot item="InvSlot12">
 		<ScreenID>InvSlot12</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -273,8 +259,7 @@
 		<Background>A_InvHands</Background>
 		<EQType>inventory/Equip 12</EQType>
 	</InvSlot>
-	<!-- IS_PRIMARY		13 -->
-	<InvSlot item="InvSlot13">
+		<InvSlot item="InvSlot13">
 		<ScreenID>InvSlot13</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -288,8 +273,7 @@
 		<Background>A_InvPrimary</Background>
 		<EQType>inventory/Equip 13</EQType>
 	</InvSlot>
-	<!-- IS_SECONDARY	14 -->
-	<InvSlot item="InvSlot14">
+		<InvSlot item="InvSlot14">
 		<ScreenID>InvSlot14</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -303,8 +287,7 @@
 		<Background>A_InvSecondary</Background>
 		<EQType>inventory/Equip 14</EQType>
 	</InvSlot>
-	<!-- IS_L_FINGERS	15 -->
-	<InvSlot item="InvSlot15">
+		<InvSlot item="InvSlot15">
 		<ScreenID>InvSlot15</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -318,8 +301,7 @@
 		<Background>A_InvRing</Background>
 		<EQType>inventory/Equip 15</EQType>
 	</InvSlot>
-	<!-- IS_R_FINGERS	16 -->
-	<InvSlot item="InvSlot16">
+		<InvSlot item="InvSlot16">
 		<ScreenID>InvSlot16</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -333,8 +315,7 @@
 		<Background>A_InvRing</Background>
 		<EQType>inventory/Equip 16</EQType>
 	</InvSlot>
-	<!-- IS_CHEST		17 -->
-	<InvSlot item="InvSlot17">
+		<InvSlot item="InvSlot17">
 		<ScreenID>InvSlot17</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -348,8 +329,7 @@
 		<Background>A_InvChest</Background>
 		<EQType>inventory/Equip 17</EQType>
 	</InvSlot>
-	<!-- IS_LEGS		18 -->
-	<InvSlot item="InvSlot18">
+		<InvSlot item="InvSlot18">
 		<ScreenID>InvSlot18</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -363,8 +343,7 @@
 		<Background>A_InvLegs</Background>
 		<EQType>inventory/Equip 18</EQType>
 	</InvSlot>
-	<!-- IS_FEET		19 -->
-	<InvSlot item="InvSlot19">
+		<InvSlot item="InvSlot19">
 		<ScreenID>InvSlot19</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -378,8 +357,7 @@
 		<Background>A_InvFeet</Background>
 		<EQType>inventory/Equip 19</EQType>
 	</InvSlot>
-	<!-- IS_WAIST		20 -->
-	<InvSlot item="InvSlot20">
+		<InvSlot item="InvSlot20">
 		<ScreenID>InvSlot20</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -393,8 +371,7 @@
 		<Background>A_InvWaist</Background>
 		<EQType>inventory/Equip 20</EQType>
 	</InvSlot>
-	<!-- IS_POWER_SOURCE		21 -->
-	<InvSlot item="InvSlot21">
+		<InvSlot item="InvSlot21">
 		<ScreenID>InvSlot21</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -408,8 +385,7 @@
 		<Background>A_InvPowerSource</Background>
 		<EQType>inventory/Equip 21</EQType>
 	</InvSlot>
-	<!-- IS_AMMO		22 -->
-	<InvSlot item="InvSlot22">
+		<InvSlot item="InvSlot22">
 		<ScreenID>InvSlot22</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -423,8 +399,7 @@
 		<Background>A_InvAmmo</Background>
 		<EQType>inventory/Equip 22</EQType>
 	</InvSlot>
-	<!-- IS_KRONO			 -->
-	<InvSlot item="InvSlotKrono">
+		<InvSlot item="InvSlotKrono">
 		<ScreenID>InvSlotKrono</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -438,8 +413,7 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>inventory/Krono</EQType>
 	</InvSlot>
-	<!-- root inv slots, IS_B1 to IS_B11 -->
-	<InvSlot item="InvSlot23">
+		<InvSlot item="InvSlot23">
 		<ScreenID>InvSlot23</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Size>
@@ -515,8 +489,7 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>inventory/Equip 34</EQType>
 	</InvSlot>
-	<!-- END INVENTORY -->
-	
+		
 	<Button item="IW_ConsumeKrono">
 		<ScreenID>IW_ConsumeKrono</ScreenID>
 		<Font>2</Font>
@@ -576,8 +549,7 @@
 		<Button>BDT_Combo</Button>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-	<!-- START CHAR INFO -->
-	<Label item="IW_Name">
+		<Label item="IW_Name">
 		<ScreenID>NameLabel</ScreenID>
 		<EQType>1</EQType>
 		<RelativePosition>true</RelativePosition>
@@ -1619,8 +1591,7 @@
 			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 	</Gauge>
-	<!-- END CHAR INFO -->
-	
+		
 	<Button item="IW_GoodPoints">
 		<ScreenID>IW_GoodPoints</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1849,8 +1820,7 @@
 			<CX>75</CX>
 			<CY>142</CY>
 		</Size>
-		<!-- Do NOT include an animation here since it messes with other UIs.	Instead an animation instance is dynamically created and used. -->
-	</StaticAnimation>
+			</StaticAnimation>
 	<Screen item="IW_CharacterView">
 		<ScreenID>IW_CharacterView</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -2193,8 +2163,7 @@
 			<CY>401</CY>
 		</Size>
 	</Page>
-	<!-- START STATS -->
-	<Label item="IWS_HP">
+		<Label item="IWS_HP">
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
@@ -6017,10 +5986,8 @@
 		</Size>
 		<Pieces>TileLayoutBox:IW_Stats</Pieces>
 	</Page>
-	<!-- END STATS -->
-	
-	<!-- START ALT CURR -->
-	<Listbox item="IW_AltCurr_PointList">
+		
+		<Listbox item="IW_AltCurr_PointList">
 		<ScreenID>AltCurr_PointList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -6167,10 +6134,8 @@
 			<CY>401</CY>
 		</Size>
 	</Page>
-	<!-- END ALT CURR -->
-	
-	<!-- START MERC -->
-	<Label item="IWM_HP">
+		
+		<Label item="IWM_HP">
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
@@ -7564,11 +7529,8 @@
 		<Pieces>TileLayoutBox:IW_MercenaryInv</Pieces>
 		<Pieces>TileLayoutBox:IWM_Slots</Pieces>
 	</Page>
-	<!-- END MERC -->
-	
-	<!-- START PERSONA -->
-	<!-- IS_CHARM		1 -->
-	<InvSlot item="PersonaInvSlot0">
+		
+			<InvSlot item="PersonaInvSlot0">
 		<ScreenID>PersonaInvSlot0</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7582,8 +7544,7 @@
 		<Background>A_InvCharm</Background>
 		<EQType>personaInventory/Equip 0</EQType>
 	</InvSlot>
-	<!-- IS_L_EAR		1 -->
-	<InvSlot item="PersonaInvSlot1">
+		<InvSlot item="PersonaInvSlot1">
 		<ScreenID>PersonaInvSlot1</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7597,8 +7558,7 @@
 		<Background>A_InvEar</Background>
 		<EQType>personaInventory/Equip 1</EQType>
 	</InvSlot>
-	<!-- IS_HEAD		2 -->
-	<InvSlot item="PersonaInvSlot2">
+		<InvSlot item="PersonaInvSlot2">
 		<ScreenID>PersonaInvSlot2</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7612,8 +7572,7 @@
 		<Background>A_InvHead</Background>
 		<EQType>personaInventory/Equip 2</EQType>
 	</InvSlot>
-	<!-- IS_FACE		3 -->
-	<InvSlot item="PersonaInvSlot3">
+		<InvSlot item="PersonaInvSlot3">
 		<ScreenID>PersonaInvSlot3</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7627,8 +7586,7 @@
 		<Background>A_InvFace</Background>
 		<EQType>personaInventory/Equip 3</EQType>
 	</InvSlot>
-	<!-- IS_R_EAR		4 -->
-	<InvSlot item="PersonaInvSlot4">
+		<InvSlot item="PersonaInvSlot4">
 		<ScreenID>PersonaInvSlot4</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7642,8 +7600,7 @@
 		<Background>A_InvEar</Background>
 		<EQType>personaInventory/Equip 4</EQType>
 	</InvSlot>
-	<!-- IS_NECK		5 -->
-	<InvSlot item="PersonaInvSlot5">
+		<InvSlot item="PersonaInvSlot5">
 		<ScreenID>PersonaInvSlot5</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7657,8 +7614,7 @@
 		<Background>A_InvNeck</Background>
 		<EQType>personaInventory/Equip 5</EQType>
 	</InvSlot>
-	<!-- IS_SHOULDERS	6 -->
-	<InvSlot item="PersonaInvSlot6">
+		<InvSlot item="PersonaInvSlot6">
 		<ScreenID>PersonaInvSlot6</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7672,8 +7628,7 @@
 		<Background>A_InvShoulders</Background>
 		<EQType>personaInventory/Equip 6</EQType>
 	</InvSlot>
-	<!-- IS_ARMS		7 -->
-	<InvSlot item="PersonaInvSlot7">
+		<InvSlot item="PersonaInvSlot7">
 		<ScreenID>PersonaInvSlot7</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7687,8 +7642,7 @@
 		<Background>A_InvArms</Background>
 		<EQType>personaInventory/Equip 7</EQType>
 	</InvSlot>
-	<!-- IS_ABOUT_BODY	8 -->
-	<InvSlot item="PersonaInvSlot8">
+		<InvSlot item="PersonaInvSlot8">
 		<ScreenID>PersonaInvSlot8</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7702,8 +7656,7 @@
 		<Background>A_InvAboutBody</Background>
 		<EQType>personaInventory/Equip 8</EQType>
 	</InvSlot>
-	<!-- IS_L_WRIST		9 -->
-	<InvSlot item="PersonaInvSlot9">
+		<InvSlot item="PersonaInvSlot9">
 		<ScreenID>PersonaInvSlot9</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7717,8 +7670,7 @@
 		<Background>A_InvWrist</Background>
 		<EQType>personaInventory/Equip 9</EQType>
 	</InvSlot>
-	<!-- IS_R_WRIST		10 -->
-	<InvSlot item="PersonaInvSlot10">
+		<InvSlot item="PersonaInvSlot10">
 		<ScreenID>PersonaInvSlot10</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7732,8 +7684,7 @@
 		<Background>A_InvWrist</Background>
 		<EQType>personaInventory/Equip 10</EQType>
 	</InvSlot>
-	<!-- IS_RANGE		11 -->
-	<InvSlot item="PersonaInvSlot11">
+		<InvSlot item="PersonaInvSlot11">
 		<ScreenID>PersonaInvSlot11</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7747,8 +7698,7 @@
 		<Background>A_InvRange</Background>
 		<EQType>personaInventory/Equip 11</EQType>
 	</InvSlot>
-	<!-- IS_HANDS		12 -->
-	<InvSlot item="PersonaInvSlot12">
+		<InvSlot item="PersonaInvSlot12">
 		<ScreenID>PersonaInvSlot12</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7762,8 +7712,7 @@
 		<Background>A_InvHands</Background>
 		<EQType>personaInventory/Equip 12</EQType>
 	</InvSlot>
-	<!-- IS_PRIMARY		13 -->
-	<InvSlot item="PersonaInvSlot13">
+		<InvSlot item="PersonaInvSlot13">
 		<ScreenID>PersonaInvSlot13</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7777,8 +7726,7 @@
 		<Background>A_InvPrimary</Background>
 		<EQType>personaInventory/Equip 13</EQType>
 	</InvSlot>
-	<!-- IS_SECONDARY	14 -->
-	<InvSlot item="PersonaInvSlot14">
+		<InvSlot item="PersonaInvSlot14">
 		<ScreenID>PersonaInvSlot14</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7792,8 +7740,7 @@
 		<Background>A_InvSecondary</Background>
 		<EQType>personaInventory/Equip 14</EQType>
 	</InvSlot>
-	<!-- IS_L_FINGERS	15 -->
-	<InvSlot item="PersonaInvSlot15">
+		<InvSlot item="PersonaInvSlot15">
 		<ScreenID>PersonaInvSlot15</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7807,8 +7754,7 @@
 		<Background>A_InvRing</Background>
 		<EQType>personaInventory/Equip 15</EQType>
 	</InvSlot>
-	<!-- IS_R_FINGERS	16 -->
-	<InvSlot item="PersonaInvSlot16">
+		<InvSlot item="PersonaInvSlot16">
 		<ScreenID>PersonaInvSlot16</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7822,8 +7768,7 @@
 		<Background>A_InvRing</Background>
 		<EQType>personaInventory/Equip 16</EQType>
 	</InvSlot>
-	<!-- IS_CHEST		17 -->
-	<InvSlot item="PersonaInvSlot17">
+		<InvSlot item="PersonaInvSlot17">
 		<ScreenID>PersonaInvSlot17</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7837,8 +7782,7 @@
 		<Background>A_InvChest</Background>
 		<EQType>personaInventory/Equip 17</EQType>
 	</InvSlot>
-	<!-- IS_LEGS		18 -->
-	<InvSlot item="PersonaInvSlot18">
+		<InvSlot item="PersonaInvSlot18">
 		<ScreenID>PersonaInvSlot18</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7852,8 +7796,7 @@
 		<Background>A_InvLegs</Background>
 		<EQType>personaInventory/Equip 18</EQType>
 	</InvSlot>
-	<!-- IS_FEET		19 -->
-	<InvSlot item="PersonaInvSlot19">
+		<InvSlot item="PersonaInvSlot19">
 		<ScreenID>PersonaInvSlot19</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7867,8 +7810,7 @@
 		<Background>A_InvFeet</Background>
 		<EQType>personaInventory/Equip 19</EQType>
 	</InvSlot>
-	<!-- IS_WAIST		20 -->
-	<InvSlot item="PersonaInvSlot20">
+		<InvSlot item="PersonaInvSlot20">
 		<ScreenID>PersonaInvSlot20</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7882,8 +7824,7 @@
 		<Background>A_InvWaist</Background>
 		<EQType>personaInventory/Equip 20</EQType>
 	</InvSlot>
-	<!-- IS_POWER_SOURCE		21 -->
-	<InvSlot item="PersonaInvSlot21">
+		<InvSlot item="PersonaInvSlot21">
 		<ScreenID>PersonaInvSlot21</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7897,8 +7838,7 @@
 		<Background>A_InvPowerSource</Background>
 		<EQType>personaInventory/Equip 21</EQType>
 	</InvSlot>
-	<!-- IS_AMMO		22 -->
-	<InvSlot item="PersonaInvSlot22">
+		<InvSlot item="PersonaInvSlot22">
 		<ScreenID>PersonaInvSlot22</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7951,8 +7891,7 @@
 			<CX>75</CX>
 			<CY>142</CY>
 		</Size>
-		<!-- Do NOT include an animation here since it messes with other UIs.	Instead an animation instance is dynamically created and used. -->
-	</StaticAnimation>
+			</StaticAnimation>
 	<Screen item="IWP_CharacterView">
 		<ScreenID>IWP_CharacterView</ScreenID>
 		<RelativePosition>true</RelativePosition>

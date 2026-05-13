@@ -3,8 +3,7 @@
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Label item ="MW_MerchantName">
 		<ScreenID>MW_MerchantName</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -19,8 +18,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<!-- Currently used to generate an icon for DBC, can also be used wherever we need to, to generate buttons in the window -->
-	<Button item="MW_ButtonTemplate">
+		<Button item="MW_ButtonTemplate">
 		<ScreenID>MW_ButtonTemplate</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -57,8 +55,7 @@
 		<Style_HScroll>true</Style_HScroll>
 		<Style_AutoHScroll>true</Style_AutoHScroll>
 		<Columns>
-			<Width>35</Width><!--UI engine does not use this value-->
-			<Heading>Icon</Heading>
+			<Width>35</Width>			<Heading>Icon</Heading>
 		</Columns>
 		<Columns>
 			<Width>140</Width>
@@ -229,8 +226,7 @@
 	</Button>
 	<Button item = "MW_SelectedItem">
 		<ScreenID>MW_SelectedItem</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -254,8 +250,7 @@
 	</Button>
 	<Label item ="MW_SelectedItemLabel">
 		<ScreenID>MW_SelectedItemLabel</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -289,8 +284,7 @@
 	</Label>
 	<Label item ="MW_SelectedPriceLabel">
 		<ScreenID>MW_SelectedPriceLabel</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -307,8 +301,7 @@
 	</Label>
 	<Button item = "MW_Buy_Button">
 		<ScreenID>MW_Buy_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -326,8 +319,7 @@
 	</Button>
 	<Button item = "MW_Buy_MarketPlace_Button">
 		<ScreenID>MW_Buy_MarketPlace_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -489,8 +481,7 @@
 	</Button>
 	<Button item = "MW_Done_Button">
 		<ScreenID>MW_Done_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -526,8 +517,7 @@
 	</Button>
 	<Button item = "MW_Sell_Button">
 		<ScreenID>MW_Sell_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -597,8 +587,7 @@
 	</Label>
 	<Button item ="MW_CashButton">
 		<ScreenID>MW_CashButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<AutoStretch>true</AutoStretch>
+				<AutoStretch>true</AutoStretch>
 		<RelativePosition>true</RelativePosition>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -617,8 +606,7 @@
 	<Page item = "MW_PurchasePage">
 		<ScreenID>MW_PurchasePage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<!-- Pages are sized and positioned by their parent tab -->
-		<TabText>Purchase/Sell</TabText>
+				<TabText>Purchase/Sell</TabText>
 		<TabTextActiveColor>
 			<R>255</R>
 			<G>255</G>
@@ -633,8 +621,7 @@
 	<Page item = "MW_RecoveryPage">
 		<ScreenID>MW_RecoveryPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<!-- Pages are sized and positioned by their parent tab -->
-		<TabText>Recover</TabText>
+				<TabText>Recover</TabText>
 		<TabTextActiveColor>
 			<R>255</R>
 			<G>255</G>
@@ -666,8 +653,7 @@
 	<Page item = "MW_MailPage">
 		<ScreenID>MW_MailPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<!-- Pages are sized and positioned by their parent tab -->
-		<TabText>Parcels</TabText>
+				<TabText>Parcels</TabText>
 		<TabTextActiveColor>
 			<R>255</R>
 			<G>255</G>
@@ -681,8 +667,7 @@
 		<ScreenID>MW_MerchantSubwindows</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-		<!--<ShowTabs>false</ShowTabs>-->
-		<TopAnchorToTop>true</TopAnchorToTop>
+				<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>

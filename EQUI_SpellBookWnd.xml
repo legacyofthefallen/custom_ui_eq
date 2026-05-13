@@ -87,8 +87,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- Buttons -->
-	<Ui2DAnimation item="Default_SpellBookClose">
+		<Ui2DAnimation item="Default_SpellBookClose">
 		<Cycle>false</Cycle>
 		<Frames>
 			<Texture>default_spellbook05.tga</Texture>
@@ -292,8 +291,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<!-- Spells -->
-	<Button item="SBW_Spell0">
+		<Button item="SBW_Spell0">
 		<ScreenID>SBW_Spell0</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -933,8 +931,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</StaticText>
-	<!-- gauges -->
-	<Gauge item="SBW_Memorize_Gauge">
+		<Gauge item="SBW_Memorize_Gauge">
 		<ScreenID>SBW_Memorize_Gauge</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -996,8 +993,7 @@
 		</GaugeDrawTemplate>
 		<GaugeOffsetX>-1</GaugeOffsetX>
 	</Gauge>
-	<!-- unsupported features -->
-	<Button item="SBW_MemPage0_Button">
+		<Button item="SBW_MemPage0_Button">
 		<ScreenID>SBW_MemPage0_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -1015,8 +1011,7 @@
 	</Button>
 	<Button item="SBW_MemPage1_Button">
 		<ScreenID>SBW_MemPage1_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>296</X>
 			<Y>285</Y>
@@ -1074,8 +1069,7 @@
 			<PressedFlyby>SBW_RightSplBkBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<!-- page numbers -->
-	<StaticText item="SBW_LeftPageNum">
+		<StaticText item="SBW_LeftPageNum">
 		<ScreenID>SBW_LeftPageNum</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -1107,8 +1101,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</StaticText>
-	<!-- spellbook sections -->
-	<StaticAnimation item="SBW_SpellBook1">
+		<StaticAnimation item="SBW_SpellBook1">
 		<ScreenID>SBW_SpellBook1</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -1160,8 +1153,7 @@
 		</Size>
 		<Animation>Default_SpellBook4</Animation>
 	</StaticAnimation>
-	<!-- Close Button -->
-	<Button item="SBW_DoneButton">
+		<Button item="SBW_DoneButton">
 		<ScreenID>DoneButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -1179,8 +1171,7 @@
 			<Flyby>Default_SpellBookClose</Flyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<!-- Spellbook -->
-	<Screen item="SpellBookWnd">
+		<Screen item="SpellBookWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>190</X>
@@ -1190,8 +1181,7 @@
 			<CX>510</CX>
 			<CY>360</CY>
 		</Size>
-		<!-- misc. -->
-		<Text>My Spell Book</Text>
+				<Text>My Spell Book</Text>
 		<Style_Transparent>true</Style_Transparent>
 		<TooltipReference />
 		<DrawTemplate>WDT_Rounded</DrawTemplate>
@@ -1201,8 +1191,7 @@
 		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>false</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
-		<!-- defs. -->
-		<Pieces>SBW_SpellBook1</Pieces>
+				<Pieces>SBW_SpellBook1</Pieces>
 		<Pieces>SBW_SpellBook2</Pieces>
 		<Pieces>SBW_SpellBook3</Pieces>
 		<Pieces>SBW_SpellBook4</Pieces>

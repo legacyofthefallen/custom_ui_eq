@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-	<!-- Upper Available Funds -->
-	<Label item="MKPW_AvailableFundsUpper_Label">
+		<Label item="MKPW_AvailableFundsUpper_Label">
 		<ScreenID>MKPW_AvailableFundsUpper_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -62,8 +61,7 @@
 		<Text>Cancel</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<!-- Item Template -->
-	<Label item="MKPW_Item_Label">
+		<Label item="MKPW_Item_Label">
 		<ScreenID>MKPW_Item_Label</ScreenID>
 		<Text>Item</Text>
 		<Font>2</Font>
@@ -293,8 +291,7 @@
 		<Pieces>MKPW_ItemCost_CreditCardMoneyTypeLabel</Pieces>
 	</Screen>
 	
-	<!-- Categories View -->
-	<Editbox item="MKPW_FindEditBox">
+		<Editbox item="MKPW_FindEditBox">
 		<ScreenID>MKPW_FindEditBox</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -341,8 +338,7 @@
 		</Columns>
 	</TreeView>
 	
-	<!-- Item Browser -->
-	<Label item="MKPW_Sort_Label">
+		<Label item="MKPW_Sort_Label">
 		<ScreenID>MKPW_Sort_Label</ScreenID>
 		<Text>Sort By</Text>
 		<Font>2</Font>
@@ -855,8 +851,7 @@
 		<Pieces>MKPW_FeaturedItems</Pieces>
 	</Screen>
 	
-	<!-- Item Details -->
-	<Label item="MKPW_DetailsName">
+		<Label item="MKPW_DetailsName">
 		<ScreenID>MKPW_DetailsName</ScreenID>
 		<Text>Item Name</Text>
 		<Font>3</Font>
@@ -1399,8 +1394,7 @@
 		<Pieces>Screen:MKPW_Timers</Pieces>
 		<Pieces>Screen:MKPW_Buy</Pieces>
 	</Screen>
-	<!-- Tax Info Page -->
-	<Label item="MKPW_TaxInfoInstructionLabel">
+		<Label item="MKPW_TaxInfoInstructionLabel">
 		<ScreenID>MKPW_TaxInfoInstructionLabel</ScreenID>
 		<AlignCenter>true</AlignCenter>
 		<AutoStretch>true</AutoStretch>
@@ -1457,8 +1451,7 @@
 		<Text>Next</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<!-- Confirmation Page -->
-	<Label item="MKPW_ConfirmPurchase_Label">
+		<Label item="MKPW_ConfirmPurchase_Label">
 		<ScreenID>MKPW_ConfirmPurchase_Label</ScreenID>
 		<Text>Daybreak Cash Product</Text>
 		<TextColor>
@@ -1747,8 +1740,7 @@
 		<Template>BDT_Normal</Template>
 	</Button>
 	
-	<!-- Credit Card Purchase Selection Page -->
-	<Label item="MKPW_CreditCardPurchaseSelection_Label">
+		<Label item="MKPW_CreditCardPurchaseSelection_Label">
 		<ScreenID>MKPW_CreditCardPurchaseSelection_Label</ScreenID>
 		<Text>Credit Card Product</Text>
 		<TextColor>
@@ -1895,8 +1887,7 @@
 		</DecalSize>
 	</Button>
 	
-		<!-- Credit Card Purchase Page -->
-	<Label item="MKPW_CreditCardPurchase">
+			<Label item="MKPW_CreditCardPurchase">
 		<ScreenID>MKPW_CreditCardPurchase</ScreenID>
 		<Text>Item</Text>
 		<AutoStretch>true</AutoStretch>
@@ -2286,8 +2277,7 @@
 		<Template>BDT_Normal</Template>
 	</Button>
 	
-	<!-- Fund Confirm Page -->
-	<Label item="MKPW_FundConfirmStationCash">
+		<Label item="MKPW_FundConfirmStationCash">
 		<ScreenID>MKPW_FundConfirmStationCash</ScreenID>
 		<Text/>
 		<Location>
@@ -2667,8 +2657,7 @@
 			<CY>60</CY>
 		</DecalSize>
 	</Button>
-	<!-- Results Page -->
-	<Label item="MKPW_Results_Result">
+		<Label item="MKPW_Results_Result">
 		<ScreenID>MKPW_Results_Result</ScreenID>
 		<Text>Result</Text>
 		<AlignCenter>true</AlignCenter>
@@ -2683,8 +2672,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Label>
 	
-	<!-- Payment Source Page -->
-	<Label item="MKPW_PaymentSourceInstructionLabel">
+		<Label item="MKPW_PaymentSourceInstructionLabel">
 		<ScreenID>MKPW_PaymentSourceInstructionLabel</ScreenID>
 		<AlignCenter>true</AlignCenter>
 		<AutoStretch>true</AutoStretch>
@@ -2801,8 +2789,7 @@
 		<Style_Border>true</Style_Border>
 	</Editbox>
 	
-	<!-- Amount Button Template -->
-	<Label item="MKPW_AmountSelectionInstructionLabel">
+		<Label item="MKPW_AmountSelectionInstructionLabel">
 		<ScreenID>MKPW_AmountSelectionInstructionLabel</ScreenID>
 		<AlignCenter>true</AlignCenter>
 		<AutoStretch>true</AutoStretch>
@@ -2962,8 +2949,7 @@
 		</DecalSize>
 	</Button>
 	
-	<!-- SC universal card confirmation page -->
-	<Button item="MKPW_SCChoiceConfirmBtn">
+		<Button item="MKPW_SCChoiceConfirmBtn">
 		<ScreenID>MKPW_SCChoiceConfirmBtn</ScreenID>
 		<RelativePosition>true</RelativePosition>	
 		<AutoStretch>true</AutoStretch>
@@ -3023,8 +3009,7 @@
 		<Style_Transparent>true</Style_Transparent>
 		<Text>Instruction for why extra prompt</Text>
 	</Label>
-	<!-- Main Frame -->
-	<Page item="MKPW_MainPage">
+		<Page item="MKPW_MainPage">
 		<ScreenID>MKPW_MainPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<TooltipReference />
@@ -3295,8 +3280,7 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>true</Style_Transparent>
 	</Screen>
-  <!-- Panning -->
-  <Button item="MKPW_PanLeftButton">
+    <Button item="MKPW_PanLeftButton">
     <ScreenID>MKPW_PanLeftButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -3352,8 +3336,7 @@
     <TooltipReference>Shift Down. (Or use Right Mouse Button)</TooltipReference>
     <Template>BDT_PanDown</Template>
   </Button>
-  <!-- Zooming -->
-  <Button item="MKPW_ZoomInButton">
+    <Button item="MKPW_ZoomInButton">
     <ScreenID>MKPW_ZoomInButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -3391,8 +3374,7 @@
     <TooltipReference>Zoom Out. (Or use Mouse Wheel)</TooltipReference>
     <Template>BDT_ZoomOut</Template>
   </Button>
-  <!-- Rotating -->
-  <Button item="MKPW_RotateLeftButton">
+    <Button item="MKPW_RotateLeftButton">
     <ScreenID>MKPW_RotateLeftButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>

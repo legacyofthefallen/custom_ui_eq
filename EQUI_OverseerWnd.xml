@@ -19,9 +19,7 @@
 		<ResizeVertical>true</ResizeVertical>
 		<ResizeHorizontal>false</ResizeHorizontal>
 	</LayoutStrategy>
-	<!-- SHARED PIECES -->
-	<!-- used to cover up quest data instead of disabling each label -->
-	<Label item="OW_ALL_NoDataLabel">
+			<Label item="OW_ALL_NoDataLabel">
 		<ScreenID>OW_ALL_NoDataLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -72,8 +70,7 @@
 			<B>184</B>
 		</DisabledBackgroundTextureTint>
 	</Button>
-	<!-- QUEST -->
-	<Screen item="OW_ALL_QuestTileScreen">
+		<Screen item="OW_ALL_QuestTileScreen">
 		<ScreenID>OW_ALL_QuestTileScreen</ScreenID>
 		<DrawTemplate>WDT_InnerWhite</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -391,8 +388,7 @@
 		<Text>Quest Party</Text>
 		<Font>5</Font>
 	</Label>
-	<!-- MINION -->
-	<Screen item="OW_ALL_IncapColorBackground">
+		<Screen item="OW_ALL_IncapColorBackground">
 		<ScreenID>OW_ALL_IncapColorBackground</ScreenID>
 		<DrawTemplate>WDT_InnerWhite</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -681,8 +677,7 @@
 		<Pieces>Screen:OW_ALL_MinionNegatives</Pieces>
 		<Style_Border>true</Style_Border>
 	</Screen>
-	<!-- The actual minion buttons -->
-	<Screen item="OW_ALL_MinionInfoTemplate">
+		<Screen item="OW_ALL_MinionInfoTemplate">
 		<ScreenID>OW_ALL_MinionInfoTemplate</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Layout>OW_LayoutResizeV</Layout>
@@ -722,9 +717,7 @@
 		<ResizeLast>false</ResizeLast>
 		<Pieces>Screen:OW_ALL_MinionInfoTemplate</Pieces>
 	</VerticalLayoutBox>
-	<!-- END SHARED PIECES -->
-	<!-- A vertical layout box to hold all of the buttons -->
-	<Combobox item="OW_OQP_RarityFilter">
+			<Combobox item="OW_OQP_RarityFilter">
 		<ScreenID>OW_OQP_RarityFilter</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<Location>
@@ -1053,9 +1046,7 @@
 		<Pieces>Screen:OW_OQP_LeftPane</Pieces>
 		<Pieces>VerticalLayoutBox:OW_OQP_RightPane</Pieces>
 	</HorizontalLayoutBox>
-	<!-- END OFFERED QUEST TAB -->
-	<!-- START STATS TAB -->
-	<Label item="OW_QSP_CategoriesLabel">
+			<Label item="OW_QSP_CategoriesLabel">
 		<ScreenID>OW_QSP_CategoriesLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -1547,9 +1538,7 @@
 		<Pieces>Screen:OW_QSP_LeftPane</Pieces>
 		<Pieces>Screen:OW_QSP_StatsList</Pieces>
 	</HorizontalLayoutBox>
-	<!-- END STATS TAB -->
-	<!-- START OWNED MINION TAB -->
-	<VerticalLayoutBox item="OW_OM_Layout">
+			<VerticalLayoutBox item="OW_OM_Layout">
 		<ScreenID>OW_OM_Layout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -1586,8 +1575,7 @@
 		<Pieces>OW_OM_MassConversionButton</Pieces>
 		<Pieces>OW_OM_RetireButton</Pieces>
 	</Screen>
-	<!-- START children of OW_OM_TopPane -->
-	<HorizontalLayoutBox item="OW_OM_TopPaneFilters">
+		<HorizontalLayoutBox item="OW_OM_TopPaneFilters">
 		<ScreenID>OW_OM_TopPaneFilters</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1633,8 +1621,7 @@
 		<Style_Border>true</Style_Border>
 		<AutoStretchList>true</AutoStretchList>
 	</Combobox>
-	<!-- START children of OW_OM_SecondTopPane -->
-	<HorizontalLayoutBox item="OW_OM_SecondTopPaneFilters">
+		<HorizontalLayoutBox item="OW_OM_SecondTopPaneFilters">
 		<ScreenID>OW_OM_SecondTopPaneFilters</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1766,8 +1753,7 @@
 		<RightAnchorOffset>4</RightAnchorOffset>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<!-- END children of OW_OM_TopPane -->
-	<HorizontalLayoutBox item="OW_OM_Bottom">
+		<HorizontalLayoutBox item="OW_OM_Bottom">
 		<ScreenID>OW_OM_Bottom</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1838,8 +1824,7 @@
 		<Pieces>OW_OM_MinionEntry</Pieces>
 		<Pieces>Screen:OW_OM_InfoPane</Pieces>
 	</Screen>
-	<!-- START children of OW_OM_MinionInfoLayout-->
-	<Button item="OW_OM_MinionEntry">
+		<Button item="OW_OM_MinionEntry">
 		<ScreenID>OW_OM_MinionEntry</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1921,8 +1906,7 @@
 		<Pieces>OW_OM_MinionStatus</Pieces>
 		<Pieces>OW_OM_MinionStatusIcon</Pieces>
 	</Screen>
-	<!-- START children of OW_OM_MinionIconStatus-->
-	<Button item="OW_OM_MinionIcon">
+		<Button item="OW_OM_MinionIcon">
 		<ScreenID>OW_OM_MinionIcon</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>false</AutoStretch>
@@ -2003,8 +1987,7 @@
 		<LeftAnchorOffset>2</LeftAnchorOffset>
 		<Style_Border>true</Style_Border>
 	</Button>
-	<!-- END children of OW_OM_MinionIconStatus-->
-	<Label item="OW_OM_MinionRarityIconic">
+		<Label item="OW_OM_MinionRarityIconic">
 		<ScreenID>OW_OM_MinionRarityIconic</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>false</AutoStretch>
@@ -2068,8 +2051,7 @@
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<Pieces>HorizontalLayoutBox:OW_OM_MinionJobLayout</Pieces>
 	</Screen>
-	<!-- START children of OW_OM_MinionJobScreen-->
-	<HorizontalLayoutBox item="OW_OM_MinionJobLayout">
+		<HorizontalLayoutBox item="OW_OM_MinionJobLayout">
 		<ScreenID>OW_OM_MinionJobLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -2129,8 +2111,7 @@
 		<ResizeHeightToText>true</ResizeHeightToText>
 		<AlignCenter>true</AlignCenter>
 	</Label>
-	<!-- END children of OW_OM_MinionJobScreen-->
-	<Label item="OW_OM_MinionTraitSection">
+		<Label item="OW_OM_MinionTraitSection">
 		<ScreenID>OW_OM_MinionTraitSection</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>false</AutoStretch>
@@ -2167,8 +2148,7 @@
 		<Style_Transparent>true</Style_Transparent>
 		<Pieces>HorizontalLayoutBox:OW_OM_MinionTraitLayout</Pieces>
 	</Screen>
-	<!-- START children of OW_OM_MinionTraits-->
-	<HorizontalLayoutBox item="OW_OM_MinionTraitLayout">
+		<HorizontalLayoutBox item="OW_OM_MinionTraitLayout">
 		<ScreenID>OW_OM_MinionTraitLayout</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -2193,8 +2173,7 @@
 		<Pieces>OW_OM_MinionClassRaceLabel</Pieces>
 		<Pieces>VerticalLayoutBox:OW_OM_MinionClassRaceLayout</Pieces>
 	</Screen>
-	<!-- START children of OW_OM_MinionClassRaceScreen-->
-	<Label item="OW_OM_MinionClassRaceLabel">
+		<Label item="OW_OM_MinionClassRaceLabel">
 		<ScreenID>OW_OM_MinionClassRaceLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>false</AutoStretch>
@@ -2252,8 +2231,7 @@
 		<LeftAnchorOffset>32</LeftAnchorOffset>
 		<ResizeHeightToText>true</ResizeHeightToText>
 	</Label>
-	<!-- END children of OW_OM_MinionClassRaceScreen-->
-	<Screen item="OW_OM_MinionBodyScreen">
+		<Screen item="OW_OM_MinionBodyScreen">
 		<ScreenID>OW_OM_MinionBodyScreen</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>false</AutoStretch>
@@ -2265,8 +2243,7 @@
 		<Pieces>OW_OM_MinionTraitLabel</Pieces>
 		<Pieces>VerticalLayoutBox:OW_OM_MinionBodyLayout</Pieces>
 	</Screen>
-	<!-- START children of OW_OM_MinionBodyScreen-->
-	<Label item="OW_OM_MinionTraitLabel">
+		<Label item="OW_OM_MinionTraitLabel">
 		<ScreenID>OW_OM_MinionTraitLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>false</AutoStretch>
@@ -2326,8 +2303,7 @@
 		<LeftAnchorOffset>32</LeftAnchorOffset>
 		<ResizeHeightToText>true</ResizeHeightToText>
 	</Label>
-	<!-- END children of OW_OM_MinionBodyScreen-->
-	<Screen item="OW_OM_MinionPersonalityScreen">
+		<Screen item="OW_OM_MinionPersonalityScreen">
 		<ScreenID>OW_OM_MinionPersonalityScreen</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>false</AutoStretch>
@@ -2339,8 +2315,7 @@
 		<Pieces>OW_OM_MinionPersonalityLabel</Pieces>
 		<Pieces>VerticalLayoutBox:OW_OM_MinionPersonalityLayout</Pieces>
 	</Screen>
-	<!-- START children of OW_OM_MinionPersonalityScreen-->
-	<Label item="OW_OM_MinionPersonalityLabel">
+		<Label item="OW_OM_MinionPersonalityLabel">
 		<ScreenID>OW_OM_MinionPersonalityLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>false</AutoStretch>
@@ -2400,8 +2375,7 @@
 		<LeftAnchorOffset>32</LeftAnchorOffset>
 		<ResizeHeightToText>true</ResizeHeightToText>
 	</Label>
-	<!-- END children of OW_OM_MinionPersonalityScreen-->
-	<Button item="OW_OM_MinionTraitImage">
+		<Button item="OW_OM_MinionTraitImage">
 		<ScreenID>OW_OM_MinionTraitImage</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -2410,11 +2384,7 @@
 		<RightAnchorOffset>28</RightAnchorOffset>
 		<Template>DefaultImageOW</Template>
 	</Button>
-	<!-- END children of OW_OM_MinionTraits-->
-	<!-- END children of OW_OM_MinionInfoLayout-->
-	<!-- END OWNED MINION TAB -->
-	<!-- START ACTIVE QUEST TAB -->
-	<Screen item="OW_AQP_QuestInfoLayout">
+					<Screen item="OW_AQP_QuestInfoLayout">
 		<ScreenID>OW_AQP_QuestInfoLayout</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<MinVSize>450</MinVSize>
@@ -2505,8 +2475,7 @@
 		<Pieces>Screen:OW_AQP_LeftPane</Pieces>
 		<Pieces>VerticalLayoutBox:OW_AQP_RightPane</Pieces>
 	</HorizontalLayoutBox>
-	<!-- END ACTIVE QUEST TAB -->
-	<Page item="OW_OverseerQuestsPage">
+		<Page item="OW_OverseerQuestsPage">
 		<ScreenID>OW_OverseerQuestsPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Style_VScroll>false</Style_VScroll>

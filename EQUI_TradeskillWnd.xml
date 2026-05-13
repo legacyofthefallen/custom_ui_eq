@@ -99,8 +99,7 @@
 	</Editbox>
 	<Button item = "COMBW_SearchButton">
 		<ScreenID>SearchButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>84</Y>
@@ -117,8 +116,7 @@
 	</Button>
 	<Screen item = "COMBW_SearchArea">
 		<ScreenID/>
-		<!--<Font/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>0</LeftAnchorOffset>
 		<TopAnchorOffset>0</TopAnchorOffset>
@@ -187,8 +185,7 @@
 	</Listbox>
 	<Screen item = "COMBW_RecipeListArea">
 		<ScreenID/>
-		<!--<Font/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>0</LeftAnchorOffset>
 		<TopAnchorOffset>124</TopAnchorOffset>
@@ -229,8 +226,7 @@
 	</Label>
 	<Button item = "COMBW_AddFavoriteButton">
 		<ScreenID>AddFavoriteButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
 			<Y>24</Y>
@@ -247,8 +243,7 @@
 	</Button>
 	<Button item = "COMBW_RemoveFavoriteButton">
 		<ScreenID>RemoveFavoriteButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>64</X>
 			<Y>24</Y>
@@ -265,8 +260,7 @@
 	</Button>
 	<Button item = "COMBW_ShowFavoritesButton">
 		<ScreenID>ShowFavoritesButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>124</X>
 			<Y>24</Y>
@@ -283,8 +277,7 @@
 	</Button>
 	<Screen item = "COMBW_FavoritesArea">
 		<ScreenID/>
-		<!--<Font/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>0</LeftAnchorOffset>
 		<TopAnchorOffset>50</TopAnchorOffset>
@@ -309,8 +302,7 @@
 	</Screen>
 	<Screen item = "COMBW_LeftSideArea">
 		<ScreenID/>
-		<!--<Font/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
 		<TopAnchorOffset>0</TopAnchorOffset>
@@ -352,8 +344,7 @@
 	</Label>
 	<Button item = "COMBW_ContainerIcon">
 		<ScreenID>ContainerIcon</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>59</X>
 			<Y>26</Y>
@@ -394,8 +385,7 @@
 	</Label>
 	<Button item = "COMBW_ExperimentButton">
 		<ScreenID>ExperimentButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<TopAnchorOffset>92</TopAnchorOffset>
@@ -413,8 +403,7 @@
 	</Button>
 	<Button item = "COMBW_RequiredIcon0">
 		<ScreenID>RequiredIcon0</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -437,8 +426,7 @@
 	</Button>
 	<Button item = "COMBW_RequiredIcon1">
 		<ScreenID>RequiredIcon1</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>42</X>
 			<Y>0</Y>
@@ -461,8 +449,7 @@
 	</Button>
 	<Button item = "COMBW_RequiredIcon2">
 		<ScreenID>RequiredIcon2</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>42</Y>
@@ -485,8 +472,7 @@
 	</Button>
 	<Button item = "COMBW_RequiredIcon3">
 		<ScreenID>RequiredIcon3</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>42</X>
 			<Y>42</Y>
@@ -509,8 +495,7 @@
 	</Button>
 	<Button item = "COMBW_RequiredIcon4">
 		<ScreenID>RequiredIcon4</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>84</Y>
@@ -533,8 +518,7 @@
 	</Button>
 	<Button item = "COMBW_RequiredIcon5">
 		<ScreenID>RequiredIcon5</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>42</X>
 			<Y>84</Y>
@@ -557,8 +541,7 @@
 	</Button>
 	<Button item = "COMBW_RequiredIcon6">
 		<ScreenID>RequiredIcon6</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>126</Y>
@@ -581,8 +564,7 @@
 	</Button>
 	<Button item = "COMBW_RequiredIcon7">
 		<ScreenID>RequiredIcon7</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>42</X>
 			<Y>126</Y>
@@ -605,8 +587,7 @@
 	</Button>
 	<Button item = "COMBW_RequiredIcon8">
 		<ScreenID>RequiredIcon8</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>168</Y>
@@ -629,8 +610,7 @@
 	</Button>
 	<Button item = "COMBW_RequiredIcon9">
 		<ScreenID>RequiredIcon9</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>42</X>
 			<Y>168</Y>
@@ -653,8 +633,7 @@
 	</Button>
 	<Screen item = "COMBW_ComponentArea">
 		<ScreenID/>
-		<!--<Font/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>39</LeftAnchorOffset>
 		<TopAnchorOffset>120</TopAnchorOffset>
@@ -685,8 +664,7 @@
 	</Screen>
 	<Screen item = "COMBW_ContainerArea">
 		<ScreenID/>
-		<!--<Font/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>0</LeftAnchorOffset>
 		<TopAnchorOffset>0</TopAnchorOffset>
@@ -816,8 +794,7 @@
 	</Button>
 	<Screen item = "COMBW_CombineArea">
 		<ScreenID/>
-		<!--<Font/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>0</LeftAnchorOffset>
 		<TopAnchorOffset>334</TopAnchorOffset>
@@ -863,8 +840,7 @@
 	</Button>
 	<Screen item = "COMBW_RightSideArea">
 		<ScreenID/>
-		<!--<Font/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>160</LeftAnchorOffset>
 		<TopAnchorOffset>0</TopAnchorOffset>

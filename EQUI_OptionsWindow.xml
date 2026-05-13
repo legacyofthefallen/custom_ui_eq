@@ -10,9 +10,7 @@
 			<CY>15</CY>
 		</Size>
 	</Label>
-	<!-- *********** Options Tab Window, General Options Page *********** -->
-	<!-- Fast Item Destroy -->
-	<Button item="OGP_FastItemDestroyCheckbox">
+			<Button item="OGP_FastItemDestroyCheckbox">
 		<ScreenID>OGP_FastItemDestroyCheckbox</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -29,8 +27,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- AA No Confirm -->
-	<Button item="OGP_AANoConfirmCheckbox">
+		<Button item="OGP_AANoConfirmCheckbox">
 		<ScreenID>OGP_AANoConfirmCheckbox</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -47,8 +44,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Adventure Merchant No Confirm -->
-	<Button item="OGP_AdvMerchantNoConfirmCheckbox">
+		<Button item="OGP_AdvMerchantNoConfirmCheckbox">
 		<ScreenID>OGP_AdvMerchantNoConfirmCheckbox</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -65,8 +61,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Accept guild invites -->
-	<Button item="OGP_GuildInvitesCheckbox">
+		<Button item="OGP_GuildInvitesCheckbox">
 		<ScreenID>OGP_GuildInvitesCheckbox</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -82,8 +77,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Autosplit loot -->
-	<Button item="OGP_LootAutosplitCheckbox">
+		<Button item="OGP_LootAutosplitCheckbox">
 		<ScreenID>OGP_LootAutosplitCheckbox</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -99,8 +93,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Player trade options -->
-	<Label item="OGP_PlayerTradeLabel">
+		<Label item="OGP_PlayerTradeLabel">
 		<ScreenID>OGP_PlayerTradeLabel</ScreenID>
 		<Location>
 			<X>200</X>
@@ -133,8 +126,7 @@
 		<Choices>Party members only</Choices>
 		<Choices>No one</Choices>
 	</Combobox>
-	<!-- Newbie Left-click text -->
-	<Button item="OGP_LeftClickHelpText">
+		<Button item="OGP_LeftClickHelpText">
 		<ScreenID>OGP_LeftClickHelpText</ScreenID>
 		<Size>
 			<CX>175</CX>
@@ -168,8 +160,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Allow/prevent the game from making your character duck to squeeze into small spaces -->
-	<Button item="OGP_AllowAutoDuckCheckbox">
+		<Button item="OGP_AllowAutoDuckCheckbox">
 		<ScreenID>OGP_AllowAutoDuckCheckbox</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -186,8 +177,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Allow/prevent the game from making your character stand when you press forward -->
-	<Button item="OGP_AllowAutoStandCheckbox">
+		<Button item="OGP_AllowAutoStandCheckbox">
 		<ScreenID>OGP_AllowAutoStandCheckbox</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -204,8 +194,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Allow/prevent the game from making your character stand when you press forward -->
-	<Button item="OGP_AutojoinCheckbox">
+		<Button item="OGP_AutojoinCheckbox">
 		<ScreenID>OGP_Autojoin</ScreenID>
 		<Size>
 			<CX>175</CX>
@@ -222,8 +211,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Auto Show Rewards Window -->
-	<Button item="OGP_AutoShowRewardsWindowCheckbox">
+		<Button item="OGP_AutoShowRewardsWindowCheckbox">
 		<ScreenID>OGP_AutoShowRewardsWindowCheckbox</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -240,8 +228,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Tradeskill Ctrl-Click -->
-	<Button item="OGP_TradeskillCtrlClickCheckbox">
+		<Button item="OGP_TradeskillCtrlClickCheckbox">
 		<ScreenID>OGP_TradeskillCtrlClickCheckbox</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -258,8 +245,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Load a new UI skin -->
-	<Button item="OGP_LoadSkinButton">
+		<Button item="OGP_LoadSkinButton">
 		<ScreenID>OGP_LoadSkinButton</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -270,8 +256,7 @@
 		<TooltipReference>Load a new look and style for your EverQuest UI.</TooltipReference>
 		<Template>BDT_BigNormal</Template>
 	</Button>
-	<!-- Layout Copy. -->
-	<Button item="OGP_LayoutCopyButton">
+		<Button item="OGP_LayoutCopyButton">
 		<ScreenID>OGP_LayoutCopyButton</ScreenID>
 		<Location>
 			<X>10</X>
@@ -285,8 +270,7 @@
 		<TooltipReference>Copy a window layout from any stored layout over the current layout.</TooltipReference>
 		<Template>BDT_BigNormal</Template>
 	</Button>
-	<!-- auto accept kick requests -->
-	<Button item="OGP_AutoAcceptKickRequests">
+		<Button item="OGP_AutoAcceptKickRequests">
 		<ScreenID>OGP_AutoAcceptKickRequests</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -303,8 +287,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Click through self -->
-	<Button item="OGP_ClickThroughSelf">
+		<Button item="OGP_ClickThroughSelf">
 		<ScreenID>OGP_ClickThroughSelf</ScreenID>
 		<Size>
 			<CX>175</CX>
@@ -321,8 +304,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Click through pets -->
-	<Button item="OGP_ClickThroughPets">
+		<Button item="OGP_ClickThroughPets">
 		<ScreenID>OGP_ClickThroughPets</ScreenID>
 		<Size>
 			<CX>175</CX>
@@ -339,8 +321,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Click through mercs -->
-	<Button item="OGP_ClickThroughMercs">
+		<Button item="OGP_ClickThroughMercs">
 		<ScreenID>OGP_ClickThroughMercs</ScreenID>
 		<Size>
 			<CX>175</CX>
@@ -357,8 +338,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Hide First Window user Alerts -->
-	<Button item="OGP_HideFirstWindowAlerts">
+		<Button item="OGP_HideFirstWindowAlerts">
 		<ScreenID>OGP_HideFirstWindowAlerts</ScreenID>
 		<Size>
 			<CX>175</CX>
@@ -375,8 +355,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Hide Player Options -->
-	<Label item="OGP_HidePlayersLabel">
+		<Label item="OGP_HidePlayersLabel">
 		<ScreenID>OGP_HidePlayersLabel</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -387,8 +366,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<!-- Hide Player Combo -->
-	<Combobox item="OGP_HidePlayersComboBox">
+		<Combobox item="OGP_HidePlayersComboBox">
 		<ScreenID>OGP_HidePlayersComboBox</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<Size>
@@ -404,8 +382,7 @@
 		<Choices>All In Non-Combat Zones</Choices>
 		<Choices>All</Choices>
 	</Combobox>
-	<!-- Hide Pets Options -->
-	<Label item="OGP_HidePetsLabel">
+		<Label item="OGP_HidePetsLabel">
 		<ScreenID>OGP_HidePetsLabel</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -416,8 +393,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<!-- Hide Pets Combo -->
-	<Combobox item="OGP_HidePetsComboBox">
+		<Combobox item="OGP_HidePetsComboBox">
 		<ScreenID>OGP_HidePetsComboBox</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<Size>
@@ -433,8 +409,7 @@
 		<Choices>All In Non-Combat Zones</Choices>
 		<Choices>All</Choices>
 	</Combobox>
-	<!-- Hide Mercs Options -->
-	<Label item="OGP_HideMercsLabel">
+		<Label item="OGP_HideMercsLabel">
 		<ScreenID>OGP_HideMercsLabel</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -445,8 +420,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<!-- Hide Mercs Combo -->
-	<Combobox item="OGP_HideMercsComboBox">
+		<Combobox item="OGP_HideMercsComboBox">
 		<ScreenID>OGP_HideMercsComboBox</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<Size>
@@ -462,8 +436,7 @@
 		<Choices>All In Non-Combat Zones</Choices>
 		<Choices>All</Choices>
 	</Combobox>
-	<!-- Hide Familiar Options -->
-	<Label item="OGP_HideFamsLabel">
+		<Label item="OGP_HideFamsLabel">
 		<ScreenID>OGP_HideFamsLabel</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -474,8 +447,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<!-- Hide Familiar Combo -->
-	<Combobox item="OGP_HideFamsComboBox">
+		<Combobox item="OGP_HideFamsComboBox">
 		<ScreenID>OGP_HideFamsComboBox</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<Size>
@@ -491,8 +463,7 @@
 		<Choices>All In Non-Combat Zones</Choices>
 		<Choices>All</Choices>
 	</Combobox>
-	<!-- Auto AFK On -->
-	<Button item="OGP_AutoAFKOnCheckBox">
+		<Button item="OGP_AutoAFKOnCheckBox">
 		<ScreenID>OGP_AutoAFKOnCheckBox</ScreenID>
 		<Size>
 			<CX>175</CX>
@@ -509,8 +480,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Auto AFK Off -->
-	<Button item="OGP_AutoAFKOffCheckBox">
+		<Button item="OGP_AutoAFKOffCheckBox">
 		<ScreenID>OGP_AutoAFKOffCheckBox</ScreenID>
 		<Size>
 			<CX>175</CX>
@@ -527,8 +497,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Auto Merc Passive -->
-	<Button item="OGP_AutoMercPassiveCheckBox">
+		<Button item="OGP_AutoMercPassiveCheckBox">
 		<ScreenID>OGP_AutoMercPassiveCheckBox</ScreenID>
 		<Size>
 			<CX>175</CX>
@@ -552,8 +521,7 @@
 			<CY>10</CY>
 		</Size>
 	</Screen>
-	<!-- Auto add to task overlay -->
-	<Button item="OGP_AutoAddToTaskOverlay">
+		<Button item="OGP_AutoAddToTaskOverlay">
 		<ScreenID>OGP_AutoAddToTaskOverlay</ScreenID>
 		<Size>
 			<CX>175</CX>
@@ -570,8 +538,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Show Only Open Steps in task overlay -->
-	<Button item="OGP_ShowOnlyOpenSteps">
+		<Button item="OGP_ShowOnlyOpenSteps">
 		<ScreenID>OGP_ShowOnlyOpenSteps</ScreenID>
 		<Size>
 			<CX>175</CX>
@@ -588,8 +555,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Place most recent at top in task overlay -->
-	<Button item="OGP_AddMostRecentToTop">
+		<Button item="OGP_AddMostRecentToTop">
 		<ScreenID>OGP_AddMostRecentToTop</ScreenID>
 		<Size>
 			<CX>175</CX>
@@ -606,8 +572,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Loot All Confirm -->
-	<Button item="OGP_LootAllConfirmCheckbox">
+		<Button item="OGP_LootAllConfirmCheckbox">
 		<ScreenID>OGP_LootAllConfirmCheckbox</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -624,8 +589,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Dismiss Mercenary Confirm -->
-	<Button item="OGP_DismissMercenaryConfirmCheckbox">
+		<Button item="OGP_DismissMercenaryConfirmCheckbox">
 		<ScreenID>OGP_DismissMercenaryConfirmCheckbox</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -642,8 +606,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Raid Invite Confirm -->
-	<Button item="OGP_RaidInviteConfirmCheckbox">
+		<Button item="OGP_RaidInviteConfirmCheckbox">
 		<ScreenID>OGP_RaidInviteConfirmCheckbox</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -660,8 +623,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Offline Mode Confirm -->
-	<Button item="OGP_OfflineModeConfirmCheckbox">
+		<Button item="OGP_OfflineModeConfirmCheckbox">
 		<ScreenID>OGP_OfflineModeConfirmCheckbox</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -678,8 +640,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Bag Sell Confirmation -->
-	<Button item="OGP_BagSellConfirmCheckbox">
+		<Button item="OGP_BagSellConfirmCheckbox">
 		<ScreenID>OGP_BagSellConfirmCheckbox</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -696,8 +657,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Bag Sell Contents Confirm -->
-	<Button item="OGP_BagSellContentsConfirmCheckbox">
+		<Button item="OGP_BagSellContentsConfirmCheckbox">
 		<ScreenID>OGP_BagSellContentsConfirmCheckbox</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -714,8 +674,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Log off over parcel limit Confirm -->
-	<Button item="OGP_LogOutOverParcelLimitConfirmCheckbox">
+		<Button item="OGP_LogOutOverParcelLimitConfirmCheckbox">
 		<ScreenID>OGP_LogOutOverParcelLimitConfirmCheckbox</ScreenID>
 		<Size>
 			<CX>180</CX>
@@ -732,8 +691,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Save Set Confirmation (spells, hotbuttons, etc) -->
-	<Button item="OGP_SaveSetConfirmCheckbox">
+		<Button item="OGP_SaveSetConfirmCheckbox">
 		<ScreenID>OGP_SaveSetConfirmCheckbox</ScreenID>
 		<Size>
 			<CX>180</CX>
@@ -750,8 +708,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Sell All Cash Loot Confirmation -->
-	<Button item="OGP_SellCashConfirmCheckbox">
+		<Button item="OGP_SellCashConfirmCheckbox">
 		<ScreenID>OGP_SellCashConfirmCheckbox</ScreenID>
 		<Size>
 			<CX>180</CX>
@@ -768,8 +725,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- No Drop Item -->
-	<Label item="OGP_NoDropItemLabel">
+		<Label item="OGP_NoDropItemLabel">
 		<ScreenID>OGP_NoDropItemLabel</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -794,8 +750,7 @@
 		<Choices>Not Usable</Choices>
 		<Choices>Never</Choices>
 	</Combobox>
-	<!-- Augment Prompts -->
-	<Label item="OGP_AugmentPromptLabel">
+		<Label item="OGP_AugmentPromptLabel">
 		<ScreenID>OGP_AugmentPromptLabel</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -821,8 +776,7 @@
 		<Choices>Never</Choices>
 		<Choices>Perfected Only</Choices>
 	</Combobox>
-	<!-- Item dropping options -->
-	<Label item="OGP_ItemDroppingLabel">
+		<Label item="OGP_ItemDroppingLabel">
 		<ScreenID>OGP_ItemDroppingLabel</ScreenID>
 		<Location>
 			<X>200</X>
@@ -855,8 +809,7 @@
 		<Choices>Without confirmation</Choices>
 		<Choices>Never</Choices>
 	</Combobox>
-	<!-- Font Selection -->
-	<Label item="OGP_FontLabel">
+		<Label item="OGP_FontLabel">
 		<ScreenID>OGP_FontLabel</ScreenID>
 		<Location>
 			<X>200</X>
@@ -916,8 +869,7 @@
 		<Text>Accept</Text>
 		<Template>BDT_BigNormal</Template>
 	</Button>
-	<!-- Anonymous -->
-	<Button item="OGP_AnonymousCheckbox">
+		<Button item="OGP_AnonymousCheckbox">
 		<ScreenID>OGP_AnonymousCheckbox</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -933,8 +885,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Roleplaying -->
-	<Button item="OGP_RoleplayingCheckbox">
+		<Button item="OGP_RoleplayingCheckbox">
 		<ScreenID>OGP_RoleplayingCheckbox</ScreenID>
 		<Size>
 			<CX>160</CX>
@@ -983,8 +934,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Sound realism value -->
-	<Label item="OGP_SoundRealismLabel">
+		<Label item="OGP_SoundRealismLabel">
 		<ScreenID>OGP_SoundRealismLabel</ScreenID>
 		<Location>
 			<X>200</X>
@@ -1026,8 +976,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-	<!-- Music volume value -->
-	<Label item="OGP_MusicVolumeLabel">
+		<Label item="OGP_MusicVolumeLabel">
 		<ScreenID>OGP_MusicVolumeLabel</ScreenID>
 		<Location>
 			<X>200</X>
@@ -1069,8 +1018,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-	<!-- Sound volume value -->
-	<Label item="OGP_SoundVolumeLabel">
+		<Label item="OGP_SoundVolumeLabel">
 		<ScreenID>OGP_SoundVolumeLabel</ScreenID>
 		<Location>
 			<X>200</X>
@@ -1112,8 +1060,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-	<!-- Environment sounds -->
-	<Button item="OGP_EnvSoundsCheckbox">
+		<Button item="OGP_EnvSoundsCheckbox">
 		<ScreenID>OGP_EnvSoundsCheckbox</ScreenID>
 		<Location>
 			<X>200</X>
@@ -1133,8 +1080,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Combat Music -->
-	<Button item="OGP_CombatMusicCheckbox">
+		<Button item="OGP_CombatMusicCheckbox">
 		<ScreenID>OGP_CombatMusicCheckbox</ScreenID>
 		<Location>
 			<X>200</X>
@@ -1154,8 +1100,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Randomize Loading Music -->
-	<Button item="OGP_RandomLoadingMusicCheckbox">
+		<Button item="OGP_RandomLoadingMusicCheckbox">
 		<ScreenID>OGP_RandomLoadingMusicCheckbox</ScreenID>
 		<Location>
 			<X>200</X>
@@ -1176,8 +1121,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Placement Options -->
-	<Label item="OGP_ItemPlacementLabel">
+		<Label item="OGP_ItemPlacementLabel">
 		<ScreenID>OGP_ItemPlacementLabel</ScreenID>
 		<Font>3</Font>
 		<Text>Item Placement</Text>
@@ -1186,8 +1130,7 @@
 			<CY>15</CY>
 		</Size>
 	</Label>
-	<!-- Item Placement Hide UI -->
-	<Button item="OGP_ItemPlacementHideUICheckbox">
+		<Button item="OGP_ItemPlacementHideUICheckbox">
 		<ScreenID>OGP_ItemPlacementHideUICheckbox</ScreenID>
 		<Location>
 			<X>202</X>
@@ -1208,8 +1151,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Item Placement Default Mode Cursor -->
-	<Button item="OGP_ItemPlacementDefaultModeCursorCheckbox">
+		<Button item="OGP_ItemPlacementDefaultModeCursorCheckbox">
 		<ScreenID>OGP_ItemPlacementDefaultModeCursorCheckbox</ScreenID>
 		<Location>
 			<X>202</X>
@@ -1230,8 +1172,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Item Placement Show Overlay -->
-	<Button item="OGP_ItemPlacementShowOverlayCheckbox">
+		<Button item="OGP_ItemPlacementShowOverlayCheckbox">
 		<ScreenID>OGP_ItemPlacementShowOverlayCheckbox</ScreenID>
 		<Location>
 			<X>202</X>
@@ -1259,8 +1200,7 @@
 			<CY>10</CY>
 		</Size>
 	</Screen>
-	<!-- Tribute Log Out Auto-Off -->
-	<Button item="OGP_TributeLogoffAutoOffCheckbox">
+		<Button item="OGP_TributeLogoffAutoOffCheckbox">
 		<ScreenID>OGP_TributeLogoffAutoOffCheckbox</ScreenID>
 		<Size>
 			<CX>180</CX>
@@ -1277,8 +1217,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Trophy Tribute Log Out Auto-Off -->
-	<Button item="OGP_TrophyTributeLogoffAutoOffCheckbox">
+		<Button item="OGP_TrophyTributeLogoffAutoOffCheckbox">
 		<ScreenID>OGP_TrophyTributeLogoffAutoOffCheckbox</ScreenID>
 		<Size>
 			<CX>180</CX>
@@ -1295,8 +1234,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Blink Active Chat Window -->
-	<Screen item="OGP_BlinkChatWindowPreSpacer">
+		<Screen item="OGP_BlinkChatWindowPreSpacer">
 		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>1</CX>
@@ -1320,8 +1258,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Tradskill Result Lore Equipped Warning -->
-	<Screen item="OGP_TradeskillLoreEquipWarningPreSpacer">
+		<Screen item="OGP_TradeskillLoreEquipWarningPreSpacer">
 		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>1</CX>
@@ -1459,11 +1396,9 @@
 		<Pieces>OGP_TributeLogoffAutoOffCheckbox</Pieces>
 		<Pieces>OGP_TrophyTributeLogoffAutoOffCheckbox</Pieces>
 	</VerticalLayoutBox>
-	<!-- General options page -->
-	<Page item="OptionsGeneralPage">
+		<Page item="OptionsGeneralPage">
 		<ScreenID>OptionsGeneralPage</ScreenID>
-		<!-- Pages are sized and positioned by their parent tab -->
-		<Style_VScroll>true</Style_VScroll>
+				<Style_VScroll>true</Style_VScroll>
 		<TooltipReference />
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>General</TabText>
@@ -1504,9 +1439,7 @@
 		<Pieces>OGP_PlayerTradeCombobox</Pieces>
 		<Pieces>OGP_ItemDroppingCombobox</Pieces>
 	</Page>
-	<!-- *********** Options Tab Window, Display Options Page *********** -->
-	<!-- PCNames -->
-	<Button item="ODP_PCNamesCheckbox">
+			<Button item="ODP_PCNamesCheckbox">
 		<ScreenID>ODP_PCNamesCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1527,8 +1460,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- NPCNames	-->
-	<Button item="ODP_NPCNamesCheckbox">
+		<Button item="ODP_NPCNamesCheckbox">
 		<ScreenID>ODP_NPCNamesCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1549,8 +1481,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Show Pet Names	-->
-	<Button item="ODP_PetNamesCheckbox">
+		<Button item="ODP_PetNamesCheckbox">
 		<ScreenID>ODP_PetNamesCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1571,8 +1502,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Show Merc Names	-->
-	<Button item="ODP_MercNamesCheckbox">
+		<Button item="ODP_MercNamesCheckbox">
 		<ScreenID>ODP_MercNamesCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1593,8 +1523,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Show Pet owner Names -->
-	<Button item="ODP_ShowPetOwnerNames">
+		<Button item="ODP_ShowPetOwnerNames">
 		<ScreenID>ODP_ShowPetOwnerNames</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1615,8 +1544,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Show Merc owner Names -->
-	<Button item="ODP_ShowMercOwnerNames">
+		<Button item="ODP_ShowMercOwnerNames">
 		<ScreenID>ODP_ShowMercOwnerNames</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1637,8 +1565,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Show 3D Target Ring -->
-	<Button item="ODP_ShowTargetRingCheckbox">
+		<Button item="ODP_ShowTargetRingCheckbox">
 		<ScreenID>ODP_ShowTargetRingCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1659,8 +1586,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Show Target Health % -->
-	<Button item="ODP_ShowTargetHealthCheckbox">
+		<Button item="ODP_ShowTargetHealthCheckbox">
 		<ScreenID>ODP_ShowTargetHealthCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1681,8 +1607,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Level of Detail -->
-	<Button item="ODP_LevelOfDetailCheckbox">
+		<Button item="ODP_LevelOfDetailCheckbox">
 		<ScreenID>ODP_LevelOfDetailCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1703,8 +1628,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Toggle Show Helm -->
-	<Button item="ODP_ShowHelmCheckbox">
+		<Button item="ODP_ShowHelmCheckbox">
 		<ScreenID>ODP_ShowHelmCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1725,8 +1649,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Toggle Display of Pre-Luclin Characters on Mounts -->
-	<Button item="ODP_ShowPreLuclinMounts">
+		<Button item="ODP_ShowPreLuclinMounts">
 		<ScreenID>ODP_ShowPreLuclinMounts</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1747,8 +1670,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Switch to fullscreen mode. -->
-	<Button item="ODP_SetFullscreenButton">
+		<Button item="ODP_SetFullscreenButton">
 		<ScreenID>ODP_SetFullscreenButton</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1762,8 +1684,7 @@
 		<TooltipReference>Set the current window mode to be full screen.</TooltipReference>
 		<Template>BDT_BigNormal</Template>
 	</Button>
-	<!-- Switch to windowed mode. -->
-	<Button item="ODP_SetWindowedButton">
+		<Button item="ODP_SetWindowedButton">
 		<ScreenID>ODP_SetWindowedButton</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1777,8 +1698,7 @@
 		<TooltipReference>Set the current window mode to be windowed.</TooltipReference>
 		<Template>BDT_BigNormal</Template>
 	</Button>
-	<!-- Video modes. -->
-	<Button item="ODP_VideoModesButton">
+		<Button item="ODP_VideoModesButton">
 		<ScreenID>ODP_VideoModesButton</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1792,8 +1712,7 @@
 		<TooltipReference>Select your screen's resolution, color, and refresh rate settings.</TooltipReference>
 		<Template>BDT_BigNormal</Template>
 	</Button>
-	<!-- Borderless window -->
-	<Button item="ODP_BorderlessCheckbox">
+		<Button item="ODP_BorderlessCheckbox">
 		<ScreenID>ODP_BorderlessCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1813,8 +1732,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Allow window resizing -->
-	<Button item="ODP_AllowWindowResizingCheckbox">
+		<Button item="ODP_AllowWindowResizingCheckbox">
 		<ScreenID>ODP_AllowWindowResizingCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1834,8 +1752,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Always on top -->
-	<Button item="ODP_AlwaysOnTopCheckbox">
+		<Button item="ODP_AlwaysOnTopCheckbox">
 		<ScreenID>ODP_AlwaysOnTopCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1855,8 +1772,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Show buff timer or not. -->
-	<Button item="ODP_ShowBuffTimerCheckbox">
+		<Button item="ODP_ShowBuffTimerCheckbox">
 		<ScreenID>ODP_ShowBuffTimerCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1877,8 +1793,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Show buff counters or not. -->
-	<Button item="ODP_ShowBuffCountersCheckbox">
+		<Button item="ODP_ShowBuffCountersCheckbox">
 		<ScreenID>ODP_ShowBuffCountersCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1899,8 +1814,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Show buff limit use or not. -->
-	<Button item="ODP_ShowBuffLimitUseCheckbox">
+		<Button item="ODP_ShowBuffLimitUseCheckbox">
 		<ScreenID>ODP_ShowBuffLimitUseCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1921,8 +1835,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Show song countdown or not. -->
-	<Button item="ODP_ShowSongTimerCheckbox">
+		<Button item="ODP_ShowSongTimerCheckbox">
 		<ScreenID>ODP_ShowSongTimerCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1943,8 +1856,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Show song counters or not. -->
-	<Button item="ODP_ShowSongCountersCheckbox">
+		<Button item="ODP_ShowSongCountersCheckbox">
 		<ScreenID>ODP_ShowSongCountersCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1965,8 +1877,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Show song limit use or not. -->
-	<Button item="ODP_ShowSongLimitUseCheckbox">
+		<Button item="ODP_ShowSongLimitUseCheckbox">
 		<ScreenID>ODP_ShowSongLimitUseCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -1987,8 +1898,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Delay before fading slider -->
-	<Label item="ODP_FadeDelayLabel">
+		<Label item="ODP_FadeDelayLabel">
 		<ScreenID>ODP_FadeDelayLabel</ScreenID>
 		<Location>
 			<X>10</X>
@@ -2030,8 +1940,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-	<!-- fade duration slider -->
-	<Label item="ODP_FadeDurationLabel">
+		<Label item="ODP_FadeDurationLabel">
 		<ScreenID>ODP_FadeDurationLabel</ScreenID>
 		<Location>
 			<X>10</X>
@@ -2073,8 +1982,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-	<!-- Window alpha slider -->
-	<Label item="ODP_WindowAlphaLabel">
+		<Label item="ODP_WindowAlphaLabel">
 		<ScreenID>ODP_WindowAlphaLabel</ScreenID>
 		<Location>
 			<X>10</X>
@@ -2116,8 +2024,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-	<!-- Fade-to alpha slider -->
-	<Label item="ODP_FadeToAlphaLabel">
+		<Label item="ODP_FadeToAlphaLabel">
 		<ScreenID>ODP_FadeToAlphaLabel</ScreenID>
 		<Location>
 			<X>10</X>
@@ -2159,8 +2066,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-	<!-- LOD Bias slider -->
-	<Label item="ODP_LODBiasLabel">
+		<Label item="ODP_LODBiasLabel">
 		<ScreenID>ODP_LODBiasLabel</ScreenID>
 		<Location>
 			<X>190</X>
@@ -2202,8 +2108,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-	<!-- UI Scale slider -->
-	<Label item="ODP_UIScaleLabel">
+		<Label item="ODP_UIScaleLabel">
 		<ScreenID>ODP_UIScaleLabel</ScreenID>
 		<Location>
 			<X>190</X>
@@ -2257,8 +2162,7 @@
 		<TooltipReference>Apply the change to UI scale. Only applies to converted windows while using the new UI engine.</TooltipReference>
 		<Template>BDT_BigNormal</Template>
 	</Button>
-	<!-- Old UI Engine -->
-	<Button item="ODP_UseNewEngineCheckbox">
+		<Button item="ODP_UseNewEngineCheckbox">
 		<ScreenID>ODP_UseNewEngineCheckbox</ScreenID>
 		<Location>
 			<X>190</X>
@@ -2279,8 +2183,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Load Screen -->
-	<Label item="ODP_LoadScreenLabel">
+		<Label item="ODP_LoadScreenLabel">
 		<ScreenID>ODP_LoadScreenLabel</ScreenID>
 		<Location>
 			<X>200</X>
@@ -2312,8 +2215,7 @@
 		<Choices>None</Choices>
 		<Choices>Loading Art</Choices>
 	</Combobox>
-	<!-- Sky Layering -->
-	<Label item="ODP_SkyLabel">
+		<Label item="ODP_SkyLabel">
 		<ScreenID>ODP_SkyLabel</ScreenID>
 		<Location>
 			<X>200</X>
@@ -2346,8 +2248,7 @@
 		<Choices>Simple</Choices>
 		<Choices>Complex</Choices>
 	</Combobox>
-	<!-- New Armor -->
-	<Label item="ODP_NewArmorLabel">
+		<Label item="ODP_NewArmorLabel">
 		<ScreenID>ODP_NewArmorLabel</ScreenID>
 		<Location>
 			<X>200</X>
@@ -2387,8 +2288,7 @@
 		<Choices>Raid + NPCs</Choices>
 		<Choices>All</Choices>
 	</Combobox>
-	<!-- BrightnessBias Slider -->
-	<Label item="ODP_BrightnessBiasLabel">
+		<Label item="ODP_BrightnessBiasLabel">
 		<ScreenID>ODP_BrightnessBiasLabel</ScreenID>
 		<Location>
 			<X>200</X>
@@ -2433,8 +2333,7 @@
 		<AlignRight>true</AlignRight>
 		<TooltipReference>Enhances your vision and allows you to see better in dim light.</TooltipReference>
 	</Label>
-	<!-- Clip Plane Slider -->
-	<Label item="ODP_ClipPlaneLabel">
+		<Label item="ODP_ClipPlaneLabel">
 		<ScreenID>ODP_ClipPlaneLabel</ScreenID>
 		<Location>
 			<X>200</X>
@@ -2476,8 +2375,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-	<!-- Particles -->
-	<Label item="ODP_ParticlesLabel">
+		<Label item="ODP_ParticlesLabel">
 		<ScreenID>ODP_ParticlesLabel</ScreenID>
 		<Location>
 			<X>200</X>
@@ -2492,8 +2390,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<!-- Spell Particles Near Clip Plane-->
-	<Label item="ODP_SpellParticlesNearClipLabel">
+		<Label item="ODP_SpellParticlesNearClipLabel">
 		<ScreenID>ODP_SpellParticlesNearClipLabel</ScreenID>
 		<Location>
 			<X>10</X>
@@ -2527,8 +2424,7 @@
 		<Choices>Far</Choices>
 		<Choices>Farthest</Choices>
 	</Combobox>
-	<!-- Spell Particles Density -->
-	<Label item="ODP_SpellParticlesDensityLabel">
+		<Label item="ODP_SpellParticlesDensityLabel">
 		<ScreenID>ODP_SpellParticlesDensityLabel</ScreenID>
 		<Location>
 			<X>10</X>
@@ -2562,8 +2458,7 @@
 		<Choices>Medium</Choices>
 		<Choices>High</Choices>
 	</Combobox>
-	<!-- Spell Particles Filter -->
-	<Label item="ODP_SpellParticlesFilterLabel">
+		<Label item="ODP_SpellParticlesFilterLabel">
 		<ScreenID>ODP_SpellParticlesFilterLabel</ScreenID>
 		<Location>
 			<X>10</X>
@@ -2601,8 +2496,7 @@
 		<Choices>Raid + NPC</Choices>
 		<Choices>All spells</Choices>
 	</Combobox>
-	<!-- Spell Particles Opacity Slider -->
-	<Label item="ODP_SpellParticlesOpacityLabel">
+		<Label item="ODP_SpellParticlesOpacityLabel">
 		<ScreenID>ODP_SpellParticlesOpacityLabel</ScreenID>
 		<Location>
 			<X>10</X>
@@ -2646,8 +2540,7 @@
 	</Label>
 	<Page item="SpellParticlesPage">
 		<ScreenID>SpellParticlesPage</ScreenID>
-		<!-- Pages are sized and positioned by their parent tab -->
-		<DrawTemplate>WDT_Def</DrawTemplate>
+				<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Spell</TabText>
 		<TabTextActiveColor>
 			<R>255</R>
@@ -2665,8 +2558,7 @@
 		<Pieces>ODP_SpellParticlesDensityCombobox</Pieces>
 		<Pieces>ODP_SpellParticlesNearClipCombobox</Pieces>
 	</Page>
-	<!-- Environment Particles Near Clip Plane-->
-	<Label item="ODP_EnvironmentParticlesNearClipLabel">
+		<Label item="ODP_EnvironmentParticlesNearClipLabel">
 		<ScreenID>ODP_EnvironmentParticlesNearClipLabel</ScreenID>
 		<Location>
 			<X>10</X>
@@ -2700,8 +2592,7 @@
 		<Choices>Far</Choices>
 		<Choices>Farthest</Choices>
 	</Combobox>
-	<!-- Environment Particles Density -->
-	<Label item="ODP_EnvironmentParticlesDensityLabel">
+		<Label item="ODP_EnvironmentParticlesDensityLabel">
 		<ScreenID>ODP_EnvironmentParticlesDensityLabel</ScreenID>
 		<Location>
 			<X>10</X>
@@ -2735,8 +2626,7 @@
 		<Choices>Medium</Choices>
 		<Choices>High</Choices>
 	</Combobox>
-	<!-- Environment Particles Opacity Slider -->
-	<Label item="ODP_EnvironmentParticlesOpacityLabel">
+		<Label item="ODP_EnvironmentParticlesOpacityLabel">
 		<ScreenID>ODP_EnvironmentParticlesOpacityLabel</ScreenID>
 		<Location>
 			<X>10</X>
@@ -2780,8 +2670,7 @@
 	</Label>
 	<Page item="EnvironmentParticlesPage">
 		<ScreenID>EnvironmentParticlesPage</ScreenID>
-		<!-- Pages are sized and positioned by their parent tab -->
-		<DrawTemplate>WDT_Def</DrawTemplate>
+				<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Env</TabText>
 		<TabTextActiveColor>
 			<R>255</R>
@@ -2797,8 +2686,7 @@
 		<Pieces>ODP_EnvironmentParticlesDensityCombobox</Pieces>
 		<Pieces>ODP_EnvironmentParticlesNearClipCombobox</Pieces>
 	</Page>
-	<!-- Actor Particles Near Clip Plane-->
-	<Label item="ODP_ActorParticlesNearClipLabel">
+		<Label item="ODP_ActorParticlesNearClipLabel">
 		<ScreenID>ODP_ActorParticlesNearClipLabel</ScreenID>
 		<Location>
 			<X>10</X>
@@ -2832,8 +2720,7 @@
 		<Choices>Far</Choices>
 		<Choices>Farthest</Choices>
 	</Combobox>
-	<!-- Actor Particles Density -->
-	<Label item="ODP_ActorParticlesDensityLabel">
+		<Label item="ODP_ActorParticlesDensityLabel">
 		<ScreenID>ODP_ActorParticlesDensityLabel</ScreenID>
 		<Location>
 			<X>10</X>
@@ -2867,8 +2754,7 @@
 		<Choices>Medium</Choices>
 		<Choices>High</Choices>
 	</Combobox>
-	<!-- Actor Particles Filter -->
-	<Label item="ODP_ActorParticlesFilterLabel">
+		<Label item="ODP_ActorParticlesFilterLabel">
 		<ScreenID>ODP_ActorParticlesFilterLabel</ScreenID>
 		<Location>
 			<X>10</X>
@@ -2906,8 +2792,7 @@
 		<Choices>Raid + NPC</Choices>
 		<Choices>Everyone</Choices>
 	</Combobox>
-	<!-- Actor Particles Opacity Slider -->
-	<Label item="ODP_ActorParticlesOpacityLabel">
+		<Label item="ODP_ActorParticlesOpacityLabel">
 		<ScreenID>ODP_ActorParticlesOpacityLabel</ScreenID>
 		<Location>
 			<X>10</X>
@@ -2951,8 +2836,7 @@
 	</Label>
 	<Page item="ActorParticlesPage">
 		<ScreenID>ActorParticlesPage</ScreenID>
-		<!-- Pages are sized and positioned by their parent tab -->
-		<DrawTemplate>WDT_Def</DrawTemplate>
+				<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Player</TabText>
 		<TabTextActiveColor>
 			<R>255</R>
@@ -2991,8 +2875,7 @@
 		<Pages>Page:EnvironmentParticlesPage</Pages>
 		<Pages>Page:ActorParticlesPage</Pages>
 	</TabBox>
-	<!-- Advanced Display Options -->
-	<Button item="ODP_AdvancedButton">
+		<Button item="ODP_AdvancedButton">
 		<ScreenID>ODP_AdvancedButton</ScreenID>
 		<Location>
 			<X>190</X>
@@ -3006,11 +2889,9 @@
 		<TooltipReference>Pop up the advanced display options window.</TooltipReference>
 		<Template>BDT_BigNormal</Template>
 	</Button>
-	<!-- Display options page -->
-	<Page item="OptionsDisplayPage">
+		<Page item="OptionsDisplayPage">
 		<ScreenID>OptionsDisplayPage</ScreenID>
-		<!-- Pages are sized and positioned by their parent tab -->
-		<Style_VScroll>true</Style_VScroll>
+				<Style_VScroll>true</Style_VScroll>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Display</TabText>
 		<TabTextActiveColor>
@@ -3086,9 +2967,7 @@
 			<CY>480</CY>
 		</Size>
 	</Page>
-	<!-- *********** Options Tab Window, Mouse Options Page *********** -->
-	<!-- Invert Y Axis -->
-	<Button item="OMP_InvertYAxisCheckbox">
+			<Button item="OMP_InvertYAxisCheckbox">
 		<ScreenID>OMP_InvertYAxisCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -3108,8 +2987,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Look Spring	-->
-	<Button item="OMP_LookSpringCheckbox">
+		<Button item="OMP_LookSpringCheckbox">
 		<ScreenID>OMP_LookSpringCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -3129,8 +3007,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Mouse look -->
-	<Button item="OMP_MouseLookCheckbox">
+		<Button item="OMP_MouseLookCheckbox">
 		<ScreenID>OMP_MouseLookCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -3150,8 +3027,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Mouse Wheel Zoom -->
-	<Button item="OMP_MouseWheelZoomCheckbox">
+		<Button item="OMP_MouseWheelZoomCheckbox">
 		<ScreenID>OMP_MouseWheelZoomCheckbox</ScreenID>
 		<Location>
 			<X>10</X>
@@ -3171,8 +3047,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Mouse Turns Zoom Camera -->
-	<Button item="OMP_MouseTurnZoomCamera">
+		<Button item="OMP_MouseTurnZoomCamera">
 		<ScreenID>OMP_MouseTurnZoomCamera</ScreenID>
 		<TooltipReference>Toggle this to enable or disable zoom camera turning.</TooltipReference>
 		<Location>
@@ -3193,8 +3068,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- Mouse Left and Right Handedness -->
-	<Button item="OMP_MouseHandedness">
+		<Button item="OMP_MouseHandedness">
 		<ScreenID>OMP_MouseHandedness</ScreenID>
 		<TooltipReference>Toggle this to swap the mouse's left and right buttons.</TooltipReference>
 		<Location>
@@ -3215,8 +3089,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<!-- X Mouse sensitivity -->
-	<Label item="OMP_XMouseSensitivityLabel">
+		<Label item="OMP_XMouseSensitivityLabel">
 		<ScreenID>OMP_XMouseSensitivityLabel</ScreenID>
 		<Location>
 			<X>200</X>
@@ -3258,8 +3131,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-	<!-- Y Mouse sensitivity -->
-	<Label item="OMP_YMouseSensitivityLabel">
+		<Label item="OMP_YMouseSensitivityLabel">
 		<ScreenID>OMP_YMouseSensitivityLabel</ScreenID>
 		<Location>
 			<X>200</X>
@@ -3301,11 +3173,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-	<!-- Mouse options page -->
-	<Page item="OptionsMousePage">
+		<Page item="OptionsMousePage">
 		<ScreenID>OptionsMousePage</ScreenID>
-		<!-- Pages are sized and positioned by their parent tab -->
-		<TooltipReference />
+				<TooltipReference />
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Mouse</TabText>
 		<TabTextActiveColor>
@@ -3335,9 +3205,7 @@
 			<CY>480</CY>
 		</Size>
 	</Page>
-	<!-- *********** Options Tab Window, Keyboard Options Page *********** -->
-	<!-- Keyboard filter list -->
-	<Label item="OKP_KeyboardFilterLabel">
+			<Label item="OKP_KeyboardFilterLabel">
 		<ScreenID>OKP_KeyboardFilterLabel</ScreenID>
 		<Location>
 			<X>10</X>
@@ -3387,8 +3255,7 @@
 		<Choices>Item Placement</Choices>
 		<Choices>All</Choices>
 	</Combobox>
-	<!-- Default keys button -->
-	<Button item="OKP_DefaultKeysButton">
+		<Button item="OKP_DefaultKeysButton">
 		<ScreenID>OKP_DefaultKeysButton</ScreenID>
 		<Location>
 			<X>200</X>
@@ -3401,8 +3268,7 @@
 		<Text>Reload defaults</Text>
 		<Template>BDT_BigNormal</Template>
 	</Button>
-	<!-- Keyboard assignment list -->
-	<Listbox item="OKP_KeyboardAssignmentList">
+		<Listbox item="OKP_KeyboardAssignmentList">
 		<ScreenID>OKP_KeyboardAssignmentList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -3429,11 +3295,9 @@
 			<Heading>Alternate</Heading>
 		</Columns>
 	</Listbox>
-	<!-- Keyboard options page -->
-	<Page item="OptionsKeyboardPage">
+		<Page item="OptionsKeyboardPage">
 		<ScreenID>OptionsKeyboardPage</ScreenID>
-		<!-- Pages are sized and positioned by their parent tab -->
-		<DrawTemplate>WDT_Def</DrawTemplate>
+				<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Keys</TabText>
 		<TabTextActiveColor>
 			<R>255</R>
@@ -3454,9 +3318,7 @@
 			<CY>480</CY>
 		</Size>
 	</Page>
-	<!-- *********** Options Tab Window, Chat Color and Filter Page *********** -->
-	<!-- Chat filter list -->
-	<Label item="ONP_ChatFilterLabel">
+			<Label item="ONP_ChatFilterLabel">
 		<ScreenID>ONP_ChatFilterLabel</ScreenID>
 		<Location>
 			<X>10</X>
@@ -3498,8 +3360,7 @@
 		<Choices>Universal Chat</Choices>
 		<Choices>All</Choices>
 	</Combobox>
-	<!-- Reset single color button -->
-	<Button item="ONP_ResetSelectedColorButton">
+		<Button item="ONP_ResetSelectedColorButton">
 		<ScreenID>ONP_ResetSelectedColorButton</ScreenID>
 		<Location>
 			<X>215</X>
@@ -3512,8 +3373,7 @@
 		<Text>Reset Selected Color</Text>
 		<Template>BDT_BigNormal</Template>
 	</Button>
-	<!-- Reset all colors button -->
-	<Button item="ONP_ResetAllColorsButton">
+		<Button item="ONP_ResetAllColorsButton">
 		<ScreenID>ONP_ResetAllColorsButton</ScreenID>
 		<Location>
 			<X>215</X>
@@ -3526,8 +3386,7 @@
 		<Text>Reset All Default Colors</Text>
 		<Template>BDT_BigNormal</Template>
 	</Button>
-	<!-- Chat color and filter list -->
-	<Listbox item="ONP_ChatSettingsList">
+		<Listbox item="ONP_ChatSettingsList">
 		<ScreenID>ONP_ChatSettingsList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -3607,11 +3466,9 @@
 		<Font>3</Font>
 		<Template>BDT_BigNormal</Template>
 	</Button>
-	<!-- Chat color and filter page -->
-	<Page item="OptionsChatFilterPage">
+		<Page item="OptionsChatFilterPage">
 		<ScreenID>OptionsChatFilterPage</ScreenID>
-		<!-- Pages are sized and positioned by their parent tab -->
-		<DrawTemplate>WDT_Def</DrawTemplate>
+				<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Chat</TabText>
 		<TabTextActiveColor>
 			<R>255</R>
@@ -3636,8 +3493,7 @@
 			<CY>480</CY>
 		</Size>
 	</Page>
-	<!-- MAIL OPTIONS PANEL -->
-	<Label item="OMP_PathToAddressBookLabel">
+		<Label item="OMP_PathToAddressBookLabel">
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>12</LeftAnchorOffset>
 		<TopAnchorOffset>10</TopAnchorOffset>
@@ -3738,8 +3594,7 @@
 	</Button>
 	<Page item="OptionsMailPage">
 		<ScreenID>OptionsMailPage</ScreenID>
-		<!-- Pages are sized and positioned by their parent tab -->
-		<DrawTemplate>WDT_Def</DrawTemplate>
+				<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Mail</TabText>
 		<TabTextActiveColor>
 			<R>255</R>
@@ -3762,8 +3617,7 @@
 			<CY>480</CY>
 		</Size>
 	</Page>
-	<!-- *********** Options Tab Window, Top level *********** -->
-	<TabBox item="OPTW_OptionsSubwindows">
+		<TabBox item="OPTW_OptionsSubwindows">
 		<ScreenID>OPTW_OptionsSubwindows</ScreenID>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>

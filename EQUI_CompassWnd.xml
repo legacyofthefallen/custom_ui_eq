@@ -41,9 +41,7 @@
 		<Animation>A_CompassStrip</Animation>
 	</StaticAnimation>
 	<Screen item = "CompassWindow">
-		<!--<ScreenID/>-->
-		<!--<Font/>-->
-		<RelativePosition>false</RelativePosition>
+						<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>350</X>
 			<Y>0</Y>
@@ -55,8 +53,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+				<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>

@@ -3,8 +3,7 @@
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
 	<Button item="BOOK_DoneButton">
 		<ScreenID>DoneButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>229</X>
 			<Y>294</Y>
@@ -14,16 +13,13 @@
 			<CY>24</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Done</Text>
+				<Style_Checkbox>false</Style_Checkbox>
+				<Text>Done</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item="BOOK_CastSpellButton">
 		<ScreenID>CastSpellButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>281</X>
 			<Y>294</Y>
@@ -33,16 +29,13 @@
 			<CY>24</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Cast Spell</Text>
+				<Style_Checkbox>false</Style_Checkbox>
+				<Text>Cast Spell</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item="BOOK_ScribeButton">
 		<ScreenID>ScribeButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>383</X>
 			<Y>294</Y>
@@ -52,16 +45,13 @@
 			<CY>24</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Scribe</Text>
+				<Style_Checkbox>false</Style_Checkbox>
+				<Text>Scribe</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item="BOOK_RightButton">
 		<ScreenID>RightButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>486</X>
 			<Y>150</Y>
@@ -73,10 +63,8 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text/>
+				<Style_Checkbox>false</Style_Checkbox>
+				<Text/>
 		<ButtonDrawTemplate>
 			<Normal>A_RightArrowBtnNormal</Normal>
 			<Pressed>A_RightArrowBtnPressed</Pressed>
@@ -87,8 +75,7 @@
 	</Button>
 	<Button item="BOOK_LeftButton">
 		<ScreenID>LeftButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>150</Y>
@@ -100,10 +87,8 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text/>
+				<Style_Checkbox>false</Style_Checkbox>
+				<Text/>
 		<ButtonDrawTemplate>
 			<Normal>A_LeftArrowBtnNormal</Normal>
 			<Pressed>A_LeftArrowBtnPressed</Pressed>
@@ -114,8 +99,7 @@
 	</Button>
 	<StaticText item="BOOK_Page0Number">
 		<ScreenID>Page0Number</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>49</X>
 			<Y>11</Y>
@@ -136,8 +120,7 @@
 	</StaticText>
 	<StaticText item="BOOK_Page1Number">
 		<ScreenID>Page1Number</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>445</X>
 			<Y>11</Y>
@@ -251,9 +234,7 @@
 		<Animation>A_book4</Animation>
 	</StaticAnimation>
 	<Screen item="BookWindow">
-		<!--<ScreenID/>-->
-		<!--<Font/>-->
-		<RelativePosition>false</RelativePosition>
+						<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>120</X>
 			<Y>20</Y>
@@ -265,8 +246,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>true</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_Rounded</DrawTemplate>
+				<DrawTemplate>WDT_Rounded</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>

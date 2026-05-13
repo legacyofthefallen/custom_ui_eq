@@ -79,8 +79,7 @@
 	</Button>
 	<Screen item = "BTR_SearchWnd">
 		<ScreenID>SearchWnd</ScreenID>
-		<!--<Font/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -426,8 +425,7 @@
 	</Button>
 	<Screen item = "BTR_CompensationWnd">
 		<ScreenID>CompensationWnd</ScreenID>
-		<!--<Font/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>194</X>
 			<Y>0</Y>
@@ -570,8 +568,7 @@
 	</Button>
 	<Screen item = "BTR_BuyLineWnd">
 		<ScreenID>BuyLineWnd</ScreenID>
-		<!--<Font/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -650,8 +647,7 @@
 	</Button>
 	<Screen item = "BTR_StatusTextWnd">
 		<ScreenID>StatusTextWnd</ScreenID>
-		<!--<Font/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>240</Y>
@@ -693,8 +689,7 @@
 	</VerticalLayoutBox>
 	<Screen item = "BTR_StatusWnd">
 		<ScreenID>StatusWnd</ScreenID>
-		<!--<Font/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>422</X>
 			<Y>0</Y>
