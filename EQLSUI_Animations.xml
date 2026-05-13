@@ -1347,7 +1347,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-		<Ui2DAnimation item = "A_CursorResizeIBeam">
+	<Ui2DAnimation item = "A_CursorResizeIBeam">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
