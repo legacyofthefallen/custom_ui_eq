@@ -162,8 +162,7 @@
 
 	<Button item = "CSepIW_Button">
 		<ScreenID>Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -208,8 +207,7 @@
 	</Screen>
 	<Button item = "CSubIW_Button">
 		<ScreenID>Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -239,8 +237,7 @@
 	</Button>
 	<Button item = "CSubIW_Arrow">
 		<ScreenID>Arrow</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>180</X>
 			<Y>6</Y>
@@ -285,8 +282,7 @@
 	</Screen>
 	<Button item = "CCmdIW_Button">
 		<ScreenID>Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -383,8 +379,7 @@
 	</Screen>
 	<Button item = "EQM_EQButton">
 		<ScreenID>EQButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>42</Y>

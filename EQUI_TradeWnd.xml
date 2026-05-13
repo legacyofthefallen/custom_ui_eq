@@ -4,8 +4,7 @@
   <STMLbox item ="TRDW_OtherName">
     <ScreenID>TRDW_OtherName</ScreenID>
     <DrawTemplate>WDT_Inner</DrawTemplate>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>0</X>
       <Y>1</Y>
@@ -21,8 +20,7 @@
   </STMLbox>
   <InvSlot item = "TRDW_TradeSlot8">
     <ScreenID>TRDW_TradeSlot8</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>5</X>
       <Y>32</Y>
@@ -36,8 +34,7 @@
   </InvSlot>
   <InvSlot item = "TRDW_TradeSlot9">
     <ScreenID>TRDW_TradeSlot9</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>5</X>
       <Y>72</Y>
@@ -51,8 +48,7 @@
   </InvSlot>
   <InvSlot item = "TRDW_TradeSlot10">
     <ScreenID>TRDW_TradeSlot10</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>5</X>
       <Y>112</Y>
@@ -66,8 +62,7 @@
   </InvSlot>
   <InvSlot item = "TRDW_TradeSlot11">
     <ScreenID>TRDW_TradeSlot11</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>5</X>
       <Y>152</Y>
@@ -81,8 +76,7 @@
   </InvSlot>
   <InvSlot item = "TRDW_TradeSlot12">
     <ScreenID>TRDW_TradeSlot12</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>50</X>
       <Y>32</Y>
@@ -96,8 +90,7 @@
   </InvSlot>
   <InvSlot item = "TRDW_TradeSlot13">
     <ScreenID>TRDW_TradeSlot13</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>50</X>
       <Y>72</Y>
@@ -111,8 +104,7 @@
   </InvSlot>
   <InvSlot item = "TRDW_TradeSlot14">
     <ScreenID>TRDW_TradeSlot14</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>50</X>
       <Y>112</Y>
@@ -126,8 +118,7 @@
   </InvSlot>
   <InvSlot item = "TRDW_TradeSlot15">
     <ScreenID>TRDW_TradeSlot15</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>50</X>
       <Y>152</Y>
@@ -141,8 +132,7 @@
   </InvSlot>
   <Button item = "TRDW_HisMoney0">
     <ScreenID>TRDW_HisMoney0</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>5</X>
       <Y>197</Y>
@@ -152,15 +142,10 @@
       <CY>24</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
-    <!--<TooltipReference/>-->
-    <Style_Checkbox>false</Style_Checkbox>
-    <!--<RadioGroup/>-->
-    <Text/>
+        <Style_Checkbox>false</Style_Checkbox>
+        <Text/>
     <Template>BDT_PlatinumCoin</Template>
-    <!--<SoundPressed/>-->
-    <!--<SoundUp/>-->
-    <!--<SoundFlyby/>-->
-    <DecalOffset>
+                <DecalOffset>
       <X>2</X>
       <Y>2</Y>
     </DecalOffset>
@@ -171,8 +156,7 @@
   </Button>
   <Button item = "TRDW_HisMoney1">
     <ScreenID>TRDW_HisMoney1</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>5</X>
       <Y>221</Y>
@@ -182,15 +166,10 @@
       <CY>24</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
-    <!--<TooltipReference/>-->
-    <Style_Checkbox>false</Style_Checkbox>
-    <!--<RadioGroup/>-->
-    <Text/>
+        <Style_Checkbox>false</Style_Checkbox>
+        <Text/>
     <Template>BDT_GoldCoin</Template>
-    <!--<SoundPressed/>-->
-    <!--<SoundUp/>-->
-    <!--<SoundFlyby/>-->
-    <DecalOffset>
+                <DecalOffset>
       <X>2</X>
       <Y>2</Y>
     </DecalOffset>
@@ -201,8 +180,7 @@
   </Button>
   <Button item = "TRDW_HisMoney2">
     <ScreenID>TRDW_HisMoney2</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>5</X>
       <Y>245</Y>
@@ -212,15 +190,10 @@
       <CY>24</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
-    <!--<TooltipReference/>-->
-    <Style_Checkbox>false</Style_Checkbox>
-    <!--<RadioGroup/>-->
-    <Text/>
+        <Style_Checkbox>false</Style_Checkbox>
+        <Text/>
     <Template>BDT_SilverCoin</Template>
-    <!--<SoundPressed/>-->
-    <!--<SoundUp/>-->
-    <!--<SoundFlyby/>-->
-    <DecalOffset>
+                <DecalOffset>
       <X>2</X>
       <Y>2</Y>
     </DecalOffset>
@@ -231,8 +204,7 @@
   </Button>
   <Button item = "TRDW_HisMoney3">
     <ScreenID>TRDW_HisMoney3</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>5</X>
       <Y>269</Y>
@@ -242,15 +214,10 @@
       <CY>24</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
-    <!--<TooltipReference/>-->
-    <Style_Checkbox>false</Style_Checkbox>
-    <!--<RadioGroup/>-->
-    <Text/>
+        <Style_Checkbox>false</Style_Checkbox>
+        <Text/>
     <Template>BDT_CopperCoin</Template>
-    <!--<SoundPressed/>-->
-    <!--<SoundUp/>-->
-    <!--<SoundFlyby/>-->
-    <DecalOffset>
+                <DecalOffset>
       <X>2</X>
       <Y>2</Y>
     </DecalOffset>
@@ -262,8 +229,7 @@
   <STMLbox item ="TRDW_SelfName">
     <ScreenID>TRDW_SelfName</ScreenID>
     <DrawTemplate>WDT_Inner</DrawTemplate>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>125</X>
       <Y>1</Y>
@@ -279,8 +245,7 @@
   </STMLbox>
   <InvSlot item = "TRDW_TradeSlot0">
     <ScreenID>TRDW_TradeSlot0</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>130</X>
       <Y>32</Y>
@@ -294,8 +259,7 @@
   </InvSlot>
   <InvSlot item = "TRDW_TradeSlot1">
     <ScreenID>TRDW_TradeSlot1</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>130</X>
       <Y>72</Y>
@@ -309,8 +273,7 @@
   </InvSlot>
   <InvSlot item = "TRDW_TradeSlot2">
     <ScreenID>TRDW_TradeSlot2</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>130</X>
       <Y>112</Y>
@@ -324,8 +287,7 @@
   </InvSlot>
   <InvSlot item = "TRDW_TradeSlot3">
     <ScreenID>TRDW_TradeSlot3</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>130</X>
       <Y>152</Y>
@@ -339,8 +301,7 @@
   </InvSlot>
   <InvSlot item = "TRDW_TradeSlot4">
     <ScreenID>TRDW_TradeSlot4</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>175</X>
       <Y>32</Y>
@@ -354,8 +315,7 @@
   </InvSlot>
   <InvSlot item = "TRDW_TradeSlot5">
     <ScreenID>TRDW_TradeSlot5</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>175</X>
       <Y>72</Y>
@@ -369,8 +329,7 @@
   </InvSlot>
   <InvSlot item = "TRDW_TradeSlot6">
     <ScreenID>TRDW_TradeSlot6</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>175</X>
       <Y>112</Y>
@@ -384,8 +343,7 @@
   </InvSlot>
   <InvSlot item = "TRDW_TradeSlot7">
     <ScreenID>TRDW_TradeSlot7</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>175</X>
       <Y>152</Y>
@@ -399,8 +357,7 @@
   </InvSlot>
   <Button item = "TRDW_MyMoney0">
     <ScreenID>TRDW_MyMoney0</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>130</X>
       <Y>197</Y>
@@ -412,13 +369,9 @@
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Drop coins here</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
-    <!--<RadioGroup/>-->
-    <Text/>
+        <Text/>
     <Template>BDT_PlatinumCoin</Template>
-    <!--<SoundPressed/>-->
-    <!--<SoundUp/>-->
-    <!--<SoundFlyby/>-->
-    <DecalOffset>
+                <DecalOffset>
       <X>2</X>
       <Y>2</Y>
     </DecalOffset>
@@ -429,8 +382,7 @@
   </Button>
   <Button item = "TRDW_MyMoney1">
     <ScreenID>TRDW_MyMoney1</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>130</X>
       <Y>221</Y>
@@ -442,13 +394,9 @@
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Drop coins here</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
-    <!--<RadioGroup/>-->
-    <Text/>
+        <Text/>
     <Template>BDT_GoldCoin</Template>
-    <!--<SoundPressed/>-->
-    <!--<SoundUp/>-->
-    <!--<SoundFlyby/>-->
-    <DecalOffset>
+                <DecalOffset>
       <X>2</X>
       <Y>2</Y>
     </DecalOffset>
@@ -459,8 +407,7 @@
   </Button>
   <Button item = "TRDW_MyMoney2">
     <ScreenID>TRDW_MyMoney2</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>130</X>
       <Y>245</Y>
@@ -472,13 +419,9 @@
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Drop coins here</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
-    <!--<RadioGroup/>-->
-    <Text/>
+        <Text/>
     <Template>BDT_SilverCoin</Template>
-    <!--<SoundPressed/>-->
-    <!--<SoundUp/>-->
-    <!--<SoundFlyby/>-->
-    <DecalOffset>
+                <DecalOffset>
       <X>2</X>
       <Y>2</Y>
     </DecalOffset>
@@ -489,8 +432,7 @@
   </Button>
   <Button item = "TRDW_MyMoney3">
     <ScreenID>TRDW_MyMoney3</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>130</X>
       <Y>269</Y>
@@ -502,13 +444,9 @@
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Drop coins here</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
-    <!--<RadioGroup/>-->
-    <Text/>
+        <Text/>
     <Template>BDT_CopperCoin</Template>
-    <!--<SoundPressed/>-->
-    <!--<SoundUp/>-->
-    <!--<SoundFlyby/>-->
-    <DecalOffset>
+                <DecalOffset>
       <X>2</X>
       <Y>2</Y>
     </DecalOffset>
@@ -519,8 +457,7 @@
   </Button>
   <Button item = "TRDW_Trade_Button">
     <ScreenID>TRDW_Trade_Button</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>5</LeftAnchorOffset>
     <TopAnchorOffset>37</TopAnchorOffset>
@@ -529,19 +466,13 @@
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <Style_Transparent>false</Style_Transparent>
-    <!--<TooltipReference/>-->
-    <Style_Checkbox>false</Style_Checkbox>
-    <!--<RadioGroup/>-->
-    <Text>Trade</Text>
+        <Style_Checkbox>false</Style_Checkbox>
+        <Text>Trade</Text>
     <Template>BDT_Normal</Template>
-    <!--<SoundPressed/>-->
-    <!--<SoundUp/>-->
-    <!--<SoundFlyby/>-->
-  </Button>
+              </Button>
   <Button item = "TRDW_Cancel_Button">
     <ScreenID>TRDW_Cancel_Button</ScreenID>
-    <!--<Font>3</Font>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>130</LeftAnchorOffset>
     <TopAnchorOffset>37</TopAnchorOffset>
@@ -550,19 +481,13 @@
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <Style_Transparent>false</Style_Transparent>
-    <!--<TooltipReference/>-->
-    <Style_Checkbox>false</Style_Checkbox>
-    <!--<RadioGroup/>-->
-    <Text>Cancel</Text>
+        <Style_Checkbox>false</Style_Checkbox>
+        <Text>Cancel</Text>
     <Template>BDT_Normal</Template>
-    <!--<SoundPressed/>-->
-    <!--<SoundUp/>-->
-    <!--<SoundFlyby/>-->
-  </Button>
+              </Button>
   <Screen item = "TradeWnd">
     <ScreenID>TradeWnd</ScreenID>
-    <!--<Font/>-->
-    <RelativePosition>false</RelativePosition>
+        <RelativePosition>false</RelativePosition>
     <Location>
       <X>0</X>
       <Y>25</Y>
@@ -573,8 +498,7 @@
     </Size>
     <Text>Trade</Text>
     <Style_Transparent>false</Style_Transparent>
-    <!--<TooltipReference/>-->
-    <DrawTemplate>WDT_Def</DrawTemplate>
+        <DrawTemplate>WDT_Def</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Qmarkbox>true</Style_Qmarkbox>
     <Style_Closebox>true</Style_Closebox>

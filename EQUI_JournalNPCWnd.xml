@@ -37,8 +37,7 @@
 	</Label>
 	<Button item = "CJNPC_SearchButton">
 		<ScreenID>SearchButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>200</LeftAnchorOffset>
 		<TopAnchorOffset>4</TopAnchorOffset>
@@ -167,8 +166,7 @@
 	</VerticalLayoutBox>
 	<Button item = "CJNPC_DeleteNPCButton">
 		<ScreenID>DeleteNPCButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>4</LeftAnchorOffset>
 		<TopAnchorOffset>26</TopAnchorOffset>
@@ -186,8 +184,7 @@
 	</Button>
 	<Button item = "CJNPC_DeleteTextButton">
 		<ScreenID>DeleteTextButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>96</LeftAnchorOffset>
 		<TopAnchorOffset>26</TopAnchorOffset>
@@ -223,8 +220,7 @@
 	</Combobox>
 	<Button item = "CJNPC_CategoryButton">
 		<ScreenID>CategoryButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>182</LeftAnchorOffset>
 		<TopAnchorOffset>26</TopAnchorOffset>
@@ -242,8 +238,7 @@
 	</Button>
 	<Button item = "CJNPC_SaveButton">
 		<ScreenID>SaveButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>68</LeftAnchorOffset>
 		<TopAnchorOffset>26</TopAnchorOffset>

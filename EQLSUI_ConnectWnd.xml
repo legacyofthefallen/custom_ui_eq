@@ -1,8 +1,7 @@
 ﻿<?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<!-- Buttons -->
-	<Button item = "LOGIN_ConnectButton">
+		<Button item = "LOGIN_ConnectButton">
 		<ScreenID>ConnectButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -116,9 +115,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>			
 	</Button>
-	<!-- End of buttons -->
-	<!-- Lables -->
-	<Label item = "LOGIN_UsernameLabel">
+			<Label item = "LOGIN_UsernameLabel">
 		<ScreenID>UsernameLabel</ScreenID>
 		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
@@ -184,8 +181,6 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-<!-- End Labels -->
-<!-- Edit boxes -->
 	<Editbox item = "LOGIN_UsernameEdit">
 		<ScreenID>UsernameEdit</ScreenID>
 		<Font>4</Font>
@@ -226,10 +221,8 @@
 				<B>255</B>
 		</TextColor>
 	</Editbox>
-	<!-- End Edit boxes -->
-	<Screen item = "connect">
-		<!--<ScreenID/>-->
-		<RelativePosition>true</RelativePosition>
+		<Screen item = "connect">
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -242,8 +235,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+				<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>

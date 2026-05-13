@@ -513,8 +513,7 @@
 		<Style_Transparent>true</Style_Transparent>
 		<Style_Dividers>false</Style_Dividers>
 		<Spacing>8</Spacing>
-		<!-- Don't put any pieces in here -->
-	</VerticalLayoutBox>
+			</VerticalLayoutBox>
 	<Page item ="ACH_AchievementsPage">
 		<ScreenID>ACH_AchievementsPage</ScreenID>
 		<RelativePosition>true</RelativePosition>

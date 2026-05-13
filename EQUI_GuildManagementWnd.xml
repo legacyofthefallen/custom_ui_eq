@@ -1243,8 +1243,7 @@
 		<Text>Edit Settings</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<!-- Specify the default textures here. -->
-	<TextureInfo item="gdb_background_00.dds">
+		<TextureInfo item="gdb_background_00.dds">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>

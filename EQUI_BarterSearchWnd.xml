@@ -135,14 +135,10 @@
     <TooltipReference>Resets search criteria.</TooltipReference>
 		<Text>Reset</Text>
 		<Template>BDT_SmallNormal</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
-	</Button>
+							</Button>
   <Screen item="BTRSRCH_SearchWnd">
     <ScreenID>SearchWnd</ScreenID>
-    <!--<Font/>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>0</X>
       <Y>0</Y>
@@ -369,8 +365,7 @@
   </Listbox>
   <Screen item="BTRSRCH_DetailsWnd">
     <ScreenID>DetailsWnd</ScreenID>
-    <!--<Font/>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>0</X>
       <Y>250</Y>
@@ -486,8 +481,7 @@
   </Button>
   <Screen item="BTRSRCH_MatchWnd">
     <ScreenID>MatchWnd</ScreenID>
-    <!--<Font/>-->
-    <RelativePosition>true</RelativePosition>
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>190</X>
       <Y>0</Y>

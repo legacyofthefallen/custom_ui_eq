@@ -1,7 +1,6 @@
 <?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-<!-- the help displayed from the chat screen -->
 	<Button item = "HELP_OKButton">
 		<ScreenID>OKButton</ScreenID>
 		<Font>4</Font>
@@ -70,8 +69,7 @@
 		<AlignRight>false</AlignRight>
 	</Label>
 	<Screen item = "chathelp">
-		<!--<ScreenID/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -84,8 +82,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+				<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
@@ -101,8 +98,6 @@
 		<Pieces>HELP_Display</Pieces>
 		<Pieces>HELP_WndLabel</Pieces>
 	</Screen>
-<!-- End chat help -->
-<!-- Seizure warning - uses chat help components -->
 	<Label item = "SHELP_WndLabel">
 		<ScreenID>SWndLabel</ScreenID>
 		<Font>5</Font>
@@ -126,8 +121,7 @@
 		<AlignRight>false</AlignRight>
 	</Label>
 	<Screen item = "seizurewarning">
-		<!--<ScreenID/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -140,8 +134,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+				<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
@@ -157,8 +150,6 @@
 		<Pieces>HELP_Display</Pieces>
 		<Pieces>SHELP_WndLabel</Pieces>
 	</Screen>
-<!-- End Seizure warning -->
-<!-- the help displayed from the main screen -->
 	<Button item = "MAINHELP_OKButton">
 		<ScreenID>OKButton</ScreenID>
 		<Font>4</Font>
@@ -203,8 +194,7 @@
 		<Style_Border>true</Style_Border>
 	</STMLbox>
 	<Screen item = "mainhelp">
-		<!--<ScreenID/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -217,8 +207,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+				<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
@@ -233,5 +222,4 @@
 		<Pieces>MAINHELP_OKButton</Pieces>
 		<Pieces>MAINHELP_Display</Pieces>
 	</Screen>
-<!-- End of the help from the main screen -->
 </XML>

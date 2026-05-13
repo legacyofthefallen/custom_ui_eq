@@ -354,8 +354,7 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-  <!-- Done Button -->
-  <Button item="PvpStats_RefreshButton">
+    <Button item="PvpStats_RefreshButton">
     <ScreenID>PvpStats_RefreshButton</ScreenID>
     <LeftAnchorOffset>30</LeftAnchorOffset>
     <TopAnchorOffset>40</TopAnchorOffset>
@@ -374,8 +373,7 @@
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
   </Button>
-  <!-- Done Button -->
-  <Button item="PvpStats_LeaderboardButton">
+    <Button item="PvpStats_LeaderboardButton">
     <ScreenID>PvpStats_LeaderboardButton</ScreenID>
     <LeftAnchorOffset>180</LeftAnchorOffset>
     <TopAnchorOffset>40</TopAnchorOffset>
@@ -393,8 +391,7 @@
     <Template>BDT_Normal</Template>
     <AutoStretch>true</AutoStretch>
   </Button>
-  <!-- Done Button -->
-  <Button item="PvpStats_DoneButton">
+    <Button item="PvpStats_DoneButton">
     <ScreenID>PvpStats_DoneButton</ScreenID>
     <LeftAnchorOffset>330</LeftAnchorOffset>
     <TopAnchorOffset>40</TopAnchorOffset>
@@ -412,8 +409,7 @@
     <Template>BDT_Normal</Template>
     <AutoStretch>true</AutoStretch>
   </Button>
-  <!-- The PvP Stats Window -->
-  <Screen item="PvPStatsWnd">
+    <Screen item="PvPStatsWnd">
     <RelativePosition>false</RelativePosition>
     <Location>
       <X>100</X>

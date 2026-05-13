@@ -20,8 +20,7 @@
 	</STMLbox>
 	<Button item="SDW_IconButton">
 		<ScreenID>SDW_IconButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>70</LeftAnchorOffset>
 		<TopAnchorOffset>12</TopAnchorOffset>
@@ -34,10 +33,8 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Template>BDT_RedBuff</Template>
+				<Style_Checkbox>false</Style_Checkbox>
+				<Template>BDT_RedBuff</Template>
 		<SoundPressed />
 		<SoundUp />
 		<SoundFlyby />
@@ -51,9 +48,7 @@
 		</DecalSize>
 	</Button>
 	<Screen item="SpellDisplayWindow">
-		<!--<ScreenID/>-->
-		<!--<Font/>-->
-		<RelativePosition>false</RelativePosition>
+						<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>80</Y>

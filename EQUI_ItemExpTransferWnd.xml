@@ -20,8 +20,7 @@
 	</Label>
 	<Button item = "IEXP_FromItemIcon">
 		<ScreenID>FromItemIcon</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>30</X>
 			<Y>55</Y>
@@ -81,8 +80,7 @@
 	</STMLbox>
 	<Button item = "IEXP_FromPreviewIcon">
 		<ScreenID>FromPreviewIcon</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>70</LeftAnchorOffset>
 		<TopAnchorOffset>32</TopAnchorOffset>
@@ -95,10 +93,8 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<ButtonDrawTemplate>
+				<Style_Checkbox>false</Style_Checkbox>
+				<ButtonDrawTemplate>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
 		<SoundPressed/>
@@ -115,8 +111,7 @@
 	</Button>
 	<Screen item = "IEXP_FromPreview">
 		<ScreenID>FromPreview</ScreenID>
-		<!--<Font/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>false</AutoStretch>
 		<Location>
 			<X>0</X>
@@ -210,8 +205,7 @@
 	</Label>
 	<Button item = "IEXP_TransferButton">
 		<ScreenID>TransferButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>0</LeftAnchorOffset>
 		<TopAnchorOffset>0</TopAnchorOffset>
@@ -221,15 +215,13 @@
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
+				<Style_Checkbox>false</Style_Checkbox>
 		<Text>Transfer</Text>
 		<Template>BDT_Square</Template>
 	</Button>
 	<Screen item = "IEXP_Status">
 		<ScreenID>Status</ScreenID>
-		<!--<Font/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>false</AutoStretch>
 		<Location>
 			<X>0</X>
@@ -272,8 +264,7 @@
 	</Label>
 	<Button item = "IEXP_ToItemIcon">
 		<ScreenID>ToItemIcon</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>30</X>
 			<Y>55</Y>
@@ -333,8 +324,7 @@
 	</STMLbox>
 	<Button item = "IEXP_ToPreviewIcon">
 		<ScreenID>ToPreviewIcon</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>70</LeftAnchorOffset>
 		<TopAnchorOffset>32</TopAnchorOffset>
@@ -347,10 +337,8 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<ButtonDrawTemplate>
+				<Style_Checkbox>false</Style_Checkbox>
+				<ButtonDrawTemplate>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
 		<SoundPressed/>
@@ -367,8 +355,7 @@
 	</Button>
 	<Screen item = "IEXP_ToPreview">
 		<ScreenID>ToPreview</ScreenID>
-		<!--<Font/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>false</AutoStretch>
 		<Location>
 			<X>0</X>
@@ -413,9 +400,7 @@
 		<Pieces>Screen:IEXP_ToPreview</Pieces>
 	</VerticalLayoutBox>	
 	<Screen item = "ItemExpTransferWnd">
-		<!--<ScreenID/>-->
-		<!--<Font/>-->
-		<RelativePosition>false</RelativePosition>
+						<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>40</X>
 			<Y>80</Y>

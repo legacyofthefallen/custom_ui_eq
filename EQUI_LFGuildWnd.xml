@@ -1,8 +1,7 @@
 <?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 <Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<!-- ************ Player LF Guild Page ************ -->
-	<Label item ="PLFG_PlayerInfoLabel">
+		<Label item ="PLFG_PlayerInfoLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -198,8 +197,7 @@
 		<Pieces>PLFG_ExpireLabel</Pieces>
 		<Pieces>PLFG_TimeZoneCombo</Pieces>
 	</Page>
-	<!-- ************ Guild LF Player Page ************ -->
-	<Label item ="GLFP_GuildDeclarationLabel">
+		<Label item ="GLFP_GuildDeclarationLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -808,8 +806,7 @@
 	</Label>
 	<Screen item = "GLFP_ClassWnd">
 		<ScreenID>ClassWnd</ScreenID>
-		<!--<Font/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<TopAnchorOffset>32</TopAnchorOffset>
@@ -1126,8 +1123,7 @@
 		<Pieces>GLFP_ExpireLabel</Pieces>
 		<Pieces>GLFP_TimeZoneCombo</Pieces>
 	</Page>
-	<!-- ************ Search Guilds Page ************ -->
-	<Label item ="PSFG_DeclarationLabel">
+		<Label item ="PSFG_DeclarationLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1366,8 +1362,7 @@
 		<Pieces>PSFG_TimeZoneCombo</Pieces>
 		<Pieces>PSFG_ClassCombo</Pieces>
 	</Page>
-	<!-- ************ Search Players Page ************ -->
-	<Label item ="GSFP_DeclarationLabel">
+		<Label item ="GSFP_DeclarationLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1976,8 +1971,7 @@
 	</Label>
 	<Screen item = "GSFP_ClassWnd">
 		<ScreenID>ClassWnd</ScreenID>
-		<!--<Font/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<TopAnchorOffset>24</TopAnchorOffset>

@@ -19,8 +19,7 @@
 	</STMLbox>
 	<InvSlot item = "BZR_BazaarSlot0">
 		<ScreenID>BZR_BazaarSlot0</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>0</Y>
@@ -34,8 +33,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot1">
 		<ScreenID>BZR_BazaarSlot1</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>0</Y>
@@ -49,8 +47,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot2">
 		<ScreenID>BZR_BazaarSlot2</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>40</Y>
@@ -64,8 +61,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot3">
 		<ScreenID>BZR_BazaarSlot3</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>40</Y>
@@ -79,8 +75,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot4">
 		<ScreenID>BZR_BazaarSlot4</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>80</Y>
@@ -94,8 +89,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot5">
 		<ScreenID>BZR_BazaarSlot5</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>80</Y>
@@ -109,8 +103,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot6">
 		<ScreenID>BZR_BazaarSlot6</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>120</Y>
@@ -124,8 +117,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot7">
 		<ScreenID>BZR_BazaarSlot7</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>120</Y>
@@ -139,8 +131,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot8">
 		<ScreenID>BZR_BazaarSlot8</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>160</Y>
@@ -154,8 +145,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot9">
 		<ScreenID>BZR_BazaarSlot9</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>160</Y>
@@ -169,8 +159,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot10">
 		<ScreenID>BZR_BazaarSlot10</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>200</Y>
@@ -184,8 +173,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot11">
 		<ScreenID>BZR_BazaarSlot11</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>200</Y>
@@ -199,8 +187,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot12">
 		<ScreenID>BZR_BazaarSlot12</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>240</Y>
@@ -214,8 +201,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot13">
 		<ScreenID>BZR_BazaarSlot13</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>240</Y>
@@ -229,8 +215,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot14">
 		<ScreenID>BZR_BazaarSlot14</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>280</Y>
@@ -244,8 +229,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot15">
 		<ScreenID>BZR_BazaarSlot15</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>280</Y>
@@ -259,8 +243,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot16">
 		<ScreenID>BZR_BazaarSlot16</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>320</Y>
@@ -274,8 +257,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot17">
 		<ScreenID>BZR_BazaarSlot17</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>320</Y>
@@ -289,8 +271,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot18">
 		<ScreenID>BZR_BazaarSlot18</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>360</Y>
@@ -304,8 +285,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot19">
 		<ScreenID>BZR_BazaarSlot19</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>360</Y>
@@ -319,8 +299,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot20">
 		<ScreenID>BZR_BazaarSlot20</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>400</Y>
@@ -334,8 +313,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot21">
 		<ScreenID>BZR_BazaarSlot21</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>400</Y>
@@ -349,8 +327,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot22">
 		<ScreenID>BZR_BazaarSlot22</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>440</Y>
@@ -364,8 +341,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot23">
 		<ScreenID>BZR_BazaarSlot23</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>440</Y>
@@ -379,8 +355,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot24">
 		<ScreenID>BZR_BazaarSlot24</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>480</Y>
@@ -394,8 +369,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot25">
 		<ScreenID>BZR_BazaarSlot25</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>480</Y>
@@ -409,8 +383,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot26">
 		<ScreenID>BZR_BazaarSlot26</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>520</Y>
@@ -424,8 +397,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot27">
 		<ScreenID>BZR_BazaarSlot27</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>520</Y>
@@ -439,8 +411,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot28">
 		<ScreenID>BZR_BazaarSlot28</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>560</Y>
@@ -454,8 +425,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot29">
 		<ScreenID>BZR_BazaarSlot29</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>560</Y>
@@ -469,8 +439,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot30">
 		<ScreenID>BZR_BazaarSlot30</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>600</Y>
@@ -484,8 +453,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot31">
 		<ScreenID>BZR_BazaarSlot31</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>600</Y>
@@ -499,8 +467,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot32">
 		<ScreenID>BZR_BazaarSlot32</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>640</Y>
@@ -514,8 +481,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot33">
 		<ScreenID>BZR_BazaarSlot33</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>640</Y>
@@ -529,8 +495,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot34">
 		<ScreenID>BZR_BazaarSlot34</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>680</Y>
@@ -544,8 +509,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot35">
 		<ScreenID>BZR_BazaarSlot35</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>680</Y>
@@ -559,8 +523,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot36">
 		<ScreenID>BZR_BazaarSlot36</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>720</Y>
@@ -574,8 +537,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot37">
 		<ScreenID>BZR_BazaarSlot37</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>720</Y>
@@ -589,8 +551,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot38">
 		<ScreenID>BZR_BazaarSlot38</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>760</Y>
@@ -604,8 +565,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot39">
 		<ScreenID>BZR_BazaarSlot39</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>760</Y>
@@ -619,8 +579,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot40">
 		<ScreenID>BZR_BazaarSlot40</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>800</Y>
@@ -634,8 +593,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot41">
 		<ScreenID>BZR_BazaarSlot41</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>800</Y>
@@ -649,8 +607,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot42">
 		<ScreenID>BZR_BazaarSlot42</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>840</Y>
@@ -664,8 +621,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot43">
 		<ScreenID>BZR_BazaarSlot43</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>840</Y>
@@ -679,8 +635,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot44">
 		<ScreenID>BZR_BazaarSlot44</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>880</Y>
@@ -694,8 +649,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot45">
 		<ScreenID>BZR_BazaarSlot45</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>880</Y>
@@ -709,8 +663,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot46">
 		<ScreenID>BZR_BazaarSlot46</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>920</Y>
@@ -724,8 +677,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot47">
 		<ScreenID>BZR_BazaarSlot47</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>920</Y>
@@ -739,8 +691,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot48">
 		<ScreenID>BZR_BazaarSlot48</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>960</Y>
@@ -754,8 +705,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot49">
 		<ScreenID>BZR_BazaarSlot49</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>960</Y>
@@ -769,8 +719,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot50">
 		<ScreenID>BZR_BazaarSlot50</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1000</Y>
@@ -784,8 +733,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot51">
 		<ScreenID>BZR_BazaarSlot51</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1000</Y>
@@ -799,8 +747,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot52">
 		<ScreenID>BZR_BazaarSlot52</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1040</Y>
@@ -814,8 +761,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot53">
 		<ScreenID>BZR_BazaarSlot53</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1040</Y>
@@ -829,8 +775,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot54">
 		<ScreenID>BZR_BazaarSlot54</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1080</Y>
@@ -844,8 +789,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot55">
 		<ScreenID>BZR_BazaarSlot55</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1080</Y>
@@ -859,8 +803,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot56">
 		<ScreenID>BZR_BazaarSlot56</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1120</Y>
@@ -874,8 +817,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot57">
 		<ScreenID>BZR_BazaarSlot57</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1120</Y>
@@ -889,8 +831,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot58">
 		<ScreenID>BZR_BazaarSlot58</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1160</Y>
@@ -904,8 +845,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot59">
 		<ScreenID>BZR_BazaarSlot59</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1160</Y>
@@ -919,8 +859,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot60">
 		<ScreenID>BZR_BazaarSlot60</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1200</Y>
@@ -934,8 +873,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot61">
 		<ScreenID>BZR_BazaarSlot61</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1200</Y>
@@ -949,8 +887,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot62">
 		<ScreenID>BZR_BazaarSlot62</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1240</Y>
@@ -964,8 +901,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot63">
 		<ScreenID>BZR_BazaarSlot63</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1240</Y>
@@ -979,8 +915,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot64">
 		<ScreenID>BZR_BazaarSlot64</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1280</Y>
@@ -994,8 +929,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot65">
 		<ScreenID>BZR_BazaarSlot65</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1280</Y>
@@ -1009,8 +943,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot66">
 		<ScreenID>BZR_BazaarSlot66</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1320</Y>
@@ -1024,8 +957,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot67">
 		<ScreenID>BZR_BazaarSlot67</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1320</Y>
@@ -1039,8 +971,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot68">
 		<ScreenID>BZR_BazaarSlot68</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1360</Y>
@@ -1054,8 +985,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot69">
 		<ScreenID>BZR_BazaarSlot69</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1360</Y>
@@ -1069,8 +999,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot70">
 		<ScreenID>BZR_BazaarSlot70</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1400</Y>
@@ -1084,8 +1013,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot71">
 		<ScreenID>BZR_BazaarSlot71</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1400</Y>
@@ -1099,8 +1027,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot72">
 		<ScreenID>BZR_BazaarSlot72</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1440</Y>
@@ -1114,8 +1041,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot73">
 		<ScreenID>BZR_BazaarSlot73</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1440</Y>
@@ -1129,8 +1055,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot74">
 		<ScreenID>BZR_BazaarSlot74</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1480</Y>
@@ -1144,8 +1069,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot75">
 		<ScreenID>BZR_BazaarSlot75</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1480</Y>
@@ -1159,8 +1083,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot76">
 		<ScreenID>BZR_BazaarSlot76</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1520</Y>
@@ -1174,8 +1097,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot77">
 		<ScreenID>BZR_BazaarSlot77</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1520</Y>
@@ -1189,8 +1111,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot78">
 		<ScreenID>BZR_BazaarSlot78</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1560</Y>
@@ -1204,8 +1125,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot79">
 		<ScreenID>BZR_BazaarSlot79</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1560</Y>
@@ -1219,8 +1139,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot80">
 		<ScreenID>BZR_BazaarSlot80</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1600</Y>
@@ -1234,8 +1153,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot81">
 		<ScreenID>BZR_BazaarSlot81</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1600</Y>
@@ -1249,8 +1167,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot82">
 		<ScreenID>BZR_BazaarSlot82</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1640</Y>
@@ -1264,8 +1181,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot83">
 		<ScreenID>BZR_BazaarSlot83</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1640</Y>
@@ -1279,8 +1195,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot84">
 		<ScreenID>BZR_BazaarSlot84</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1680</Y>
@@ -1294,8 +1209,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot85">
 		<ScreenID>BZR_BazaarSlot85</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1680</Y>
@@ -1309,8 +1223,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot86">
 		<ScreenID>BZR_BazaarSlot86</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1720</Y>
@@ -1324,8 +1237,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot87">
 		<ScreenID>BZR_BazaarSlot87</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1720</Y>
@@ -1339,8 +1251,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot88">
 		<ScreenID>BZR_BazaarSlot88</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1760</Y>
@@ -1354,8 +1265,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot89">
 		<ScreenID>BZR_BazaarSlot89</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1760</Y>
@@ -1369,8 +1279,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot90">
 		<ScreenID>BZR_BazaarSlot90</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1800</Y>
@@ -1384,8 +1293,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot91">
 		<ScreenID>BZR_BazaarSlot91</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1800</Y>
@@ -1399,8 +1307,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot92">
 		<ScreenID>BZR_BazaarSlot92</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1840</Y>
@@ -1414,8 +1321,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot93">
 		<ScreenID>BZR_BazaarSlot93</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1840</Y>
@@ -1429,8 +1335,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot94">
 		<ScreenID>BZR_BazaarSlot94</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1880</Y>
@@ -1444,8 +1349,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot95">
 		<ScreenID>BZR_BazaarSlot95</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1880</Y>
@@ -1459,8 +1363,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot96">
 		<ScreenID>BZR_BazaarSlot96</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1920</Y>
@@ -1474,8 +1377,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot97">
 		<ScreenID>BZR_BazaarSlot97</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1920</Y>
@@ -1489,8 +1391,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot98">
 		<ScreenID>BZR_BazaarSlot98</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>1960</Y>
@@ -1504,8 +1405,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot99">
 		<ScreenID>BZR_BazaarSlot99</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>1960</Y>
@@ -1519,8 +1419,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot100">
 		<ScreenID>BZR_BazaarSlot100</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2000</Y>
@@ -1534,8 +1433,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot101">
 		<ScreenID>BZR_BazaarSlot101</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2000</Y>
@@ -1549,8 +1447,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot102">
 		<ScreenID>BZR_BazaarSlot102</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2040</Y>
@@ -1564,8 +1461,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot103">
 		<ScreenID>BZR_BazaarSlot103</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2040</Y>
@@ -1579,8 +1475,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot104">
 		<ScreenID>BZR_BazaarSlot104</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2080</Y>
@@ -1594,8 +1489,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot105">
 		<ScreenID>BZR_BazaarSlot105</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2080</Y>
@@ -1609,8 +1503,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot106">
 		<ScreenID>BZR_BazaarSlot106</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2120</Y>
@@ -1624,8 +1517,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot107">
 		<ScreenID>BZR_BazaarSlot107</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2120</Y>
@@ -1639,8 +1531,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot108">
 		<ScreenID>BZR_BazaarSlot108</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2160</Y>
@@ -1654,8 +1545,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot109">
 		<ScreenID>BZR_BazaarSlot109</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2160</Y>
@@ -1669,8 +1559,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot110">
 		<ScreenID>BZR_BazaarSlot110</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2200</Y>
@@ -1684,8 +1573,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot111">
 		<ScreenID>BZR_BazaarSlot111</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2200</Y>
@@ -1699,8 +1587,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot112">
 		<ScreenID>BZR_BazaarSlot112</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2240</Y>
@@ -1714,8 +1601,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot113">
 		<ScreenID>BZR_BazaarSlot113</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2240</Y>
@@ -1729,8 +1615,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot114">
 		<ScreenID>BZR_BazaarSlot114</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2280</Y>
@@ -1744,8 +1629,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot115">
 		<ScreenID>BZR_BazaarSlot115</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2280</Y>
@@ -1759,8 +1643,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot116">
 		<ScreenID>BZR_BazaarSlot116</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2320</Y>
@@ -1774,8 +1657,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot117">
 		<ScreenID>BZR_BazaarSlot117</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2320</Y>
@@ -1789,8 +1671,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot118">
 		<ScreenID>BZR_BazaarSlot118</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2360</Y>
@@ -1804,8 +1685,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot119">
 		<ScreenID>BZR_BazaarSlot119</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2360</Y>
@@ -1819,8 +1699,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot120">
 		<ScreenID>BZR_BazaarSlot120</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2400</Y>
@@ -1834,8 +1713,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot121">
 		<ScreenID>BZR_BazaarSlot121</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2400</Y>
@@ -1849,8 +1727,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot122">
 		<ScreenID>BZR_BazaarSlot122</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2440</Y>
@@ -1864,8 +1741,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot123">
 		<ScreenID>BZR_BazaarSlot123</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2440</Y>
@@ -1879,8 +1755,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot124">
 		<ScreenID>BZR_BazaarSlot124</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2480</Y>
@@ -1894,8 +1769,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot125">
 		<ScreenID>BZR_BazaarSlot125</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2480</Y>
@@ -1909,8 +1783,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot126">
 		<ScreenID>BZR_BazaarSlot126</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2520</Y>
@@ -1924,8 +1797,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot127">
 		<ScreenID>BZR_BazaarSlot127</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2520</Y>
@@ -1939,8 +1811,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot128">
 		<ScreenID>BZR_BazaarSlot128</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2560</Y>
@@ -1954,8 +1825,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot129">
 		<ScreenID>BZR_BazaarSlot129</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2560</Y>
@@ -1969,8 +1839,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot130">
 		<ScreenID>BZR_BazaarSlot130</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2600</Y>
@@ -1984,8 +1853,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot131">
 		<ScreenID>BZR_BazaarSlot131</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2600</Y>
@@ -1999,8 +1867,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot132">
 		<ScreenID>BZR_BazaarSlot132</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2640</Y>
@@ -2014,8 +1881,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot133">
 		<ScreenID>BZR_BazaarSlot133</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2640</Y>
@@ -2029,8 +1895,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot134">
 		<ScreenID>BZR_BazaarSlot134</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2680</Y>
@@ -2044,8 +1909,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot135">
 		<ScreenID>BZR_BazaarSlot135</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2680</Y>
@@ -2059,8 +1923,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot136">
 		<ScreenID>BZR_BazaarSlot136</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2720</Y>
@@ -2074,8 +1937,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot137">
 		<ScreenID>BZR_BazaarSlot137</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2720</Y>
@@ -2089,8 +1951,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot138">
 		<ScreenID>BZR_BazaarSlot138</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2760</Y>
@@ -2104,8 +1965,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot139">
 		<ScreenID>BZR_BazaarSlot139</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2760</Y>
@@ -2119,8 +1979,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot140">
 		<ScreenID>BZR_BazaarSlot140</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2800</Y>
@@ -2134,8 +1993,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot141">
 		<ScreenID>BZR_BazaarSlot141</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2800</Y>
@@ -2149,8 +2007,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot142">
 		<ScreenID>BZR_BazaarSlot142</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2840</Y>
@@ -2164,8 +2021,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot143">
 		<ScreenID>BZR_BazaarSlot143</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2840</Y>
@@ -2179,8 +2035,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot144">
 		<ScreenID>BZR_BazaarSlot144</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2880</Y>
@@ -2194,8 +2049,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot145">
 		<ScreenID>BZR_BazaarSlot145</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2880</Y>
@@ -2209,8 +2063,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot146">
 		<ScreenID>BZR_BazaarSlot146</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2920</Y>
@@ -2224,8 +2077,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot147">
 		<ScreenID>BZR_BazaarSlot147</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2920</Y>
@@ -2239,8 +2091,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot148">
 		<ScreenID>BZR_BazaarSlot148</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>2960</Y>
@@ -2254,8 +2105,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot149">
 		<ScreenID>BZR_BazaarSlot149</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>2960</Y>
@@ -2269,8 +2119,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot150">
 		<ScreenID>BZR_BazaarSlot150</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3000</Y>
@@ -2284,8 +2133,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot151">
 		<ScreenID>BZR_BazaarSlot151</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3000</Y>
@@ -2299,8 +2147,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot152">
 		<ScreenID>BZR_BazaarSlot152</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3040</Y>
@@ -2314,8 +2161,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot153">
 		<ScreenID>BZR_BazaarSlot153</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3040</Y>
@@ -2329,8 +2175,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot154">
 		<ScreenID>BZR_BazaarSlot154</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3080</Y>
@@ -2344,8 +2189,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot155">
 		<ScreenID>BZR_BazaarSlot155</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3080</Y>
@@ -2359,8 +2203,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot156">
 		<ScreenID>BZR_BazaarSlot156</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3120</Y>
@@ -2374,8 +2217,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot157">
 		<ScreenID>BZR_BazaarSlot157</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3120</Y>
@@ -2389,8 +2231,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot158">
 		<ScreenID>BZR_BazaarSlot158</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3160</Y>
@@ -2404,8 +2245,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot159">
 		<ScreenID>BZR_BazaarSlot159</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3160</Y>
@@ -2419,8 +2259,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot160">
 		<ScreenID>BZR_BazaarSlot160</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3200</Y>
@@ -2434,8 +2273,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot161">
 		<ScreenID>BZR_BazaarSlot161</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3200</Y>
@@ -2449,8 +2287,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot162">
 		<ScreenID>BZR_BazaarSlot162</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3240</Y>
@@ -2464,8 +2301,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot163">
 		<ScreenID>BZR_BazaarSlot163</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3240</Y>
@@ -2479,8 +2315,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot164">
 		<ScreenID>BZR_BazaarSlot164</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3280</Y>
@@ -2494,8 +2329,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot165">
 		<ScreenID>BZR_BazaarSlot165</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3280</Y>
@@ -2509,8 +2343,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot166">
 		<ScreenID>BZR_BazaarSlot166</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3320</Y>
@@ -2524,8 +2357,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot167">
 		<ScreenID>BZR_BazaarSlot167</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3320</Y>
@@ -2539,8 +2371,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot168">
 		<ScreenID>BZR_BazaarSlot168</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3360</Y>
@@ -2554,8 +2385,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot169">
 		<ScreenID>BZR_BazaarSlot169</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3360</Y>
@@ -2569,8 +2399,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot170">
 		<ScreenID>BZR_BazaarSlot170</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3400</Y>
@@ -2584,8 +2413,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot171">
 		<ScreenID>BZR_BazaarSlot171</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3400</Y>
@@ -2599,8 +2427,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot172">
 		<ScreenID>BZR_BazaarSlot172</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3440</Y>
@@ -2614,8 +2441,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot173">
 		<ScreenID>BZR_BazaarSlot173</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3440</Y>
@@ -2629,8 +2455,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot174">
 		<ScreenID>BZR_BazaarSlot174</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3480</Y>
@@ -2644,8 +2469,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot175">
 		<ScreenID>BZR_BazaarSlot175</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3480</Y>
@@ -2659,8 +2483,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot176">
 		<ScreenID>BZR_BazaarSlot176</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3520</Y>
@@ -2674,8 +2497,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot177">
 		<ScreenID>BZR_BazaarSlot177</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3520</Y>
@@ -2689,8 +2511,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot178">
 		<ScreenID>BZR_BazaarSlot178</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3560</Y>
@@ -2704,8 +2525,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot179">
 		<ScreenID>BZR_BazaarSlot179</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3560</Y>
@@ -2719,8 +2539,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot180">
 		<ScreenID>BZR_BazaarSlot180</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3600</Y>
@@ -2734,8 +2553,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot181">
 		<ScreenID>BZR_BazaarSlot181</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3600</Y>
@@ -2749,8 +2567,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot182">
 		<ScreenID>BZR_BazaarSlot182</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3640</Y>
@@ -2764,8 +2581,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot183">
 		<ScreenID>BZR_BazaarSlot183</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3640</Y>
@@ -2779,8 +2595,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot184">
 		<ScreenID>BZR_BazaarSlot184</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3680</Y>
@@ -2794,8 +2609,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot185">
 		<ScreenID>BZR_BazaarSlot185</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3680</Y>
@@ -2809,8 +2623,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot186">
 		<ScreenID>BZR_BazaarSlot186</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3720</Y>
@@ -2824,8 +2637,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot187">
 		<ScreenID>BZR_BazaarSlot187</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3720</Y>
@@ -2839,8 +2651,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot188">
 		<ScreenID>BZR_BazaarSlot188</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3760</Y>
@@ -2854,8 +2665,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot189">
 		<ScreenID>BZR_BazaarSlot189</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3760</Y>
@@ -2869,8 +2679,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot190">
 		<ScreenID>BZR_BazaarSlot190</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3800</Y>
@@ -2884,8 +2693,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot191">
 		<ScreenID>BZR_BazaarSlot191</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3800</Y>
@@ -2899,8 +2707,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot192">
 		<ScreenID>BZR_BazaarSlot192</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3840</Y>
@@ -2914,8 +2721,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot193">
 		<ScreenID>BZR_BazaarSlot193</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3840</Y>
@@ -2929,8 +2735,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot194">
 		<ScreenID>BZR_BazaarSlot194</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3880</Y>
@@ -2944,8 +2749,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot195">
 		<ScreenID>BZR_BazaarSlot195</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3880</Y>
@@ -2959,8 +2763,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot196">
 		<ScreenID>BZR_BazaarSlot196</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3920</Y>
@@ -2974,8 +2777,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot197">
 		<ScreenID>BZR_BazaarSlot197</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3920</Y>
@@ -2989,8 +2791,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot198">
 		<ScreenID>BZR_BazaarSlot198</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>3960</Y>
@@ -3004,8 +2805,7 @@
 	</InvSlot>
 	<InvSlot item = "BZR_BazaarSlot199">
 		<ScreenID>BZR_BazaarSlot199</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>3960</Y>
@@ -3030,8 +2830,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_VScroll>true</Style_VScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_Def</DrawTemplate> 
+				<DrawTemplate>WDT_Def</DrawTemplate> 
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
@@ -3240,8 +3039,7 @@
 	</Screen>
 	<Button item = "BZW_Money0">
 		<ScreenID>BZW_Money0</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>377</LeftAnchorOffset>
 		<TopAnchorOffset>44</TopAnchorOffset>
@@ -3254,13 +3052,9 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Platinum</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text/>
+				<Text/>
 		<Template>BDT_PlatinumCoin</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
-		<DecalOffset>
+								<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
 		</DecalOffset>
@@ -3271,8 +3065,7 @@
 	</Button>
 	<Button item = "BZW_Money1">
 		<ScreenID>BZW_Money1</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>309</LeftAnchorOffset>
 		<TopAnchorOffset>44</TopAnchorOffset>
@@ -3285,13 +3078,9 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Gold</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text/>
+				<Text/>
 		<Template>BDT_GoldCoin</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
-		<DecalOffset>
+								<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
 		</DecalOffset>
@@ -3302,8 +3091,7 @@
 	</Button>
 	<Button item = "BZW_Money2">
 		<ScreenID>BZW_Money2</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>241</LeftAnchorOffset>
 		<TopAnchorOffset>44</TopAnchorOffset>
@@ -3314,16 +3102,11 @@
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
+				<Style_Checkbox>false</Style_Checkbox>
 		<TooltipReference>Silver</TooltipReference>
-		<!--<RadioGroup/>-->
-		<Text/>
+				<Text/>
 		<Template>BDT_SilverCoin</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
-		<DecalOffset>
+								<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
 		</DecalOffset>
@@ -3334,8 +3117,7 @@
 	</Button>
 	<Button item = "BZW_Money3">
 		<ScreenID>BZW_Money3</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>173</LeftAnchorOffset>
 		<TopAnchorOffset>44</TopAnchorOffset>
@@ -3348,13 +3130,9 @@
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
 		<TooltipReference>Copper</TooltipReference>
-		<!--<RadioGroup/>-->
-		<Text/>
+				<Text/>
 		<Template>BDT_CopperCoin</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
-		<DecalOffset>
+								<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
 		</DecalOffset>
@@ -3379,17 +3157,12 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Click to set the price of the currently selected item. This will also store the price of the item in your INI file.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Set Price</Text>
+				<Text>Set Price</Text>
 		<Template>BDT_Normal</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
-	</Button>
+							</Button>
 	<Button item = "BZW_Clear_Button">
 		<ScreenID>BZW_Clear_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>309</LeftAnchorOffset>
 		<TopAnchorOffset>22</TopAnchorOffset>
@@ -3402,17 +3175,12 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Click to clear the price of the currently selected item. This will also remove your INI entry for this item.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Clear Price</Text>
+				<Text>Clear Price</Text>
 		<Template>BDT_Normal</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
-	</Button>
+							</Button>
 	<Button item = "BZW_List_Button">
 		<ScreenID>BZW_List_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>100</LeftAnchorOffset>
 		<TopAnchorOffset>42</TopAnchorOffset>
@@ -3425,17 +3193,12 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>List all items that you currently have available for sale to other players.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>List Items</Text>
+				<Text>List Items</Text>
 		<Template>BDT_Normal</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
-	</Button>
+							</Button>
 	<Button item = "BZW_Start_Button">
 		<ScreenID>BZW_Start_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>100</LeftAnchorOffset>
 		<TopAnchorOffset>62</TopAnchorOffset>
@@ -3448,17 +3211,12 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Click to add all items currently with a price to the bazaar list and to become a merchant.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Begin Trader</Text>
+				<Text>Begin Trader</Text>
 		<Template>BDT_Normal</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
-	</Button>
+							</Button>
 	<Button item = "BZW_End_Button">
 		<ScreenID>BZW_End_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>100</LeftAnchorOffset>
 		<TopAnchorOffset>62</TopAnchorOffset>
@@ -3471,17 +3229,12 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Click to remove all items from the bazaar list and no longer be a merchant.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>End Trader</Text>
+				<Text>End Trader</Text>
 		<Template>BDT_Normal</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
-	</Button>
+							</Button>
 	<Button item = "BZW_OfflineMode_Button">
 		<ScreenID>BZW_OfflineMode_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>100</LeftAnchorOffset>
 		<TopAnchorOffset>22</TopAnchorOffset>
@@ -3494,17 +3247,12 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Click to enter Offline Trader Mode.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Offline Mode</Text>
+				<Text>Offline Mode</Text>
 		<Template>BDT_Normal</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
-	</Button>
+							</Button>
 	<Button item = "BZW_Add_Button">
 		<ScreenID>BZW_Add_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>241</LeftAnchorOffset>
 		<TopAnchorOffset>22</TopAnchorOffset>
@@ -3517,17 +3265,12 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Click to add a single item to your bazaar list.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Add</Text>
+				<Text>Add</Text>
 		<Template>BDT_Normal</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
-	</Button>
+							</Button>
 	<Button item = "BZW_Remove_Button">
 		<ScreenID>BZW_Remove_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>173</LeftAnchorOffset>
 		<TopAnchorOffset>22</TopAnchorOffset>
@@ -3540,16 +3283,11 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Click to remove a single item from your bazaar list.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Remove</Text>
+				<Text>Remove</Text>
 		<Template>BDT_Normal</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
-	</Button>
+							</Button>
 	<Screen item = "BazaarWnd">
-		<!--<ScreenID/>-->
-		<RelativePosition>false</RelativePosition>
+				<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>100</X>
 			<Y>50</Y>
@@ -3560,8 +3298,7 @@
 		</Size>
 		<Text>Bazaar Vendor</Text>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_Def</DrawTemplate>
+				<DrawTemplate>WDT_Def</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Minimizebox>true</Style_Minimizebox>

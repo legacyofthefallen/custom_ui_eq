@@ -1,8 +1,7 @@
 <?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
   <Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-  <!-- Buttons -->
-	<Button item = "SERVERSELECT_ExitButton">
+  	<Button item = "SERVERSELECT_ExitButton">
 		<ScreenID>ExitButton</ScreenID>
     <Font>4</Font>
     <RelativePosition>true</RelativePosition>
@@ -255,9 +254,7 @@
       <PressedFlyby>A_EQLS_LargeBtnPressedHover</PressedFlyby>
     </ButtonDrawTemplate>
   </Button>
-  <!-- End of buttons -->
-  <!-- Labels -->
-  <Label item = "SERVERSELECT_ExpansionsLabel">
+      <Label item = "SERVERSELECT_ExpansionsLabel">
     <ScreenID>ExpansionsLabel</ScreenID>
     <Font>3</Font>
     <RelativePosition>true</RelativePosition>
@@ -323,9 +320,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
   </Label>
-  <!-- End of Labels -->
-  <!-- Server list -->
-  <Listbox item = "SERVERSELECT_ServerList">
+      <Listbox item = "SERVERSELECT_ServerList">
     <ScreenID>ServerList</ScreenID>
     <Font>4</Font>
     <DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
@@ -374,8 +369,7 @@
 	  <Tooltip>Whether the server requires an All Access Membership to log in.</Tooltip>
     </Columns>
   </Listbox>
-  <!-- Put the Label in a window so we can have a background -->
-  <Screen item = "SERVERSELECT_ServerListBackground">
+    <Screen item = "SERVERSELECT_ServerListBackground">
     <ScreenID>ServerListBackground</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
@@ -398,9 +392,7 @@
     <Style_Border>false</Style_Border>
     <Style_Sizable>false</Style_Sizable>
   </Screen>
-  <!-- End of server list -->
-  <!-- Description block -->
-  <Label item ="SERVERSELECT_DescriptionLabel">
+      <Label item ="SERVERSELECT_DescriptionLabel">
     <ScreenID>DescriptionLabel</ScreenID>
     <Font>4</Font>
     <RelativePosition>true</RelativePosition>
@@ -445,8 +437,7 @@
     <Style_AutoVScroll>true</Style_AutoVScroll>
     <AlignLeft>true</AlignLeft>
   </STMLbox>
-  <!-- Put the Label in a window so we can have a background -->
-  <Screen item = "SERVERSELECT_DescriptionBackground">
+    <Screen item = "SERVERSELECT_DescriptionBackground">
     <ScreenID>DescriptionBackground</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -470,10 +461,8 @@
     <Style_Sizable>false</Style_Sizable>
     <Pieces>SERVERSELECT_Description</Pieces>
   </Screen>
-  <!-- End of Description block -->
-  <Screen item = "serverselect">
-    <!--<ScreenID/>-->
-    <RelativePosition>true</RelativePosition>
+    <Screen item = "serverselect">
+        <RelativePosition>true</RelativePosition>
     <Location>
       <X>0</X>
       <Y>0</Y>
@@ -486,8 +475,7 @@
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
-    <!--<TooltipReference/>-->
-    <DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+        <DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>

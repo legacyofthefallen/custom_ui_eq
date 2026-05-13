@@ -3,8 +3,7 @@
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
 	<Button item="AAW_BuyAllButton">
 		<ScreenID>AAW_BuyAllButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>540</X>
 			<Y>310</Y>
@@ -16,8 +15,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Purchase multiple ranks of the selected ability</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Buy All</Text>
+				<Text>Buy All</Text>
 		<BackgroundTextureTint>
 			<R>255</R>
 			<G>215</G>
@@ -27,8 +25,7 @@
 	</Button>
 	<Button item="AAW_TrainButton">
 		<ScreenID>TrainButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>600</X>
 			<Y>310</Y>
@@ -40,14 +37,12 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Purchase the selected ability</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Train</Text>
+				<Text>Train</Text>
 		<Template>BDT_Square</Template>
 	</Button>
 	<Button item="AAW_HotButton">
 		<ScreenID>HotButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>								  
 			<X>570</X>
 			<Y>338</Y>
@@ -59,8 +54,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Create a hotkey for the selected ability</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Hotkey</Text>
+				<Text>Hotkey</Text>
 		<Template>BDT_Square</Template>
 	</Button>
 	<Label item="AAW_LoadSaveLabel">
@@ -81,8 +75,7 @@
 	</Label>
 	<Button item="AAW_LoadButton">
 		<ScreenID>AAW_LoadButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>540</X>
 			<Y>40</Y>
@@ -94,14 +87,12 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Load a set of abilities for this monster character which you have previously saved</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Load</Text>
+				<Text>Load</Text>
 		<Template>BDT_Square</Template>
 	</Button>
 	<Button item="AAW_SaveButton">
 		<ScreenID>AAW_SaveButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>600</X>
 			<Y>40</Y>
@@ -113,14 +104,12 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Save this monster character's current set of abilities so you can load them again later</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Save</Text>
+				<Text>Save</Text>
 		<Template>BDT_Square</Template>
 	</Button>
 	<Button item="AAW_DoneButton">
 		<ScreenID>DoneButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>475</X>
 			<Y>462</Y>
@@ -130,16 +119,13 @@
 			<CY>24</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Done</Text>
+				<Style_Checkbox>false</Style_Checkbox>
+				<Text>Done</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item="AAW_LessExpButton">
 		<ScreenID>LessExpButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>543</X>
 			<Y>45</Y>
@@ -151,8 +137,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Decrease the percentage of your experience which will be converted to AA experience</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>-</Text>
+				<Text>-</Text>
 		<TextColor>
 			<R>255</R>
 			<G>255</G>
@@ -162,8 +147,7 @@
 	</Button>
 	<Button item="AAW_MoreExpButton">
 		<ScreenID>MoreExpButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>625</X>
 			<Y>45</Y>
@@ -175,8 +159,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Increase the percentage of your experience which will be converted to AA experience</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>+</Text>
+				<Text>+</Text>
 		<TextColor>
 			<R>255</R>
 			<G>255</G>
@@ -186,8 +169,7 @@
 	</Button>
 	<Label item="AAW_PercentLabel">
 		<ScreenID>PercentLabel</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>533</X>
 			<Y>30</Y>
@@ -203,8 +185,7 @@
 	</Label>
 	<Label item="AAW_PercentCount">
 		<ScreenID>ExpCount</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>569</X>
 			<Y>45</Y>
@@ -251,8 +232,7 @@
     </Label>
 	<Gauge item="AAW_ExpGauge">
 		<ScreenID>ExpGauge</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>541</X>
 			<Y>74</Y>
@@ -268,8 +248,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<FillTint>
+				<FillTint>
 			<R>240</R>
 			<G>240</G>
 			<B>0</B>
@@ -291,8 +270,7 @@
 	</Gauge>
 	<Label item="AAW_AssignedLabel">
 		<ScreenID>AssignedLabel</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>530</X>
 			<Y>155</Y>
@@ -308,8 +286,7 @@
 	</Label>
 	<Label item="AAW_TotalLabel">
 		<ScreenID>TotalLabel</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>530</X>
 			<Y>175</Y>
@@ -325,8 +302,7 @@
 	</Label>
 	<Label item="AAW_CurrentLabel">
 		<ScreenID>CurrentLabel</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>530</X>
 			<Y>125</Y>
@@ -342,8 +318,7 @@
 	</Label>
 	<Label item="AAW_MonsterLabel">
 		<ScreenID>MonsterLabel</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>530</X>
 			<Y>125</Y>
@@ -359,8 +334,7 @@
 	</Label>
 	<Label item="AAW_AssignedCount">
 		<ScreenID>AssignedCount</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>560</X>
 			<Y>155</Y>
@@ -376,8 +350,7 @@
 	</Label>
 	<Label item="AAW_TotalCount">
 		<ScreenID>TotalCount</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>610</X>
 			<Y>175</Y>
@@ -393,8 +366,7 @@
 	</Label>
 	<Label item="AAW_CurrentCount">
 		<ScreenID>CurrentCount</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>610</X>
 			<Y>125</Y>
@@ -540,8 +512,7 @@
 	<Page item="AAW_GeneralPage">
 		<ScreenID>Page1</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<!-- Pages are sized and positioned by their parent tab -->
-		<Style_VScroll>false</Style_VScroll>
+				<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference />
@@ -597,8 +568,7 @@
 	<Page item="AAW_ArchetypePage">
 		<ScreenID>Page2</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<!-- Pages are sized and positioned by their parent tab -->
-		<Style_VScroll>false</Style_VScroll>
+				<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference />
@@ -654,8 +624,7 @@
 	<Page item="AAW_ClassPage">
 		<ScreenID>Page3</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<!-- Pages are sized and positioned by their parent tab -->
-		<Style_VScroll>false</Style_VScroll>
+				<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference />
@@ -711,8 +680,7 @@
 	<Page item="AAW_SpecialPage">
 		<ScreenID>Page4</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<!-- Pages are sized and positioned by their parent tab -->
-		<Style_VScroll>false</Style_VScroll>
+				<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference />
@@ -768,8 +736,7 @@
 	<Page item="AAW_FocusPage">
 		<ScreenID>Page5</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<!-- Pages are sized and positioned by their parent tab -->
-		<Style_VScroll>false</Style_VScroll>
+				<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference />
@@ -821,8 +788,7 @@
 	<Page item="AAW_MercAAPage">
 		<ScreenID>Page6</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<!-- Pages are sized and positioned by their parent tab -->
-		<Style_VScroll>false</Style_VScroll>
+				<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference />
@@ -908,8 +874,7 @@
 	</Label>
 	<Button item="AAW_TrainFilter">
 		<ScreenID>CanPurchaseFilter</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>462</Y>
@@ -921,8 +886,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Filter Only Trainable Abilities</TooltipReference>
 		<Style_Checkbox>true</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Can Purchase</Text>
+				<Text>Can Purchase</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Combobox item="AAW_PassiveFilter">
@@ -989,8 +953,7 @@
 	</Combobox>
 	<Button item="AAW_ResetFilter">
 		<ScreenID>ResetFilter</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>425</X>
 			<Y>462</Y>
@@ -1002,8 +965,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Resets filters to their default setting</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Reset</Text>
+				<Text>Reset</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Gauge item="AAW_MercAAExpGauge">
@@ -1237,8 +1199,7 @@
 		<TooltipReference>Displays the last time that Auto-Grant ran for your character. A value of "N/A" indicates that Auto-Grant will run the next time you enter the game from character select.</TooltipReference>
 	</Label>
 	<Screen item="AAWindow">
-		<!--<ScreenID/>-->
-		<RelativePosition>false</RelativePosition>
+				<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>10</X>
 			<Y>10</Y>
@@ -1250,8 +1211,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Text>Alternate Advancement Window</Text>
+				<Text>Alternate Advancement Window</Text>
 		<DrawTemplate>WDT_Rounded</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Qmarkbox>true</Style_Qmarkbox>

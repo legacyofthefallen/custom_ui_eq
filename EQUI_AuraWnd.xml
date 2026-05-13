@@ -26,8 +26,7 @@
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
 	<Screen item = "AuraWindow">
-		<!--<ScreenID/>-->
-		<RelativePosition>false</RelativePosition>
+				<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>196</X>
 			<Y>50</Y>
@@ -40,8 +39,7 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Sizable>true</Style_Sizable>
-		<!--<TooltipReference/>-->
-		<Text>Auras</Text>
+				<Text>Auras</Text>
 		<DrawTemplate>WDT_Rounded</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Closebox>true</Style_Closebox>

@@ -1,7 +1,6 @@
 <?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-<!-- Action Buttons -->
 	<Button item = "YESNO_YesButton">
 		<ScreenID>YesButton</ScreenID>
 		<Font>4</Font>
@@ -58,7 +57,6 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-<!-- Display of text the the user -->
 	<STMLbox item = "YESNO_Display">
 		<ScreenID>Display</ScreenID>
 		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
@@ -92,8 +90,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
+				<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
@@ -103,7 +100,6 @@
 		<Pieces>YESNO_NoButton</Pieces>
 		<Pieces>YESNO_Display</Pieces>
 	</Screen>
-<!-- Used to obscure the backing window and prevent UI events from going through to it -->
 	<Screen item = "yesnodialog">
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -118,8 +114,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_Def</DrawTemplate>
+				<DrawTemplate>WDT_Def</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>

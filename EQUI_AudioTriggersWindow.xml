@@ -237,8 +237,7 @@
 	</Editbox>
 	<Label item="ATW_VolumeLabel">
 		<ScreenID>ATW_VolumeLabel</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>485</X>
 			<Y>58</Y>
@@ -255,8 +254,7 @@
 	</Label>
 	<Slider item="ATW_Volume">
 		<ScreenID>ATW_Volume</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>485</X>
 			<Y>68</Y>

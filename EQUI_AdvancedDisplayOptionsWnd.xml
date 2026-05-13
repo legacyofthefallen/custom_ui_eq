@@ -948,8 +948,7 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-  <!-- Max framrate slider -->
-  <Slider item="ADOW_MaxFPSSlider">
+    <Slider item="ADOW_MaxFPSSlider">
     <ScreenID>ADOW_MaxFPSSlider</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -978,8 +977,7 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>true</AlignRight>
   </Label>
-  <!-- Max background framrate slider -->
-  <Label item="ADOW_MaxBGFPSLabel">
+    <Label item="ADOW_MaxBGFPSLabel">
     <ScreenID>ADOW_MaxBGFPSLabel</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>

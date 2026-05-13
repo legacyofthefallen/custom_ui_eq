@@ -259,8 +259,7 @@
 		<NoWrap>true</NoWrap>
 	</Screen>
 	
-	<!-- Create an automatically laid out containter to allow for repeating of items -->
-	<VerticalLayoutBox item="ACHI_SubAchievements">
+		<VerticalLayoutBox item="ACHI_SubAchievements">
 		<ScreenID>ACHI_SubAchievements</ScreenID>
 		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
 		<RelativePosition>true</RelativePosition>

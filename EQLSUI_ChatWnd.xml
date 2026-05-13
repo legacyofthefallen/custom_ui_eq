@@ -1,7 +1,6 @@
 <?xml version = "1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-<!-- Buttons -->
 	<Button item = "CHAT_OptionsButton">
 		<ScreenID>CHAT_OptionsButton</ScreenID>
 		<Font>4</Font>
@@ -147,8 +146,6 @@
 			<PressedFlyby>A_EQLS_LargeBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-<!-- End of buttons -->
-<!-- Labels -->
 	<Label item = "CHAT_WndLabel">
 		<ScreenID>WndLabel</ScreenID>
 		<Font>5</Font>
@@ -172,8 +169,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<!-- Make larger than needed and clip to parent window so that smooth scrolling occurs.  Otherwise letters pop into view from the right.  -->
-	<Label item = "CHAT_BannerLabel">
+		<Label item = "CHAT_BannerLabel">
 		<ScreenID>BannerLabel</ScreenID>
 		<Font>5</Font>
 		<RelativePosition>true</RelativePosition>
@@ -195,8 +191,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<!-- Put the Label in a window so we can have a background -->
-	<Screen item = "CHAT_BannerWindow">
+		<Screen item = "CHAT_BannerWindow">
 		<ScreenID>BannerWnd</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -219,8 +214,6 @@
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>CHAT_BannerLabel</Pieces>
 	</Screen>
-<!-- End of Labels -->
-<!-- SMTLBox's -->
 	<STMLbox item = "CHAT_ChatSTMLBox">
 		<ScreenID>ChatOutput</ScreenID>
 		<Font>3</Font>
@@ -240,8 +233,6 @@
 		<Style_Border>true</Style_Border>
 		<Style_Transparent>false</Style_Transparent>
 	</STMLbox>
-<!-- End STMLBox's -->
-<!-- Lists -->
 	<Listbox item = "CHAT_RoomList">
 		<ScreenID>RoomList</ScreenID>
 		<Font>3</Font>
@@ -269,8 +260,7 @@
 			<Heading/>
 		</Columns>
 	</Listbox>
-	<!-- Put the list in a window so we can have a background -->
-	<Screen item = "CHAT_RoomListBackground">
+		<Screen item = "CHAT_RoomListBackground">
 		<ScreenID>RoomListBackground</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -319,8 +309,7 @@
 			<Heading/>
 		</Columns>
 	</Listbox>
-	<!-- Put the list in a window so we can have a background -->
-	<Screen item = "CHAT_PlayerListBackground">
+		<Screen item = "CHAT_PlayerListBackground">
 		<ScreenID>PlayerListBackground</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -343,8 +332,6 @@
 		<Style_Border>false</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
 	</Screen>
-<!-- End of lists -->
-<!-- Edit boxes -->
 	<Editbox item = "CHAT_ChatEdit">
 		<ScreenID>ChatEdit</ScreenID>
 		<Font>3</Font>
@@ -366,11 +353,8 @@
 				<B>255</B>
 		</TextColor>
 	</Editbox>
-<!-- End of Edit Boxes -->
-<!-- The window itself -->
 	<Screen item = "chat">
-		<!--<ScreenID/>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -383,8 +367,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
+				<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>

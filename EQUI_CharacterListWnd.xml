@@ -468,8 +468,7 @@
 	</Button>
 	<Button item="CLW_Delete_Button">
 		<ScreenID>Delete_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>37</Y>
@@ -511,8 +510,7 @@
 	</Button>
 	<Button item="CLW_Tutorial_Button">
 		<ScreenID>Tutorial_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>73</Y>
@@ -554,8 +552,7 @@
 	</Button>
 	<Button item="CLW_Home_Button">
 		<ScreenID>Home_Button</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
+				<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>109</Y>
