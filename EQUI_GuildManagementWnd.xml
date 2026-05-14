@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Label item="GT_GuildNameLabel">
 		<ScreenID>GuildName</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -230,7 +230,7 @@
 		<Template>BDT_Checkbox</Template>
 	</Button>
 	<Label item="GT_AltFlagLabel">
-		<ScreenID />
+		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>585</LeftAnchorOffset>
@@ -304,7 +304,7 @@
 		</Columns>
 	</Listbox>
 	<Label item="GT_PublicLabel">
-		<ScreenID />
+		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>4</LeftAnchorOffset>
@@ -355,7 +355,7 @@
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Label item="GT_PersonalLabel">
-		<ScreenID />
+		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>4</LeftAnchorOffset>
@@ -458,7 +458,7 @@
 		<Columns>
 			<Width>140</Width>
 			<Heading>Trophy Tribute Status</Heading>
-		</Columns>	
+		</Columns>
 		<Columns>
 			<Width>85</Width>
 			<Heading>Donations</Heading>
@@ -505,7 +505,7 @@
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Label item="GT_TributePoolLabel">
-		<ScreenID />
+		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>160</LeftAnchorOffset>
@@ -564,7 +564,7 @@
 		</Size>
 	</Page>
 	<Label item="GT_MOTDLabel">
-		<ScreenID />
+		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>4</LeftAnchorOffset>
@@ -651,7 +651,7 @@
 		<Style_Border>true</Style_Border>
 	</STMLbox>
 	<Label item="GT_ChannelLabel">
-		<ScreenID />
+		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>4</LeftAnchorOffset>
@@ -722,7 +722,7 @@
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Label item="GT_URLLabel">
-		<ScreenID />
+		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>4</LeftAnchorOffset>
@@ -1243,7 +1243,7 @@
 		<Text>Edit Settings</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-		<TextureInfo item="gdb_background_00.dds">
+	<TextureInfo item="gdb_background_00.dds">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
@@ -1387,7 +1387,7 @@
 			<CY>18</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
-		<RadioGroup>PermissionDisplay</RadioGroup>	
+		<RadioGroup>PermissionDisplay</RadioGroup>
 		<Template>BDT_Radio</Template>
 	</Button>
 	<Label item="GT_ViewRanks_Label">
@@ -1440,10 +1440,11 @@
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
-		<TooltipReference>Check this to automatically evict plots from your guild neighborhoods that are owned by non-guild members, after a grace period (Leader only).</TooltipReference>
+		<TooltipReference>Check this to automatically evict plots from your guild neighborhoods that
+			are owned by non-guild members, after a grace period (Leader only).</TooltipReference>
 	</Button>
 	<Label item="GT_AutoEviction_Label">
-		<ScreenID />
+		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>80</CX>
@@ -1555,7 +1556,7 @@
 		<Columns>
 			<Width>20</Width>
 			<Header>Header_AccessRank3</Header>
-		</Columns>	
+		</Columns>
 		<Columns>
 			<Width>20</Width>
 			<Header>Header_AccessRank2</Header>
@@ -1671,35 +1672,35 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Access</TabText>
-    <TabTextActiveColor>
+		<TabTextActiveColor>
 			<R>255</R>
 			<G>255</G>
 			<B>0</B>
 		</TabTextActiveColor>
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>HorizontalLayoutBox:GT_Access_Main_Layout</Pieces>
-  </Page>
+	</Page>
 	<TabBox item="GT_Subwindows">
-    <ScreenID>Subwindows</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>2</LeftAnchorOffset>
-    <TopAnchorOffset>28</TopAnchorOffset>
-    <RightAnchorOffset>2</RightAnchorOffset>
-    <BottomAnchorOffset>28</BottomAnchorOffset>
-    <TopAnchorToTop>true</TopAnchorToTop>
-    <BottomAnchorToTop>false</BottomAnchorToTop>
-    <LeftAnchorToLeft>true</LeftAnchorToLeft>fs
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
-    <PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
-    <Pages>GT_MemberPage</Pages>
-    <Pages>GT_NotePage</Pages>
-    <Pages>GT_TributePage</Pages>
-    <Pages>GT_ProfilePage</Pages>
-    <Pages>GT_BannerPage</Pages>
-    <Pages>GT_AccessPage</Pages>
-  </TabBox>
+		<ScreenID>Subwindows</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>2</LeftAnchorOffset>
+		<TopAnchorOffset>28</TopAnchorOffset>
+		<RightAnchorOffset>2</RightAnchorOffset>
+		<BottomAnchorOffset>28</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
+		<PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
+		<Pages>GT_MemberPage</Pages>
+		<Pages>GT_NotePage</Pages>
+		<Pages>GT_TributePage</Pages>
+		<Pages>GT_ProfilePage</Pages>
+		<Pages>GT_BannerPage</Pages>
+		<Pages>GT_AccessPage</Pages>
+	</TabBox>
 	<Button item="GT_ShowOfflineButton">
 		<ScreenID>ShowOfflineButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1718,7 +1719,7 @@
 		<Template>BDT_Checkbox</Template>
 	</Button>
 	<Label item="GT_ShowOfflineLabel">
-		<ScreenID />
+		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>30</LeftAnchorOffset>
@@ -1752,7 +1753,7 @@
 		<Template>BDT_Checkbox</Template>
 	</Button>
 	<Label item="GT_HideAltLabel">
-		<ScreenID />
+		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>148</LeftAnchorOffset>
@@ -1768,7 +1769,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GT_PerPage_Label">
+	<Label item="GT_PerPage_Label">
 		<ScreenID>GT_PerPage_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1805,7 +1806,7 @@
 		<Choices>1000</Choices>
 		<Choices>All</Choices>
 	</Combobox>
-	<Label item ="GT_Page_Label">
+	<Label item="GT_Page_Label">
 		<ScreenID>GT_Page_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1834,7 +1835,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Template>BDT_HSBLeft</Template>
 	</Button>
-	<Label item ="GT_PageIndex_Label">
+	<Label item="GT_PageIndex_Label">
 		<ScreenID>GT_PageIndex_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1865,7 +1866,7 @@
 		<Template>BDT_HSBRight</Template>
 	</Button>
 	<Label item="GT_PlayerCountLabelText">
-		<ScreenID />
+		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>177</LeftAnchorOffset>
@@ -1899,7 +1900,7 @@
 		<AlignRight>false</AlignRight>
 	</Label>
 	<Screen item="GuildManagementWnd">
-		<ScreenID />
+		<ScreenID/>
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>50</X>

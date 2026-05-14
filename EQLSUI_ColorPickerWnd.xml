@@ -1,7 +1,7 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<Button item = "CPW_TC0Button">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Button item="CPW_TC0Button">
 		<ScreenID>CPW_TC0Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -15,9 +15,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
-				<R>240</R>
-				<G>0</G>
-				<B>0</B>
+			<R>240</R>
+			<G>0</G>
+			<B>0</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -36,7 +36,7 @@
 			<NormalDecal>A_WhitePixel</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CPW_TC1Button">
+	<Button item="CPW_TC1Button">
 		<ScreenID>CPW_TC1Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -50,9 +50,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
-				<R>0</R>
-				<G>240</G>
-				<B>0</B>
+			<R>0</R>
+			<G>240</G>
+			<B>0</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -71,7 +71,7 @@
 			<NormalDecal>A_WhitePixel</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CPW_TC2Button">
+	<Button item="CPW_TC2Button">
 		<ScreenID>CPW_TC2Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -85,9 +85,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>240</B>
+			<R>0</R>
+			<G>0</G>
+			<B>240</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -106,7 +106,7 @@
 			<NormalDecal>A_WhitePixel</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CPW_TC3Button">
+	<Button item="CPW_TC3Button">
 		<ScreenID>CPW_TC3Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -120,9 +120,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
-				<R>240</R>
-				<G>240</G>
-				<B>0</B>
+			<R>240</R>
+			<G>240</G>
+			<B>0</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -141,7 +141,7 @@
 			<NormalDecal>A_WhitePixel</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CPW_TC4Button">
+	<Button item="CPW_TC4Button">
 		<ScreenID>CPW_TC4Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -155,9 +155,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
-				<R>240</R>
-				<G>240</G>
-				<B>240</B>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -176,7 +176,7 @@
 			<NormalDecal>A_WhitePixel</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CPW_TC5Button">
+	<Button item="CPW_TC5Button">
 		<ScreenID>CPW_TC5Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -190,9 +190,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
-				<R>127</R>
-				<G>0</G>
-				<B>0</B>
+			<R>127</R>
+			<G>0</G>
+			<B>0</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -211,7 +211,7 @@
 			<NormalDecal>A_WhitePixel</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CPW_TC6Button">
+	<Button item="CPW_TC6Button">
 		<ScreenID>CPW_TC6Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -225,9 +225,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
-				<R>0</R>
-				<G>127</G>
-				<B>0</B>
+			<R>0</R>
+			<G>127</G>
+			<B>0</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -246,7 +246,7 @@
 			<NormalDecal>A_WhitePixel</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CPW_TC7Button">
+	<Button item="CPW_TC7Button">
 		<ScreenID>CPW_TC7Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -260,9 +260,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>127</B>
+			<R>0</R>
+			<G>0</G>
+			<B>127</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -281,7 +281,7 @@
 			<NormalDecal>A_WhitePixel</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CPW_TC8Button">
+	<Button item="CPW_TC8Button">
 		<ScreenID>CPW_TC8Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -295,9 +295,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
-				<R>127</R>
-				<G>127</G>
-				<B>0</B>
+			<R>127</R>
+			<G>127</G>
+			<B>0</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -316,7 +316,7 @@
 			<NormalDecal>A_WhitePixel</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CPW_TC9Button">
+	<Button item="CPW_TC9Button">
 		<ScreenID>CPW_TC9Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -330,9 +330,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
-				<R>127</R>
-				<G>127</G>
-				<B>127</B>
+			<R>127</R>
+			<G>127</G>
+			<B>127</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -351,7 +351,7 @@
 			<NormalDecal>A_WhitePixel</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CPW_TC10Button">
+	<Button item="CPW_TC10Button">
 		<ScreenID>CPW_TC10Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -365,9 +365,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
-				<R>0</R>
-				<G>240</G>
-				<B>240</B>
+			<R>0</R>
+			<G>240</G>
+			<B>240</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -386,7 +386,7 @@
 			<NormalDecal>A_WhitePixel</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CPW_TC11Button">
+	<Button item="CPW_TC11Button">
 		<ScreenID>CPW_TC11Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -400,9 +400,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
-				<R>0</R>
-				<G>127</G>
-				<B>127</B>
+			<R>0</R>
+			<G>127</G>
+			<B>127</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -421,7 +421,7 @@
 			<NormalDecal>A_WhitePixel</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CPW_TC12Button">
+	<Button item="CPW_TC12Button">
 		<ScreenID>CPW_TC12Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -435,9 +435,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
-				<R>240</R>
-				<G>127</G>
-				<B>0</B>
+			<R>240</R>
+			<G>127</G>
+			<B>0</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -456,7 +456,7 @@
 			<NormalDecal>A_WhitePixel</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CPW_TC13Button">
+	<Button item="CPW_TC13Button">
 		<ScreenID>CPW_TC13Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -470,9 +470,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
-				<R>127</R>
-				<G>64</G>
-				<B>0</B>
+			<R>127</R>
+			<G>64</G>
+			<B>0</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -491,7 +491,7 @@
 			<NormalDecal>A_WhitePixel</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CPW_TC14Button">
+	<Button item="CPW_TC14Button">
 		<ScreenID>CPW_TC14Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -505,9 +505,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -526,7 +526,7 @@
 			<NormalDecal>A_WhitePixel</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-	<Editbox item = "CPW_RedSliderInput">
+	<Editbox item="CPW_RedSliderInput">
 		<ScreenID>CPW_RedSliderInput</ScreenID>
 		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -540,12 +540,12 @@
 			<CY>20</CY>
 		</Size>
 		<TextColor>
-				<R>200</R>
-				<G>0</G>
-				<B>0</B>
+			<R>200</R>
+			<G>0</G>
+			<B>0</B>
 		</TextColor>
 	</Editbox>
-	<Slider item = "CPW_RedSlider">
+	<Slider item="CPW_RedSlider">
 		<ScreenID>CPW_RedSlider</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -558,7 +558,7 @@
 		</Size>
 		<SliderArt>SDT_DefSlider</SliderArt>
 	</Slider>
-	<Editbox item = "CPW_GreenSliderInput">
+	<Editbox item="CPW_GreenSliderInput">
 		<ScreenID>CPW_GreenSliderInput</ScreenID>
 		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -572,12 +572,12 @@
 			<CY>20</CY>
 		</Size>
 		<TextColor>
-				<R>0</R>
-				<G>200</G>
-				<B>0</B>
+			<R>0</R>
+			<G>200</G>
+			<B>0</B>
 		</TextColor>
 	</Editbox>
-	<Slider item = "CPW_GreenSlider">
+	<Slider item="CPW_GreenSlider">
 		<ScreenID>CPW_GreenSlider</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -590,7 +590,7 @@
 		</Size>
 		<SliderArt>SDT_DefSlider</SliderArt>
 	</Slider>
-	<Editbox item = "CPW_BlueSliderInput">
+	<Editbox item="CPW_BlueSliderInput">
 		<ScreenID>CPW_BlueSliderInput</ScreenID>
 		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -604,12 +604,12 @@
 			<CY>20</CY>
 		</Size>
 		<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>200</B>
+			<R>0</R>
+			<G>0</G>
+			<B>200</B>
 		</TextColor>
 	</Editbox>
-	<Slider item = "CPW_BlueSlider">
+	<Slider item="CPW_BlueSlider">
 		<ScreenID>CPW_BlueSlider</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -622,7 +622,7 @@
 		</Size>
 		<SliderArt>SDT_DefSlider</SliderArt>
 	</Slider>
-	<Button item = "CPW_TC15Button">
+	<Button item="CPW_TC15Button">
 		<ScreenID>CPW_TC15Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -636,9 +636,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
 		</TextColor>
 		<DecalOffset>
 			<X>2</X>
@@ -657,7 +657,7 @@
 			<NormalDecal>A_WhitePixel</NormalDecal>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CPW_Accept_Button">
+	<Button item="CPW_Accept_Button">
 		<ScreenID>CPW_Accept_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<TooltipReference>Accept your changes</TooltipReference>
@@ -672,9 +672,9 @@
 		</Size>
 		<Text>Accept</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_BtnNormal</Normal>
@@ -684,7 +684,7 @@
 			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Screen item = "ColorPickerWnd">
+	<Screen item="ColorPickerWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>260</X>

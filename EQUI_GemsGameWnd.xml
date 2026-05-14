@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
+<XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-	<Label item ="GGW_Instructions">
+	<Label item="GGW_Instructions">
 		<ScreenID>GGW_Instructions</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>20</Y>
@@ -17,9 +17,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_Instructions2">
+	<Label item="GGW_Instructions2">
 		<ScreenID>GGW_Instructions2</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>50</Y>
@@ -28,14 +28,18 @@
 			<CX>300</CX>
 			<CY>200</CY>
 		</Size>
-		<Text>Match 3 or more gems in a horizontal, vertical, or diagonal line to score points and remove those matching gems from play.  The more gems matched at once, the higher your score.  Match 4 or more blue gems to activate good special play modes, but only 3 or more red gems matched will activate bad special play modes.  The game ends when a column reaches the top of the playfield.</Text>
+		<Text>Match 3 or more gems in a horizontal, vertical, or diagonal line to score points and
+			remove those matching gems from play. The more gems matched at once, the higher your
+			score. Match 4 or more blue gems to activate good special play modes, but only 3 or more
+			red gems matched will activate bad special play modes. The game ends when a column
+			reaches the top of the playfield.</Text>
 		<NoWrap>false</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_Instructions3">
+	<Label item="GGW_Instructions3">
 		<ScreenID>GGW_Instructions3</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>180</Y>
@@ -49,9 +53,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_Score">
+	<Label item="GGW_Score">
 		<ScreenID>GGW_Score</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>405</X>
 			<Y>5</Y>
@@ -65,9 +69,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_ScoreNbr">
+	<Label item="GGW_ScoreNbr">
 		<ScreenID>GGW_ScoreNbr</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>405</X>
 			<Y>22</Y>
@@ -81,9 +85,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_Wave">
+	<Label item="GGW_Wave">
 		<ScreenID>GGW_Wave</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>405</X>
 			<Y>45</Y>
@@ -97,9 +101,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_WaveNbr">
+	<Label item="GGW_WaveNbr">
 		<ScreenID>GGW_WaveNbr</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>445</X>
 			<Y>45</Y>
@@ -113,9 +117,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_Next">
+	<Label item="GGW_Next">
 		<ScreenID>GGW_Next</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>430</X>
 			<Y>95</Y>
@@ -129,9 +133,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_Special">
+	<Label item="GGW_Special">
 		<ScreenID>GGW_Special</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>420</X>
 			<Y>240</Y>
@@ -145,7 +149,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Screen item = "GGW_GameView">
+	<Screen item="GGW_GameView">
 		<ScreenID>GGW_GameView</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -167,7 +171,7 @@
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
 	</Screen>
-	<Label item ="GGW_LargeWave">
+	<Label item="GGW_LargeWave">
 		<ScreenID>GGW_LargeWave</ScreenID>
 		<Font>5</Font>
 		<RelativePosition>true</RelativePosition>
@@ -181,15 +185,15 @@
 		</Size>
 		<Text>Wave:</Text>
 		<TextColor>
-				<R>255</R>
-				<G>2</G>
-				<B>2</B>
+			<R>255</R>
+			<G>2</G>
+			<B>2</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_LargeWaveNbr">
+	<Label item="GGW_LargeWaveNbr">
 		<ScreenID>GGW_LargeWaveNbr</ScreenID>
 		<Font>5</Font>
 		<RelativePosition>true</RelativePosition>
@@ -203,15 +207,15 @@
 		</Size>
 		<Text/>
 		<TextColor>
-				<R>255</R>
-				<G>2</G>
-				<B>2</B>
+			<R>255</R>
+			<G>2</G>
+			<B>2</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_Paused">
+	<Label item="GGW_Paused">
 		<ScreenID>GGW_Paused</ScreenID>
 		<Font>5</Font>
 		<RelativePosition>true</RelativePosition>
@@ -225,15 +229,15 @@
 		</Size>
 		<Text>PAUSED</Text>
 		<TextColor>
-				<R>255</R>
-				<G>200</G>
-				<B>2</B>
+			<R>255</R>
+			<G>200</G>
+			<B>2</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_GameOver">
+	<Label item="GGW_GameOver">
 		<ScreenID>GGW_GameOver</ScreenID>
 		<Font>5</Font>
 		<RelativePosition>true</RelativePosition>
@@ -247,15 +251,15 @@
 		</Size>
 		<Text>GAME OVER</Text>
 		<TextColor>
-				<R>2</R>
-				<G>2</G>
-				<B>255</B>
+			<R>2</R>
+			<G>2</G>
+			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighScores">
+	<Label item="GGW_HighScores">
 		<ScreenID>GGW_HighScores</ScreenID>
 		<Font>5</Font>
 		<RelativePosition>true</RelativePosition>
@@ -272,7 +276,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_ScoreHeader">
+	<Label item="GGW_ScoreHeader">
 		<ScreenID>GGW_ScoreHeader</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -289,7 +293,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_WaveHeader">
+	<Label item="GGW_WaveHeader">
 		<ScreenID>GGW_WaveHeader</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -306,7 +310,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighName0">
+	<Label item="GGW_HighName0">
 		<ScreenID>GGW_HighName0</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -323,7 +327,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighScore0">
+	<Label item="GGW_HighScore0">
 		<ScreenID>GGW_HighScore0</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -340,7 +344,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighWave0">
+	<Label item="GGW_HighWave0">
 		<ScreenID>GGW_HighWave0</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -357,7 +361,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighName1">
+	<Label item="GGW_HighName1">
 		<ScreenID>GGW_HighName1</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -374,7 +378,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighScore1">
+	<Label item="GGW_HighScore1">
 		<ScreenID>GGW_HighScore1</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -391,7 +395,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighWave1">
+	<Label item="GGW_HighWave1">
 		<ScreenID>GGW_HighWave1</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -408,7 +412,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighName2">
+	<Label item="GGW_HighName2">
 		<ScreenID>GGW_HighName2</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -425,7 +429,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighScore2">
+	<Label item="GGW_HighScore2">
 		<ScreenID>GGW_HighScore2</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -442,7 +446,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighWave2">
+	<Label item="GGW_HighWave2">
 		<ScreenID>GGW_HighWave2</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -459,7 +463,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighName3">
+	<Label item="GGW_HighName3">
 		<ScreenID>GGW_HighName3</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -476,7 +480,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighScore3">
+	<Label item="GGW_HighScore3">
 		<ScreenID>GGW_HighScore3</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -493,7 +497,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighWave3">
+	<Label item="GGW_HighWave3">
 		<ScreenID>GGW_HighWave3</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -510,7 +514,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighName4">
+	<Label item="GGW_HighName4">
 		<ScreenID>GGW_HighName4</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -527,7 +531,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighScore4">
+	<Label item="GGW_HighScore4">
 		<ScreenID>GGW_HighScore4</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -544,7 +548,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighWave4">
+	<Label item="GGW_HighWave4">
 		<ScreenID>GGW_HighWave4</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -561,7 +565,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighName5">
+	<Label item="GGW_HighName5">
 		<ScreenID>GGW_HighName5</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -578,7 +582,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighScore5">
+	<Label item="GGW_HighScore5">
 		<ScreenID>GGW_HighScore5</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -595,7 +599,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighWave5">
+	<Label item="GGW_HighWave5">
 		<ScreenID>GGW_HighWave5</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -612,7 +616,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighName6">
+	<Label item="GGW_HighName6">
 		<ScreenID>GGW_HighName6</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -629,7 +633,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighScore6">
+	<Label item="GGW_HighScore6">
 		<ScreenID>GGW_HighScore6</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -646,7 +650,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighWave6">
+	<Label item="GGW_HighWave6">
 		<ScreenID>GGW_HighWave6</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -663,7 +667,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighName7">
+	<Label item="GGW_HighName7">
 		<ScreenID>GGW_HighName7</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -680,7 +684,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighScore7">
+	<Label item="GGW_HighScore7">
 		<ScreenID>GGW_HighScore7</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -697,7 +701,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighWave7">
+	<Label item="GGW_HighWave7">
 		<ScreenID>GGW_HighWave7</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -714,7 +718,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighName8">
+	<Label item="GGW_HighName8">
 		<ScreenID>GGW_HighName8</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -731,7 +735,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighScore8">
+	<Label item="GGW_HighScore8">
 		<ScreenID>GGW_HighScore8</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -748,7 +752,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighWave8">
+	<Label item="GGW_HighWave8">
 		<ScreenID>GGW_HighWave8</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -765,7 +769,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighName9">
+	<Label item="GGW_HighName9">
 		<ScreenID>GGW_HighName9</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -782,7 +786,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighScore9">
+	<Label item="GGW_HighScore9">
 		<ScreenID>GGW_HighScore9</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -799,7 +803,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GGW_HighWave9">
+	<Label item="GGW_HighWave9">
 		<ScreenID>GGW_HighWave9</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -816,9 +820,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "GGW_StartButton">
+	<Button item="GGW_StartButton">
 		<ScreenID>GGW_StartButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>405</X>
 			<Y>330</Y>
@@ -828,13 +832,13 @@
 			<CY>24</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<Text>Start</Text>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Start</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "GGW_DoneButton">
+	<Button item="GGW_DoneButton">
 		<ScreenID>GGW_DoneButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>405</X>
 			<Y>370</Y>
@@ -844,11 +848,11 @@
 			<CY>24</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<Text>Done</Text>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Done</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-		<SpellGem item = "GGW_SpellGem">
+	<SpellGem item="GGW_SpellGem">
 		<ScreenID>GGW_SpellGem</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -856,15 +860,19 @@
 			<Y>5</Y>
 		</Location>
 		<Size>
-			<CX>38</CX>			<CY>30</CY>		</Size>
+			<CX>38</CX>
+			<CY>30</CY>
+		</Size>
 		<SpellGemDrawTemplate>
 			<Holder>A_SpellGemHolder</Holder>
 			<Background>A_SpellGemBackground</Background>
 			<Highlight>A_SpellGemHighlight</Highlight>
 		</SpellGemDrawTemplate>
-		<SpellIconOffsetX>7</SpellIconOffsetX>		<SpellIconOffsetY>3</SpellIconOffsetY>	</SpellGem>
-	<Screen item = "GemsGameWnd">
-				<RelativePosition>false</RelativePosition>
+		<SpellIconOffsetX>7</SpellIconOffsetX>
+		<SpellIconOffsetY>3</SpellIconOffsetY>
+	</SpellGem>
+	<Screen item="GemsGameWnd">
+		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>50</Y>

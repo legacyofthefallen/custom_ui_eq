@@ -1,7 +1,7 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-		<Label item ="PLFG_PlayerInfoLabel">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Label item="PLFG_PlayerInfoLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -18,7 +18,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="PLFG_LevelClassLabel">
+	<Label item="PLFG_LevelClassLabel">
 		<ScreenID>PLFG_LevelClassLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -35,7 +35,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="PLFG_TimeZoneLabel">
+	<Label item="PLFG_TimeZoneLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -52,7 +52,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Combobox item = "PLFG_TimeZoneCombo">
+	<Combobox item="PLFG_TimeZoneCombo">
 		<ScreenID>PLFG_TimeZoneCombo</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretchList>true</AutoStretchList>
@@ -70,7 +70,7 @@
 		<Button>BDT_Combo</Button>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-	<Label item ="PLFG_CommentsLabel">
+	<Label item="PLFG_CommentsLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -87,7 +87,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Editbox item = "PLFG_CommentsEdit">
+	<Editbox item="PLFG_CommentsEdit">
 		<ScreenID>PLFG_CommentsEdit</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -104,7 +104,7 @@
 		<Style_VScroll>true</Style_VScroll>
 		<Style_Multiline>true</Style_Multiline>
 	</Editbox>
-	<Button item = "PLFG_OnButton">
+	<Button item="PLFG_OnButton">
 		<ScreenID>PLFG_OnButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -121,7 +121,7 @@
 		<TooltipReference>Click to start Looking For Guild with the selected data.</TooltipReference>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "PLFG_UpdateButton">
+	<Button item="PLFG_UpdateButton">
 		<ScreenID>PLFG_UpdateButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -138,7 +138,7 @@
 		<TooltipReference>Click to refresh your LFGuild data and reset expiration time.</TooltipReference>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "PLFG_OffButton">
+	<Button item="PLFG_OffButton">
 		<ScreenID>PLFG_OffButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -155,7 +155,7 @@
 		<TooltipReference>Click to stop Looking For Guild.</TooltipReference>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Label item ="PLFG_ExpireLabel">
+	<Label item="PLFG_ExpireLabel">
 		<ScreenID>PLFG_ExpireLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -172,7 +172,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Page item = "LFGUILD_PlayerLFGuildPage">
+	<Page item="LFGUILD_PlayerLFGuildPage">
 		<ScreenID>LFGUILD_PlayerLFGuildPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Style_VScroll>false</Style_VScroll>
@@ -181,9 +181,9 @@
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>LF Guild</TabText>
 		<TabTextActiveColor>
-				<R>255</R>
-				<G>255</G>
-				<B>0</B>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
 		</TabTextActiveColor>
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>PLFG_PlayerInfoLabel</Pieces>
@@ -197,7 +197,7 @@
 		<Pieces>PLFG_ExpireLabel</Pieces>
 		<Pieces>PLFG_TimeZoneCombo</Pieces>
 	</Page>
-		<Label item ="GLFP_GuildDeclarationLabel">
+	<Label item="GLFP_GuildDeclarationLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -214,7 +214,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "GLFP_SelectAllRolesButton">
+	<Button item="GLFP_SelectAllRolesButton">
 		<ScreenID>GLFP_SelectAllRolesButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -229,7 +229,7 @@
 		<Text>Select All</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "GLFP_DeselectAllRolesButton">
+	<Button item="GLFP_DeselectAllRolesButton">
 		<ScreenID>GLFP_DeselectAllRolesButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -244,7 +244,7 @@
 		<Text>Select None</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item= "GLFP_BSTCheckbox">
+	<Button item="GLFP_BSTCheckbox">
 		<ScreenID>GLFP_BSTCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -262,7 +262,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GLFP_CLRCheckbox">
+	<Button item="GLFP_CLRCheckbox">
 		<ScreenID>GLFP_CLRCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -280,7 +280,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GLFP_DRUCheckbox">
+	<Button item="GLFP_DRUCheckbox">
 		<ScreenID>GLFP_DRUCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -298,7 +298,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GLFP_SHMCheckbox">
+	<Button item="GLFP_SHMCheckbox">
 		<ScreenID>GLFP_SHMCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -316,7 +316,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GLFP_ENCCheckbox">
+	<Button item="GLFP_ENCCheckbox">
 		<ScreenID>GLFP_ENCCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -334,7 +334,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GLFP_MAGCheckbox">
+	<Button item="GLFP_MAGCheckbox">
 		<ScreenID>GLFP_MAGCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -352,7 +352,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GLFP_NECCheckbox">
+	<Button item="GLFP_NECCheckbox">
 		<ScreenID>GLFP_NECCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -370,7 +370,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GLFP_WIZCheckbox">
+	<Button item="GLFP_WIZCheckbox">
 		<ScreenID>GLFP_WIZCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -388,7 +388,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GLFP_BERCheckbox">
+	<Button item="GLFP_BERCheckbox">
 		<ScreenID>GLFP_BERCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -406,7 +406,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GLFP_MNKCheckbox">
+	<Button item="GLFP_MNKCheckbox">
 		<ScreenID>GLFP_MNKCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -424,7 +424,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GLFP_ROGCheckbox">
+	<Button item="GLFP_ROGCheckbox">
 		<ScreenID>GLFP_ROGCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -442,7 +442,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GLFP_WARCheckbox">
+	<Button item="GLFP_WARCheckbox">
 		<ScreenID>GLFP_WARCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -460,7 +460,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GLFP_BRDCheckbox">
+	<Button item="GLFP_BRDCheckbox">
 		<ScreenID>GLFP_BRDCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -478,7 +478,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GLFP_PALCheckbox">
+	<Button item="GLFP_PALCheckbox">
 		<ScreenID>GLFP_PALCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -496,7 +496,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GLFP_RNGCheckbox">
+	<Button item="GLFP_RNGCheckbox">
 		<ScreenID>GLFP_RNGCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -514,7 +514,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GLFP_SHDCheckbox">
+	<Button item="GLFP_SHDCheckbox">
 		<ScreenID>GLFP_SHDCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -532,7 +532,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Label item ="GLFP_BSTLabel">
+	<Label item="GLFP_BSTLabel">
 		<ScreenID>GLFP_BSTLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -549,7 +549,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GLFP_CLRLabel">
+	<Label item="GLFP_CLRLabel">
 		<ScreenID>GLFP_CLRLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -566,7 +566,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GLFP_DRULabel">
+	<Label item="GLFP_DRULabel">
 		<ScreenID>GLFP_DRULabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -583,7 +583,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GLFP_SHMLabel">
+	<Label item="GLFP_SHMLabel">
 		<ScreenID>GLFP_SHMLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -600,7 +600,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GLFP_ENCLabel">
+	<Label item="GLFP_ENCLabel">
 		<ScreenID>GLFP_ENCLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -617,7 +617,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GLFP_MAGLabel">
+	<Label item="GLFP_MAGLabel">
 		<ScreenID>GLFP_MAGLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -634,7 +634,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GLFP_NECLabel">
+	<Label item="GLFP_NECLabel">
 		<ScreenID>GLFP_NECLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -651,7 +651,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GLFP_WIZLabel">
+	<Label item="GLFP_WIZLabel">
 		<ScreenID>GLFP_WIZLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -668,7 +668,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GLFP_BERLabel">
+	<Label item="GLFP_BERLabel">
 		<ScreenID>GLFP_BERLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -685,7 +685,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GLFP_MNKLabel">
+	<Label item="GLFP_MNKLabel">
 		<ScreenID>GLFP_MNKLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -702,7 +702,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GLFP_ROGLabel">
+	<Label item="GLFP_ROGLabel">
 		<ScreenID>GLFP_ROGLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -719,7 +719,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GLFP_WARLabel">
+	<Label item="GLFP_WARLabel">
 		<ScreenID>GLFP_WARLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -736,7 +736,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GLFP_BRDLabel">
+	<Label item="GLFP_BRDLabel">
 		<ScreenID>GLFP_BRDLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -753,7 +753,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GLFP_PALLabel">
+	<Label item="GLFP_PALLabel">
 		<ScreenID>GLFP_PALLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -770,7 +770,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GLFP_RNGLabel">
+	<Label item="GLFP_RNGLabel">
 		<ScreenID>GLFP_RNGLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -787,7 +787,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GLFP_SHDLabel">
+	<Label item="GLFP_SHDLabel">
 		<ScreenID>GLFP_SHDLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -804,9 +804,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Screen item = "GLFP_ClassWnd">
+	<Screen item="GLFP_ClassWnd">
 		<ScreenID>ClassWnd</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<TopAnchorOffset>32</TopAnchorOffset>
@@ -859,7 +859,7 @@
 		<Pieces>GLFP_RNGLabel</Pieces>
 		<Pieces>GLFP_SHDLabel</Pieces>
 	</Screen>
-	<Label item ="GLFP_LevelRangeLabel">
+	<Label item="GLFP_LevelRangeLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -876,7 +876,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Editbox item = "GLFP_LevelRangeMinEditbox">
+	<Editbox item="GLFP_LevelRangeMinEditbox">
 		<ScreenID>GLFP_LevelRangeMinEditbox</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -891,7 +891,7 @@
 		<LeftAnchorOffset>104</LeftAnchorOffset>
 		<RightAnchorOffset>134</RightAnchorOffset>
 	</Editbox>
-	<Label item ="GLFP_LevelRangeSeparatorLabel">
+	<Label item="GLFP_LevelRangeSeparatorLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -908,7 +908,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Editbox item = "GLFP_LevelRangeMaxEditbox">
+	<Editbox item="GLFP_LevelRangeMaxEditbox">
 		<ScreenID>GLFP_LevelRangeMaxEditbox</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -923,7 +923,7 @@
 		<LeftAnchorOffset>168</LeftAnchorOffset>
 		<RightAnchorOffset>198</RightAnchorOffset>
 	</Editbox>
-	<Label item ="GLFP_MinAACountLabel">
+	<Label item="GLFP_MinAACountLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -940,7 +940,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Editbox item = "GLFP_MinAACountEdit">
+	<Editbox item="GLFP_MinAACountEdit">
 		<ScreenID>GLFP_MinAACountEdit</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -955,7 +955,7 @@
 		<LeftAnchorOffset>344</LeftAnchorOffset>
 		<RightAnchorOffset>394</RightAnchorOffset>
 	</Editbox>
-	<Label item ="GLFP_TimeZoneLabel">
+	<Label item="GLFP_TimeZoneLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -972,7 +972,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Combobox item = "GLFP_TimeZoneCombo">
+	<Combobox item="GLFP_TimeZoneCombo">
 		<ScreenID>GLFP_TimeZoneCombo</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretchList>true</AutoStretchList>
@@ -990,7 +990,7 @@
 		<Button>BDT_Combo</Button>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-	<Label item ="GLFP_CommentsLabel">
+	<Label item="GLFP_CommentsLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1007,7 +1007,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Editbox item = "GLFP_CommentsEdit">
+	<Editbox item="GLFP_CommentsEdit">
 		<ScreenID>GLFP_CommentsEdit</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -1024,7 +1024,7 @@
 		<Style_VScroll>true</Style_VScroll>
 		<Style_Multiline>true</Style_Multiline>
 	</Editbox>
-	<Button item = "GLFP_OnButton">
+	<Button item="GLFP_OnButton">
 		<ScreenID>GLFP_OnButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1041,7 +1041,7 @@
 		<TooltipReference>Click to start Looking For Players with the selected data.</TooltipReference>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "GLFP_UpdateButton">
+	<Button item="GLFP_UpdateButton">
 		<ScreenID>GLFP_UpdateButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1058,7 +1058,7 @@
 		<TooltipReference>Click to refresh your LFPlayer data and reset expiration time.</TooltipReference>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "GLFP_OffButton">
+	<Button item="GLFP_OffButton">
 		<ScreenID>GLFP_OffButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1075,7 +1075,7 @@
 		<TooltipReference>Click to stop Looking For Players.</TooltipReference>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Label item ="GLFP_ExpireLabel">
+	<Label item="GLFP_ExpireLabel">
 		<ScreenID>GLFP_ExpireLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1092,7 +1092,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Page item = "LFGUILD_GuildLFPlayerPage">
+	<Page item="LFGUILD_GuildLFPlayerPage">
 		<ScreenID>LFGUILD_GuildLFPlayerPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Style_VScroll>false</Style_VScroll>
@@ -1101,9 +1101,9 @@
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>LF Players</TabText>
 		<TabTextActiveColor>
-				<R>255</R>
-				<G>255</G>
-				<B>0</B>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
 		</TabTextActiveColor>
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>GLFP_GuildDeclarationLabel</Pieces>
@@ -1123,7 +1123,7 @@
 		<Pieces>GLFP_ExpireLabel</Pieces>
 		<Pieces>GLFP_TimeZoneCombo</Pieces>
 	</Page>
-		<Label item ="PSFG_DeclarationLabel">
+	<Label item="PSFG_DeclarationLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1140,7 +1140,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="PSFG_LevelLabel">
+	<Label item="PSFG_LevelLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1157,7 +1157,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Editbox item = "PSFG_LevelEdit">
+	<Editbox item="PSFG_LevelEdit">
 		<ScreenID>PSFG_LevelEdit</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -1172,7 +1172,7 @@
 		<LeftAnchorOffset>46</LeftAnchorOffset>
 		<RightAnchorOffset>76</RightAnchorOffset>
 	</Editbox>
-	<Combobox item = "PSFG_ClassCombo">
+	<Combobox item="PSFG_ClassCombo">
 		<ScreenID>PSFG_ClassCombo</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -1189,7 +1189,7 @@
 		<Button>BDT_Combo</Button>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-	<Label item ="PSFG_WithAALabel">
+	<Label item="PSFG_WithAALabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1206,7 +1206,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Editbox item = "PSFG_AACountEdit">
+	<Editbox item="PSFG_AACountEdit">
 		<ScreenID>PSFG_AACountEdit</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -1221,7 +1221,7 @@
 		<LeftAnchorOffset>182</LeftAnchorOffset>
 		<RightAnchorOffset>232</RightAnchorOffset>
 	</Editbox>
-	<Label item ="PSFG_AALabel">
+	<Label item="PSFG_AALabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1238,7 +1238,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="PSFG_TimeZoneLabel">
+	<Label item="PSFG_TimeZoneLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1255,7 +1255,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Combobox item = "PSFG_TimeZoneCombo">
+	<Combobox item="PSFG_TimeZoneCombo">
 		<ScreenID>PSFG_TimeZoneCombo</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretchList>true</AutoStretchList>
@@ -1273,7 +1273,7 @@
 		<Button>BDT_Combo</Button>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-	<Button item = "PSFG_SearchButton">
+	<Button item="PSFG_SearchButton">
 		<ScreenID>PSFG_SearchButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1290,7 +1290,7 @@
 		<TooltipReference>Click to perform the search</TooltipReference>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Listbox item = "PSFG_SearchResultList">
+	<Listbox item="PSFG_SearchResultList">
 		<ScreenID>PSFG_SearchResultList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -1317,7 +1317,7 @@
 			<Heading>Comments</Heading>
 		</Columns>
 	</Listbox>
-	<STMLbox item = "PSFG_Comment">
+	<STMLbox item="PSFG_Comment">
 		<ScreenID>PSFG_Comment</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -1335,7 +1335,7 @@
 		<Style_Border>true</Style_Border>
 		<Text>Comment Area</Text>
 	</STMLbox>
-	<Page item = "LFGUILD_SearchGuildsPage">
+	<Page item="LFGUILD_SearchGuildsPage">
 		<ScreenID>LFGUILD_SearchGuildsPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Style_VScroll>false</Style_VScroll>
@@ -1344,9 +1344,9 @@
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Search Guilds</TabText>
 		<TabTextActiveColor>
-				<R>255</R>
-				<G>255</G>
-				<B>0</B>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
 		</TabTextActiveColor>
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>PSFG_DeclarationLabel</Pieces>
@@ -1362,7 +1362,7 @@
 		<Pieces>PSFG_TimeZoneCombo</Pieces>
 		<Pieces>PSFG_ClassCombo</Pieces>
 	</Page>
-		<Label item ="GSFP_DeclarationLabel">
+	<Label item="GSFP_DeclarationLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1379,7 +1379,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "GSFP_SelectAllRolesButton">
+	<Button item="GSFP_SelectAllRolesButton">
 		<ScreenID>GSFP_SelectAllRolesButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1394,7 +1394,7 @@
 		<Text>Select All</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "GSFP_DeselectAllRolesButton">
+	<Button item="GSFP_DeselectAllRolesButton">
 		<ScreenID>GSFP_DeselectAllRolesButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1409,7 +1409,7 @@
 		<Text>Select None</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item= "GSFP_BSTCheckbox">
+	<Button item="GSFP_BSTCheckbox">
 		<ScreenID>GSFP_BSTCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1427,7 +1427,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GSFP_CLRCheckbox">
+	<Button item="GSFP_CLRCheckbox">
 		<ScreenID>GSFP_CLRCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1445,7 +1445,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GSFP_DRUCheckbox">
+	<Button item="GSFP_DRUCheckbox">
 		<ScreenID>GSFP_DRUCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1463,7 +1463,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GSFP_SHMCheckbox">
+	<Button item="GSFP_SHMCheckbox">
 		<ScreenID>GSFP_SHMCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1481,7 +1481,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GSFP_ENCCheckbox">
+	<Button item="GSFP_ENCCheckbox">
 		<ScreenID>GSFP_ENCCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1499,7 +1499,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GSFP_MAGCheckbox">
+	<Button item="GSFP_MAGCheckbox">
 		<ScreenID>GSFP_MAGCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1517,7 +1517,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GSFP_NECCheckbox">
+	<Button item="GSFP_NECCheckbox">
 		<ScreenID>GSFP_NECCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1535,7 +1535,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GSFP_WIZCheckbox">
+	<Button item="GSFP_WIZCheckbox">
 		<ScreenID>GSFP_WIZCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1553,7 +1553,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GSFP_BERCheckbox">
+	<Button item="GSFP_BERCheckbox">
 		<ScreenID>GSFP_BERCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1571,7 +1571,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GSFP_MNKCheckbox">
+	<Button item="GSFP_MNKCheckbox">
 		<ScreenID>GSFP_MNKCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1589,7 +1589,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GSFP_ROGCheckbox">
+	<Button item="GSFP_ROGCheckbox">
 		<ScreenID>GSFP_ROGCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1607,7 +1607,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GSFP_WARCheckbox">
+	<Button item="GSFP_WARCheckbox">
 		<ScreenID>GSFP_WARCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1625,7 +1625,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GSFP_BRDCheckbox">
+	<Button item="GSFP_BRDCheckbox">
 		<ScreenID>GSFP_BRDCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1643,7 +1643,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GSFP_PALCheckbox">
+	<Button item="GSFP_PALCheckbox">
 		<ScreenID>GSFP_PALCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1661,7 +1661,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GSFP_RNGCheckbox">
+	<Button item="GSFP_RNGCheckbox">
 		<ScreenID>GSFP_RNGCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1679,7 +1679,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Button item= "GSFP_SHDCheckbox">
+	<Button item="GSFP_SHDCheckbox">
 		<ScreenID>GSFP_SHDCheckbox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1697,7 +1697,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Label item ="GSFP_BSTLabel">
+	<Label item="GSFP_BSTLabel">
 		<ScreenID>GSFP_BSTLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1714,7 +1714,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GSFP_CLRLabel">
+	<Label item="GSFP_CLRLabel">
 		<ScreenID>GSFP_CLRLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1731,7 +1731,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GSFP_DRULabel">
+	<Label item="GSFP_DRULabel">
 		<ScreenID>GSFP_DRULabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1748,7 +1748,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GSFP_SHMLabel">
+	<Label item="GSFP_SHMLabel">
 		<ScreenID>GSFP_SHMLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1765,7 +1765,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GSFP_ENCLabel">
+	<Label item="GSFP_ENCLabel">
 		<ScreenID>GSFP_ENCLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1782,7 +1782,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GSFP_MAGLabel">
+	<Label item="GSFP_MAGLabel">
 		<ScreenID>GSFP_MAGLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1799,7 +1799,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GSFP_NECLabel">
+	<Label item="GSFP_NECLabel">
 		<ScreenID>GSFP_NECLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1816,7 +1816,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GSFP_WIZLabel">
+	<Label item="GSFP_WIZLabel">
 		<ScreenID>GSFP_WIZLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1833,7 +1833,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GSFP_BERLabel">
+	<Label item="GSFP_BERLabel">
 		<ScreenID>GSFP_BERLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1850,7 +1850,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GSFP_MNKLabel">
+	<Label item="GSFP_MNKLabel">
 		<ScreenID>GSFP_MNKLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1867,7 +1867,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GSFP_ROGLabel">
+	<Label item="GSFP_ROGLabel">
 		<ScreenID>GSFP_ROGLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1884,7 +1884,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GSFP_WARLabel">
+	<Label item="GSFP_WARLabel">
 		<ScreenID>GSFP_WARLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1901,7 +1901,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GSFP_BRDLabel">
+	<Label item="GSFP_BRDLabel">
 		<ScreenID>GSFP_BRDLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1918,7 +1918,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GSFP_PALLabel">
+	<Label item="GSFP_PALLabel">
 		<ScreenID>GSFP_PALLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1935,7 +1935,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GSFP_RNGLabel">
+	<Label item="GSFP_RNGLabel">
 		<ScreenID>GSFP_RNGLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1952,7 +1952,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="GSFP_SHDLabel">
+	<Label item="GSFP_SHDLabel">
 		<ScreenID>GSFP_SHDLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1969,9 +1969,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Screen item = "GSFP_ClassWnd">
+	<Screen item="GSFP_ClassWnd">
 		<ScreenID>ClassWnd</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<TopAnchorOffset>24</TopAnchorOffset>
@@ -2024,7 +2024,7 @@
 		<Pieces>GSFP_RNGLabel</Pieces>
 		<Pieces>GSFP_SHDLabel</Pieces>
 	</Screen>
-	<Label item ="GSFP_LevelRangeLabel">
+	<Label item="GSFP_LevelRangeLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -2041,7 +2041,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Editbox item = "GSFP_LevelRangeMinEditbox">
+	<Editbox item="GSFP_LevelRangeMinEditbox">
 		<ScreenID>GSFP_LevelRangeMinEditbox</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -2056,7 +2056,7 @@
 		<LeftAnchorOffset>100</LeftAnchorOffset>
 		<RightAnchorOffset>130</RightAnchorOffset>
 	</Editbox>
-	<Label item ="GSFP_LevelRangeSeparatorLabel">
+	<Label item="GSFP_LevelRangeSeparatorLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -2073,7 +2073,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Editbox item = "GSFP_LevelRangeMaxEditbox">
+	<Editbox item="GSFP_LevelRangeMaxEditbox">
 		<ScreenID>GSFP_LevelRangeMaxEditbox</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -2088,7 +2088,7 @@
 		<LeftAnchorOffset>145</LeftAnchorOffset>
 		<RightAnchorOffset>175</RightAnchorOffset>
 	</Editbox>
-	<Label item ="GSFP_MinAACountLabel">
+	<Label item="GSFP_MinAACountLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -2105,7 +2105,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Editbox item = "GSFP_MinAACountEdit">
+	<Editbox item="GSFP_MinAACountEdit">
 		<ScreenID>GSFP_MinAACountEdit</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -2120,7 +2120,7 @@
 		<LeftAnchorOffset>305</LeftAnchorOffset>
 		<RightAnchorOffset>355</RightAnchorOffset>
 	</Editbox>
-	<Label item ="GSFP_TimeZoneLabel">
+	<Label item="GSFP_TimeZoneLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -2137,7 +2137,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Combobox item = "GSFP_TimeZoneCombo">
+	<Combobox item="GSFP_TimeZoneCombo">
 		<ScreenID>GSFP_TimeZoneCombo</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretchList>true</AutoStretchList>
@@ -2155,7 +2155,7 @@
 		<Button>BDT_Combo</Button>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-	<Button item = "GSFP_SearchButton">
+	<Button item="GSFP_SearchButton">
 		<ScreenID>GSFP_SearchButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -2172,7 +2172,7 @@
 		<TooltipReference>Click to perform the search</TooltipReference>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Listbox item = "GSFP_SearchResultList">
+	<Listbox item="GSFP_SearchResultList">
 		<ScreenID>GSFP_SearchResultList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -2211,7 +2211,7 @@
 			<Heading>Comments</Heading>
 		</Columns>
 	</Listbox>
-	<STMLbox item = "GSFP_Comment">
+	<STMLbox item="GSFP_Comment">
 		<ScreenID>GSFP_Comment</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -2229,7 +2229,7 @@
 		<Style_Border>true</Style_Border>
 		<Text>Comment Area</Text>
 	</STMLbox>
-	<Page item = "LFGUILD_SearchPlayersPage">
+	<Page item="LFGUILD_SearchPlayersPage">
 		<ScreenID>LFGUILD_SearchPlayersPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Style_VScroll>false</Style_VScroll>
@@ -2238,9 +2238,9 @@
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Search Players</TabText>
 		<TabTextActiveColor>
-				<R>255</R>
-				<G>255</G>
-				<B>0</B>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
 		</TabTextActiveColor>
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>GSFP_DeclarationLabel</Pieces>
@@ -2257,7 +2257,7 @@
 		<Pieces>GSFP_Comment</Pieces>
 		<Pieces>GSFP_TimeZoneCombo</Pieces>
 	</Page>
-	<TabBox item = "LFGUILD_TabWindow">
+	<TabBox item="LFGUILD_TabWindow">
 		<ScreenID>LFGUILD_TabWindow</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -2276,7 +2276,7 @@
 		<Pages>LFGUILD_SearchGuildsPage</Pages>
 		<Pages>LFGUILD_SearchPlayersPage</Pages>
 	</TabBox>
-	<Screen item = "LFGuildWnd">
+	<Screen item="LFGuildWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>70</X>

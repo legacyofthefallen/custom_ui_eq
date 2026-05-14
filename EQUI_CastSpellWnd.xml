@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<SpellGem item="CSPW_Spell0">
 		<ScreenID>CSPW_Spell0</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -203,7 +203,7 @@
 		<RelativePosition>true</RelativePosition>
 		<TooltipReference>Opens and closes Your Spellbook</TooltipReference>
 		<Style_Checkbox>true</Style_Checkbox>
-		<Template>BDT_BookBtn</Template>	
+		<Template>BDT_BookBtn</Template>
 		<Size>
 			<CX>20</CX>
 			<CY>22</CY>
@@ -227,7 +227,7 @@
 			<X>1</X>
 			<Y>1</Y>
 		</Location>
-	</Button>	
+	</Button>
 	<Screen item="CSPW_ScreenSpellBookH">
 		<ScreenID>CSPW_ScreenSpellBookH</ScreenID>
 		<Size>
@@ -253,7 +253,7 @@
 		<TopAnchorOffset>2</TopAnchorOffset>
 		<BottomAnchorOffset>2</BottomAnchorOffset>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
-		<RightAnchorOffset>24</RightAnchorOffset>	
+		<RightAnchorOffset>24</RightAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -268,7 +268,7 @@
 		<TopAnchorOffset>2</TopAnchorOffset>
 		<BottomAnchorOffset>26</BottomAnchorOffset>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
-		<RightAnchorOffset>0</RightAnchorOffset>	
+		<RightAnchorOffset>0</RightAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -313,7 +313,7 @@
 		<TopAnchorOffset>7</TopAnchorOffset>
 		<BottomAnchorOffset>31</BottomAnchorOffset>
 		<LeftAnchorOffset>23</LeftAnchorOffset>
-		<RightAnchorOffset>1</RightAnchorOffset>	
+		<RightAnchorOffset>1</RightAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
@@ -330,7 +330,7 @@
 		<TopAnchorOffset>26</TopAnchorOffset>
 		<BottomAnchorOffset>2</BottomAnchorOffset>
 		<LeftAnchorOffset>12</LeftAnchorOffset>
-		<RightAnchorOffset>34</RightAnchorOffset>	
+		<RightAnchorOffset>34</RightAnchorOffset>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>

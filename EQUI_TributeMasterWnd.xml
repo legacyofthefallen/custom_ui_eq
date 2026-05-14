@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
+<XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-	<Label item ="TMW_TimeText">
+	<Label item="TMW_TimeText">
 		<ScreenID>TMW_TimeText</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -19,7 +19,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TMW_TimeLabel">
+	<Label item="TMW_TimeLabel">
 		<ScreenID>TMW_TimeLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -37,7 +37,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TMW_GuildTimeLabel">
+	<Label item="TMW_GuildTimeLabel">
 		<ScreenID>TMW_GuildTimeLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -55,7 +55,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TMW_CostText">
+	<Label item="TMW_CostText">
 		<ScreenID>TMW_CostText</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -73,7 +73,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TMW_CostLabel">
+	<Label item="TMW_CostLabel">
 		<ScreenID>TMW_CostLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -91,7 +91,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TMW_GuildCostLabel">
+	<Label item="TMW_GuildCostLabel">
 		<ScreenID>TMW_GuildCostLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -109,7 +109,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TMW_CurrentPointsText">
+	<Label item="TMW_CurrentPointsText">
 		<ScreenID>TMW_CurrentPointsText</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -127,7 +127,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TMW_CurrentPointsLabel">
+	<Label item="TMW_CurrentPointsLabel">
 		<ScreenID>TMW_CurrentPointsLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -145,7 +145,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TMW_GuildCurrentPointsLabel">
+	<Label item="TMW_GuildCurrentPointsLabel">
 		<ScreenID>TMW_GuildCurrentPointsLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -163,7 +163,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TMW_TotalPointsText">
+	<Label item="TMW_TotalPointsText">
 		<ScreenID>TMW_TotalPointsText</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -181,7 +181,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TMW_TotalPointsLabel">
+	<Label item="TMW_TotalPointsLabel">
 		<ScreenID>TMW_TotalPointsLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -199,9 +199,9 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Screen item = "TMW_LabelWnd">
+	<Screen item="TMW_LabelWnd">
 		<ScreenID>TMW_LabelWnd</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>200</LeftAnchorOffset>
 		<TopAnchorOffset>100</TopAnchorOffset>
@@ -221,7 +221,7 @@
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>TMW_CostText</Pieces>
 		<Pieces>TMW_CostLabel</Pieces>
-		<Pieces>TMW_GuildCostLabel</Pieces>		
+		<Pieces>TMW_GuildCostLabel</Pieces>
 		<Pieces>TMW_TimeText</Pieces>
 		<Pieces>TMW_TimeLabel</Pieces>
 		<Pieces>TMW_GuildTimeLabel</Pieces>
@@ -231,7 +231,7 @@
 		<Pieces>TMW_TotalPointsText</Pieces>
 		<Pieces>TMW_TotalPointsLabel</Pieces>
 	</Screen>
-	<Label item ="TMW_ActiveLabel">
+	<Label item="TMW_ActiveLabel">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -249,7 +249,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Listbox item = "TMW_ActiveBenefitList">
+	<Listbox item="TMW_ActiveBenefitList">
 		<ScreenID>TMW_ActiveBenefitList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -276,9 +276,9 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-	<Button item = "TMW_DowngradeButton">
+	<Button item="TMW_DowngradeButton">
 		<ScreenID>TMW_DowngradeButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>40</LeftAnchorOffset>
 		<TopAnchorOffset>22</TopAnchorOffset>
@@ -294,9 +294,9 @@
 		<Text>Downgrade</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Screen item = "TMW_ActiveBenefitArea">
+	<Screen item="TMW_ActiveBenefitArea">
 		<ScreenID/>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>290</X>
 			<Y>0</Y>
@@ -318,7 +318,7 @@
 		<Pieces>TMW_ActiveLabel</Pieces>
 		<Pieces>TMW_DowngradeButton</Pieces>
 	</Screen>
-	<Label item ="TMW_AvailableBenefitLabel">
+	<Label item="TMW_AvailableBenefitLabel">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -336,7 +336,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Listbox item = "TMW_AvailableBenefitList">
+	<Listbox item="TMW_AvailableBenefitList">
 		<ScreenID>TMW_AvailableBenefitList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -367,9 +367,9 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-	<Button item = "TMW_UpgradeButton">
+	<Button item="TMW_UpgradeButton">
 		<ScreenID>TMW_UpgradeButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>40</LeftAnchorOffset>
 		<TopAnchorOffset>22</TopAnchorOffset>
@@ -385,9 +385,9 @@
 		<Text>Upgrade</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Screen item = "TMW_BenefitMasterArea">
+	<Screen item="TMW_BenefitMasterArea">
 		<ScreenID/>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -409,8 +409,8 @@
 		<Pieces>TMW_AvailableBenefitLabel</Pieces>
 		<Pieces>TMW_UpgradeButton</Pieces>
 	</Screen>
-	
-	<HorizontalLayoutBox item = "TMW_Layout">
+
+	<HorizontalLayoutBox item="TMW_Layout">
 		<ScreenID>TMW_Layout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -429,7 +429,7 @@
 		<Pieces>Screen:TMW_BenefitMasterArea</Pieces>
 		<Pieces>Screen:TMW_ActiveBenefitArea</Pieces>
 	</HorizontalLayoutBox>
-	<STMLbox item = "TMW_Description">
+	<STMLbox item="TMW_Description">
 		<ScreenID>TMW_Description</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -447,9 +447,9 @@
 		<Style_Border>false</Style_Border>
 		<Text>Description Area</Text>
 	</STMLbox>
-	<Button item = "TMW_SelectedItem">
+	<Button item="TMW_SelectedItem">
 		<ScreenID>TMW_SelectedItem</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>29</X>
 			<Y>20</Y>
@@ -470,7 +470,7 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-	<Label item ="TMW_ValueText">
+	<Label item="TMW_ValueText">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -487,7 +487,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-	<Label item ="TMW_ValueLabel">
+	<Label item="TMW_ValueLabel">
 		<ScreenID>TMW_ValueLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -504,9 +504,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "TMW_CoinButton">
+	<Button item="TMW_CoinButton">
 		<ScreenID>TMW_CoinButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>115</X>
 			<Y>18</Y>
@@ -516,8 +516,8 @@
 			<CY>24</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<Text/>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text/>
 		<Template>BDT_PlatinumCoin</Template>
 		<DecalOffset>
 			<X>1</X>
@@ -528,7 +528,7 @@
 			<CY>18</CY>
 		</DecalSize>
 	</Button>
-	<Button item = "TMW_DonateButton">
+	<Button item="TMW_DonateButton">
 		<ScreenID>TMW_DonateButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -545,9 +545,9 @@
 		<Text>Donate</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Screen item = "TMW_DonateWnd">
+	<Screen item="TMW_DonateWnd">
 		<ScreenID>TMW_DonateWnd</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>0</LeftAnchorOffset>
 		<TopAnchorOffset>100</TopAnchorOffset>
@@ -571,8 +571,8 @@
 		<Pieces>TMW_DonateButton</Pieces>
 		<Pieces>TMW_CoinButton</Pieces>
 	</Screen>
-	
-	<Label item ="TMW_StatusText">
+
+	<Label item="TMW_StatusText">
 		<ScreenID>TMW_StatusText</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -590,8 +590,8 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	
-	<Button item = "TMW_StatusButton">
+
+	<Button item="TMW_StatusButton">
 		<ScreenID>TMW_StatusButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -608,8 +608,8 @@
 		<Text/>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	
-	<Button item = "TMW_LockButton">
+
+	<Button item="TMW_LockButton">
 		<ScreenID>TMW_LockButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -622,13 +622,14 @@
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference>Press this button to begin changing active benefits.  Requires "Tribute: Change Active Benefit" access.</TooltipReference>
+		<TooltipReference>Press this button to begin changing active benefits. Requires "Tribute:
+			Change Active Benefit" access.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Modify Benefits</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	
-	<Screen item = "TributeMasterUpperPane">
+
+	<Screen item="TributeMasterUpperPane">
 		<ScreenID>TributeMasterUpperPane</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -650,8 +651,8 @@
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>TMW_Layout</Pieces>
 	</Screen>
-	
-	<Screen item = "TributeMasterLowerPane">
+
+	<Screen item="TributeMasterLowerPane">
 		<ScreenID>TributeMasterLowerPane</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -673,8 +674,8 @@
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>STMLbox:TMW_Description</Pieces>
 	</Screen>
-	
-	<VerticalLayoutBox item = "TMW_VerticalLayout">
+
+	<VerticalLayoutBox item="TMW_VerticalLayout">
 		<ScreenID>TMW_VerticalLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -694,8 +695,8 @@
 		<Pieces>Screen:TributeMasterUpperPane</Pieces>
 		<Pieces>Screen:TributeMasterLowerPane</Pieces>
 	</VerticalLayoutBox>
-	
-	<Screen item = "TributeMasterWnd">
+
+	<Screen item="TributeMasterWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>20</X>

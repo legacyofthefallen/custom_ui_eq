@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
+<XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-	<Label item ="MW_MerchantName">
+	<Label item="MW_MerchantName">
 		<ScreenID>MW_MerchantName</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -18,7 +18,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-		<Button item="MW_ButtonTemplate">
+	<Button item="MW_ButtonTemplate">
 		<ScreenID>MW_ButtonTemplate</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -38,7 +38,7 @@
 			<CY>20</CY>
 		</DecalSize>
 	</Button>
-	<Listbox item = "MW_ItemList">
+	<Listbox item="MW_ItemList">
 		<ScreenID>ItemList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -55,7 +55,8 @@
 		<Style_HScroll>true</Style_HScroll>
 		<Style_AutoHScroll>true</Style_AutoHScroll>
 		<Columns>
-			<Width>35</Width>			<Heading>Icon</Heading>
+			<Width>35</Width>
+			<Heading>Icon</Heading>
 		</Columns>
 		<Columns>
 			<Width>140</Width>
@@ -78,7 +79,7 @@
 			<Heading>Lvl</Heading>
 		</Columns>
 	</Listbox>
-	<Listbox item = "MW_ItemListRecovery">
+	<Listbox item="MW_ItemListRecovery">
 		<ScreenID>MW_ItemListRecovery</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -112,7 +113,7 @@
 			<Heading>Has Lore Aug.</Heading>
 		</Columns>
 	</Listbox>
-	<Listbox item = "MW_ItemListMail">
+	<Listbox item="MW_ItemListMail">
 		<ScreenID>MW_ItemListMail</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -150,7 +151,7 @@
 			<Heading>Note</Heading>
 		</Columns>
 	</Listbox>
-	<Button item = "MW_Inspect_Button">
+	<Button item="MW_Inspect_Button">
 		<ScreenID>MW_Inspect_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -166,7 +167,7 @@
 		<Text>Inspect</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "MW_Preview_Button">
+	<Button item="MW_Preview_Button">
 		<ScreenID>MW_Preview_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -194,7 +195,7 @@
 		<BottomAnchorOffset>65</BottomAnchorOffset>
 		<Style_Border>true</Style_Border>
 	</Editbox>
-	<Button item = "MW_SearchItem_Button">
+	<Button item="MW_SearchItem_Button">
 		<ScreenID>MW_SearchItem_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -224,9 +225,9 @@
 		<TextOffsetX>18</TextOffsetX>
 		<Template>BDT_FindItem</Template>
 	</Button>
-	<Button item = "MW_SelectedItem">
+	<Button item="MW_SelectedItem">
 		<ScreenID>MW_SelectedItem</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -248,9 +249,9 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-	<Label item ="MW_SelectedItemLabel">
+	<Label item="MW_SelectedItemLabel">
 		<ScreenID>MW_SelectedItemLabel</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -265,7 +266,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="MW_Current_Currency_Label">
+	<Label item="MW_Current_Currency_Label">
 		<ScreenID>MW_Current_Currency_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -282,9 +283,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="MW_SelectedPriceLabel">
+	<Label item="MW_SelectedPriceLabel">
 		<ScreenID>MW_SelectedPriceLabel</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -299,9 +300,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "MW_Buy_Button">
+	<Button item="MW_Buy_Button">
 		<ScreenID>MW_Buy_Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -317,9 +318,9 @@
 		<Text>Buy</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "MW_Buy_MarketPlace_Button">
+	<Button item="MW_Buy_MarketPlace_Button">
 		<ScreenID>MW_Buy_MarketPlace_Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -345,7 +346,7 @@
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "MW_Retrieve_Button">
+	<Button item="MW_Retrieve_Button">
 		<ScreenID>MW_Retrieve_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -363,7 +364,7 @@
 		<Text>Retrieve</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "MW_Retrieve_All_Button">
+	<Button item="MW_Retrieve_All_Button">
 		<ScreenID>MW_Retrieve_All_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -381,7 +382,7 @@
 		<Text>Retrieve All</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "MW_Send_Button">
+	<Button item="MW_Send_Button">
 		<ScreenID>MW_Send_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -399,7 +400,7 @@
 		<Text>Send</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Label item ="MW_Send_To_Label">
+	<Label item="MW_Send_To_Label">
 		<ScreenID>MW_Send_To_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -430,7 +431,7 @@
 		<TooltipReference>Enter the name of the person you want the parcel sent to.</TooltipReference>
 		<Style_Border>true</Style_Border>
 	</Editbox>
-	<Label item ="MW_Note_Label">
+	<Label item="MW_Note_Label">
 		<ScreenID>MW_Note_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -458,10 +459,11 @@
 		<RightAnchorOffset>90</RightAnchorOffset>
 		<BottomAnchorOffset>6</BottomAnchorOffset>
 		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference>Enter a note associated with the item you are sending (limited to 140 characters).</TooltipReference>
+		<TooltipReference>Enter a note associated with the item you are sending (limited to 140
+			characters).</TooltipReference>
 		<Style_Border>true</Style_Border>
 	</Editbox>
-	<Button item = "MW_Clear_Note_Button">
+	<Button item="MW_Clear_Note_Button">
 		<ScreenID>MW_Clear_Note_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -479,9 +481,9 @@
 		<Text>Clear Note</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "MW_Done_Button">
+	<Button item="MW_Done_Button">
 		<ScreenID>MW_Done_Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -497,7 +499,7 @@
 		<Text>Done</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "MW_Adventure_Button">
+	<Button item="MW_Adventure_Button">
 		<ScreenID>MW_Adventure_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -515,9 +517,9 @@
 		<Text>Adventure</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "MW_Sell_Button">
+	<Button item="MW_Sell_Button">
 		<ScreenID>MW_Sell_Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -533,7 +535,7 @@
 		<Text>Sell</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "MW_Recover_Button">
+	<Button item="MW_Recover_Button">
 		<ScreenID>MW_Recover_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -585,9 +587,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item ="MW_CashButton">
+	<Button item="MW_CashButton">
 		<ScreenID>MW_CashButton</ScreenID>
-				<AutoStretch>true</AutoStretch>
+		<AutoStretch>true</AutoStretch>
 		<RelativePosition>true</RelativePosition>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -603,10 +605,10 @@
 		<Text>Sell Cash Loot</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Page item = "MW_PurchasePage">
+	<Page item="MW_PurchasePage">
 		<ScreenID>MW_PurchasePage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-				<TabText>Purchase/Sell</TabText>
+		<TabText>Purchase/Sell</TabText>
 		<TabTextActiveColor>
 			<R>255</R>
 			<G>255</G>
@@ -618,10 +620,10 @@
 		<Pieces>MW_UsableLabel</Pieces>
 		<Pieces>MW_CashButton</Pieces>
 	</Page>
-	<Page item = "MW_RecoveryPage">
+	<Page item="MW_RecoveryPage">
 		<ScreenID>MW_RecoveryPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-				<TabText>Recover</TabText>
+		<TabText>Recover</TabText>
 		<TabTextActiveColor>
 			<R>255</R>
 			<G>255</G>
@@ -650,10 +652,10 @@
 		</TextColor>
 		<NoWrap>true</NoWrap>
 	</Label>
-	<Page item = "MW_MailPage">
+	<Page item="MW_MailPage">
 		<ScreenID>MW_MailPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-				<TabText>Parcels</TabText>
+		<TabText>Parcels</TabText>
 		<TabTextActiveColor>
 			<R>255</R>
 			<G>255</G>
@@ -663,11 +665,11 @@
 		<Pieces>MW_ParcelCountNumber</Pieces>
 		<Pieces>MW_ItemListMail</Pieces>
 	</Page>
-	<TabBox item = "MW_MerchantSubwindows">
+	<TabBox item="MW_MerchantSubwindows">
 		<ScreenID>MW_MerchantSubwindows</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-				<TopAnchorToTop>true</TopAnchorToTop>
+		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
@@ -679,7 +681,7 @@
 		<Pages>MW_RecoveryPage</Pages>
 		<Pages>MW_MailPage</Pages>
 	</TabBox>
-	<Screen item = "MerchantWnd">
+	<Screen item="MerchantWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>0</X>

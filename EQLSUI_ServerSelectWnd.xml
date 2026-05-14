@@ -1,21 +1,21 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-  <Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-  	<Button item = "SERVERSELECT_ExitButton">
-		<ScreenID>ExitButton</ScreenID>
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+  <Button item="SERVERSELECT_ExitButton">
+    <ScreenID>ExitButton</ScreenID>
     <Font>4</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>40</X>
-			<Y>710</Y>
+      <X>40</X>
+      <Y>710</Y>
     </Location>
     <Size>
-			<CX>80</CX>
+      <CX>80</CX>
       <CY>31</CY>
     </Size>
-		<TooltipReference>Return to the login menu</TooltipReference>
+    <TooltipReference>Return to the login menu</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
-		<Text>LOGOUT</Text>
+    <Text>LOGOUT</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -29,21 +29,21 @@
       <PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
     </ButtonDrawTemplate>
   </Button>
-	<Button item = "SERVERSELECT_CreditsButton">
-		<ScreenID>CreditsButton</ScreenID>
+  <Button item="SERVERSELECT_CreditsButton">
+    <ScreenID>CreditsButton</ScreenID>
     <Font>4</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>130</X>
-			<Y>710</Y>
+      <X>130</X>
+      <Y>710</Y>
     </Location>
     <Size>
-			<CX>80</CX>
+      <CX>80</CX>
       <CY>31</CY>
     </Size>
-		<TooltipReference>View the credits</TooltipReference>
+    <TooltipReference>View the credits</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
-		<Text>CREDITS</Text>
+    <Text>CREDITS</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -57,21 +57,21 @@
       <PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
     </ButtonDrawTemplate>
   </Button>
-	<Button item = "SERVERSELECT_NewsButton">
-		<ScreenID>NewsButton</ScreenID>
+  <Button item="SERVERSELECT_NewsButton">
+    <ScreenID>NewsButton</ScreenID>
     <Font>4</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>220</X>
-			<Y>710</Y>
+      <X>220</X>
+      <Y>710</Y>
     </Location>
     <Size>
-			<CX>60</CX>
+      <CX>60</CX>
       <CY>31</CY>
     </Size>
-		<TooltipReference>See the latest news</TooltipReference>
+    <TooltipReference>See the latest news</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
-		<Text>NEWS</Text>
+    <Text>NEWS</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -85,21 +85,21 @@
       <PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
     </ButtonDrawTemplate>
   </Button>
-	<Button item = "SERVERSELECT_ChatButton">
-		<ScreenID>ChatButton</ScreenID>
+  <Button item="SERVERSELECT_ChatButton">
+    <ScreenID>ChatButton</ScreenID>
     <Font>4</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>290</X>
-			<Y>710</Y>
+      <X>290</X>
+      <Y>710</Y>
     </Location>
     <Size>
-			<CX>60</CX>
+      <CX>60</CX>
       <CY>31</CY>
     </Size>
-		<TooltipReference>Enter chat</TooltipReference>
+    <TooltipReference>Enter chat</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
-		<Text>CHAT</Text>
+    <Text>CHAT</Text>
     <TextColor>
       <R>255</R>
       <G>255</G>
@@ -113,16 +113,16 @@
       <PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
     </ButtonDrawTemplate>
   </Button>
-  <Button item = "SERVERSELECT_PlayButton">
+  <Button item="SERVERSELECT_PlayButton">
     <ScreenID>PlayButton</ScreenID>
     <Font>4</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>760</X>
-			<Y>620</Y>
+      <X>760</X>
+      <Y>620</Y>
     </Location>
     <Size>
-			<CX>200</CX>
+      <CX>200</CX>
       <CY>31</CY>
     </Size>
     <TooltipReference>Start the game!</TooltipReference>
@@ -141,16 +141,16 @@
       <PressedFlyby>A_EQLS_LargeBtnPressedHover</PressedFlyby>
     </ButtonDrawTemplate>
   </Button>
-  <Button item = "SERVERSELECT_PlayLastServerButton">
+  <Button item="SERVERSELECT_PlayLastServerButton">
     <ScreenID>PlayLastServerButton</ScreenID>
     <Font>4</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>760</X>
-			<Y>710</Y>
+      <X>760</X>
+      <Y>710</Y>
     </Location>
     <Size>
-			<CX>200</CX>
+      <CX>200</CX>
       <CY>31</CY>
     </Size>
     <TooltipReference>Start the game!</TooltipReference>
@@ -169,16 +169,16 @@
       <PressedFlyby>A_EQLS_LargeBtnPressedHover</PressedFlyby>
     </ButtonDrawTemplate>
   </Button>
-  <Button item = "SERVERSELECT_ViewExpansionsButton">
+  <Button item="SERVERSELECT_ViewExpansionsButton">
     <ScreenID>ViewExpansionsButton</ScreenID>
     <Font>4</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>447</X>
-			<Y>710</Y>
+      <X>447</X>
+      <Y>710</Y>
     </Location>
     <Size>
-			<CX>80</CX>
+      <CX>80</CX>
       <CY>31</CY>
     </Size>
     <TooltipReference>View current expansions</TooltipReference>
@@ -197,16 +197,16 @@
       <PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
     </ButtonDrawTemplate>
   </Button>
-  <Button item = "SERVERSELECT_OrderExpansionButton">
+  <Button item="SERVERSELECT_OrderExpansionButton">
     <ScreenID>OrderExpansionButton</ScreenID>
     <Font>4</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-		<X>538</X>
-		<Y>710</Y>
+      <X>538</X>
+      <Y>710</Y>
     </Location>
     <Size>
-			<CX>80</CX>
+      <CX>80</CX>
       <CY>31</CY>
     </Size>
     <TooltipReference>Order the current expansion</TooltipReference>
@@ -225,7 +225,7 @@
       <PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
     </ButtonDrawTemplate>
   </Button>
-    <Button item = "SERVERSELECT_ViewServerCharactersButton">
+  <Button item="SERVERSELECT_ViewServerCharactersButton">
     <ScreenID>ViewServerCharactersButton</ScreenID>
     <Font>4</Font>
     <RelativePosition>true</RelativePosition>
@@ -254,16 +254,16 @@
       <PressedFlyby>A_EQLS_LargeBtnPressedHover</PressedFlyby>
     </ButtonDrawTemplate>
   </Button>
-      <Label item = "SERVERSELECT_ExpansionsLabel">
+  <Label item="SERVERSELECT_ExpansionsLabel">
     <ScreenID>ExpansionsLabel</ScreenID>
     <Font>3</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>350</X>
-			<Y>710</Y>
+      <X>350</X>
+      <Y>710</Y>
     </Location>
     <Size>
-			<CX>100</CX>
+      <CX>100</CX>
       <CY>35</CY>
     </Size>
     <Text/>
@@ -273,19 +273,19 @@
       <B>255</B>
     </TextColor>
     <NoWrap>false</NoWrap>
-		<AlignCenter>true</AlignCenter>
+    <AlignCenter>true</AlignCenter>
     <AlignRight>true</AlignRight>
   </Label>
-  <Label item = "SERVERSELECT_ServerListLabel">
+  <Label item="SERVERSELECT_ServerListLabel">
     <ScreenID>ServerListLabel</ScreenID>
     <Font>5</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>0</X>
+      <X>0</X>
       <Y>20</Y>
     </Location>
     <Size>
-			<CX>1000</CX>
+      <CX>1000</CX>
       <CY>25</CY>
     </Size>
     <Text>SERVER SELECT</Text>
@@ -298,17 +298,17 @@
     <AlignCenter>true</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-  <Label item = "SERVERSELECT_LastServerLabel">
+  <Label item="SERVERSELECT_LastServerLabel">
     <ScreenID>LastServerLabel</ScreenID>
     <Font>2</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
-			<X>760</X>
-			<Y>690</Y>
+      <X>760</X>
+      <Y>690</Y>
     </Location>
     <Size>
-			<CX>200</CX>
-			<CY>20</CY>
+      <CX>200</CX>
+      <CY>20</CY>
     </Size>
     <Text>QUICK CONNECT TO LAST SERVER</Text>
     <TextColor>
@@ -317,20 +317,20 @@
       <B>255</B>
     </TextColor>
     <NoWrap>false</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<AlignRight>false</AlignRight>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
   </Label>
-      <Listbox item = "SERVERSELECT_ServerList">
+  <Listbox item="SERVERSELECT_ServerList">
     <ScreenID>ServerList</ScreenID>
     <Font>4</Font>
     <DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
     <RelativePosition>true</RelativePosition>
-	<TooltipReference>List of available servers.</TooltipReference>
+    <TooltipReference>List of available servers.</TooltipReference>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>40</LeftAnchorOffset>
-		<TopAnchorOffset>50</TopAnchorOffset>
+    <TopAnchorOffset>50</TopAnchorOffset>
     <RightAnchorOffset>40</RightAnchorOffset>
-		<BottomAnchorOffset>135</BottomAnchorOffset>
+    <BottomAnchorOffset>135</BottomAnchorOffset>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -341,42 +341,43 @@
     <Columns>
       <Width>200</Width>
       <Heading>Server</Heading>
-			<Tooltip>Name of the server.</Tooltip>
+      <Tooltip>Name of the server.</Tooltip>
     </Columns>
     <Columns>
       <Width>100</Width>
       <Heading>Status</Heading>
-  	  <Tooltip>Status and population of the server.</Tooltip>
+      <Tooltip>Status and population of the server.</Tooltip>
     </Columns>
     <Columns>
       <Width>190</Width>
       <Heading>Ruleset</Heading>
-	  <Tooltip>Description of the game rules that are active on the server.</Tooltip>
+      <Tooltip>Description of the game rules that are active on the server.</Tooltip>
     </Columns>
     <Columns>
-			<Width>175</Width>
+      <Width>175</Width>
       <Heading>Expansion</Heading>
-	  <Tooltip>Latest expansion unlocked on the server.</Tooltip>
+      <Tooltip>Latest expansion unlocked on the server.</Tooltip>
     </Columns>
-	<Columns>
-	  <Width>100</Width>
-	  <Heading>True Box</Heading>
-			<Tooltip>Whether the server limits the number of characters that can log in per computer. Relaxed True Box servers allow the number in parentheses per computer.</Tooltip>
-	</Columns>
     <Columns>
-			<Width>75</Width>
+      <Width>100</Width>
+      <Heading>True Box</Heading>
+      <Tooltip>Whether the server limits the number of characters that can log in per computer.
+        Relaxed True Box servers allow the number in parentheses per computer.</Tooltip>
+    </Columns>
+    <Columns>
+      <Width>75</Width>
       <Heading>All Access</Heading>
-	  <Tooltip>Whether the server requires an All Access Membership to log in.</Tooltip>
+      <Tooltip>Whether the server requires an All Access Membership to log in.</Tooltip>
     </Columns>
   </Listbox>
-    <Screen item = "SERVERSELECT_ServerListBackground">
+  <Screen item="SERVERSELECT_ServerListBackground">
     <ScreenID>ServerListBackground</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>45</LeftAnchorOffset>
     <TopAnchorOffset>75</TopAnchorOffset>
     <RightAnchorOffset>45</RightAnchorOffset>
-		<BottomAnchorOffset>140</BottomAnchorOffset>
+    <BottomAnchorOffset>140</BottomAnchorOffset>
     <TopAnchorToTop>true</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -392,13 +393,13 @@
     <Style_Border>false</Style_Border>
     <Style_Sizable>false</Style_Sizable>
   </Screen>
-      <Label item ="SERVERSELECT_DescriptionLabel">
+  <Label item="SERVERSELECT_DescriptionLabel">
     <ScreenID>DescriptionLabel</ScreenID>
     <Font>4</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>45</X>
-			<Y>615</Y>
+      <Y>615</Y>
     </Location>
     <Size>
       <CX>180</CX>
@@ -414,7 +415,7 @@
     <AlignCenter>false</AlignCenter>
     <AlignLeft>true</AlignLeft>
   </Label>
-  <STMLbox item = "SERVERSELECT_Description">
+  <STMLbox item="SERVERSELECT_Description">
     <ScreenID>Description</ScreenID>
     <Font>3</Font>
     <RelativePosition>true</RelativePosition>
@@ -423,8 +424,8 @@
       <Y>0</Y>
     </Location>
     <Size>
-			<CX>700</CX>
-			<CY>69</CY>
+      <CX>700</CX>
+      <CY>69</CY>
     </Size>
     <Text>No description found.</Text>
     <TextColor>
@@ -437,16 +438,16 @@
     <Style_AutoVScroll>true</Style_AutoVScroll>
     <AlignLeft>true</AlignLeft>
   </STMLbox>
-    <Screen item = "SERVERSELECT_DescriptionBackground">
+  <Screen item="SERVERSELECT_DescriptionBackground">
     <ScreenID>DescriptionBackground</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>45</X>
-			<Y>635</Y>
+      <Y>635</Y>
     </Location>
     <Size>
-			<CX>700</CX>
-			<CY>69</CY>
+      <CX>700</CX>
+      <CY>69</CY>
     </Size>
     <Text/>
     <Style_VScroll>false</Style_VScroll>
@@ -457,25 +458,25 @@
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
     <Style_Border>false</Style_Border>
-		<Style_Border>true</Style_Border>
+    <Style_Border>true</Style_Border>
     <Style_Sizable>false</Style_Sizable>
     <Pieces>SERVERSELECT_Description</Pieces>
   </Screen>
-    <Screen item = "serverselect">
-        <RelativePosition>true</RelativePosition>
+  <Screen item="serverselect">
+    <RelativePosition>true</RelativePosition>
     <Location>
       <X>0</X>
       <Y>0</Y>
     </Location>
     <Size>
-			<CX>1000</CX>
-			<CY>745</CY>
+      <CX>1000</CX>
+      <CY>745</CY>
     </Size>
     <Text>Server Select</Text>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
-        <DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+    <DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
@@ -492,7 +493,7 @@
     <Pieces>SERVERSELECT_ChatButton</Pieces>
     <Pieces>SERVERSELECT_CreditsButton</Pieces>
     <Pieces>SERVERSELECT_PlayButton</Pieces>
-    <Pieces>SERVERSELECT_ViewExpansionsButton</Pieces>	
+    <Pieces>SERVERSELECT_ViewExpansionsButton</Pieces>
     <Pieces>SERVERSELECT_OrderExpansionButton</Pieces>
     <Pieces>SERVERSELECT_ServerListBackground</Pieces>
     <Pieces>SERVERSELECT_ServerList</Pieces>

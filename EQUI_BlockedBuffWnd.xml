@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-  <Button item = "BBW_AddSpellToBlock">
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+  <Button item="BBW_AddSpellToBlock">
     <ScreenID>BBW_AddSpellToBlock</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
@@ -22,7 +22,7 @@
     <Text>Add by name</Text>
     <Template>BDT_Normal</Template>
   </Button>
-  <Editbox item = "BBW_EditSpellToBlock">
+  <Editbox item="BBW_EditSpellToBlock">
     <ScreenID>BBW_EditSpellToBlock</ScreenID>
     <DrawTemplate>WDT_Inner</DrawTemplate>
     <RelativePosition>true</RelativePosition>
@@ -59,7 +59,7 @@
       <CY>30</CY>
     </DecalSize>
   </Button>
-  <TileLayoutBox item ="BBW_Buttons">
+  <TileLayoutBox item="BBW_Buttons">
     <ScreenID>Blocked_Buff_Buttons</ScreenID>
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
@@ -75,7 +75,7 @@
     <FirstPieceTemplate>true</FirstPieceTemplate>
     <Pieces>BBW_Blocked_Buff_Template</Pieces>
   </TileLayoutBox>
-  <Screen item = "BlockedBuffWnd">
+  <Screen item="BlockedBuffWnd">
     <RelativePosition>false</RelativePosition>
     <Location>
       <X>415</X>

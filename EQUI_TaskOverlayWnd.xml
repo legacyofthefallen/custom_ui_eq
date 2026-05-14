@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Button item="TO_TaskStepCheckBox">
 		<ScreenID>TO_TaskStepCheckBox</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -60,7 +60,7 @@
 		<Pieces>TO_TaskStepTitle</Pieces>
 		<Pieces>TO_TaskStepStatus</Pieces>
 	</Screen>
-	<TileLayoutBox item = "TO_TaskSteps">
+	<TileLayoutBox item="TO_TaskSteps">
 		<ScreenID>TO_TaskSteps</ScreenID>
 		<Size>
 			<CX>260</CX>
@@ -140,7 +140,7 @@
 		<Pieces>Screen:TO_TaskInfo</Pieces>
 		<Pieces>TileLayoutBox:TO_TaskSteps</Pieces>
 	</Screen>
-	<TileLayoutBox item = "TO_TaskList">
+	<TileLayoutBox item="TO_TaskList">
 		<RelativePosition>true</RelativePosition>
 		<ScreenID>TO_TaskList</ScreenID>
 		<Size>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<LayoutStrategy item="ACH_Layout">
 		<Padding>0</Padding>
 		<ResizeVertical>true</ResizeVertical>
@@ -47,7 +47,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Transparent>true</Style_Transparent>
 	</Label>
-	
+
 	<Label item="ACH_AchievementTimeStampComp_Label">
 		<ScreenID>ACH_AchievementTimeStampComp_Label</ScreenID>
 		<Text>[TimestampComp]</Text>
@@ -69,7 +69,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Transparent>true</Style_Transparent>
 	</Label>
-	
+
 	<Button item="ACH_AchievementSub_CompletedButton">
 		<ScreenID>ACH_AchievementSub_CompletedButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -107,29 +107,29 @@
 			<B>66</B>
 		</TextColor>
 	</Label>
-  <Label item="ACH_AchievementSub_CountLabel">
-    <ScreenID>ACH_AchievementSub_CountLabel</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>100</LeftAnchorOffset>
-    <TopAnchorOffset>5</TopAnchorOffset>
-    <RightAnchorOffset>30</RightAnchorOffset>
-    <BottomAnchorOffset>23</BottomAnchorOffset>
-    <TopAnchorToTop>true</TopAnchorToTop>
-    <BottomAnchorToTop>true</BottomAnchorToTop>
-    <LeftAnchorToLeft>false</LeftAnchorToLeft>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <Style_Transparent>true</Style_Transparent>
-    <AlignRight>true</AlignRight>
-    <Text/>
-    <ResizeHeightToText>true</ResizeHeightToText>
-    <TextColor>
-      <R>176</R>
-      <G>141</G>
-      <B>66</B>
-    </TextColor>
-  </Label>
-	
+	<Label item="ACH_AchievementSub_CountLabel">
+		<ScreenID>ACH_AchievementSub_CountLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>100</LeftAnchorOffset>
+		<TopAnchorOffset>5</TopAnchorOffset>
+		<RightAnchorOffset>30</RightAnchorOffset>
+		<BottomAnchorOffset>23</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Style_Transparent>true</Style_Transparent>
+		<AlignRight>true</AlignRight>
+		<Text/>
+		<ResizeHeightToText>true</ResizeHeightToText>
+		<TextColor>
+			<R>176</R>
+			<G>141</G>
+			<B>66</B>
+		</TextColor>
+	</Label>
+
 	<Button item="ACH_AchievementSub_CompareButton">
 		<ScreenID>ACH_AchievementSub_CompareButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -147,8 +147,8 @@
 		<Text/>
 		<Template>BDT_CheckboxTransparent</Template>
 	</Button>
-	
-	<Button item ="ACH_AchievementViewRewardButton">
+
+	<Button item="ACH_AchievementViewRewardButton">
 		<ScreenID>ACH_AchievementViewRewardButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -164,7 +164,7 @@
 		<Style_Transparent>true</Style_Transparent>
 		<Template>BDT_BigNormal</Template>
 	</Button>
-	
+
 	<Label item="ACH_Spacer">
 		<ScreenID>ACH_Spacer</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -173,7 +173,7 @@
 			<CY>10</CY>
 		</Size>
 	</Label>
-	
+
 	<Screen item="ACH_Item_Screen">
 		<ScreenID>ACH_Item_Screen</ScreenID>
 		<Layout>ACH_Layout</Layout>
@@ -184,7 +184,7 @@
 		</Size>
 		<Font>5</Font>
 		<Style_Titlebar>true</Style_Titlebar>
-		<Style_Minimizebox>false</Style_Minimizebox> 
+		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>true</Style_Border>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Sizable>false</Style_Sizable>
@@ -322,7 +322,8 @@
 			<CY>20</CY>
 		</Size>
 		<Text>Compare</Text>
-		<TooltipReference>Compare your achievements with the currently targeted player's achievements.</TooltipReference>
+		<TooltipReference>Compare your achievements with the currently targeted player's
+			achievements.</TooltipReference>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>112</TopAnchorOffset>
 		<BottomAnchorOffset>132</BottomAnchorOffset>
@@ -354,7 +355,7 @@
 		<RightAnchorOffset>160</RightAnchorOffset>
 		<Template>BDT_BigNormal</Template>
 	</Button>
-	
+
 	<Gauge item="ACH_ExpansionCompletedSummaryGauge">
 		<ScreenID>ACH_ExpansionCompletedSummaryGauge</ScreenID>
 		<TextColor>
@@ -459,7 +460,7 @@
 			<CY>55</CY>
 		</Size>
 		<Style_Titlebar>false</Style_Titlebar>
-		<Style_Minimizebox>false</Style_Minimizebox> 
+		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>true</Style_Border>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Sizable>false</Style_Sizable>
@@ -513,36 +514,36 @@
 		<Style_Transparent>true</Style_Transparent>
 		<Style_Dividers>false</Style_Dividers>
 		<Spacing>8</Spacing>
-			</VerticalLayoutBox>
-	<Page item ="ACH_AchievementsPage">
+	</VerticalLayoutBox>
+	<Page item="ACH_AchievementsPage">
 		<ScreenID>ACH_AchievementsPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>true</Style_Transparent>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Achievements</TabText>
 		<TabTextActiveColor>
-				<R>255</R>
-				<G>255</G>
-				<B>0</B>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
 		</TabTextActiveColor>
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>VerticalLayoutBox:ACH_Achievements</Pieces>
 	</Page>
-	<Page item ="ACH_AchievementsSummaryPage">
+	<Page item="ACH_AchievementsSummaryPage">
 		<ScreenID>ACH_AchievementsSummaryPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>true</Style_Transparent>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Summary</TabText>
 		<TabTextActiveColor>
-				<R>255</R>
-				<G>255</G>
-				<B>0</B>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
 		</TabTextActiveColor>
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>VerticalLayoutBox:ACH_AchievementsSummary</Pieces>
 	</Page>
-	<TabBox item ="ACH_AchievementSubwindows">
+	<TabBox item="ACH_AchievementSubwindows">
 		<ScreenID>ACH_AchievementSubwindows</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -552,10 +553,10 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
 		<PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
-		<Pages>Page:ACH_AchievementsPage</Pages >			
+		<Pages>Page:ACH_AchievementsPage</Pages>
 		<Pages>Page:ACH_AchievementsSummaryPage</Pages>
 	</TabBox>
-	
+
 	<StaticTintedBlendAnimation item="ACH_AchievementIcon">
 		<ScreenID>ACH_AchievementIcon</ScreenID>
 		<Location>
@@ -584,7 +585,7 @@
 		<LayerOneTextureIndex>0</LayerOneTextureIndex>
 		<LayerTwoTextureIndex>0</LayerTwoTextureIndex>
 	</StaticTintedBlendAnimation>
-	
+
 	<StaticTintedBlendAnimation item="ACH_AchievementCompareIcon">
 		<ScreenID>ACH_AchievementCompareIcon</ScreenID>
 		<AutoStretch>true</AutoStretch>
@@ -614,7 +615,7 @@
 		<LayerOneTextureIndex>0</LayerOneTextureIndex>
 		<LayerTwoTextureIndex>0</LayerTwoTextureIndex>
 	</StaticTintedBlendAnimation>
-	
+
 	<Label item="ACH_TotalScore">
 		<ScreenID>ACH_TotalScore</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -629,7 +630,7 @@
 		<Text/>
 		<NoWrap>true</NoWrap>
 	</Label>
-	
+
 	<Gauge item="ACH_TotalCompleted">
 		<ScreenID>ACH_TotalCompleted</ScreenID>
 		<Location>
@@ -660,7 +661,7 @@
 		</GaugeDrawTemplate>
 		<GaugeOffsetY>15</GaugeOffsetY>
 	</Gauge>
-	
+
 	<Gauge item="ACH_ExpansionCompleted">
 		<ScreenID>ACH_ExpansionCompleted</ScreenID>
 		<Location>
@@ -691,7 +692,7 @@
 		</GaugeDrawTemplate>
 		<GaugeOffsetY>15</GaugeOffsetY>
 	</Gauge>
-	
+
 	<Label item="ACH_TotalCompareScore">
 		<ScreenID>ACH_TotalCompareScore</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -705,7 +706,7 @@
 		<LeftAnchorOffset>215</LeftAnchorOffset>
 		<RightAnchorOffset>35</RightAnchorOffset>
 	</Label>
-	
+
 	<Gauge item="ACH_TotalCompareCompleted">
 		<ScreenID>ACH_TotalCompareCompleted</ScreenID>
 		<TextColor>
@@ -735,7 +736,7 @@
 		<LeftAnchorOffset>215</LeftAnchorOffset>
 		<RightAnchorOffset>35</RightAnchorOffset>
 	</Gauge>
-	
+
 	<Gauge item="ACH_ExpansionCompareCompleted">
 		<ScreenID>ACH_ExpansionCompareCompleted</ScreenID>
 		<TextColor>
@@ -765,7 +766,7 @@
 		<LeftAnchorOffset>215</LeftAnchorOffset>
 		<RightAnchorOffset>35</RightAnchorOffset>
 	</Gauge>
-	
+
 	<TreeView item="ACH_Categories">
 		<ScreenID>ACH_Categories</ScreenID>
 		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
@@ -786,7 +787,7 @@
 			<Heading>Categories:</Heading>
 		</Columns>
 	</TreeView>
-	
+
 	<Screen item="ACH_AchievementLayout">
 		<ScreenID>ACH_AchievementLayout</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -828,7 +829,7 @@
 		<Pieces>TreeView:ACH_Categories</Pieces>
 		<Pieces>Screen:ACH_AchievementLayout</Pieces>
 	</HorizontalLayoutBox>
-	
+
 	<Screen item="AchievementsWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -859,7 +860,7 @@
 		<Pieces>ACH_AchievementSub_CompletedButton</Pieces>
 		<Pieces>ACH_AchievementSub_CompareButton</Pieces>
 		<Pieces>ACH_AchievementSub_Label</Pieces>
-    <Pieces>ACH_AchievementSub_CountLabel</Pieces>
-    <Pieces>ACH_AchievementViewRewardButton</Pieces>
+		<Pieces>ACH_AchievementSub_CountLabel</Pieces>
+		<Pieces>ACH_AchievementViewRewardButton</Pieces>
 	</Screen>
 </XML>

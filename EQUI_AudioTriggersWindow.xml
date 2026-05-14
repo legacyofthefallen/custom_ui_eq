@@ -1,7 +1,7 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<Button item = "ATW_Apply">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Button item="ATW_Apply">
 		<ScreenID>ATW_Apply</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -19,7 +19,7 @@
 		<Text>Apply</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "ATW_Create">
+	<Button item="ATW_Create">
 		<ScreenID>ATW_Create</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -37,7 +37,7 @@
 		<Text>Create</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "ATW_Delete">
+	<Button item="ATW_Delete">
 		<ScreenID>ATW_Delete</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -55,7 +55,7 @@
 		<Text>Delete</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "ATW_Play">
+	<Button item="ATW_Play">
 		<ScreenID>ATW_Play</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -73,7 +73,7 @@
 		<Text>Play</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "ATW_MoveUp">
+	<Button item="ATW_MoveUp">
 		<ScreenID>ATW_MoveUp</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -91,7 +91,7 @@
 		<Text>Move Up</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "ATW_MoveDown">
+	<Button item="ATW_MoveDown">
 		<ScreenID>ATW_MoveDown</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -109,7 +109,7 @@
 		<Text>Move Down</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Label item ="ATW_SkinLabel">
+	<Label item="ATW_SkinLabel">
 		<ScreenID>ATW_SkinLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -125,13 +125,13 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Combobox item = "ATW_Skin">
+	<Combobox item="ATW_Skin">
 		<ScreenID>ATW_Skin</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretchList>true</AutoStretchList>
 		<Location>
 			<X>510</X>
-			<Y>0</Y> 
+			<Y>0</Y>
 		</Location>
 		<Size>
 			<CX>120</CX>
@@ -141,7 +141,7 @@
 		<Button>BDT_Combo</Button>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-	<Label item ="ATW_PatternLabel">
+	<Label item="ATW_PatternLabel">
 		<ScreenID>ATW_PatternLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -157,11 +157,12 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Editbox item = "ATW_Pattern">
+	<Editbox item="ATW_Pattern">
 		<ScreenID>ATW_Pattern</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference>When this text is detected in the chat window, the associated audio will be played.</TooltipReference>
+		<TooltipReference>When this text is detected in the chat window, the associated audio will
+			be played.</TooltipReference>
 		<Style_Border>true</Style_Border>
 		<Location>
 			<X>60</X>
@@ -172,7 +173,7 @@
 			<CY>24</CY>
 		</Size>
 	</Editbox>
-	<Label item ="ATW_SoundLabel">
+	<Label item="ATW_SoundLabel">
 		<ScreenID>ATW_SoundLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -188,13 +189,13 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Combobox item = "ATW_Sound">
+	<Combobox item="ATW_Sound">
 		<ScreenID>ATW_Sound</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretchList>true</AutoStretchList>
 		<Location>
 			<X>485</X>
-			<Y>30</Y> 
+			<Y>30</Y>
 		</Location>
 		<Size>
 			<CX>145</CX>
@@ -204,7 +205,7 @@
 		<Button>BDT_Combo</Button>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-	<Label item ="ATW_NoteLabel">
+	<Label item="ATW_NoteLabel">
 		<ScreenID>ATW_NoteLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -220,7 +221,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Editbox item = "ATW_Note">
+	<Editbox item="ATW_Note">
 		<ScreenID>ATW_Note</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -237,7 +238,7 @@
 	</Editbox>
 	<Label item="ATW_VolumeLabel">
 		<ScreenID>ATW_VolumeLabel</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>485</X>
 			<Y>58</Y>
@@ -254,7 +255,7 @@
 	</Label>
 	<Slider item="ATW_Volume">
 		<ScreenID>ATW_Volume</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>485</X>
 			<Y>68</Y>
@@ -280,7 +281,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-	<Listbox item = "ATW_List">
+	<Listbox item="ATW_List">
 		<ScreenID>ATW_List</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<TooltipReference>List of Audio Triggers.</TooltipReference>
@@ -330,7 +331,7 @@
 		<Text/>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Screen item = "AudioTriggersWindow">
+	<Screen item="AudioTriggersWindow">
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>320</X>

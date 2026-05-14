@@ -1,7 +1,7 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<Label item ="COMBW_MinTrivialText">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Label item="COMBW_MinTrivialText">
 		<ScreenID/>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -33,7 +33,7 @@
 			<CY>24</CY>
 		</Size>
 	</Editbox>
-	<Label item ="COMBW_MaxTrivialText">
+	<Label item="COMBW_MaxTrivialText">
 		<ScreenID/>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -54,7 +54,7 @@
 		<ScreenID>MaxTrivialEdit</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<Style_Border>true</Style_Border>
 		<Location>
 			<X>106</X>
@@ -65,7 +65,7 @@
 			<CY>24</CY>
 		</Size>
 	</Editbox>
-	<Label item ="COMBW_SearchTextText">
+	<Label item="COMBW_SearchTextText">
 		<ScreenID/>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -86,7 +86,7 @@
 		<ScreenID>SearchTextEdit</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<Style_Border>true</Style_Border>
 		<Location>
 			<X>106</X>
@@ -97,9 +97,9 @@
 			<CY>24</CY>
 		</Size>
 	</Editbox>
-	<Button item = "COMBW_SearchButton">
+	<Button item="COMBW_SearchButton">
 		<ScreenID>SearchButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
 			<Y>84</Y>
@@ -114,9 +114,9 @@
 		<Text>Search Recipes</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Screen item = "COMBW_SearchArea">
+	<Screen item="COMBW_SearchArea">
 		<ScreenID/>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>0</LeftAnchorOffset>
 		<TopAnchorOffset>0</TopAnchorOffset>
@@ -142,7 +142,7 @@
 		<Pieces>COMBW_SearchTextEdit</Pieces>
 		<Pieces>COMBW_SearchButton</Pieces>
 	</Screen>
-	<Label item ="COMBW_KnownRecipeText">
+	<Label item="COMBW_KnownRecipeText">
 		<ScreenID/>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -160,7 +160,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Listbox item = "COMBW_RecipeList">
+	<Listbox item="COMBW_RecipeList">
 		<ScreenID>RecipeList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -183,9 +183,9 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-	<Screen item = "COMBW_RecipeListArea">
+	<Screen item="COMBW_RecipeListArea">
 		<ScreenID/>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>0</LeftAnchorOffset>
 		<TopAnchorOffset>124</TopAnchorOffset>
@@ -206,7 +206,7 @@
 		<Pieces>COMBW_KnownRecipeText</Pieces>
 		<Pieces>COMBW_RecipeList</Pieces>
 	</Screen>
-	<Label item ="COMBW_FavoritesText">
+	<Label item="COMBW_FavoritesText">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -224,9 +224,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "COMBW_AddFavoriteButton">
+	<Button item="COMBW_AddFavoriteButton">
 		<ScreenID>AddFavoriteButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
 			<Y>24</Y>
@@ -241,9 +241,9 @@
 		<Text>Add</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Button item = "COMBW_RemoveFavoriteButton">
+	<Button item="COMBW_RemoveFavoriteButton">
 		<ScreenID>RemoveFavoriteButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>64</X>
 			<Y>24</Y>
@@ -258,9 +258,9 @@
 		<Text>Remove</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Button item = "COMBW_ShowFavoritesButton">
+	<Button item="COMBW_ShowFavoritesButton">
 		<ScreenID>ShowFavoritesButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>124</X>
 			<Y>24</Y>
@@ -275,9 +275,9 @@
 		<Text>Show</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Screen item = "COMBW_FavoritesArea">
+	<Screen item="COMBW_FavoritesArea">
 		<ScreenID/>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>0</LeftAnchorOffset>
 		<TopAnchorOffset>50</TopAnchorOffset>
@@ -300,9 +300,9 @@
 		<Pieces>COMBW_RemoveFavoriteButton</Pieces>
 		<Pieces>COMBW_ShowFavoritesButton</Pieces>
 	</Screen>
-	<Screen item = "COMBW_LeftSideArea">
+	<Screen item="COMBW_LeftSideArea">
 		<ScreenID/>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
 		<TopAnchorOffset>0</TopAnchorOffset>
@@ -324,7 +324,7 @@
 		<Pieces>COMBW_RecipeListArea</Pieces>
 		<Pieces>COMBW_SearchArea</Pieces>
 	</Screen>
-	<Label item ="COMBW_SkillLabel">
+	<Label item="COMBW_SkillLabel">
 		<ScreenID>SkillLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -342,9 +342,9 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "COMBW_ContainerIcon">
+	<Button item="COMBW_ContainerIcon">
 		<ScreenID>ContainerIcon</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>59</X>
 			<Y>26</Y>
@@ -365,7 +365,7 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-	<Label item ="COMBW_ContainerName">
+	<Label item="COMBW_ContainerName">
 		<ScreenID>ContainerName</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -383,9 +383,9 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "COMBW_ExperimentButton">
+	<Button item="COMBW_ExperimentButton">
 		<ScreenID>ExperimentButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<TopAnchorOffset>92</TopAnchorOffset>
@@ -396,14 +396,15 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference>Click this button to use the old tradeskill interface to experiment with recipes you don't know.</TooltipReference>
+		<TooltipReference>Click this button to use the old tradeskill interface to experiment with
+			recipes you don't know.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Experiment</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Button item = "COMBW_RequiredIcon0">
+	<Button item="COMBW_RequiredIcon0">
 		<ScreenID>RequiredIcon0</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -424,9 +425,9 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-	<Button item = "COMBW_RequiredIcon1">
+	<Button item="COMBW_RequiredIcon1">
 		<ScreenID>RequiredIcon1</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>42</X>
 			<Y>0</Y>
@@ -447,9 +448,9 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-	<Button item = "COMBW_RequiredIcon2">
+	<Button item="COMBW_RequiredIcon2">
 		<ScreenID>RequiredIcon2</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>42</Y>
@@ -470,9 +471,9 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-	<Button item = "COMBW_RequiredIcon3">
+	<Button item="COMBW_RequiredIcon3">
 		<ScreenID>RequiredIcon3</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>42</X>
 			<Y>42</Y>
@@ -493,9 +494,9 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-	<Button item = "COMBW_RequiredIcon4">
+	<Button item="COMBW_RequiredIcon4">
 		<ScreenID>RequiredIcon4</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>84</Y>
@@ -516,9 +517,9 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-	<Button item = "COMBW_RequiredIcon5">
+	<Button item="COMBW_RequiredIcon5">
 		<ScreenID>RequiredIcon5</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>42</X>
 			<Y>84</Y>
@@ -539,9 +540,9 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-	<Button item = "COMBW_RequiredIcon6">
+	<Button item="COMBW_RequiredIcon6">
 		<ScreenID>RequiredIcon6</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>126</Y>
@@ -562,9 +563,9 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-	<Button item = "COMBW_RequiredIcon7">
+	<Button item="COMBW_RequiredIcon7">
 		<ScreenID>RequiredIcon7</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>42</X>
 			<Y>126</Y>
@@ -585,9 +586,9 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-	<Button item = "COMBW_RequiredIcon8">
+	<Button item="COMBW_RequiredIcon8">
 		<ScreenID>RequiredIcon8</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>168</Y>
@@ -608,9 +609,9 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-	<Button item = "COMBW_RequiredIcon9">
+	<Button item="COMBW_RequiredIcon9">
 		<ScreenID>RequiredIcon9</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>42</X>
 			<Y>168</Y>
@@ -631,9 +632,9 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-	<Screen item = "COMBW_ComponentArea">
+	<Screen item="COMBW_ComponentArea">
 		<ScreenID/>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>39</LeftAnchorOffset>
 		<TopAnchorOffset>120</TopAnchorOffset>
@@ -662,9 +663,9 @@
 		<Pieces>COMBW_RequiredIcon8</Pieces>
 		<Pieces>COMBW_RequiredIcon9</Pieces>
 	</Screen>
-	<Screen item = "COMBW_ContainerArea">
+	<Screen item="COMBW_ContainerArea">
 		<ScreenID/>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>0</LeftAnchorOffset>
 		<TopAnchorOffset>0</TopAnchorOffset>
@@ -701,7 +702,9 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference>Toggle to automatically combine the current recipe until your components are exhausted or your inventory is full. Any items created will be placed directly in your inventory.</TooltipReference>
+		<TooltipReference>Toggle to automatically combine the current recipe until your components
+			are exhausted or your inventory is full. Any items created will be placed directly in
+			your inventory.</TooltipReference>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>Make All</Text>
 		<Template>BDT_CheckboxWithText</Template>
@@ -712,7 +715,7 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<Button item = "COMBW_CombineButton">
+	<Button item="COMBW_CombineButton">
 		<ScreenID>CombineButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -731,7 +734,7 @@
 		<Text>Combine</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Button item = "COMBW_AutoInvButton">
+	<Button item="COMBW_AutoInvButton">
 		<ScreenID>AutoInvButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -750,7 +753,7 @@
 		<Text>Auto-Inventory</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Button item = "COMBW_PersonalDepotButton">
+	<Button item="COMBW_PersonalDepotButton">
 		<ScreenID>PersonalDepotButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -781,7 +784,8 @@
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
-		<TooltipReference>Toggle to use components from your personal tradeskill depot when combining.</TooltipReference>
+		<TooltipReference>Toggle to use components from your personal tradeskill depot when
+			combining.</TooltipReference>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>Personal Depot</Text>
 		<Template>BDT_CheckboxWithText</Template>
@@ -792,9 +796,9 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	<Screen item = "COMBW_CombineArea">
+	<Screen item="COMBW_CombineArea">
 		<ScreenID/>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>0</LeftAnchorOffset>
 		<TopAnchorOffset>334</TopAnchorOffset>
@@ -819,7 +823,7 @@
 		<Pieces>COMBW_PersonalDepotCheckbox</Pieces>
 		<Pieces>COMBW_CloseButton</Pieces>
 	</Screen>
-	<Button item = "COMBW_CloseButton">
+	<Button item="COMBW_CloseButton">
 		<ScreenID>CloseButton</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -838,9 +842,9 @@
 		<Text>Close</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Screen item = "COMBW_RightSideArea">
+	<Screen item="COMBW_RightSideArea">
 		<ScreenID/>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>160</LeftAnchorOffset>
 		<TopAnchorOffset>0</TopAnchorOffset>
@@ -861,7 +865,7 @@
 		<Pieces>COMBW_ContainerArea</Pieces>
 		<Pieces>COMBW_CombineArea</Pieces>
 	</Screen>
-	<Screen item = "TradeskillWnd">
+	<Screen item="TradeskillWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>20</X>
