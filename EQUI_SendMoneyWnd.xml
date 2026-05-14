@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
+<XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-	<Button item = "SMW_MyMoney0">
+	<Button item="SMW_MyMoney0">
 		<ScreenID>SMW_MyMoney0</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>5</Y>
@@ -27,10 +27,9 @@
 			<CY>18</CY>
 		</DecalSize>
 	</Button>
-    
-	<Button item = "SMW_MyMoney1">
+	<Button item="SMW_MyMoney1">
 		<ScreenID>SMW_MyMoney1</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>29</Y>
@@ -42,7 +41,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Drop coins here</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-				<Text/>
+		<Text/>
 		<Template>BDT_GoldCoin</Template>
 		<DecalOffset>
 			<X>2</X>
@@ -53,10 +52,10 @@
 			<CY>18</CY>
 		</DecalSize>
 	</Button>
-    
-	<Button item = "SMW_MyMoney2">
+
+	<Button item="SMW_MyMoney2">
 		<ScreenID>SMW_MyMoney2</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>53</Y>
@@ -68,7 +67,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Drop coins here</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-				<Text/>
+		<Text/>
 		<Template>BDT_SilverCoin</Template>
 		<DecalOffset>
 			<X>2</X>
@@ -79,9 +78,9 @@
 			<CY>18</CY>
 		</DecalSize>
 	</Button>
-	<Button item = "SMW_MyMoney3">
+	<Button item="SMW_MyMoney3">
 		<ScreenID>SMW_MyMoney3</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>77</Y>
@@ -93,7 +92,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Drop coins here</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-				<Text/>
+		<Text/>
 		<Template>BDT_CopperCoin</Template>
 		<DecalOffset>
 			<X>2</X>
@@ -104,9 +103,9 @@
 			<CY>18</CY>
 		</DecalSize>
 	</Button>
-	<Button item = "SMW_Deposit_Button">
+	<Button item="SMW_Deposit_Button">
 		<ScreenID>SMW_Deposit_Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>108</Y>
@@ -116,14 +115,14 @@
 			<CY>20</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-        <TooltipReference>This button deposits the selected amount of money into your parcel window.</TooltipReference>
-				<Text>Deposit</Text>
+		<Style_Checkbox>false</Style_Checkbox>
+		<TooltipReference>This button deposits the selected amount of money into your parcel window.</TooltipReference>
+		<Text>Deposit</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SMW_Cancel_Button">
+	<Button item="SMW_Cancel_Button">
 		<ScreenID>SMW_Cancel_Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>132</Y>
@@ -134,12 +133,12 @@
 		</Size>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<Text>Cancel</Text>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Cancel</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Screen item = "SendMoneyWnd">
-				<RelativePosition>false</RelativePosition>
+	<Screen item="SendMoneyWnd">
+		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>25</Y>
@@ -150,7 +149,7 @@
 		</Size>
 		<Text>Send</Text>
 		<Style_Transparent>false</Style_Transparent>
-				<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Qmarkbox>true</Style_Qmarkbox>
 		<Style_Closebox>true</Style_Closebox>

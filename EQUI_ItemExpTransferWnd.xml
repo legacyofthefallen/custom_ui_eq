@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<Label item = "IEXP_FromItemLabel">
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Label item="IEXP_FromItemLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -18,9 +18,9 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "IEXP_FromItemIcon">
+	<Button item="IEXP_FromItemIcon">
 		<ScreenID>FromItemIcon</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>30</X>
 			<Y>55</Y>
@@ -44,7 +44,7 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-	<Label item = "IEXP_FromPreviewLabel">
+	<Label item="IEXP_FromPreviewLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -61,7 +61,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<STMLbox item = "IEXP_FromPreviewView">
+	<STMLbox item="IEXP_FromPreviewView">
 		<ScreenID>FromPreviewView</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -78,9 +78,9 @@
 		<Style_Border>true</Style_Border>
 		<Text/>
 	</STMLbox>
-	<Button item = "IEXP_FromPreviewIcon">
+	<Button item="IEXP_FromPreviewIcon">
 		<ScreenID>FromPreviewIcon</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>70</LeftAnchorOffset>
 		<TopAnchorOffset>32</TopAnchorOffset>
@@ -93,8 +93,8 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<ButtonDrawTemplate>
+		<Style_Checkbox>false</Style_Checkbox>
+		<ButtonDrawTemplate>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
 		<SoundPressed/>
@@ -109,9 +109,9 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-	<Screen item = "IEXP_FromPreview">
+	<Screen item="IEXP_FromPreview">
 		<ScreenID>FromPreview</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>false</AutoStretch>
 		<Location>
 			<X>0</X>
@@ -135,7 +135,7 @@
 		<Pieces>IEXP_FromPreviewView</Pieces>
 		<Pieces>IEXP_FromPreviewIcon</Pieces>
 	</Screen>
-	<Label item = "IEXP_CompatibilityLabel">
+	<Label item="IEXP_CompatibilityLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -152,7 +152,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-	<Label item = "IEXP_CompatibilityValue">
+	<Label item="IEXP_CompatibilityValue">
 		<ScreenID>CompatibilityValue</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -169,7 +169,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item = "IEXP_MaxTransferLabel">
+	<Label item="IEXP_MaxTransferLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -186,7 +186,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-	<Label item = "IEXP_MaxTransferValue">
+	<Label item="IEXP_MaxTransferValue">
 		<ScreenID>MaxTransferValue</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -203,9 +203,9 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "IEXP_TransferButton">
+	<Button item="IEXP_TransferButton">
 		<ScreenID>TransferButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>0</LeftAnchorOffset>
 		<TopAnchorOffset>0</TopAnchorOffset>
@@ -215,13 +215,13 @@
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
-				<Style_Checkbox>false</Style_Checkbox>
+		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Transfer</Text>
 		<Template>BDT_Square</Template>
 	</Button>
-	<Screen item = "IEXP_Status">
+	<Screen item="IEXP_Status">
 		<ScreenID>Status</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>false</AutoStretch>
 		<Location>
 			<X>0</X>
@@ -245,7 +245,7 @@
 		<Pieces>IEXP_MaxTransferValue</Pieces>
 		<Pieces>IEXP_TransferButton</Pieces>
 	</Screen>
-	<Label item = "IEXP_ToItemLabel">
+	<Label item="IEXP_ToItemLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -262,9 +262,9 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "IEXP_ToItemIcon">
+	<Button item="IEXP_ToItemIcon">
 		<ScreenID>ToItemIcon</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>30</X>
 			<Y>55</Y>
@@ -288,7 +288,7 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-	<Label item = "IEXP_ToPreviewLabel">
+	<Label item="IEXP_ToPreviewLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -305,7 +305,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<STMLbox item = "IEXP_ToPreviewView">
+	<STMLbox item="IEXP_ToPreviewView">
 		<ScreenID>ToPreviewView</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -322,9 +322,9 @@
 		<Style_Border>true</Style_Border>
 		<Text/>
 	</STMLbox>
-	<Button item = "IEXP_ToPreviewIcon">
+	<Button item="IEXP_ToPreviewIcon">
 		<ScreenID>ToPreviewIcon</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>70</LeftAnchorOffset>
 		<TopAnchorOffset>32</TopAnchorOffset>
@@ -337,8 +337,8 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<ButtonDrawTemplate>
+		<Style_Checkbox>false</Style_Checkbox>
+		<ButtonDrawTemplate>
 			<NormalDecal>BuffIcons</NormalDecal>
 		</ButtonDrawTemplate>
 		<SoundPressed/>
@@ -353,9 +353,9 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-	<Screen item = "IEXP_ToPreview">
+	<Screen item="IEXP_ToPreview">
 		<ScreenID>ToPreview</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>false</AutoStretch>
 		<Location>
 			<X>0</X>
@@ -398,9 +398,9 @@
 		<Pieces>Screen:IEXP_FromPreview</Pieces>
 		<Pieces>Screen:IEXP_Status</Pieces>
 		<Pieces>Screen:IEXP_ToPreview</Pieces>
-	</VerticalLayoutBox>	
-	<Screen item = "ItemExpTransferWnd">
-						<RelativePosition>false</RelativePosition>
+	</VerticalLayoutBox>
+	<Screen item="ItemExpTransferWnd">
+		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>40</X>
 			<Y>80</Y>

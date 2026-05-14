@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
+<XML ID="EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-  <STMLbox item ="GVW_GiveName">
+  <STMLbox item="GVW_GiveName">
     <ScreenID>GVW_GiveName</ScreenID>
-        <DrawTemplate>WDT_Inner</DrawTemplate>
+    <DrawTemplate>WDT_Inner</DrawTemplate>
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>0</X>
@@ -18,9 +18,9 @@
     <AlignCenter>true</AlignCenter>
     <AlignRight>false</AlignRight>
   </STMLbox>
-  <InvSlot item = "GVW_MyItemSlot0">
+  <InvSlot item="GVW_MyItemSlot0">
     <ScreenID>GVW_MyItemSlot0</ScreenID>
-        <RelativePosition>true</RelativePosition>
+    <RelativePosition>true</RelativePosition>
     <Location>
       <X>30</X>
       <Y>32</Y>
@@ -32,9 +32,9 @@
     <Background>A_RecessedBox</Background>
     <EQType>3000</EQType>
   </InvSlot>
-  <InvSlot item = "GVW_MyItemSlot1">
+  <InvSlot item="GVW_MyItemSlot1">
     <ScreenID>GVW_MyItemSlot1</ScreenID>
-        <RelativePosition>true</RelativePosition>
+    <RelativePosition>true</RelativePosition>
     <Location>
       <X>30</X>
       <Y>72</Y>
@@ -46,9 +46,9 @@
     <Background>A_RecessedBox</Background>
     <EQType>3001</EQType>
   </InvSlot>
-  <InvSlot item = "GVW_MyItemSlot2">
+  <InvSlot item="GVW_MyItemSlot2">
     <ScreenID>GVW_MyItemSlot2</ScreenID>
-        <RelativePosition>true</RelativePosition>
+    <RelativePosition>true</RelativePosition>
     <Location>
       <X>30</X>
       <Y>112</Y>
@@ -60,9 +60,9 @@
     <Background>A_RecessedBox</Background>
     <EQType>3002</EQType>
   </InvSlot>
-  <InvSlot item = "GVW_MyItemSlot3">
+  <InvSlot item="GVW_MyItemSlot3">
     <ScreenID>GVW_MyItemSlot3</ScreenID>
-        <RelativePosition>true</RelativePosition>
+    <RelativePosition>true</RelativePosition>
     <Location>
       <X>30</X>
       <Y>152</Y>
@@ -74,9 +74,9 @@
     <Background>A_RecessedBox</Background>
     <EQType>3003</EQType>
   </InvSlot>
-  <Button item = "GVW_MyMoney0">
+  <Button item="GVW_MyMoney0">
     <ScreenID>GVW_MyMoney0</ScreenID>
-        <RelativePosition>true</RelativePosition>
+    <RelativePosition>true</RelativePosition>
     <Location>
       <X>5</X>
       <Y>197</Y>
@@ -100,9 +100,9 @@
       <CY>18</CY>
     </DecalSize>
   </Button>
-  <Button item = "GVW_MyMoney1">
+  <Button item="GVW_MyMoney1">
     <ScreenID>GVW_MyMoney1</ScreenID>
-        <RelativePosition>true</RelativePosition>
+    <RelativePosition>true</RelativePosition>
     <Location>
       <X>5</X>
       <Y>221</Y>
@@ -114,7 +114,7 @@
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Drop coins here</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
-        <Text/>
+    <Text/>
     <Template>BDT_GoldCoin</Template>
     <DecalOffset>
       <X>2</X>
@@ -125,9 +125,9 @@
       <CY>18</CY>
     </DecalSize>
   </Button>
-  <Button item = "GVW_MyMoney2">
+  <Button item="GVW_MyMoney2">
     <ScreenID>GVW_MyMoney2</ScreenID>
-        <RelativePosition>true</RelativePosition>
+    <RelativePosition>true</RelativePosition>
     <Location>
       <X>5</X>
       <Y>245</Y>
@@ -139,7 +139,7 @@
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Drop coins here</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
-        <Text/>
+    <Text/>
     <Template>BDT_SilverCoin</Template>
     <DecalOffset>
       <X>2</X>
@@ -150,9 +150,9 @@
       <CY>18</CY>
     </DecalSize>
   </Button>
-  <Button item = "GVW_MyMoney3">
+  <Button item="GVW_MyMoney3">
     <ScreenID>GVW_MyMoney3</ScreenID>
-        <RelativePosition>true</RelativePosition>
+    <RelativePosition>true</RelativePosition>
     <Location>
       <X>5</X>
       <Y>269</Y>
@@ -164,7 +164,7 @@
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference>Drop coins here</TooltipReference>
     <Style_Checkbox>false</Style_Checkbox>
-        <Text/>
+    <Text/>
     <Template>BDT_CopperCoin</Template>
     <DecalOffset>
       <X>2</X>
@@ -175,9 +175,9 @@
       <CY>18</CY>
     </DecalSize>
   </Button>
-  <Button item = "GVW_Give_Button">
+  <Button item="GVW_Give_Button">
     <ScreenID>GVW_Give_Button</ScreenID>
-        <RelativePosition>true</RelativePosition>
+    <RelativePosition>true</RelativePosition>
     <Location>
       <X>5</X>
       <Y>300</Y>
@@ -187,13 +187,13 @@
       <CY>20</CY>
     </Size>
     <Style_Transparent>false</Style_Transparent>
-        <Style_Checkbox>false</Style_Checkbox>
-        <Text>Give</Text>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Text>Give</Text>
     <Template>BDT_Normal</Template>
   </Button>
-  <Button item = "GVW_Cancel_Button">
+  <Button item="GVW_Cancel_Button">
     <ScreenID>GVW_Cancel_Button</ScreenID>
-        <RelativePosition>true</RelativePosition>
+    <RelativePosition>true</RelativePosition>
     <Location>
       <X>5</X>
       <Y>324</Y>
@@ -204,11 +204,11 @@
     </Size>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <Style_Transparent>false</Style_Transparent>
-        <Style_Checkbox>false</Style_Checkbox>
-        <Text>Cancel</Text>
+    <Style_Checkbox>false</Style_Checkbox>
+    <Text>Cancel</Text>
     <Template>BDT_Normal</Template>
   </Button>
-  <Screen item = "GiveWnd">
+  <Screen item="GiveWnd">
     <ScreenID>GiveWnd</ScreenID>
     <RelativePosition>false</RelativePosition>
     <Location>
@@ -221,7 +221,7 @@
     </Size>
     <Text>Give</Text>
     <Style_Transparent>false</Style_Transparent>
-        <DrawTemplate>WDT_Rounded</DrawTemplate>
+    <DrawTemplate>WDT_Rounded</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
     <Style_Qmarkbox>true</Style_Qmarkbox>
     <Style_Closebox>true</Style_Closebox>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Button item="BZC_ItemIcon">
 		<ScreenID>BZC_ItemIcon</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -100,7 +100,8 @@
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<Text>To Me</Text>
-		<TooltipReference>Click here to use Expedient Delivery Vouchers to deliver the item directly to you.</TooltipReference>
+		<TooltipReference>Click here to use Expedient Delivery Vouchers to deliver the item directly
+			to you.</TooltipReference>
 		<TopAnchorOffset>60</TopAnchorOffset>
 		<BottomAnchorOffset>40</BottomAnchorOffset>
 		<LeftAnchorOffset>40</LeftAnchorOffset>

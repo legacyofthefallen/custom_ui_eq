@@ -1,9 +1,9 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-    <Composite>
-        <Include>SIDL.xdr</Include>
-        <Include>EQLSUI_Animations.xml</Include>
-        <Include>EQLSUI_Templates.xml</Include>
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Composite>
+		<Include>SIDL.xdr</Include>
+		<Include>EQLSUI_Animations.xml</Include>
+		<Include>EQLSUI_Templates.xml</Include>
 		<Include>EQLSUI_EulaWnd.xml</Include>
 		<Include>EQLSUI_DBGSplashWnd.xml</Include>
 		<Include>EQLSUI_ESRBSplashWnd.xml</Include>
@@ -22,6 +22,6 @@
 		<Include>EQLSUI_AVATAR_MacroEditorDialog.xml</Include>
 		<Include>EQLSUI_WebOrderWnd.xml</Include>
 		<Include>EQLSUI_SplashExWnd.xml</Include>
-   </Composite>
-    <Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+	</Composite>
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 </XML>

@@ -1,7 +1,7 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<Button item = "CHATOPTIONS_AdminNameButton">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Button item="CHATOPTIONS_AdminNameButton">
 		<ScreenID>CHATOPTIONS_AdminNameButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -17,9 +17,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Admin Names</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -29,7 +29,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CHATOPTIONS_AdminChatButton">
+	<Button item="CHATOPTIONS_AdminChatButton">
 		<ScreenID>CHATOPTIONS_AdminChatButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -45,9 +45,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Admin Chat</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -57,7 +57,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CHATOPTIONS_GuideNameButton">
+	<Button item="CHATOPTIONS_GuideNameButton">
 		<ScreenID>CHATOPTIONS_GuideNameButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -73,9 +73,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Guide Names</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -85,7 +85,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CHATOPTIONS_GuideChatButton">
+	<Button item="CHATOPTIONS_GuideChatButton">
 		<ScreenID>CHATOPTIONS_GuideChatButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -101,9 +101,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Guide Chat</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -113,7 +113,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CHATOPTIONS_PlayerNameButton">
+	<Button item="CHATOPTIONS_PlayerNameButton">
 		<ScreenID>CHATOPTIONS_PlayerNameButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -129,9 +129,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Player Names</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -141,7 +141,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CHATOPTIONS_PlayerChatButton">
+	<Button item="CHATOPTIONS_PlayerChatButton">
 		<ScreenID>CHATOPTIONS_PlayerChatButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -157,9 +157,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Player Chat</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -169,7 +169,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CHATOPTIONS_TellButton">
+	<Button item="CHATOPTIONS_TellButton">
 		<ScreenID>CHATOPTIONS_TellButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -185,9 +185,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Tells</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -197,7 +197,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CHATOPTIONS_SystemButton">
+	<Button item="CHATOPTIONS_SystemButton">
 		<ScreenID>CHATOPTIONS_SystemButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -213,9 +213,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>System Messages</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -225,7 +225,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CHATOPTIONS_CommandButton">
+	<Button item="CHATOPTIONS_CommandButton">
 		<ScreenID>CHATOPTIONS_CommandButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -241,9 +241,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Chat Commands</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -253,7 +253,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CHATOPTIONS_FontLeftButton">
+	<Button item="CHATOPTIONS_FontLeftButton">
 		<ScreenID>CHATOPTIONS_FontLeftButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -269,9 +269,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_HSBLeftNormal</Normal>
@@ -281,7 +281,7 @@
 			<PressedFlyby>A_EQLS_HSBLeftPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Label item = "CHATOPTIONS_FontSizeLabel">
+	<Label item="CHATOPTIONS_FontSizeLabel">
 		<ScreenID>CHATOPTIONS_FontSizeLabel</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -295,15 +295,15 @@
 		</Size>
 		<Text/>
 		<TextColor>
-				<R>255</R>
-				<G>218</G>
-				<B>96</B>
+			<R>255</R>
+			<G>218</G>
+			<B>96</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "CHATOPTIONS_FontRightButton">
+	<Button item="CHATOPTIONS_FontRightButton">
 		<ScreenID>CHATOPTIONS_FontRightButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -319,9 +319,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_HSBRightNormal</Normal>
@@ -331,7 +331,7 @@
 			<PressedFlyby>A_EQLS_HSBRightPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Label item = "CHATOPTIONS_FontLabel">
+	<Label item="CHATOPTIONS_FontLabel">
 		<ScreenID>CHATOPTIONS_FontLabel</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -345,15 +345,15 @@
 		</Size>
 		<Text>Font size (1-6)</Text>
 		<TextColor>
-				<R>255</R>
-				<G>218</G>
-				<B>96</B>
+			<R>255</R>
+			<G>218</G>
+			<B>96</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "CHATOPTIONS_RestoreDefaultsButton">
+	<Button item="CHATOPTIONS_RestoreDefaultsButton">
 		<ScreenID>CHATOPTIONS_RestoreDefaultsButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -369,9 +369,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Restore Defaults</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -381,7 +381,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CHATOPTIONS_OKButton">
+	<Button item="CHATOPTIONS_OKButton">
 		<ScreenID>CHATOPTIONS_OKButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -397,9 +397,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Accept</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -409,7 +409,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CHATOPTIONS_CancelButton">
+	<Button item="CHATOPTIONS_CancelButton">
 		<ScreenID>CHATOPTIONS_CancelButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -425,9 +425,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Cancel</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -437,8 +437,8 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-<!-- The actual box of the dialog -->	
-	<Screen item = "CHATOPTIONS_Box">
+	<!-- The actual box of the dialog -->
+	<Screen item="CHATOPTIONS_Box">
 		<ScreenID>CHATOPTIONS_Box</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -454,7 +454,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-				<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
+		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
@@ -477,8 +477,8 @@
 		<Pieces>CHATOPTIONS_OKButton</Pieces>
 		<Pieces>CHATOPTIONS_CancelButton</Pieces>
 	</Screen>
-	<Screen item = "chatoptions">
-				<RelativePosition>true</RelativePosition>
+	<Screen item="chatoptions">
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -491,7 +491,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-				<DrawTemplate>WDT_Def</DrawTemplate>
+		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>

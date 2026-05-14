@@ -1,7 +1,7 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<Listbox item = "IOF_ItemList">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Listbox item="IOF_ItemList">
 		<ScreenID>IOF_ItemList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -32,7 +32,7 @@
 			<Heading>Owner</Heading>
 		</Columns>
 	</Listbox>
-	<Button item = "IOF_Inspect_Button">
+	<Button item="IOF_Inspect_Button">
 		<ScreenID>IOF_Inspect_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -48,7 +48,7 @@
 		<Text>Inspect</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "IOF_Preview_Button">
+	<Button item="IOF_Preview_Button">
 		<ScreenID>IOF_Preview_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -64,9 +64,9 @@
 		<Text>Preview</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "IOF_SelectedItem">
+	<Button item="IOF_SelectedItem">
 		<ScreenID>IOF_SelectedItem</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -88,9 +88,9 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-	<Label item ="IOF_SelectedItemLabel">
+	<Label item="IOF_SelectedItemLabel">
 		<ScreenID>IOF_SelectedItemLabel</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -105,7 +105,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "IOF_Retrieve_Button">
+	<Button item="IOF_Retrieve_Button">
 		<ScreenID>IOF_Retrieve_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -123,7 +123,7 @@
 		<Text>Retrieve</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "IOF_Retrieve_All_Button">
+	<Button item="IOF_Retrieve_All_Button">
 		<ScreenID>IOF_Retrieve_All_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -136,14 +136,15 @@
 		<RightAnchorOffset>89</RightAnchorOffset>
 		<BottomAnchorOffset>6</BottomAnchorOffset>
 		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference>Click here to retrieve all of your items that are accessible to this character including all account wide items.</TooltipReference>
+		<TooltipReference>Click here to retrieve all of your items that are accessible to this
+			character including all account wide items.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Retrieve All</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "IOF_Done_Button">
+	<Button item="IOF_Done_Button">
 		<ScreenID>IOF_Done_Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -204,7 +205,7 @@
 		<AlignRight>false</AlignRight>
 		<AlignLeft>false</AlignLeft>
 	</Label>
-	<Screen item = "ItemOverflowWnd">
+	<Screen item="ItemOverflowWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>0</X>
@@ -226,8 +227,8 @@
 		<Pieces>IOF_SelectedItemLabel</Pieces>
 		<Pieces>IOF_SelectedItem</Pieces>
 		<Pieces>IOF_Done_Button</Pieces>
-		<Pieces>IOF_Retrieve_Button</Pieces>		
-		<Pieces>IOF_Retrieve_All_Button</Pieces>	
+		<Pieces>IOF_Retrieve_Button</Pieces>
+		<Pieces>IOF_Retrieve_All_Button</Pieces>
 		<Pieces>IOF_Inspect_Button</Pieces>
 		<Pieces>IOF_Preview_Button</Pieces>
 		<Pieces>IOF_ItemCountLabel</Pieces>

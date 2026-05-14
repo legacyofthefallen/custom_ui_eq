@@ -1,7 +1,7 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<WindowDrawTemplate item = "WDT_EQLS_Def_NoFrame">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<WindowDrawTemplate item="WDT_EQLS_Def_NoFrame">
 		<Background>EQLS_BlackFill.tga</Background>
 		<VSBTemplate>
 			<UpButton>
@@ -66,7 +66,7 @@
 		<Titlebar>
 		</Titlebar>
 	</WindowDrawTemplate>
-	<WindowDrawTemplate item = "WDT_EQLS_Def_Bordered">
+	<WindowDrawTemplate item="WDT_EQLS_Def_Bordered">
 		<Background>EQLS_BlackFill.tga</Background>
 		<VSBTemplate>
 			<UpButton>
@@ -160,7 +160,7 @@
 			<OverlapBottom>0</OverlapBottom>
 		</Titlebar>
 	</WindowDrawTemplate>
-	<WindowDrawTemplate item = "WDT_Def">
+	<WindowDrawTemplate item="WDT_Def">
 		<Background>wnd_bg_light_rock.tga</Background>
 		<VSBTemplate>
 			<UpButton>
@@ -269,7 +269,7 @@
 			<OverlapBottom>0</OverlapBottom>
 		</Titlebar>
 	</WindowDrawTemplate>
-	<SliderDrawTemplate item = "SDT_DefSlider">
+	<SliderDrawTemplate item="SDT_DefSlider">
 		<Thumb>
 			<Normal>A_SliderThumbNormal</Normal>
 			<Pressed>A_SliderThumbPressed</Pressed>
@@ -281,7 +281,7 @@
 		<EndCapRight>A_SliderEndCapRight</EndCapRight>
 		<EndCapLeft>A_SliderEndCapLeft</EndCapLeft>
 	</SliderDrawTemplate>
-	<FrameTemplate item = "FT_DefTabBorder"> 
+	<FrameTemplate item="FT_DefTabBorder">
 		<TopLeft>A_TabFrameTopLeft</TopLeft>
 		<Top>A_TabFrameTop</Top>
 		<TopRight>A_TabFrameTopRight</TopRight>
@@ -296,7 +296,7 @@
 		<OverlapRight>0</OverlapRight>
 		<OverlapBottom>0</OverlapBottom>
 	</FrameTemplate>
-	<FrameTemplate item = "FT_DefPageBorder">
+	<FrameTemplate item="FT_DefPageBorder">
 		<TopLeft>A_TabFrameTopLeft</TopLeft>
 		<Top>A_TabFrameTop</Top>
 		<TopRight>A_TabFrameTopRight</TopRight>
@@ -313,5 +313,5 @@
 		<OverlapTop>0</OverlapTop>
 		<OverlapRight>0</OverlapRight>
 		<OverlapBottom>0</OverlapBottom>
-	</FrameTemplate>		
+	</FrameTemplate>
 </XML>

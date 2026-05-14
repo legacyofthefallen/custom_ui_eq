@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<STMLbox item="PGW_WindowText">
 		<ScreenID>PGW_WindowText</ScreenID>
 		<Text/>
@@ -60,7 +60,7 @@
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 	</Label>
-		<Label item="PGW_ProductName">
+	<Label item="PGW_ProductName">
 		<ScreenID>PGW_ProductName</ScreenID>
 		<Text>Item</Text>
 		<Font>3</Font>

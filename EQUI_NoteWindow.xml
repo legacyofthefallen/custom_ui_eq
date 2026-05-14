@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
+<XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-	<STMLbox item = "NW_NoteDisplay">
+	<STMLbox item="NW_NoteDisplay">
 		<ScreenID>Note</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -11,10 +11,10 @@
 		<Style_AutoVScroll>true</Style_AutoVScroll>
 		<Style_Border>false</Style_Border>
 		<Style_Transparent>true</Style_Transparent>
-				<TextColor>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
+		<TextColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
 		</TextColor>
 		<Location>
 			<X>55</X>
@@ -26,7 +26,7 @@
 		</Size>
 		<Text/>
 	</STMLbox>
-	<StaticAnimation item = "NW_BG1">
+	<StaticAnimation item="NW_BG1">
 		<ScreenID>BG1</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -39,7 +39,7 @@
 		</Size>
 		<Animation>A_NoteBG01</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "NW_BG2">
+	<StaticAnimation item="NW_BG2">
 		<ScreenID>BG2</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -52,7 +52,7 @@
 		</Size>
 		<Animation>A_NoteBG02</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "NW_BG3">
+	<StaticAnimation item="NW_BG3">
 		<ScreenID>BG3</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -65,7 +65,7 @@
 		</Size>
 		<Animation>A_NoteBG03</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "NW_BG4">
+	<StaticAnimation item="NW_BG4">
 		<ScreenID>BG4</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -78,9 +78,9 @@
 		</Size>
 		<Animation>A_NoteBG04</Animation>
 	</StaticAnimation>
-	<Button item = "NW_DoneButton">
+	<Button item="NW_DoneButton">
 		<ScreenID>DoneButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>214</LeftAnchorOffset>
 		<TopAnchorOffset>26</TopAnchorOffset>
@@ -91,13 +91,13 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<Text>Done</Text>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Done</Text>
 		<Template>BDT_Normal</Template>
-							</Button>
+	</Button>
 	<Button item="NW_ScribeButton">
 		<ScreenID>ScribeButton</ScreenID>
-						<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<LeftAnchorOffset>294</LeftAnchorOffset>
@@ -108,13 +108,13 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<BottomAnchorOffset>2</BottomAnchorOffset>
 		<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<Text>Scribe</Text>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Scribe</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item="NW_CastSpellButton">
 		<ScreenID>CastSpellButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<LeftAnchorOffset>130</LeftAnchorOffset>
@@ -125,12 +125,12 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<BottomAnchorOffset>2</BottomAnchorOffset>
 		<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<Text>Cast Spell</Text>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Cast Spell</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Screen item = "NoteWindow">
-						<RelativePosition>false</RelativePosition>
+	<Screen item="NoteWindow">
+		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>100</X>
 			<Y>80</Y>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<TextureInfo item="dragitem1.dds">
 		<Size>
 			<CX>256</CX>
@@ -4402,7 +4402,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 		<Frames>
-		<Texture>dragitem126.dds</Texture>
+			<Texture>dragitem126.dds</Texture>
 			<Location>
 				<X>0</X>
 				<Y>0</Y>

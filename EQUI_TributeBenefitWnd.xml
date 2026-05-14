@@ -1,7 +1,7 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<Label item ="TBWP_TimeText">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Label item="TBWP_TimeText">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -19,7 +19,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWP_TimeLabel">
+	<Label item="TBWP_TimeLabel">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -37,7 +37,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWP_CostText">
+	<Label item="TBWP_CostText">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -55,7 +55,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWP_CostLabel">
+	<Label item="TBWP_CostLabel">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -73,7 +73,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWP_CurrentText">
+	<Label item="TBWP_CurrentText">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -91,7 +91,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWP_CurrentLabel">
+	<Label item="TBWP_CurrentLabel">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -109,7 +109,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWP_TotalText">
+	<Label item="TBWP_TotalText">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -127,7 +127,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWP_TotalLabel">
+	<Label item="TBWP_TotalLabel">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -145,7 +145,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Screen item = "TBWP_LabelWnd">
+	<Screen item="TBWP_LabelWnd">
 		<ScreenID>LabelWnd</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -174,7 +174,7 @@
 		<Pieces>TBWP_TotalText</Pieces>
 		<Pieces>TBWP_TotalLabel</Pieces>
 	</Screen>
-	<Listbox item = "TBWP_ActiveBenefitList">
+	<Listbox item="TBWP_ActiveBenefitList">
 		<ScreenID>ActiveBenefitList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<Location>
@@ -200,7 +200,7 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-	<STMLbox item = "TBWP_Description">
+	<STMLbox item="TBWP_Description">
 		<ScreenID>Description</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -217,7 +217,7 @@
 		<Style_Border>true</Style_Border>
 		<Text>Description Area</Text>
 	</STMLbox>
-	<VerticalLayoutBox item = "TBWP_Layout">
+	<VerticalLayoutBox item="TBWP_Layout">
 		<ScreenID>Layout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -236,7 +236,7 @@
 		<Pieces>TBWP_ActiveBenefitList</Pieces>
 		<Pieces>TBWP_Description</Pieces>
 	</VerticalLayoutBox>
-	<Button item = "TBWP_ActivateButton">
+	<Button item="TBWP_ActivateButton">
 		<ScreenID>ActivateButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -254,22 +254,22 @@
 		<Text>Activate</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Page item = "TBW_PersonalPage">
+	<Page item="TBW_PersonalPage">
 		<ScreenID>PersonalPage</ScreenID>
 		<RelativePosition>false</RelativePosition>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Personal</TabText>
 		<TabTextActiveColor>
-				<R>255</R>
-				<G>255</G>
-				<B>0</B>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
 		</TabTextActiveColor>
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>Screen:TBWP_LabelWnd</Pieces>
 		<Pieces>Button:TBWP_ActivateButton</Pieces>
 		<Pieces>VerticalLayoutBox:TBWP_Layout</Pieces>
 	</Page>
-	<Label item ="TBWG_GuildStatusText">
+	<Label item="TBWG_GuildStatusText">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -287,7 +287,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWG_GuildStatusLabel">
+	<Label item="TBWG_GuildStatusLabel">
 		<ScreenID>GuildStatusLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -305,7 +305,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWG_GuildPoolText">
+	<Label item="TBWG_GuildPoolText">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -323,7 +323,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWG_GuildPoolLabel">
+	<Label item="TBWG_GuildPoolLabel">
 		<ScreenID>GuildPoolLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -341,7 +341,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWG_GuildTimerText">
+	<Label item="TBWG_GuildTimerText">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -359,7 +359,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWG_GuildTimerLabel">
+	<Label item="TBWG_GuildTimerLabel">
 		<ScreenID>GuildTimerLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -377,7 +377,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWG_GuildPaymentText">
+	<Label item="TBWG_GuildPaymentText">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -395,7 +395,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWG_GuildPaymentLabel">
+	<Label item="TBWG_GuildPaymentLabel">
 		<ScreenID>GuildPaymentLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -413,7 +413,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Screen item = "TBWG_LabelWnd">
+	<Screen item="TBWG_LabelWnd">
 		<ScreenID>GuildLabelWnd</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -442,7 +442,7 @@
 		<Pieces>TBWG_GuildPaymentText</Pieces>
 		<Pieces>TBWG_GuildPaymentLabel</Pieces>
 	</Screen>
-	<Listbox item = "TBWG_GuildBenefitList">
+	<Listbox item="TBWG_GuildBenefitList">
 		<ScreenID>GuildBenefitList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<Location>
@@ -468,7 +468,7 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-	<STMLbox item = "TBWG_Description">
+	<STMLbox item="TBWG_Description">
 		<ScreenID>GuildDescription</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -485,7 +485,7 @@
 		<Style_Border>true</Style_Border>
 		<Text>Description Area</Text>
 	</STMLbox>
-	<VerticalLayoutBox item = "TBWG_Layout">
+	<VerticalLayoutBox item="TBWG_Layout">
 		<ScreenID>GuildLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -504,7 +504,7 @@
 		<Pieces>TBWG_GuildBenefitList</Pieces>
 		<Pieces>TBWG_Description</Pieces>
 	</VerticalLayoutBox>
-	<Button item = "TBWG_OptOutButton">
+	<Button item="TBWG_OptOutButton">
 		<ScreenID>OptOutButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -522,7 +522,7 @@
 		<Text>Opt Out</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Button item = "TBWG_ActivateButton">
+	<Button item="TBWG_ActivateButton">
 		<ScreenID>GuildActivateButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -535,20 +535,21 @@
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference>Click this button to Activate/Deactivate Guild Tribute Benefits (requires Tribute: Change Active Benefit guild permission).</TooltipReference>
+		<TooltipReference>Click this button to Activate/Deactivate Guild Tribute Benefits (requires
+			Tribute: Change Active Benefit guild permission).</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Activate</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Page item = "TBW_GuildPage">
+	<Page item="TBW_GuildPage">
 		<ScreenID>GuildPage</ScreenID>
 		<RelativePosition>false</RelativePosition>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Guild</TabText>
 		<TabTextActiveColor>
-				<R>255</R>
-				<G>255</G>
-				<B>0</B>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
 		</TabTextActiveColor>
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>Screen:TBWG_LabelWnd</Pieces>
@@ -556,7 +557,7 @@
 		<Pieces>Button:TBWG_ActivateButton</Pieces>
 		<Pieces>VerticalLayoutBox:TBWG_Layout</Pieces>
 	</Page>
-	<Label item ="TBWT_TimeText">
+	<Label item="TBWT_TimeText">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -574,7 +575,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWT_TimeLabel">
+	<Label item="TBWT_TimeLabel">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -592,7 +593,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWT_CostText">
+	<Label item="TBWT_CostText">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -610,7 +611,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWT_CostLabel">
+	<Label item="TBWT_CostLabel">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -628,7 +629,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWT_CurrentText">
+	<Label item="TBWT_CurrentText">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -646,7 +647,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWT_CurrentLabel">
+	<Label item="TBWT_CurrentLabel">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -664,7 +665,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWT_TotalText">
+	<Label item="TBWT_TotalText">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -682,7 +683,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWT_TotalLabel">
+	<Label item="TBWT_TotalLabel">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -700,7 +701,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Screen item = "TBWT_LabelWnd">
+	<Screen item="TBWT_LabelWnd">
 		<ScreenID>LabelWnd</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -729,7 +730,7 @@
 		<Pieces>TBWT_TotalText</Pieces>
 		<Pieces>TBWT_TotalLabel</Pieces>
 	</Screen>
-	<Listbox item = "TBWT_ActiveBenefitList">
+	<Listbox item="TBWT_ActiveBenefitList">
 		<ScreenID>ActiveTrophyBenefitList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<Location>
@@ -755,7 +756,7 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-	<STMLbox item = "TBWT_Description">
+	<STMLbox item="TBWT_Description">
 		<ScreenID>TrophyDescription</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -772,7 +773,7 @@
 		<Style_Border>true</Style_Border>
 		<Text>Description Area</Text>
 	</STMLbox>
-	<VerticalLayoutBox item = "TBWT_Layout">
+	<VerticalLayoutBox item="TBWT_Layout">
 		<ScreenID>TrophyLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -791,7 +792,7 @@
 		<Pieces>TBWT_ActiveBenefitList</Pieces>
 		<Pieces>TBWT_Description</Pieces>
 	</VerticalLayoutBox>
-	<Button item = "TBWT_ActivateButton">
+	<Button item="TBWT_ActivateButton">
 		<ScreenID>TrophyActivateButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -809,22 +810,22 @@
 		<Text>Activate</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Page item = "TBW_TrophyPage">
+	<Page item="TBW_TrophyPage">
 		<ScreenID>TrophyPage</ScreenID>
 		<RelativePosition>false</RelativePosition>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Trophy</TabText>
 		<TabTextActiveColor>
-				<R>255</R>
-				<G>255</G>
-				<B>0</B>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
 		</TabTextActiveColor>
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>Screen:TBWT_LabelWnd</Pieces>
 		<Pieces>Button:TBWT_ActivateButton</Pieces>
 		<Pieces>VerticalLayoutBox:TBWT_Layout</Pieces>
 	</Page>
-	<Label item ="TBWGT_GuildStatusText">
+	<Label item="TBWGT_GuildStatusText">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -842,7 +843,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWGT_GuildStatusLabel">
+	<Label item="TBWGT_GuildStatusLabel">
 		<ScreenID>GuildTrophyStatusLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -860,7 +861,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWGT_GuildPoolText">
+	<Label item="TBWGT_GuildPoolText">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -878,7 +879,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWGT_GuildPoolLabel">
+	<Label item="TBWGT_GuildPoolLabel">
 		<ScreenID>GuildTrophyPoolLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -896,7 +897,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWGT_GuildTimerText">
+	<Label item="TBWGT_GuildTimerText">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -914,7 +915,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWGT_GuildTimerLabel">
+	<Label item="TBWGT_GuildTimerLabel">
 		<ScreenID>GuildTrophyTimerLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -932,7 +933,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWGT_GuildPaymentText">
+	<Label item="TBWGT_GuildPaymentText">
 		<ScreenID/>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -950,7 +951,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TBWGT_GuildPaymentLabel">
+	<Label item="TBWGT_GuildPaymentLabel">
 		<ScreenID>GuildTrophyPaymentLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -968,7 +969,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Screen item = "TBWGT_LabelWnd">
+	<Screen item="TBWGT_LabelWnd">
 		<ScreenID>GuildTrophyLabelWnd</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -997,7 +998,7 @@
 		<Pieces>TBWGT_GuildPaymentText</Pieces>
 		<Pieces>TBWGT_GuildPaymentLabel</Pieces>
 	</Screen>
-	<Listbox item = "TBWGT_GuildBenefitList">
+	<Listbox item="TBWGT_GuildBenefitList">
 		<ScreenID>GuildTrophyBenefitList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<Location>
@@ -1023,7 +1024,7 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-	<STMLbox item = "TBWGT_Description">
+	<STMLbox item="TBWGT_Description">
 		<ScreenID>GuildTrophyDescription</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -1040,7 +1041,7 @@
 		<Style_Border>true</Style_Border>
 		<Text>Description Area</Text>
 	</STMLbox>
-	<VerticalLayoutBox item = "TBWGT_Layout">
+	<VerticalLayoutBox item="TBWGT_Layout">
 		<ScreenID>GuildTrophyLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -1059,7 +1060,7 @@
 		<Pieces>TBWGT_GuildBenefitList</Pieces>
 		<Pieces>TBWGT_Description</Pieces>
 	</VerticalLayoutBox>
-	<Button item = "TBWGT_OptOutButton">
+	<Button item="TBWGT_OptOutButton">
 		<ScreenID>TrophyOptOutButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1077,7 +1078,7 @@
 		<Text>Opt Out</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Button item = "TBWGT_ActivateButton">
+	<Button item="TBWGT_ActivateButton">
 		<ScreenID>GuildTrophyActivateButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1090,20 +1091,21 @@
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference>Click this button to Activate/Deactivate Guild Trophy Tribute Benefits (requires Trophy Tribute: Change Active Benefit guild permission).</TooltipReference>
+		<TooltipReference>Click this button to Activate/Deactivate Guild Trophy Tribute Benefits
+			(requires Trophy Tribute: Change Active Benefit guild permission).</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Activate</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Page item = "TBW_GuildTrophyPage">
+	<Page item="TBW_GuildTrophyPage">
 		<ScreenID>GuildTrophyPage</ScreenID>
 		<RelativePosition>false</RelativePosition>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Guild Trophy</TabText>
 		<TabTextActiveColor>
-				<R>255</R>
-				<G>255</G>
-				<B>0</B>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
 		</TabTextActiveColor>
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>Screen:TBWGT_LabelWnd</Pieces>
@@ -1111,7 +1113,7 @@
 		<Pieces>Button:TBWGT_ActivateButton</Pieces>
 		<Pieces>VerticalLayoutBox:TBWGT_Layout</Pieces>
 	</Page>
-	<TabBox item = "TBW_Subwindows">
+	<TabBox item="TBW_Subwindows">
 		<ScreenID>Subwindows</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1128,9 +1130,9 @@
 		<Pages>TBW_PersonalPage</Pages>
 		<Pages>TBW_TrophyPage</Pages>
 		<Pages>TBW_GuildPage</Pages>
-		<Pages>TBW_GuildTrophyPage</Pages>		
+		<Pages>TBW_GuildTrophyPage</Pages>
 	</TabBox>
-	<Screen item = "TributeBenefitWnd">
+	<Screen item="TributeBenefitWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>20</X>

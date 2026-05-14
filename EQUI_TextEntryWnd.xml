@@ -1,7 +1,7 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<Editbox item = "TEW_Entry">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Editbox item="TEW_Entry">
 		<ScreenID>Entry</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -15,9 +15,9 @@
 			<CY>24</CY>
 		</Size>
 	</Editbox>
-	<Label item ="TEW_Prompt">
+	<Label item="TEW_Prompt">
 		<ScreenID>Prompt</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
 			<Y>2</Y>
@@ -31,9 +31,9 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "TEW_OKButton">
+	<Button item="TEW_OKButton">
 		<ScreenID>OK</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>30</X>
 			<Y>112</Y>
@@ -43,13 +43,13 @@
 			<CY>24</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<Text>OK</Text>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>OK</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "TEW_CancelButton">
+	<Button item="TEW_CancelButton">
 		<ScreenID>Cancel</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>110</X>
 			<Y>112</Y>
@@ -59,12 +59,12 @@
 			<CY>24</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<Text>Cancel</Text>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Cancel</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Screen item = "TextEntryWnd">
-						<RelativePosition>false</RelativePosition>
+	<Screen item="TextEntryWnd">
+		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>260</X>
 			<Y>180</Y>
@@ -75,7 +75,7 @@
 		</Size>
 		<Text>Enter Text</Text>
 		<Style_Transparent>false</Style_Transparent>
-				<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
