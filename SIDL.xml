@@ -75,15 +75,6 @@
 		</ElementType>
 		<ElementType name="SpellGemDrawTemplate">
 			<superType type="Class"/>
-			<element name="Holder" type="Ui2DAnimation:item">
-				<default>A_SpellGemHolder</default>
-			</element>
-			<element name="Background" type="Ui2DAnimation:item">
-				<default>A_SpellGemBackground</default>
-			</element>
-			<element name="Highlight" type="Ui2DAnimation:item">
-				<default>A_SpellGemHighlight</default>
-			</element>
 		</ElementType>
 		<ElementType name="FrameTemplate">
 			<superType type="Class"/>
