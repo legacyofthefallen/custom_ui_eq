@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
+<XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-	<TextureInfo item = "menuicons01.tga">
+	<TextureInfo item="menuicons01.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<Ui2DAnimation item = "A_MenuIcons">
+	<Ui2DAnimation item="A_MenuIcons">
 		<Cycle>false</Cycle>
 		<Grid>true</Grid>
 		<Vertical>true</Vertical>
@@ -30,8 +30,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	
-	<Ui2DAnimation item = "A_CascadeMenuSeparator">
+	<Ui2DAnimation item="A_CascadeMenuSeparator">
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
 			<Location>
@@ -44,8 +43,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	
-	<Ui2DAnimation item = "A_CascadeSubmenuIndicator">
+	<Ui2DAnimation item="A_CascadeSubmenuIndicator">
 		<Frames>
 			<Texture>window_pieces05.tga</Texture>
 			<Location>
@@ -58,8 +56,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	
-	<Ui2DAnimation item = "A_EQBtnNormal">
+	<Ui2DAnimation item="A_EQBtnNormal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces05.tga</Texture>
@@ -78,8 +75,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	
-	<Ui2DAnimation item = "A_EQBtnFlyby">
+	<Ui2DAnimation item="A_EQBtnFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces05.tga</Texture>
@@ -98,8 +94,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	
-	<Ui2DAnimation item = "A_EQBtnPressed">
+	<Ui2DAnimation item="A_EQBtnPressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces05.tga</Texture>
@@ -118,8 +113,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	
-	<Ui2DAnimation item = "A_EQBtnPressedFlyby">
+	<Ui2DAnimation item="A_EQBtnPressedFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces05.tga</Texture>
@@ -138,8 +132,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	
-	<Ui2DAnimation item = "A_EQBtnDisabled">
+	<Ui2DAnimation item="A_EQBtnDisabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces05.tga</Texture>
@@ -158,11 +151,9 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	
-
-	<Button item = "CSepIW_Button">
+	<Button item="CSepIW_Button">
 		<ScreenID>Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -181,7 +172,7 @@
 			<NormalDecal/>
 		</ButtonDrawTemplate>
 	</Button>
-	<Screen item = "CascadeSeparatorItemWnd">
+	<Screen item="CascadeSeparatorItemWnd">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -205,9 +196,9 @@
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>CSepIW_Button</Pieces>
 	</Screen>
-	<Button item = "CSubIW_Button">
+	<Button item="CSubIW_Button">
 		<ScreenID>Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -235,9 +226,9 @@
 			<CY>24</CY>
 		</DecalSize>
 	</Button>
-	<Button item = "CSubIW_Arrow">
+	<Button item="CSubIW_Arrow">
 		<ScreenID>Arrow</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>180</X>
 			<Y>6</Y>
@@ -255,7 +246,7 @@
 			<NormalDecal/>
 		</ButtonDrawTemplate>
 	</Button>
-	<Screen item = "CascadeSubmenuItemWnd">
+	<Screen item="CascadeSubmenuItemWnd">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -280,9 +271,9 @@
 		<Pieces>CSubIW_Arrow</Pieces>
 		<Pieces>CSubIW_Button</Pieces>
 	</Screen>
-	<Button item = "CCmdIW_Button">
+	<Button item="CCmdIW_Button">
 		<ScreenID>Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -307,7 +298,7 @@
 			<CY>24</CY>
 		</DecalSize>
 	</Button>
-	<Screen item = "CascadeCommandItemWnd">
+	<Screen item="CascadeCommandItemWnd">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -331,7 +322,7 @@
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>CCmdIW_Button</Pieces>
 	</Screen>
-	<Screen item = "CascadeSubWnd">
+	<Screen item="CascadeSubWnd">
 		<ScreenID/>
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -354,7 +345,7 @@
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
 	</Screen>
-	<Screen item = "CascadeTopWnd">
+	<Screen item="CascadeTopWnd">
 		<ScreenID/>
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -377,9 +368,9 @@
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
 	</Screen>
-	<Button item = "EQM_EQButton">
+	<Button item="EQM_EQButton">
 		<ScreenID>EQButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>42</Y>
@@ -402,7 +393,7 @@
 			<PressedFlyby>A_EQBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "EQM_SCButton">
+	<Button item="EQM_SCButton">
 		<ScreenID>SCButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -416,8 +407,7 @@
 		<TooltipReference>Click this to open the Marketplace</TooltipReference>
 		<Template>BDT_SCBtn</Template>
 	</Button>
-  
-	<Button item = "EQM_SCFSButton">
+	<Button item="EQM_SCFSButton">
 		<ScreenID>SCFSButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -431,7 +421,7 @@
 		<TooltipReference>Click this to open the Marketplace</TooltipReference>
 		<Template>BDT_SCFSBtn</Template>
 	</Button>
-	<Screen item = "EQMainWnd">
+	<Screen item="EQMainWnd">
 		<ScreenID/>
 		<RelativePosition>false</RelativePosition>
 		<Location>

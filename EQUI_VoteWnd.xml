@@ -1,6 +1,6 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<LayoutVertical item="VW_VerticalLayout">
 		<Padding>0</Padding>
 		<ResizeVertical>true</ResizeVertical>
@@ -224,7 +224,7 @@
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>VW_Main_Layout</Pieces>
 		<Pieces>VW_Question_Label</Pieces>
-		<Pieces>VW_Close_Button</Pieces>		
+		<Pieces>VW_Close_Button</Pieces>
 		<Pieces>Screen:VW_Btn_Screen</Pieces>
 		<Pieces>Screen:VW_Radio_Screen</Pieces>
 		<Pieces>Screen:VW_Checkbox_Screen</Pieces>

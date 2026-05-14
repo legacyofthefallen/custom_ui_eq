@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
+<XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Ui2DAnimation item="CLW_EQIcon">
 		<Cycle>false</Cycle>
@@ -330,7 +330,7 @@
 		<RightAnchorOffset>222</RightAnchorOffset>
 		<Animation>A_AllAccessMemberIcon</Animation>
 	</StaticAnimation>
-	<Listbox item = "CLW_Character_List">
+	<Listbox item="CLW_Character_List">
 		<ScreenID>Character_List</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -405,7 +405,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-	<Screen item = "CLW_CharactersScreen">
+	<Screen item="CLW_CharactersScreen">
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>16</LeftAnchorOffset>
@@ -468,7 +468,7 @@
 	</Button>
 	<Button item="CLW_Delete_Button">
 		<ScreenID>Delete_Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>37</Y>
@@ -510,7 +510,7 @@
 	</Button>
 	<Button item="CLW_Tutorial_Button">
 		<ScreenID>Tutorial_Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>73</Y>
@@ -552,7 +552,7 @@
 	</Button>
 	<Button item="CLW_Home_Button">
 		<ScreenID>Home_Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>109</Y>
@@ -662,7 +662,7 @@
 		<TextOffsetX>22</TextOffsetX>
 		<TextOffsetY>1</TextOffsetY>
 	</Button>
-	<Screen item = "CLW_ButtonsScreen">
+	<Screen item="CLW_ButtonsScreen">
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>16</LeftAnchorOffset>
@@ -789,15 +789,18 @@
 	<Button item="CLW_FreeToAllAccess_Button">
 		<ScreenID>CLW_FreeToAllAccess_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
+		<AutoStretch>
+		true</AutoStretch>
 		<TopAnchorOffset>93</TopAnchorOffset>
 		<BottomAnchorOffset>50</BottomAnchorOffset>
-		<LeftAnchorOffset>34</LeftAnchorOffset>
+		<LeftAnchorOffset>
+		34</LeftAnchorOffset>
 		<RightAnchorOffset>222</RightAnchorOffset>
 		<TopAnchorToTop>false</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<TooltipReference>Click this upgrade your membership to All Access!</TooltipReference>y
-		<ButtonDrawTemplate>
+		<BottomAnchorToTop>
+		false</BottomAnchorToTop>
+		<TooltipReference>Click this upgrade your membership to All Access!</TooltipReference>
+		y <ButtonDrawTemplate>
 			<Normal>A_FreeToAllAccessIcon</Normal>
 			<Flyby>A_AllAccessHoverIcon</Flyby>
 		</ButtonDrawTemplate>
@@ -854,7 +857,7 @@
 			<CY>22</CY>
 		</DecalSize>
 	</Button>
-	<Screen item = "CLW_LeftScreen">
+	<Screen item="CLW_LeftScreen">
 		<ScreenID>Left_Screen</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -924,7 +927,7 @@
 			<CY>22</CY>
 		</DecalSize>
 	</Button>
-	<Screen item = "CLW_BottomScreen">
+	<Screen item="CLW_BottomScreen">
 		<ScreenID>Bottom_Screen</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -945,7 +948,7 @@
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>CLW_Rotate_Button</Pieces>
 	</Screen>
-	<Button item = "CLW_MarketplaceButton">
+	<Button item="CLW_MarketplaceButton">
 		<ScreenID>Marketplace_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -960,7 +963,7 @@
 		<TooltipReference>Click this to open the Marketplace</TooltipReference>
 		<Template>BDT_SCBtn</Template>
 	</Button>
-	<Screen item = "CharacterListWnd">
+	<Screen item="CharacterListWnd">
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>

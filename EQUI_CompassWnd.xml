@@ -1,7 +1,7 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<StaticAnimation item = "CMPW_Overlay">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<StaticAnimation item="CMPW_Overlay">
 		<ScreenID>CompassOverlay</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -14,7 +14,7 @@
 		</Size>
 		<Animation>A_CompassOverlay</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "CMPW_Strip1">
+	<StaticAnimation item="CMPW_Strip1">
 		<ScreenID>CompassStrip1</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -27,7 +27,7 @@
 		</Size>
 		<Animation>A_CompassStrip</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "CMPW_Strip2">
+	<StaticAnimation item="CMPW_Strip2">
 		<ScreenID>CompassStrip2</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -40,8 +40,8 @@
 		</Size>
 		<Animation>A_CompassStrip</Animation>
 	</StaticAnimation>
-	<Screen item = "CompassWindow">
-						<RelativePosition>false</RelativePosition>
+	<Screen item="CompassWindow">
+		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>350</X>
 			<Y>0</Y>
@@ -53,7 +53,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-				<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>

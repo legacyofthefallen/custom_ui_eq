@@ -1,7 +1,7 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<Listbox item = "AdvStats_ThemeList">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Listbox item="AdvStats_ThemeList">
 		<ScreenID>AdvStats_ThemeList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -45,7 +45,7 @@
 			<Heading>Total Points</Heading>
 		</Columns>
 	</Listbox>
-	<Label item = "AdvStats_AvailableLabel">
+	<Label item="AdvStats_AvailableLabel">
 		<ScreenID>AdvStats_AvailableLabel</ScreenID>
 		<Location>
 			<X>5</X>
@@ -60,7 +60,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item = "AdvStats_AvailableValue">
+	<Label item="AdvStats_AvailableValue">
 		<ScreenID>AdvStats_AvailableValue</ScreenID>
 		<Location>
 			<X>180</X>
@@ -80,7 +80,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-		<Button item = "AdvStats_RefreshButton">
+	<Button item="AdvStats_RefreshButton">
 		<ScreenID>AdvStats_RefreshButton</ScreenID>
 		<Location>
 			<X>5</X>
@@ -97,7 +97,7 @@
 		<Text>Refresh</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-		<Button item = "AdvStats_LeaderboardButton">
+	<Button item="AdvStats_LeaderboardButton">
 		<ScreenID>AdvStats_LeaderboardButton</ScreenID>
 		<Location>
 			<X>188</X>
@@ -114,7 +114,7 @@
 		<Text>Leaderboard</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-		<Button item = "AdvStats_DoneButton">
+	<Button item="AdvStats_DoneButton">
 		<ScreenID>AdvStats_DoneButton</ScreenID>
 		<Location>
 			<X>370</X>
@@ -131,7 +131,7 @@
 		<Text>Done</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-		<Screen item = "AdventureStatsWnd">
+	<Screen item="AdventureStatsWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>100</X>
@@ -152,11 +152,11 @@
 		<Style_Minimizebox>true</Style_Minimizebox>
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
-			<Pieces>AdvStats_ThemeList</Pieces>
-			<Pieces>AdvStats_AvailableLabel</Pieces>
-			<Pieces>AdvStats_AvailableValue</Pieces>
-			<Pieces>AdvStats_RefreshButton</Pieces>
-			<Pieces>AdvStats_LeaderboardButton</Pieces>
-			<Pieces>AdvStats_DoneButton</Pieces>
+		<Pieces>AdvStats_ThemeList</Pieces>
+		<Pieces>AdvStats_AvailableLabel</Pieces>
+		<Pieces>AdvStats_AvailableValue</Pieces>
+		<Pieces>AdvStats_RefreshButton</Pieces>
+		<Pieces>AdvStats_LeaderboardButton</Pieces>
+		<Pieces>AdvStats_DoneButton</Pieces>
 	</Screen>
 </XML>

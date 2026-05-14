@@ -1,7 +1,7 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<Listbox item = "VMAC_MacroList">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Listbox item="VMAC_MacroList">
 		<ScreenID>MacroList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -24,7 +24,7 @@
 			<Heading>Description</Heading>
 		</Columns>
 	</Listbox>
-	<Button item = "VMAC_PlayButton">
+	<Button item="VMAC_PlayButton">
 		<ScreenID>PlayButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -41,7 +41,7 @@
 		<Text>Test</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "VMAC_TellButton">
+	<Button item="VMAC_TellButton">
 		<ScreenID>TellButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -58,7 +58,7 @@
 		<Text>Tell</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "VMAC_GroupButton">
+	<Button item="VMAC_GroupButton">
 		<ScreenID>GroupButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -75,7 +75,7 @@
 		<Text>Group</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "VMAC_RaidButton">
+	<Button item="VMAC_RaidButton">
 		<ScreenID>RaidButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -92,7 +92,7 @@
 		<Text>Raid</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "VMAC_CloseButton">
+	<Button item="VMAC_CloseButton">
 		<ScreenID>CloseButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -109,7 +109,7 @@
 		<Text>Close</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "VMAC_MuteButton">
+	<Button item="VMAC_MuteButton">
 		<ScreenID>MuteButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -125,7 +125,7 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Label item = "VMAC_MuteLabel">
+	<Label item="VMAC_MuteLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -142,7 +142,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Screen item = "VoiceMacroWnd">
+	<Screen item="VoiceMacroWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>100</X>

@@ -1,7 +1,7 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
   <Composite>
-    <Include>SIDL.xdr</Include>
+    <Include>SIDL.xml</Include>
     <Include>EQUI_DragItems.xml</Include>
     <Include>EQUI_SpellIcons.xml</Include>
     <Include>EQUI_Animations.xml</Include>
@@ -171,5 +171,5 @@
     <Include>EQUI_TradeskillDepotWnd.xml</Include>
     <Include>EQUI_NameReservationWnd.xml</Include>
   </Composite>
-  <Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
 </XML>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<STMLbox item="SDW_SpellDescription">
 		<ScreenID>SDW_SpellDescription</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -20,7 +20,7 @@
 	</STMLbox>
 	<Button item="SDW_IconButton">
 		<ScreenID>SDW_IconButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>70</LeftAnchorOffset>
 		<TopAnchorOffset>12</TopAnchorOffset>
@@ -33,11 +33,11 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<Template>BDT_RedBuff</Template>
-		<SoundPressed />
-		<SoundUp />
-		<SoundFlyby />
+		<Style_Checkbox>false</Style_Checkbox>
+		<Template>BDT_RedBuff</Template>
+		<SoundPressed/>
+		<SoundUp/>
+		<SoundFlyby/>
 		<DecalOffset>
 			<X>2</X>
 			<Y>2</Y>
@@ -48,7 +48,7 @@
 		</DecalSize>
 	</Button>
 	<Screen item="SpellDisplayWindow">
-						<RelativePosition>false</RelativePosition>
+		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>80</Y>

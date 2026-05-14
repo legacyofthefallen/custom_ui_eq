@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
+<XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Label item="REPW_Owner_Label">
 		<ScreenID>REPW_Owner_Label</ScreenID>
@@ -66,7 +66,7 @@
 		<Pieces>REPW_Guild_Label</Pieces>
 		<Pieces>REPW_GuildVal_Label</Pieces>
 	</Screen>
-		<Screen item="REPW_Spacer_Screen">
+	<Screen item="REPW_Spacer_Screen">
 		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>275</CX>
@@ -285,7 +285,8 @@
 			<X>0</X>
 			<Y>0</Y>
 		</Location>
-		<TooltipReference>Opens up the real estate management window.  You must be standing inside this plot and have access to manage this plot to use this button.</TooltipReference>
+		<TooltipReference>Opens up the real estate management window. You must be standing inside
+			this plot and have access to manage this plot to use this button.</TooltipReference>
 		<ButtonDrawTemplate>
 			<Normal>A_ManageBtnNormal</Normal>
 			<Pressed>A_ManageBtnPressed</Pressed>
@@ -357,7 +358,8 @@
 			<X>231</X>
 			<Y>0</Y>
 		</Location>
-		<TooltipReference>Transfers the current plot to the targeted player.  You must be standing inside this plot and be the primary owner of this plot.</TooltipReference>
+		<TooltipReference>Transfers the current plot to the targeted player. You must be standing
+			inside this plot and be the primary owner of this plot.</TooltipReference>
 		<ButtonDrawTemplate>
 			<Normal>A_TransferBtnNormal</Normal>
 			<Pressed>A_TransferBtnPressed</Pressed>
@@ -387,7 +389,8 @@
 			<CX>200</CX>
 			<CY>72</CY>
 		</Size>
-		<Text>Plots will pack up all items, send them to the owner, and become available for purchase again if the owner of the plot has not logged in within 90 days.</Text>
+		<Text>Plots will pack up all items, send them to the owner, and become available for
+			purchase again if the owner of the plot has not logged in within 90 days.</Text>
 		<NoWrap>false</NoWrap>
 	</Label>
 	<VerticalLayoutBox item="REPW_Main_Layout">
@@ -408,9 +411,9 @@
 		<PaddingLeft>10</PaddingLeft>
 		<PaddingRight>10</PaddingRight>
 		<Pieces>Screen:REPW_Owner_Screen</Pieces>
-		<Pieces>Screen:REPW_Guild_Screen</Pieces>	
-		<Pieces>Screen:REPW_Spacer_Screen</Pieces>	
-		<Pieces>Screen:REPW_Type_Screen</Pieces>	
+		<Pieces>Screen:REPW_Guild_Screen</Pieces>
+		<Pieces>Screen:REPW_Spacer_Screen</Pieces>
+		<Pieces>Screen:REPW_Type_Screen</Pieces>
 		<Pieces>Screen:REPW_Price_Screen</Pieces>
 		<Pieces>Screen:REPW_Upkeep_Screen</Pieces>
 		<Pieces>Screen:REPW_Capacity_Screen</Pieces>

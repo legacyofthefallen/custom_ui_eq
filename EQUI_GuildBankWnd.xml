@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
+<XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-	<Label item = "GBANK_BankItemsLabel">
+	<Label item="GBANK_BankItemsLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -18,7 +18,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Listbox item = "GBANK_ItemList">
+	<Listbox item="GBANK_ItemList">
 		<ScreenID>ItemList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<TooltipReference>This is the list of your Guild's Banked items.</TooltipReference>
@@ -51,7 +51,7 @@
 			<Heading>Permissions</Heading>
 		</Columns>
 	</Listbox>
-	<Screen item = "GBANK_ItemListScreen">
+	<Screen item="GBANK_ItemListScreen">
 		<ScreenID>ItemListScreen</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -74,7 +74,7 @@
 		<Pieces>GBANK_BankItemsLabel</Pieces>
 		<Pieces>GBANK_ItemList</Pieces>
 	</Screen>
-	<Label item = "GBANK_BankCountLabel">
+	<Label item="GBANK_BankCountLabel">
 		<ScreenID>BankCountLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -91,7 +91,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "GBANK_WithdrawButton">
+	<Button item="GBANK_WithdrawButton">
 		<ScreenID>WithdrawButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<TooltipReference>Select an item and click to withdraw it from the bank.</TooltipReference>
@@ -109,7 +109,7 @@
 		<Text>Withdraw Item</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Combobox item = "GBANK_PermissionCombo">
+	<Combobox item="GBANK_PermissionCombo">
 		<ScreenID>PermissionCombo</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -126,10 +126,11 @@
 		<Button>BDT_Combo</Button>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-	<Button item = "GBANK_ChangeTargetButton">
+	<Button item="GBANK_ChangeTargetButton">
 		<ScreenID>ChangeTargetButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference>Click this button to change the owner for a Single-member removal permission to the name entered.</TooltipReference>
+		<TooltipReference>Click this button to change the owner for a Single-member removal
+			permission to the name entered.</TooltipReference>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
 		<RightAnchorOffset>2</RightAnchorOffset>
@@ -144,7 +145,7 @@
 		<Text>Change Member</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Label item = "GBANK_FilterLabel">
+	<Label item="GBANK_FilterLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -161,7 +162,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Combobox item = "GBANK_FilterCombo">
+	<Combobox item="GBANK_FilterCombo">
 		<ScreenID>FilterCombo</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -183,7 +184,7 @@
 		<Choices>Withdrawable</Choices>
 		<Choices>Not Withdrawable</Choices>
 	</Combobox>
-	<Button item = "GBANK_SplitButton">
+	<Button item="GBANK_SplitButton">
 		<ScreenID>SplitButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<TooltipReference>Click this button to split a stack into two.</TooltipReference>
@@ -201,7 +202,7 @@
 		<Text>Split Stack</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Button item = "GBANK_MergeButton">
+	<Button item="GBANK_MergeButton">
 		<ScreenID>MergeButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<TooltipReference>Click this button to merge stacks of this Item together.</TooltipReference>
@@ -219,7 +220,7 @@
 		<Text>Merge Stacks</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Button item = "GBANK_ViewItemButton">
+	<Button item="GBANK_ViewItemButton">
 		<ScreenID>ViewItemButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<TooltipReference>Select an item and click to view the stats, or just right-click the item.</TooltipReference>
@@ -237,7 +238,7 @@
 		<Text>View Item</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Screen item = "GBANK_ItemButtonScreen">
+	<Screen item="GBANK_ItemButtonScreen">
 		<ScreenID>ItemButtonScreen</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -267,7 +268,7 @@
 		<Pieces>GBANK_FilterCombo</Pieces>
 		<Pieces>GBANK_PermissionCombo</Pieces>
 	</Screen>
-	<Screen item = "GBANK_ItemScreen">
+	<Screen item="GBANK_ItemScreen">
 		<ScreenID>ItemScreen</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -289,7 +290,7 @@
 		<Pieces>Screen:GBANK_ItemListScreen</Pieces>
 		<Pieces>Screen:GBANK_ItemButtonScreen</Pieces>
 	</Screen>
-	<Label item = "GBANK_BankDepositsLabel">
+	<Label item="GBANK_BankDepositsLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -306,7 +307,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Listbox item = "GBANK_DepositList">
+	<Listbox item="GBANK_DepositList">
 		<ScreenID>DepositList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<TooltipReference>This is the list of your Guild's recently deposited items.</TooltipReference>
@@ -339,7 +340,7 @@
 			<Heading>Depositor</Heading>
 		</Columns>
 	</Listbox>
-	<Screen item = "GBANK_DepositListScreen">
+	<Screen item="GBANK_DepositListScreen">
 		<ScreenID>DepositListScreen</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -362,7 +363,7 @@
 		<Pieces>GBANK_BankDepositsLabel</Pieces>
 		<Pieces>GBANK_DepositList</Pieces>
 	</Screen>
-	<Label item = "GBANK_DepositCountLabel">
+	<Label item="GBANK_DepositCountLabel">
 		<ScreenID>DepositCountLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -379,7 +380,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "GBANK_PromoteButton">
+	<Button item="GBANK_PromoteButton">
 		<ScreenID>PromoteButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<TooltipReference>Select an item and click to move it to the normal bank list.</TooltipReference>
@@ -397,7 +398,7 @@
 		<Text>Put in Bank</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Button item = "GBANK_DepositButton">
+	<Button item="GBANK_DepositButton">
 		<ScreenID>DepositButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<TooltipReference>Pick up an item from your inventory and click to deposit it in the bank.</TooltipReference>
@@ -415,7 +416,7 @@
 		<Text>Deposit Item</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Screen item = "GBANK_DepositButtonScreen">
+	<Screen item="GBANK_DepositButtonScreen">
 		<ScreenID>DepositButtonScreen</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -439,7 +440,7 @@
 		<Pieces>GBANK_DepositButton</Pieces>
 		<Pieces>GBANK_PromoteButton</Pieces>
 	</Screen>
-	<Screen item = "GBANK_DepositScreen">
+	<Screen item="GBANK_DepositScreen">
 		<ScreenID>DepositScreen</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -461,7 +462,7 @@
 		<Pieces>Screen:GBANK_DepositListScreen</Pieces>
 		<Pieces>Screen:GBANK_DepositButtonScreen</Pieces>
 	</Screen>
-	<VerticalLayoutBox item = "GBANK_Layout">
+	<VerticalLayoutBox item="GBANK_Layout">
 		<ScreenID>Layout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -480,8 +481,8 @@
 		<Pieces>Screen:GBANK_ItemScreen</Pieces>
 		<Pieces>Screen:GBANK_DepositScreen</Pieces>
 	</VerticalLayoutBox>
-	
-	<Page item = "GBANK_BankPage">
+
+	<Page item="GBANK_BankPage">
 		<ScreenID>GuildBankPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Style_VScroll>false</Style_VScroll>
@@ -490,15 +491,15 @@
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Bank</TabText>
 		<TabTextActiveColor>
-				<R>255</R>
-				<G>255</G>
-				<B>0</B>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
 		</TabTextActiveColor>
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>VerticalLayoutBox:GBANK_Layout</Pieces>
 	</Page>
-	
-	<TabBox item = "GBANK_TabBox">
+
+	<TabBox item="GBANK_TabBox">
 		<ScreenID>GBANK_TabBox</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -510,7 +511,7 @@
 		<PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
 		<Pages>Page:GBANK_BankPage</Pages>
 	</TabBox>
-	<Screen item = "GuildBankWnd">
+	<Screen item="GuildBankWnd">
 		<ScreenID/>
 		<RelativePosition>false</RelativePosition>
 		<Size>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-		<Label item="MKPW_AvailableFundsUpper_Label">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Label item="MKPW_AvailableFundsUpper_Label">
 		<ScreenID>MKPW_AvailableFundsUpper_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -47,7 +47,7 @@
 			<CY>35</CY>
 		</DecalSize>
 	</Button>
-	
+
 	<Button item="MKPW_CancelBtn">
 		<ScreenID>MKPW_CancelBtn</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -61,7 +61,7 @@
 		<Text>Cancel</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-		<Label item="MKPW_Item_Label">
+	<Label item="MKPW_Item_Label">
 		<ScreenID>MKPW_Item_Label</ScreenID>
 		<Text>Item</Text>
 		<Font>2</Font>
@@ -290,8 +290,7 @@
 		<Pieces>MKPW_ItemCost_Icon</Pieces>
 		<Pieces>MKPW_ItemCost_CreditCardMoneyTypeLabel</Pieces>
 	</Screen>
-	
-		<Editbox item="MKPW_FindEditBox">
+	<Editbox item="MKPW_FindEditBox">
 		<ScreenID>MKPW_FindEditBox</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -337,8 +336,7 @@
 			<Heading>Categories:</Heading>
 		</Columns>
 	</TreeView>
-	
-		<Label item="MKPW_Sort_Label">
+	<Label item="MKPW_Sort_Label">
 		<ScreenID>MKPW_Sort_Label</ScreenID>
 		<Text>Sort By</Text>
 		<Font>2</Font>
@@ -434,7 +432,7 @@
 		<Pieces>MKPW_ListBtn</Pieces>
 		<Pieces>MKPW_ListBtn_Label</Pieces>
 	</Screen>
-	
+
 	<TileLayoutBox item="MKPW_Thumbnails">
 		<ScreenID>MKPW_Thumbnails</ScreenID>
 		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
@@ -457,7 +455,6 @@
 		<FirstPieceTemplate>false</FirstPieceTemplate>
 		<Pieces>Screen:MKPW_Item_Screen</Pieces>
 	</TileLayoutBox>
-	
 	<Listbox item="MKPW_ItemList">
 		<ScreenID>MKPW_ItemList</ScreenID>
 		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
@@ -509,7 +506,6 @@
 			<Heading>Price</Heading>
 		</Columns>
 	</Listbox>
-	
 	<StaticAnimation item="MKPW_Claim_Anim">
 		<ScreenID>MKPW_Claim_Anim</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -850,8 +846,8 @@
 		<Pieces>MKPW_FeaturedItems_Label</Pieces>
 		<Pieces>MKPW_FeaturedItems</Pieces>
 	</Screen>
-	
-		<Label item="MKPW_DetailsName">
+
+	<Label item="MKPW_DetailsName">
 		<ScreenID>MKPW_DetailsName</ScreenID>
 		<Text>Item Name</Text>
 		<Font>3</Font>
@@ -1394,7 +1390,7 @@
 		<Pieces>Screen:MKPW_Timers</Pieces>
 		<Pieces>Screen:MKPW_Buy</Pieces>
 	</Screen>
-		<Label item="MKPW_TaxInfoInstructionLabel">
+	<Label item="MKPW_TaxInfoInstructionLabel">
 		<ScreenID>MKPW_TaxInfoInstructionLabel</ScreenID>
 		<AlignCenter>true</AlignCenter>
 		<AutoStretch>true</AutoStretch>
@@ -1424,7 +1420,7 @@
 		<Style_Transparent>true</Style_Transparent>
 		<Text>Zip:</Text>
 	</Label>
-	<Editbox item = "MKPW_TaxInfoZipCodeEdit">
+	<Editbox item="MKPW_TaxInfoZipCodeEdit">
 		<ScreenID>MKPW_TaxInfoZipCodeEdit</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -1451,7 +1447,7 @@
 		<Text>Next</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-		<Label item="MKPW_ConfirmPurchase_Label">
+	<Label item="MKPW_ConfirmPurchase_Label">
 		<ScreenID>MKPW_ConfirmPurchase_Label</ScreenID>
 		<Text>Daybreak Cash Product</Text>
 		<TextColor>
@@ -1739,8 +1735,8 @@
 		<Text>Complete Purchase</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	
-		<Label item="MKPW_CreditCardPurchaseSelection_Label">
+
+	<Label item="MKPW_CreditCardPurchaseSelection_Label">
 		<ScreenID>MKPW_CreditCardPurchaseSelection_Label</ScreenID>
 		<Text>Credit Card Product</Text>
 		<TextColor>
@@ -1857,7 +1853,7 @@
 	</Combobox>
 	<Button item="MKPW_CreditCardPurchaseSelectionSelectBtn">
 		<ScreenID>MKPW_CreditCardPurchaseSelectionSelectBtn</ScreenID>
-		<RelativePosition>true</RelativePosition>	
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>45</TopAnchorOffset>
 		<BottomAnchorOffset>25</BottomAnchorOffset>
@@ -1875,7 +1871,7 @@
 		<TopAnchorOffset>60</TopAnchorOffset>
 		<BottomAnchorOffset>0</BottomAnchorOffset>
 		<LeftAnchorOffset>10</LeftAnchorOffset>
-		<RightAnchorOffset>120</RightAnchorOffset>	
+		<RightAnchorOffset>120</RightAnchorOffset>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<ButtonDrawTemplate>
@@ -1886,8 +1882,8 @@
 			<CY>60</CY>
 		</DecalSize>
 	</Button>
-	
-			<Label item="MKPW_CreditCardPurchase">
+
+	<Label item="MKPW_CreditCardPurchase">
 		<ScreenID>MKPW_CreditCardPurchase</ScreenID>
 		<Text>Item</Text>
 		<AutoStretch>true</AutoStretch>
@@ -2126,7 +2122,7 @@
 		<Text>(What is this?)</Text>
 		<Font>1</Font>
 	</Label>
-	<Editbox item = "MKPW_CreditCardPurchase_SecCodeEditBox">
+	<Editbox item="MKPW_CreditCardPurchase_SecCodeEditBox">
 		<ScreenID>MKPW_CreditCardPurchase_SecCodeEditBox</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -2163,7 +2159,7 @@
 		<Style_Transparent>true</Style_Transparent>
 		<Text>Parental Password:</Text>
 	</Label>
-	<Editbox item = "MKPW_CreditCardPurchase_ParentalPasswordEditBox">
+	<Editbox item="MKPW_CreditCardPurchase_ParentalPasswordEditBox">
 		<ScreenID>MKPW_CreditCardPurchase_ParentalPasswordEditBox</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -2213,7 +2209,7 @@
 		<Style_Border>false</Style_Border>
 		<Style_Transparent>true</Style_Transparent>
 	</STMLbox>
-	<VerticalLayoutBox item = "MKPW_CreditCardPurchaseLegalParent_VerticalLayout">
+	<VerticalLayoutBox item="MKPW_CreditCardPurchaseLegalParent_VerticalLayout">
 		<ScreenID>MKPW_CreditCardPurchaseLegalParent_VerticalLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -2276,8 +2272,7 @@
 		<Text>Complete Purchase</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	
-		<Label item="MKPW_FundConfirmStationCash">
+	<Label item="MKPW_FundConfirmStationCash">
 		<ScreenID>MKPW_FundConfirmStationCash</ScreenID>
 		<Text/>
 		<Location>
@@ -2506,7 +2501,7 @@
 		<Text>(What is this?)</Text>
 		<Font>1</Font>
 	</Label>
-	<Editbox item = "MKPW_FundConfirm_SecCodeEditBox">
+	<Editbox item="MKPW_FundConfirm_SecCodeEditBox">
 		<ScreenID>MKPW_FundConfirm_SecCodeEditBox</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -2556,7 +2551,7 @@
 		<Style_Transparent>true</Style_Transparent>
 		<Text>Parental Password:</Text>
 	</Label>
-	<Editbox item = "MKPW_FundConfirm_ParentalPasswordEditBox">
+	<Editbox item="MKPW_FundConfirm_ParentalPasswordEditBox">
 		<ScreenID>MKPW_FundConfirm_ParentalPasswordEditBox</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -2588,7 +2583,7 @@
 		<Style_Border>false</Style_Border>
 		<Pieces>MKPW_FundConfirm_ParentalLabel</Pieces>
 		<Pieces>MKPW_FundConfirm_ParentalPasswordEditBox</Pieces>
-	</Screen>	
+	</Screen>
 	<STMLbox item="MKPW_FundConfirm_LegalText">
 		<ScreenID>MKPW_FundConfirm_LegalText</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -2607,7 +2602,7 @@
 		<Style_Border>false</Style_Border>
 		<Style_Transparent>true</Style_Transparent>
 	</STMLbox>
-	<VerticalLayoutBox item = "MKPW_FundConfirmLegalParent_VerticalLayout">
+	<VerticalLayoutBox item="MKPW_FundConfirmLegalParent_VerticalLayout">
 		<ScreenID>MKPW_FundConfirmLegalParent_VerticalLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -2657,7 +2652,7 @@
 			<CY>60</CY>
 		</DecalSize>
 	</Button>
-		<Label item="MKPW_Results_Result">
+	<Label item="MKPW_Results_Result">
 		<ScreenID>MKPW_Results_Result</ScreenID>
 		<Text>Result</Text>
 		<AlignCenter>true</AlignCenter>
@@ -2671,8 +2666,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Label>
-	
-		<Label item="MKPW_PaymentSourceInstructionLabel">
+	<Label item="MKPW_PaymentSourceInstructionLabel">
 		<ScreenID>MKPW_PaymentSourceInstructionLabel</ScreenID>
 		<AlignCenter>true</AlignCenter>
 		<AutoStretch>true</AutoStretch>
@@ -2701,7 +2695,7 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Add Credit Card</Text>
 		<Template>BDT_Normal</Template>
-	</Button>	
+	</Button>
 	<Button item="MKPW_CreditCardOnFileButton">
 		<ScreenID>MKPW_CreditCardOnFileButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -2716,7 +2710,7 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Use Credit Card On File</Text>
 		<Template>BDT_Normal</Template>
-	</Button>		
+	</Button>
 	<Button item="MKPW_OtherPaymentSourceButton">
 		<ScreenID>MKPW_OtherPaymentSourceButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -2746,10 +2740,10 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Redeem Daybreak Cash Card</Text>
 		<Template>BDT_Normal</Template>
-	</Button>		
-		<Button item="MKPW_SCCardConfirmBtn">
+	</Button>
+	<Button item="MKPW_SCCardConfirmBtn">
 		<ScreenID>MKPW_SCCardConfirmBtn</ScreenID>
-		<RelativePosition>true</RelativePosition>	
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>45</TopAnchorOffset>
 		<BottomAnchorOffset>25</BottomAnchorOffset>
@@ -2788,8 +2782,7 @@
 		<Style_Transparent>true</Style_Transparent>
 		<Style_Border>true</Style_Border>
 	</Editbox>
-	
-		<Label item="MKPW_AmountSelectionInstructionLabel">
+	<Label item="MKPW_AmountSelectionInstructionLabel">
 		<ScreenID>MKPW_AmountSelectionInstructionLabel</ScreenID>
 		<AlignCenter>true</AlignCenter>
 		<AutoStretch>true</AutoStretch>
@@ -2840,7 +2833,7 @@
 	</Combobox>
 	<Button item="MKPW_AmountSelectConfirmBtn">
 		<ScreenID>MKPW_AmountSelectConfirmBtn</ScreenID>
-		<RelativePosition>true</RelativePosition>	
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>45</TopAnchorOffset>
 		<BottomAnchorOffset>25</BottomAnchorOffset>
@@ -2937,7 +2930,7 @@
 		<TopAnchorOffset>60</TopAnchorOffset>
 		<BottomAnchorOffset>0</BottomAnchorOffset>
 		<LeftAnchorOffset>10</LeftAnchorOffset>
-		<RightAnchorOffset>120</RightAnchorOffset>	
+		<RightAnchorOffset>120</RightAnchorOffset>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<ButtonDrawTemplate>
@@ -2948,10 +2941,10 @@
 			<CY>60</CY>
 		</DecalSize>
 	</Button>
-	
-		<Button item="MKPW_SCChoiceConfirmBtn">
+
+	<Button item="MKPW_SCChoiceConfirmBtn">
 		<ScreenID>MKPW_SCChoiceConfirmBtn</ScreenID>
-		<RelativePosition>true</RelativePosition>	
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>45</TopAnchorOffset>
 		<BottomAnchorOffset>25</BottomAnchorOffset>
@@ -2962,9 +2955,9 @@
 		<Text>Submit</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-		<Button item="MKPW_SCChoiceCancelBtn">
+	<Button item="MKPW_SCChoiceCancelBtn">
 		<ScreenID>MKPW_SCChoiceCancelBtn</ScreenID>
-		<RelativePosition>true</RelativePosition>	
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>25</TopAnchorOffset>
 		<BottomAnchorOffset>05</BottomAnchorOffset>
@@ -3009,10 +3002,10 @@
 		<Style_Transparent>true</Style_Transparent>
 		<Text>Instruction for why extra prompt</Text>
 	</Label>
-		<Page item="MKPW_MainPage">
+	<Page item="MKPW_MainPage">
 		<ScreenID>MKPW_MainPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3023,7 +3016,7 @@
 	<Page item="MKPW_TaxInfoPage">
 		<ScreenID>MKPW_TaxInfoPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3031,20 +3024,20 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Pieces>MKPW_TaxInfoInstructionLabel</Pieces>
 		<Pieces>MKPW_TaxInfoZipCodeLabel</Pieces>
-		<Pieces>MKPW_TaxInfoZipCodeEdit</Pieces>				
-		<Pieces>MKPW_TaxInfoNextButton</Pieces>		
+		<Pieces>MKPW_TaxInfoZipCodeEdit</Pieces>
+		<Pieces>MKPW_TaxInfoNextButton</Pieces>
 	</Page>
 	<Page item="MKPW_PaymentSourcePage">
 		<ScreenID>MKPW_PaymentSourcePage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Pieces>MKPW_PaymentSourceInstructionLabel</Pieces>
-		<Pieces>MKPW_AddCreditCardButton</Pieces>		
+		<Pieces>MKPW_AddCreditCardButton</Pieces>
 		<Pieces>MKPW_CreditCardOnFileButton</Pieces>
 		<Pieces>MKPW_OtherPaymentSourceButton</Pieces>
 		<Pieces>MKPW_SCCardButton</Pieces>
@@ -3052,7 +3045,7 @@
 	<Page item="MKPW_AmtSelectionPage">
 		<ScreenID>MKPW_AmtSelectionPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3068,7 +3061,7 @@
 	<Page item="MKPW_ConfirmPage">
 		<ScreenID>MKPW_ConfirmPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3098,7 +3091,7 @@
 	<Page item="MKPW_CreditCardPurchaseSelectionPage">
 		<ScreenID>MKPW_CreditCardPurchaseSelectionPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3118,7 +3111,7 @@
 	<Page item="MKPW_CreditCardPurchasePage">
 		<ScreenID>MKPW_CreditCardPurchasePage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3151,16 +3144,16 @@
 	<Page item="MKPW_FundConfirmPage">
 		<ScreenID>MKPW_FundConfirmPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Pieces>MKPW_FundConfirmStationCash</Pieces>
-		<Pieces>MKPW_FundConfirmStationCashPromo</Pieces>		
+		<Pieces>MKPW_FundConfirmStationCashPromo</Pieces>
 		<Pieces>MKPW_FundConfirm_SC_Icon</Pieces>
-		<Pieces>MKPW_FundConfirm_SC_Promo_Icon</Pieces>		
+		<Pieces>MKPW_FundConfirm_SC_Promo_Icon</Pieces>
 		<Pieces>MKPW_FundConfirmStationCashPromoLabel</Pieces>
 		<Pieces>MKPW_FundConfirmPrice</Pieces>
 		<Pieces>MKPW_FundConfirmTaxLabel</Pieces>
@@ -3183,7 +3176,7 @@
 	<Page item="MKPW_SCCardRedeemPage">
 		<ScreenID>MKPW_SCCardRedeemPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3196,7 +3189,7 @@
 	<Page item="MKPW_SCChoicePage">
 		<ScreenID>MKPW_SCChoicePage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3210,7 +3203,7 @@
 	<Page item="MKPW_ResultsPage">
 		<ScreenID>MKPW_ResultsPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3229,13 +3222,13 @@
 		<PageBorderTemplate>FT_BlankPageBorder</PageBorderTemplate>
 		<ShowTabs>false</ShowTabs>
 		<Pages>MKPW_MainPage</Pages>
-		<Pages>MKPW_TaxInfoPage</Pages>		
-		<Pages>MKPW_PaymentSourcePage</Pages>				
+		<Pages>MKPW_TaxInfoPage</Pages>
+		<Pages>MKPW_PaymentSourcePage</Pages>
 		<Pages>MKPW_AmtSelectionPage</Pages>
 		<Pages>MKPW_ConfirmPage</Pages>
 		<Pages>MKPW_CreditCardPurchaseSelectionPage</Pages>
 		<Pages>MKPW_CreditCardPurchasePage</Pages>
-		<Pages>MKPW_FundConfirmPage</Pages>>
+		<Pages>MKPW_FundConfirmPage</Pages>
 		<Pages>MKPW_ResultsPage</Pages>
 		<Pages>MKPW_SCCardRedeemPage</Pages>
 		<Pages>MKPW_SCChoicePage</Pages>
@@ -3244,7 +3237,7 @@
 		<ScreenID>MKPW_SubwindowsPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<DrawTemplate>WDT_Def</DrawTemplate>
-		<TooltipReference />
+		<TooltipReference/>
 		<Style_Border>false</Style_Border>
 		<Style_Sizable>true</Style_Sizable>
 		<AutoStretch>true</AutoStretch>
@@ -3280,175 +3273,175 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>true</Style_Transparent>
 	</Screen>
-    <Button item="MKPW_PanLeftButton">
-    <ScreenID>MKPW_PanLeftButton</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>2</X>
-      <Y>24</Y>
-    </Location>
-    <Size>
-      <CX>22</CX>
-      <CY>22</CY>
-    </Size>
-    <TooltipReference>Shift Left. (Or use Right Mouse Button)</TooltipReference>
-    <Template>BDT_PanLeft</Template>
-  </Button>
-  <Button item="MKPW_PanRightButton">
-    <ScreenID>MKPW_PanRightButton</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>46</X>
-      <Y>24</Y>
-    </Location>
-    <Size>
-      <CX>22</CX>
-      <CY>22</CY>
-    </Size>
-    <TooltipReference>Shift Right. (Or use Right Mouse Button)</TooltipReference>
-    <Template>BDT_PanRight</Template>
-  </Button>
-  <Button item="MKPW_PanUpButton">
-    <ScreenID>MKPW_PanUpButton</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>24</X>
-      <Y>2</Y>
-    </Location>
-    <Size>
-      <CX>22</CX>
-      <CY>22</CY>
-    </Size>
-    <TooltipReference>Shift Up. (Or use Right Mouse Button)</TooltipReference>
-    <Template>BDT_PanUp</Template>
-  </Button>
-  <Button item="MKPW_PanDownButton">
-    <ScreenID>MKPW_PanDownButton</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>24</X>
-      <Y>46</Y>
-    </Location>
-    <Size>
-      <CX>22</CX>
-      <CY>22</CY>
-    </Size>
-    <TooltipReference>Shift Down. (Or use Right Mouse Button)</TooltipReference>
-    <Template>BDT_PanDown</Template>
-  </Button>
-    <Button item="MKPW_ZoomInButton">
-    <ScreenID>MKPW_ZoomInButton</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>10</X>
-      <Y>70</Y>
-    </Location>
-    <Size>
-      <CX>22</CX>
-      <CY>22</CY>
-    </Size>
-    <Style_VScroll>false</Style_VScroll>
-    <Style_HScroll>false</Style_HScroll>
-    <Style_Transparent>false</Style_Transparent>
-    <Style_Checkbox>false</Style_Checkbox>
-    <Text/>
-    <TooltipReference>Zoom In. (Or use Mouse Wheel)</TooltipReference>
-    <Template>BDT_ZoomIn</Template>
-  </Button>
-  <Button item="MKPW_ZoomOutButton">
-    <ScreenID>MKPW_ZoomOutButton</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>34</X>
-      <Y>70</Y>
-    </Location>
-    <Size>
-      <CX>22</CX>
-      <CY>22</CY>
-    </Size>
-    <Style_VScroll>false</Style_VScroll>
-    <Style_HScroll>false</Style_HScroll>
-    <Style_Transparent>false</Style_Transparent>
-    <Style_Checkbox>false</Style_Checkbox>
-    <Text/>
-    <TooltipReference>Zoom Out. (Or use Mouse Wheel)</TooltipReference>
-    <Template>BDT_ZoomOut</Template>
-  </Button>
-    <Button item="MKPW_RotateLeftButton">
-    <ScreenID>MKPW_RotateLeftButton</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <AutoStretch>true</AutoStretch>
-    <TopAnchorOffset>24</TopAnchorOffset>
-    <BottomAnchorOffset>46</BottomAnchorOffset>
-    <LeftAnchorOffset>68</LeftAnchorOffset>
-    <RightAnchorOffset>46</RightAnchorOffset>
-    <TopAnchorToTop>true</TopAnchorToTop>
-    <BottomAnchorToTop>true</BottomAnchorToTop>
-    <LeftAnchorToLeft>false</LeftAnchorToLeft>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TooltipReference>Rotate Left. (Or use Left Mouse Button)</TooltipReference>
-    <Template>BDT_RotateLeft</Template>
-  </Button>
-  <Button item="MKPW_RotateRightButton">
-    <ScreenID>MKPW_RotateRightButton</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <AutoStretch>true</AutoStretch>
-    <TopAnchorOffset>24</TopAnchorOffset>
-    <BottomAnchorOffset>46</BottomAnchorOffset>
-    <LeftAnchorOffset>24</LeftAnchorOffset>
-    <RightAnchorOffset>2</RightAnchorOffset>
-    <TopAnchorToTop>true</TopAnchorToTop>
-    <BottomAnchorToTop>true</BottomAnchorToTop>
-    <LeftAnchorToLeft>false</LeftAnchorToLeft>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TooltipReference>Rotate Right. (Or use Left Mouse Button)</TooltipReference>
-    <Template>BDT_RotateRight</Template>
-  </Button>
-  <Button item="MKPW_RotateUpButton">
-    <ScreenID>MKPW_RotateUpButton</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <AutoStretch>true</AutoStretch>
-    <TopAnchorOffset>2</TopAnchorOffset>
-    <BottomAnchorOffset>24</BottomAnchorOffset>
-    <LeftAnchorOffset>46</LeftAnchorOffset>
-    <RightAnchorOffset>24</RightAnchorOffset>
-    <TopAnchorToTop>true</TopAnchorToTop>
-    <BottomAnchorToTop>true</BottomAnchorToTop>
-    <LeftAnchorToLeft>false</LeftAnchorToLeft>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TooltipReference>Rotate Up. (Or use Left Mouse Button)</TooltipReference>
-    <Template>BDT_RotateUp</Template>
-  </Button>
-  <Button item="MKPW_RotateDownButton">
-    <ScreenID>MKPW_RotateDownButton</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <AutoStretch>true</AutoStretch>
-    <TopAnchorOffset>46</TopAnchorOffset>
-    <BottomAnchorOffset>68</BottomAnchorOffset>
-    <LeftAnchorOffset>46</LeftAnchorOffset>
-    <RightAnchorOffset>24</RightAnchorOffset>
-    <TopAnchorToTop>true</TopAnchorToTop>
-    <BottomAnchorToTop>true</BottomAnchorToTop>
-    <LeftAnchorToLeft>false</LeftAnchorToLeft>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TooltipReference>Rotate Down. (Or use Left Mouse Button)</TooltipReference>
-    <Template>BDT_RotateDown</Template>
-  </Button>
-  <Button item="MKPW_ResetButton">
-    <ScreenID>MKPW_ResetButton</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <AutoStretch>true</AutoStretch>
-    <TopAnchorOffset>70</TopAnchorOffset>
-    <BottomAnchorOffset>92</BottomAnchorOffset>
-    <LeftAnchorOffset>60</LeftAnchorOffset>
-    <RightAnchorOffset>10</RightAnchorOffset>
-    <TopAnchorToTop>true</TopAnchorToTop>
-    <BottomAnchorToTop>true</BottomAnchorToTop>
-    <LeftAnchorToLeft>false</LeftAnchorToLeft>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <Text>Reset</Text>
-    <Template>BDT_Normal</Template>
-  </Button>
+	<Button item="MKPW_PanLeftButton">
+		<ScreenID>MKPW_PanLeftButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>24</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>22</CY>
+		</Size>
+		<TooltipReference>Shift Left. (Or use Right Mouse Button)</TooltipReference>
+		<Template>BDT_PanLeft</Template>
+	</Button>
+	<Button item="MKPW_PanRightButton">
+		<ScreenID>MKPW_PanRightButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>46</X>
+			<Y>24</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>22</CY>
+		</Size>
+		<TooltipReference>Shift Right. (Or use Right Mouse Button)</TooltipReference>
+		<Template>BDT_PanRight</Template>
+	</Button>
+	<Button item="MKPW_PanUpButton">
+		<ScreenID>MKPW_PanUpButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>24</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>22</CY>
+		</Size>
+		<TooltipReference>Shift Up. (Or use Right Mouse Button)</TooltipReference>
+		<Template>BDT_PanUp</Template>
+	</Button>
+	<Button item="MKPW_PanDownButton">
+		<ScreenID>MKPW_PanDownButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>24</X>
+			<Y>46</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>22</CY>
+		</Size>
+		<TooltipReference>Shift Down. (Or use Right Mouse Button)</TooltipReference>
+		<Template>BDT_PanDown</Template>
+	</Button>
+	<Button item="MKPW_ZoomInButton">
+		<ScreenID>MKPW_ZoomInButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>10</X>
+			<Y>70</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>22</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text/>
+		<TooltipReference>Zoom In. (Or use Mouse Wheel)</TooltipReference>
+		<Template>BDT_ZoomIn</Template>
+	</Button>
+	<Button item="MKPW_ZoomOutButton">
+		<ScreenID>MKPW_ZoomOutButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>70</Y>
+		</Location>
+		<Size>
+			<CX>22</CX>
+			<CY>22</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text/>
+		<TooltipReference>Zoom Out. (Or use Mouse Wheel)</TooltipReference>
+		<Template>BDT_ZoomOut</Template>
+	</Button>
+	<Button item="MKPW_RotateLeftButton">
+		<ScreenID>MKPW_RotateLeftButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>24</TopAnchorOffset>
+		<BottomAnchorOffset>46</BottomAnchorOffset>
+		<LeftAnchorOffset>68</LeftAnchorOffset>
+		<RightAnchorOffset>46</RightAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TooltipReference>Rotate Left. (Or use Left Mouse Button)</TooltipReference>
+		<Template>BDT_RotateLeft</Template>
+	</Button>
+	<Button item="MKPW_RotateRightButton">
+		<ScreenID>MKPW_RotateRightButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>24</TopAnchorOffset>
+		<BottomAnchorOffset>46</BottomAnchorOffset>
+		<LeftAnchorOffset>24</LeftAnchorOffset>
+		<RightAnchorOffset>2</RightAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TooltipReference>Rotate Right. (Or use Left Mouse Button)</TooltipReference>
+		<Template>BDT_RotateRight</Template>
+	</Button>
+	<Button item="MKPW_RotateUpButton">
+		<ScreenID>MKPW_RotateUpButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>2</TopAnchorOffset>
+		<BottomAnchorOffset>24</BottomAnchorOffset>
+		<LeftAnchorOffset>46</LeftAnchorOffset>
+		<RightAnchorOffset>24</RightAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TooltipReference>Rotate Up. (Or use Left Mouse Button)</TooltipReference>
+		<Template>BDT_RotateUp</Template>
+	</Button>
+	<Button item="MKPW_RotateDownButton">
+		<ScreenID>MKPW_RotateDownButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>46</TopAnchorOffset>
+		<BottomAnchorOffset>68</BottomAnchorOffset>
+		<LeftAnchorOffset>46</LeftAnchorOffset>
+		<RightAnchorOffset>24</RightAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TooltipReference>Rotate Down. (Or use Left Mouse Button)</TooltipReference>
+		<Template>BDT_RotateDown</Template>
+	</Button>
+	<Button item="MKPW_ResetButton">
+		<ScreenID>MKPW_ResetButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>70</TopAnchorOffset>
+		<BottomAnchorOffset>92</BottomAnchorOffset>
+		<LeftAnchorOffset>60</LeftAnchorOffset>
+		<RightAnchorOffset>10</RightAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Text>Reset</Text>
+		<Template>BDT_Normal</Template>
+	</Button>
 	<Label item="MKPW_NoItemPreviewAvailable_Label">
 		<ScreenID>MKPW_NoItemPreviewAvailable_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -3505,7 +3498,7 @@
 		<ScreenID>MKPW_PreviewPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<DrawTemplate>WDT_Def</DrawTemplate>
-		<TooltipReference />
+		<TooltipReference/>
 		<Style_Border>false</Style_Border>
 		<Style_Sizable>true</Style_Sizable>
 		<AutoStretch>true</AutoStretch>

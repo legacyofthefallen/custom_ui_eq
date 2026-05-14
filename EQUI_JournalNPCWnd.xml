@@ -1,7 +1,7 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<Button item = "CJNPC_EnableCheckbox">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Button item="CJNPC_EnableCheckbox">
 		<ScreenID>EnableButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -18,7 +18,7 @@
 		<Text/>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<Label item = "CJNPC_EnableLabel">
+	<Label item="CJNPC_EnableLabel">
 		<ScreenID>EnableLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -35,9 +35,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "CJNPC_SearchButton">
+	<Button item="CJNPC_SearchButton">
 		<ScreenID>SearchButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>200</LeftAnchorOffset>
 		<TopAnchorOffset>4</TopAnchorOffset>
@@ -53,7 +53,7 @@
 		<Text>Search</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Combobox item = "CJNPC_CategoryFilter">
+	<Combobox item="CJNPC_CategoryFilter">
 		<ScreenID>CategoryFilter</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -71,7 +71,7 @@
 		<Choices>NONE</Choices>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-	<Listbox item = "CJNPC_NPCList">
+	<Listbox item="CJNPC_NPCList">
 		<ScreenID>NPCList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<TooltipReference>List of NPC's with whom you have spoken.</TooltipReference>
@@ -98,7 +98,7 @@
 			<Heading>Most Recent</Heading>
 		</Columns>
 	</Listbox>
-	<Listbox item = "CJNPC_DialogList">
+	<Listbox item="CJNPC_DialogList">
 		<ScreenID>DialogList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<TooltipReference>List of dialogs that this NPC has said.</TooltipReference>
@@ -126,7 +126,7 @@
 			<Heading>Preview</Heading>
 		</Columns>
 	</Listbox>
-	<STMLbox item = "CJNPC_Text">
+	<STMLbox item="CJNPC_Text">
 		<ScreenID>Text</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -144,7 +144,7 @@
 		<Style_Border>true</Style_Border>
 		<Text/>
 	</STMLbox>
-	<VerticalLayoutBox item = "CJNPC_Layout">
+	<VerticalLayoutBox item="CJNPC_Layout">
 		<ScreenID>Layout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -164,9 +164,9 @@
 		<Pieces>CJNPC_DialogList</Pieces>
 		<Pieces>CJNPC_Text</Pieces>
 	</VerticalLayoutBox>
-	<Button item = "CJNPC_DeleteNPCButton">
+	<Button item="CJNPC_DeleteNPCButton">
 		<ScreenID>DeleteNPCButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>4</LeftAnchorOffset>
 		<TopAnchorOffset>26</TopAnchorOffset>
@@ -182,9 +182,9 @@
 		<Text>Delete NPC</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Button item = "CJNPC_DeleteTextButton">
+	<Button item="CJNPC_DeleteTextButton">
 		<ScreenID>DeleteTextButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>96</LeftAnchorOffset>
 		<TopAnchorOffset>26</TopAnchorOffset>
@@ -200,7 +200,7 @@
 		<Text>Delete Entry</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Combobox item = "CJNPC_CategorySelect">
+	<Combobox item="CJNPC_CategorySelect">
 		<ScreenID>CategorySelect</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -218,9 +218,9 @@
 		<Choices>NONE</Choices>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-	<Button item = "CJNPC_CategoryButton">
+	<Button item="CJNPC_CategoryButton">
 		<ScreenID>CategoryButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>182</LeftAnchorOffset>
 		<TopAnchorOffset>26</TopAnchorOffset>
@@ -236,9 +236,9 @@
 		<Text>Edit Categories</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Button item = "CJNPC_SaveButton">
+	<Button item="CJNPC_SaveButton">
 		<ScreenID>SaveButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>68</LeftAnchorOffset>
 		<TopAnchorOffset>26</TopAnchorOffset>
@@ -254,7 +254,7 @@
 		<Text>Save</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Screen item = "JournalNPCWnd">
+	<Screen item="JournalNPCWnd">
 		<ScreenID/>
 		<RelativePosition>false</RelativePosition>
 		<Location>

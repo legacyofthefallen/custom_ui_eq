@@ -1,7 +1,7 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<Button item = "CHAT_OptionsButton">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Button item="CHAT_OptionsButton">
 		<ScreenID>CHAT_OptionsButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -18,9 +18,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Chat Options</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -30,7 +30,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CHAT_ExitButton">
+	<Button item="CHAT_ExitButton">
 		<ScreenID>ExitButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -47,9 +47,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>LOGOUT</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -59,7 +59,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CHAT_HelpButton">
+	<Button item="CHAT_HelpButton">
 		<ScreenID>HelpButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -76,9 +76,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>HELP</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -88,7 +88,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CHAT_TechButton">
+	<Button item="CHAT_TechButton">
 		<ScreenID>TechButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -105,9 +105,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -117,7 +117,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "CHAT_ServersButton">
+	<Button item="CHAT_ServersButton">
 		<ScreenID>ServersButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -134,9 +134,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>GAME SERVERS</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_LargeBtnNormal</Normal>
@@ -146,7 +146,7 @@
 			<PressedFlyby>A_EQLS_LargeBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Label item = "CHAT_WndLabel">
+	<Label item="CHAT_WndLabel">
 		<ScreenID>WndLabel</ScreenID>
 		<Font>5</Font>
 		<RelativePosition>true</RelativePosition>
@@ -161,15 +161,15 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<Text>LOGIN CHAT</Text>
 		<TextColor>
-				<R>255</R>
-				<G>218</G>
-				<B>96</B>
+			<R>255</R>
+			<G>218</G>
+			<B>96</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-		<Label item = "CHAT_BannerLabel">
+	<Label item="CHAT_BannerLabel">
 		<ScreenID>BannerLabel</ScreenID>
 		<Font>5</Font>
 		<RelativePosition>true</RelativePosition>
@@ -183,15 +183,15 @@
 		</Size>
 		<Text/>
 		<TextColor>
-				<R>255</R>
-				<G>218</G>
-				<B>96</B>
+			<R>255</R>
+			<G>218</G>
+			<B>96</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-		<Screen item = "CHAT_BannerWindow">
+	<Screen item="CHAT_BannerWindow">
 		<ScreenID>BannerWnd</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -214,7 +214,7 @@
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>CHAT_BannerLabel</Pieces>
 	</Screen>
-	<STMLbox item = "CHAT_ChatSTMLBox">
+	<STMLbox item="CHAT_ChatSTMLBox">
 		<ScreenID>ChatOutput</ScreenID>
 		<Font>3</Font>
 		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
@@ -233,7 +233,7 @@
 		<Style_Border>true</Style_Border>
 		<Style_Transparent>false</Style_Transparent>
 	</STMLbox>
-	<Listbox item = "CHAT_RoomList">
+	<Listbox item="CHAT_RoomList">
 		<ScreenID>RoomList</ScreenID>
 		<Font>3</Font>
 		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
@@ -260,7 +260,7 @@
 			<Heading/>
 		</Columns>
 	</Listbox>
-		<Screen item = "CHAT_RoomListBackground">
+	<Screen item="CHAT_RoomListBackground">
 		<ScreenID>RoomListBackground</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -283,7 +283,7 @@
 		<Style_Border>false</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
 	</Screen>
-	<Listbox item = "CHAT_PlayerList">
+	<Listbox item="CHAT_PlayerList">
 		<ScreenID>PlayerList</ScreenID>
 		<Font>3</Font>
 		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
@@ -309,7 +309,7 @@
 			<Heading/>
 		</Columns>
 	</Listbox>
-		<Screen item = "CHAT_PlayerListBackground">
+	<Screen item="CHAT_PlayerListBackground">
 		<ScreenID>PlayerListBackground</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -332,7 +332,7 @@
 		<Style_Border>false</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
 	</Screen>
-	<Editbox item = "CHAT_ChatEdit">
+	<Editbox item="CHAT_ChatEdit">
 		<ScreenID>ChatEdit</ScreenID>
 		<Font>3</Font>
 		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
@@ -348,13 +348,13 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 	</Editbox>
-	<Screen item = "chat">
-				<RelativePosition>true</RelativePosition>
+	<Screen item="chat">
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -367,7 +367,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-				<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
+		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>

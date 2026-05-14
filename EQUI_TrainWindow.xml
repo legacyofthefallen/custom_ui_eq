@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
+<XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-	<Listbox item = "TRNW_SkillList">
+	<Listbox item="TRNW_SkillList">
 		<ScreenID>SkillList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<Location>
@@ -43,9 +43,9 @@
 			<Header>Header_CoppCoin</Header>
 		</Columns>
 	</Listbox>
-	<Label item ="TRNW_ExpLabel">
+	<Label item="TRNW_ExpLabel">
 		<ScreenID>ExpLabel</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>456</X>
 			<Y>2</Y>
@@ -59,9 +59,9 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Gauge item = "TRNW_ExpGauge">
+	<Gauge item="TRNW_ExpGauge">
 		<ScreenID>ExpGauge</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>456</X>
 			<Y>24</Y>
@@ -74,15 +74,15 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-				<FillTint>
-				<R>240</R>
-				<G>240</G>
-				<B>0</B>
+		<FillTint>
+			<R>240</R>
+			<G>240</G>
+			<B>0</B>
 		</FillTint>
 		<LinesFillTint>
-				<R>0</R>
-				<G>220</G>
-				<B>220</B>
+			<R>0</R>
+			<G>220</G>
+			<B>220</B>
 		</LinesFillTint>
 		<DrawLinesFill>true</DrawLinesFill>
 		<EQType>4</EQType>
@@ -95,9 +95,9 @@
 			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 	</Gauge>
-	<Label item ="TRNW_PracticeLabel">
+	<Label item="TRNW_PracticeLabel">
 		<ScreenID>PracticeLabel</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>456</X>
 			<Y>48</Y>
@@ -111,9 +111,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-	<Label item ="TRNW_PracticeCount">
+	<Label item="TRNW_PracticeCount">
 		<ScreenID>PracticeCount</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>530</X>
 			<Y>48</Y>
@@ -127,9 +127,9 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "TRNW_TrainButton">
+	<Button item="TRNW_TrainButton">
 		<ScreenID>TrainButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>460</X>
 			<Y>78</Y>
@@ -141,13 +141,13 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<Text>Train</Text>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Train</Text>
 		<Template>BDT_Normal</Template>
-							</Button>
-	<Label item ="TRNW_MoneyLabel">
+	</Button>
+	<Label item="TRNW_MoneyLabel">
 		<ScreenID>MoneyLabel</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>456</X>
 			<Y>108</Y>
@@ -161,9 +161,9 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TRNW_CoinCount0">
+	<Label item="TRNW_CoinCount0">
 		<ScreenID>CoinCount0</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>494</X>
 			<Y>136</Y>
@@ -177,9 +177,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TRNW_CoinCount1">
+	<Label item="TRNW_CoinCount1">
 		<ScreenID>CoinCount1</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>494</X>
 			<Y>156</Y>
@@ -193,9 +193,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TRNW_CoinCount2">
+	<Label item="TRNW_CoinCount2">
 		<ScreenID>CoinCount2</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>494</X>
 			<Y>176</Y>
@@ -209,9 +209,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item ="TRNW_CoinCount3">
+	<Label item="TRNW_CoinCount3">
 		<ScreenID>CoinCount3</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>494</X>
 			<Y>196</Y>
@@ -225,7 +225,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<StaticAnimation item = "TRNW_Purse0">
+	<StaticAnimation item="TRNW_Purse0">
 		<ScreenID>Purse1</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -238,7 +238,7 @@
 		</Size>
 		<Animation>A_PlatinumCoin</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "TRNW_Purse1">
+	<StaticAnimation item="TRNW_Purse1">
 		<ScreenID>Purse1</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -251,7 +251,7 @@
 		</Size>
 		<Animation>A_GoldCoin</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "TRNW_Purse2">
+	<StaticAnimation item="TRNW_Purse2">
 		<ScreenID>Purse1</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -264,7 +264,7 @@
 		</Size>
 		<Animation>A_SilverCoin</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "TRNW_Purse3">
+	<StaticAnimation item="TRNW_Purse3">
 		<ScreenID>Purse1</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -277,9 +277,9 @@
 		</Size>
 		<Animation>A_CopperCoin</Animation>
 	</StaticAnimation>
-	<Button item = "TW_DoneButton">
+	<Button item="TW_DoneButton">
 		<ScreenID>DoneButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>460</X>
 			<Y>226</Y>
@@ -290,12 +290,12 @@
 		</Size>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<Text>Done</Text>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Done</Text>
 		<Template>BDT_Normal</Template>
-							</Button>
-	<Screen item = "TrainWindow">
-						<RelativePosition>false</RelativePosition>
+	</Button>
+	<Screen item="TrainWindow">
+		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>120</X>
 			<Y>20</Y>
@@ -307,7 +307,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-				<Text>Training Window</Text>
+		<Text>Training Window</Text>
 		<DrawTemplate>WDT_Rounded</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Qmarkbox>true</Style_Qmarkbox>

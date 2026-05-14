@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<StaticAnimation item="Inv_Seperator1">
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -76,8 +76,8 @@
 		<Text>Reclaim Crystals</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	
-			<InvSlot item="InvSlot0">
+
+	<InvSlot item="InvSlot0">
 		<ScreenID>InvSlot0</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -91,7 +91,7 @@
 		<Background>A_InvCharm</Background>
 		<EQType>inventory/Equip 0</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot1">
+	<InvSlot item="InvSlot1">
 		<ScreenID>InvSlot1</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -105,7 +105,7 @@
 		<Background>A_InvEar</Background>
 		<EQType>inventory/Equip 1</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot2">
+	<InvSlot item="InvSlot2">
 		<ScreenID>InvSlot2</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -119,7 +119,7 @@
 		<Background>A_InvHead</Background>
 		<EQType>inventory/Equip 2</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot3">
+	<InvSlot item="InvSlot3">
 		<ScreenID>InvSlot3</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -133,7 +133,7 @@
 		<Background>A_InvFace</Background>
 		<EQType>inventory/Equip 3</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot4">
+	<InvSlot item="InvSlot4">
 		<ScreenID>InvSlot4</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -147,7 +147,7 @@
 		<Background>A_InvEar</Background>
 		<EQType>inventory/Equip 4</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot5">
+	<InvSlot item="InvSlot5">
 		<ScreenID>InvSlot5</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -161,7 +161,7 @@
 		<Background>A_InvNeck</Background>
 		<EQType>inventory/Equip 5</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot6">
+	<InvSlot item="InvSlot6">
 		<ScreenID>InvSlot6</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -175,7 +175,7 @@
 		<Background>A_InvShoulders</Background>
 		<EQType>inventory/Equip 6</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot7">
+	<InvSlot item="InvSlot7">
 		<ScreenID>InvSlot7</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -189,7 +189,7 @@
 		<Background>A_InvArms</Background>
 		<EQType>inventory/Equip 7</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot8">
+	<InvSlot item="InvSlot8">
 		<ScreenID>InvSlot8</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -203,7 +203,7 @@
 		<Background>A_InvAboutBody</Background>
 		<EQType>inventory/Equip 8</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot9">
+	<InvSlot item="InvSlot9">
 		<ScreenID>InvSlot9</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -217,7 +217,7 @@
 		<Background>A_InvWrist</Background>
 		<EQType>inventory/Equip 9</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot10">
+	<InvSlot item="InvSlot10">
 		<ScreenID>InvSlot10</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -231,7 +231,7 @@
 		<Background>A_InvWrist</Background>
 		<EQType>inventory/Equip 10</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot11">
+	<InvSlot item="InvSlot11">
 		<ScreenID>InvSlot11</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -245,7 +245,7 @@
 		<Background>A_InvRange</Background>
 		<EQType>inventory/Equip 11</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot12">
+	<InvSlot item="InvSlot12">
 		<ScreenID>InvSlot12</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -259,7 +259,7 @@
 		<Background>A_InvHands</Background>
 		<EQType>inventory/Equip 12</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot13">
+	<InvSlot item="InvSlot13">
 		<ScreenID>InvSlot13</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -273,7 +273,7 @@
 		<Background>A_InvPrimary</Background>
 		<EQType>inventory/Equip 13</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot14">
+	<InvSlot item="InvSlot14">
 		<ScreenID>InvSlot14</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -287,7 +287,7 @@
 		<Background>A_InvSecondary</Background>
 		<EQType>inventory/Equip 14</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot15">
+	<InvSlot item="InvSlot15">
 		<ScreenID>InvSlot15</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -301,7 +301,7 @@
 		<Background>A_InvRing</Background>
 		<EQType>inventory/Equip 15</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot16">
+	<InvSlot item="InvSlot16">
 		<ScreenID>InvSlot16</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -315,7 +315,7 @@
 		<Background>A_InvRing</Background>
 		<EQType>inventory/Equip 16</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot17">
+	<InvSlot item="InvSlot17">
 		<ScreenID>InvSlot17</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -329,7 +329,7 @@
 		<Background>A_InvChest</Background>
 		<EQType>inventory/Equip 17</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot18">
+	<InvSlot item="InvSlot18">
 		<ScreenID>InvSlot18</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -343,7 +343,7 @@
 		<Background>A_InvLegs</Background>
 		<EQType>inventory/Equip 18</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot19">
+	<InvSlot item="InvSlot19">
 		<ScreenID>InvSlot19</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -357,7 +357,7 @@
 		<Background>A_InvFeet</Background>
 		<EQType>inventory/Equip 19</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot20">
+	<InvSlot item="InvSlot20">
 		<ScreenID>InvSlot20</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -371,7 +371,7 @@
 		<Background>A_InvWaist</Background>
 		<EQType>inventory/Equip 20</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot21">
+	<InvSlot item="InvSlot21">
 		<ScreenID>InvSlot21</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -385,7 +385,7 @@
 		<Background>A_InvPowerSource</Background>
 		<EQType>inventory/Equip 21</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot22">
+	<InvSlot item="InvSlot22">
 		<ScreenID>InvSlot22</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -399,7 +399,7 @@
 		<Background>A_InvAmmo</Background>
 		<EQType>inventory/Equip 22</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlotKrono">
+	<InvSlot item="InvSlotKrono">
 		<ScreenID>InvSlotKrono</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -413,7 +413,7 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>inventory/Krono</EQType>
 	</InvSlot>
-		<InvSlot item="InvSlot23">
+	<InvSlot item="InvSlot23">
 		<ScreenID>InvSlot23</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Size>
@@ -489,7 +489,7 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>inventory/Equip 34</EQType>
 	</InvSlot>
-		
+
 	<Button item="IW_ConsumeKrono">
 		<ScreenID>IW_ConsumeKrono</ScreenID>
 		<Font>2</Font>
@@ -549,7 +549,7 @@
 		<Button>BDT_Combo</Button>
 		<Style_Border>true</Style_Border>
 	</Combobox>
-		<Label item="IW_Name">
+	<Label item="IW_Name">
 		<ScreenID>NameLabel</ScreenID>
 		<EQType>1</EQType>
 		<RelativePosition>true</RelativePosition>
@@ -1154,7 +1154,8 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
-		<TooltipReference>Determines your mana (for some classes) and influences your chance to raise skills</TooltipReference>
+		<TooltipReference>Determines your mana (for some classes) and influences your chance to
+			raise skills</TooltipReference>
 	</Label>
 	<Label item="IW_WISNumber">
 		<ScreenID>WISNumberLabel</ScreenID>
@@ -1188,7 +1189,8 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
-		<TooltipReference>Determines your mana (for some classes) and influences your chance to raise skills</TooltipReference>
+		<TooltipReference>Determines your mana (for some classes) and influences your chance to
+			raise skills</TooltipReference>
 	</Label>
 	<Label item="IW_INTNumber">
 		<ScreenID>INTNumberLabel</ScreenID>
@@ -1222,7 +1224,8 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
-		<TooltipReference>Influences pricing on many vendors and influences success of charm and mesmerization spells</TooltipReference>
+		<TooltipReference>Influences pricing on many vendors and influences success of charm and
+			mesmerization spells</TooltipReference>
 	</Label>
 	<Label item="IW_CHANumber">
 		<ScreenID>CHANumberLabel</ScreenID>
@@ -1591,7 +1594,7 @@
 			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 	</Gauge>
-		
+
 	<Button item="IW_GoodPoints">
 		<ScreenID>IW_GoodPoints</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1820,7 +1823,7 @@
 			<CX>75</CX>
 			<CY>142</CY>
 		</Size>
-			</StaticAnimation>
+	</StaticAnimation>
 	<Screen item="IW_CharacterView">
 		<ScreenID>IW_CharacterView</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -2163,7 +2166,7 @@
 			<CY>401</CY>
 		</Size>
 	</Page>
-		<Label item="IWS_HP">
+	<Label item="IWS_HP">
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
@@ -3099,7 +3102,8 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
-		<TooltipReference>Determines your mana (for some classes) and influences your chance to raise skills</TooltipReference>
+		<TooltipReference>Determines your mana (for some classes) and influences your chance to
+			raise skills</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentIntelligence">
 		<EQType>243</EQType>
@@ -3220,7 +3224,8 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
-		<TooltipReference>Determines your mana (for some classes) and influences your chance to raise skills</TooltipReference>
+		<TooltipReference>Determines your mana (for some classes) and influences your chance to
+			raise skills</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentWisdom">
 		<EQType>242</EQType>
@@ -3583,7 +3588,8 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
-		<TooltipReference>Influences pricing on many vendors and influences success of charm and mesmerization spells</TooltipReference>
+		<TooltipReference>Influences pricing on many vendors and influences success of charm and
+			mesmerization spells</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentCharisma">
 		<EQType>244</EQType>
@@ -5144,7 +5150,8 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
-		<TooltipReference>Has a chance to improve the effects of Heroic Mods, skill successes, and critical potency</TooltipReference>
+		<TooltipReference>Has a chance to improve the effects of Heroic Mods, skill successes, and
+			critical potency</TooltipReference>
 	</Label>
 	<Label item="IWS_CurrentLuck">
 		<EQType>416</EQType>
@@ -5986,8 +5993,8 @@
 		</Size>
 		<Pieces>TileLayoutBox:IW_Stats</Pieces>
 	</Page>
-		
-		<Listbox item="IW_AltCurr_PointList">
+
+	<Listbox item="IW_AltCurr_PointList">
 		<ScreenID>AltCurr_PointList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -6088,7 +6095,8 @@
 		<TopAnchorOffset>26</TopAnchorOffset>
 		<RightAnchorOffset>260</RightAnchorOffset>
 		<BottomAnchorOffset>4</BottomAnchorOffset>
-		<TooltipReference>Click here to convert your held item or any items of the highlighted point type into points.</TooltipReference>
+		<TooltipReference>Click here to convert your held item or any items of the highlighted point
+			type into points.</TooltipReference>
 		<Text>Reclaim</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
@@ -6134,8 +6142,8 @@
 			<CY>401</CY>
 		</Size>
 	</Page>
-		
-		<Label item="IWM_HP">
+
+	<Label item="IWM_HP">
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
@@ -6671,7 +6679,8 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
-		<TooltipReference>The number of endurance points your mercenary will regenerate while in combat</TooltipReference>
+		<TooltipReference>The number of endurance points your mercenary will regenerate while in
+			combat</TooltipReference>
 	</Label>
 	<Label item="IWM_CurrentCombatEndRegen">
 		<EQType>356</EQType>
@@ -6729,7 +6738,8 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
-		<TooltipReference>Determines your mercenary's encumbrance limit and is a factor in melee damage</TooltipReference>
+		<TooltipReference>Determines your mercenary's encumbrance limit and is a factor in melee
+			damage</TooltipReference>
 	</Label>
 	<Label item="IWM_CurrentStrength">
 		<EQType>347</EQType>
@@ -6895,7 +6905,8 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
-		<TooltipReference>Determines your mercenary's mana (for some classes) and influences your mercenary's chance to raise skills</TooltipReference>
+		<TooltipReference>Determines your mercenary's mana (for some classes) and influences your
+			mercenary's chance to raise skills</TooltipReference>
 	</Label>
 	<Label item="IWM_CurrentIntelligence">
 		<EQType>349</EQType>
@@ -6978,7 +6989,8 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
-		<TooltipReference>Determines your mercenary's mana (for some classes) and influences your mercenary's chance to raise skills</TooltipReference>
+		<TooltipReference>Determines your mercenary's mana (for some classes) and influences your
+			mercenary's chance to raise skills</TooltipReference>
 	</Label>
 	<Label item="IWM_CurrentWisdom">
 		<EQType>350</EQType>
@@ -7061,7 +7073,8 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
-		<TooltipReference>Influences your mercenary's AC and helps your mercenary avoid incoming damage</TooltipReference>
+		<TooltipReference>Influences your mercenary's AC and helps your mercenary avoid incoming
+			damage</TooltipReference>
 	</Label>
 	<Label item="IWM_CurrentAgility">
 		<EQType>351</EQType>
@@ -7227,7 +7240,8 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
-		<TooltipReference>Influences pricing on many vendors and influences success of charm and mesmerization spells</TooltipReference>
+		<TooltipReference>Influences pricing on many vendors and influences success of charm and
+			mesmerization spells</TooltipReference>
 	</Label>
 	<Label item="IWM_CurrentCharisma">
 		<EQType>353</EQType>
@@ -7529,8 +7543,8 @@
 		<Pieces>TileLayoutBox:IW_MercenaryInv</Pieces>
 		<Pieces>TileLayoutBox:IWM_Slots</Pieces>
 	</Page>
-		
-			<InvSlot item="PersonaInvSlot0">
+
+	<InvSlot item="PersonaInvSlot0">
 		<ScreenID>PersonaInvSlot0</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7544,7 +7558,7 @@
 		<Background>A_InvCharm</Background>
 		<EQType>personaInventory/Equip 0</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot1">
+	<InvSlot item="PersonaInvSlot1">
 		<ScreenID>PersonaInvSlot1</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7558,7 +7572,7 @@
 		<Background>A_InvEar</Background>
 		<EQType>personaInventory/Equip 1</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot2">
+	<InvSlot item="PersonaInvSlot2">
 		<ScreenID>PersonaInvSlot2</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7572,7 +7586,7 @@
 		<Background>A_InvHead</Background>
 		<EQType>personaInventory/Equip 2</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot3">
+	<InvSlot item="PersonaInvSlot3">
 		<ScreenID>PersonaInvSlot3</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7586,7 +7600,7 @@
 		<Background>A_InvFace</Background>
 		<EQType>personaInventory/Equip 3</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot4">
+	<InvSlot item="PersonaInvSlot4">
 		<ScreenID>PersonaInvSlot4</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7600,7 +7614,7 @@
 		<Background>A_InvEar</Background>
 		<EQType>personaInventory/Equip 4</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot5">
+	<InvSlot item="PersonaInvSlot5">
 		<ScreenID>PersonaInvSlot5</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7614,7 +7628,7 @@
 		<Background>A_InvNeck</Background>
 		<EQType>personaInventory/Equip 5</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot6">
+	<InvSlot item="PersonaInvSlot6">
 		<ScreenID>PersonaInvSlot6</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7628,7 +7642,7 @@
 		<Background>A_InvShoulders</Background>
 		<EQType>personaInventory/Equip 6</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot7">
+	<InvSlot item="PersonaInvSlot7">
 		<ScreenID>PersonaInvSlot7</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7642,7 +7656,7 @@
 		<Background>A_InvArms</Background>
 		<EQType>personaInventory/Equip 7</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot8">
+	<InvSlot item="PersonaInvSlot8">
 		<ScreenID>PersonaInvSlot8</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7656,7 +7670,7 @@
 		<Background>A_InvAboutBody</Background>
 		<EQType>personaInventory/Equip 8</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot9">
+	<InvSlot item="PersonaInvSlot9">
 		<ScreenID>PersonaInvSlot9</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7670,7 +7684,7 @@
 		<Background>A_InvWrist</Background>
 		<EQType>personaInventory/Equip 9</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot10">
+	<InvSlot item="PersonaInvSlot10">
 		<ScreenID>PersonaInvSlot10</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7684,7 +7698,7 @@
 		<Background>A_InvWrist</Background>
 		<EQType>personaInventory/Equip 10</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot11">
+	<InvSlot item="PersonaInvSlot11">
 		<ScreenID>PersonaInvSlot11</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7698,7 +7712,7 @@
 		<Background>A_InvRange</Background>
 		<EQType>personaInventory/Equip 11</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot12">
+	<InvSlot item="PersonaInvSlot12">
 		<ScreenID>PersonaInvSlot12</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7712,7 +7726,7 @@
 		<Background>A_InvHands</Background>
 		<EQType>personaInventory/Equip 12</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot13">
+	<InvSlot item="PersonaInvSlot13">
 		<ScreenID>PersonaInvSlot13</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7726,7 +7740,7 @@
 		<Background>A_InvPrimary</Background>
 		<EQType>personaInventory/Equip 13</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot14">
+	<InvSlot item="PersonaInvSlot14">
 		<ScreenID>PersonaInvSlot14</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7740,7 +7754,7 @@
 		<Background>A_InvSecondary</Background>
 		<EQType>personaInventory/Equip 14</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot15">
+	<InvSlot item="PersonaInvSlot15">
 		<ScreenID>PersonaInvSlot15</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7754,7 +7768,7 @@
 		<Background>A_InvRing</Background>
 		<EQType>personaInventory/Equip 15</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot16">
+	<InvSlot item="PersonaInvSlot16">
 		<ScreenID>PersonaInvSlot16</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7768,7 +7782,7 @@
 		<Background>A_InvRing</Background>
 		<EQType>personaInventory/Equip 16</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot17">
+	<InvSlot item="PersonaInvSlot17">
 		<ScreenID>PersonaInvSlot17</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7782,7 +7796,7 @@
 		<Background>A_InvChest</Background>
 		<EQType>personaInventory/Equip 17</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot18">
+	<InvSlot item="PersonaInvSlot18">
 		<ScreenID>PersonaInvSlot18</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7796,7 +7810,7 @@
 		<Background>A_InvLegs</Background>
 		<EQType>personaInventory/Equip 18</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot19">
+	<InvSlot item="PersonaInvSlot19">
 		<ScreenID>PersonaInvSlot19</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7810,7 +7824,7 @@
 		<Background>A_InvFeet</Background>
 		<EQType>personaInventory/Equip 19</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot20">
+	<InvSlot item="PersonaInvSlot20">
 		<ScreenID>PersonaInvSlot20</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7824,7 +7838,7 @@
 		<Background>A_InvWaist</Background>
 		<EQType>personaInventory/Equip 20</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot21">
+	<InvSlot item="PersonaInvSlot21">
 		<ScreenID>PersonaInvSlot21</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7838,7 +7852,7 @@
 		<Background>A_InvPowerSource</Background>
 		<EQType>personaInventory/Equip 21</EQType>
 	</InvSlot>
-		<InvSlot item="PersonaInvSlot22">
+	<InvSlot item="PersonaInvSlot22">
 		<ScreenID>PersonaInvSlot22</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -7852,7 +7866,7 @@
 		<Background>A_InvAmmo</Background>
 		<EQType>personaInventory/Equip 22</EQType>
 	</InvSlot>
-	
+
 	<Button item="IWP_SaveEquip">
 		<ScreenID>IWP_SaveEquip</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -7880,7 +7894,7 @@
 		</Size>
 		<Text>Load Set</Text>
 		<Template>BDT_Normal</Template>
-	</Button>	
+	</Button>
 	<StaticAnimation item="PersonaAnim">
 		<ScreenID>PersonaAnim</ScreenID>
 		<Location>
@@ -7891,7 +7905,7 @@
 			<CX>75</CX>
 			<CY>142</CY>
 		</Size>
-			</StaticAnimation>
+	</StaticAnimation>
 	<Screen item="IWP_CharacterView">
 		<ScreenID>IWP_CharacterView</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -7912,7 +7926,7 @@
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>PersonaAnim</Pieces>
 	</Screen>
-	
+
 	<Listbox item="IWP_PersonaList">
 		<ScreenID>IWP_PersonaList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -7949,7 +7963,7 @@
 		<Text>Create Class</Text>
 		<TooltipReference>Create or swap to an Alternate Persona.</TooltipReference>
 		<Template>BDT_Normal</Template>
-	</Button>	
+	</Button>
 	<Button item="IWP_AltSlotPurchase">
 		<ScreenID>IWP_AltSlotPurchase</ScreenID>
 		<Font>2</Font>
@@ -7958,7 +7972,7 @@
 			<CX>130</CX>
 			<CY>20</CY>
 		</Size>
-	<Text>Purchase Alt-Slot</Text>
+		<Text>Purchase Alt-Slot</Text>
 		<TextColor>
 			<R>255</R>
 			<G>233</G>
@@ -7981,10 +7995,10 @@
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>IWP_AltSlotPurchase</Pieces>
 		<Pieces>IWP_CreateClass</Pieces>
-	</Screen>	
+	</Screen>
 	<Button item="IWP_AutoLoadSaved">
 		<ScreenID>IWP_AutoLoadSaved</ScreenID>
-	<Font>2</Font>
+		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
@@ -7997,16 +8011,16 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>Auto load saved equipment set</Text>
 		<Template>BDT_CheckboxWithText</Template>
-	<DecalSize>
+		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
 		</DecalSize>
-	<TextAlignCenter>false</TextAlignCenter>
+		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
-	</Button>	
+	</Button>
 	<Button item="IWP_AutoSave">
 		<ScreenID>IWP_AutoSave</ScreenID>
-	<Font>2</Font>
+		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
@@ -8019,16 +8033,16 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>Auto save current equipment set</Text>
 		<Template>BDT_CheckboxWithText</Template>
-	<DecalSize>
+		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
 		</DecalSize>
-	<TextAlignCenter>false</TextAlignCenter>
+		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
 	<Button item="IWP_UseLockedSlots">
 		<ScreenID>IWP_UseLockedSlots</ScreenID>
-	<Font>2</Font>
+		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
@@ -8041,11 +8055,11 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>Use equipment in locked slots</Text>
 		<Template>BDT_CheckboxWithText</Template>
-	<DecalSize>
+		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
 		</DecalSize>
-	<TextAlignCenter>false</TextAlignCenter>
+		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
 	<VerticalLayoutBox item="IWP_PersonaRightSide">
@@ -8072,7 +8086,7 @@
 		<Pieces>IWP_AutoSave</Pieces>
 		<Pieces>IWP_UseLockedSlots</Pieces>
 	</VerticalLayoutBox>
-	
+
 	<Page item="IW_PersonaPage">
 		<ScreenID>PersonaPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -8123,7 +8137,7 @@
 			<CY>401</CY>
 		</Size>
 	</Page>
-	
+
 	<TabBox item="IW_Subwindows">
 		<ScreenID>IW_Subwindows</ScreenID>
 		<RelativePosition>true</RelativePosition>

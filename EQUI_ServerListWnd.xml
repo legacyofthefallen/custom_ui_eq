@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
   <Button item="SL_RefreshButton">
     <ScreenID>SL_RefreshButton</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -65,7 +65,8 @@
   <Listbox item="SL_ServerList">
     <ScreenID>SL_ServerList</ScreenID>
     <DrawTemplate>WDT_Inner</DrawTemplate>
-    <TooltipReference>List of available servers, including whether your name is in use on that server.</TooltipReference>
+    <TooltipReference>List of available servers, including whether your name is in use on that
+      server.</TooltipReference>
     <RelativePosition>true</RelativePosition>
     <Style_Border>true</Style_Border>
     <Style_VScroll>true</Style_VScroll>
@@ -86,8 +87,8 @@
       <Heading>Character Name In Use?</Heading>
     </Columns>
     <Columns>
-		<Width>100</Width>
-		<Heading>Free Transfer</Heading>
+      <Width>100</Width>
+      <Heading>Free Transfer</Heading>
     </Columns>
   </Listbox>
   <Button item="SL_DisableReminderButton">

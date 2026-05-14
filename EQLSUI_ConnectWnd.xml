@@ -1,7 +1,7 @@
-﻿<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-		<Button item = "LOGIN_ConnectButton">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Button item="LOGIN_ConnectButton">
 		<ScreenID>ConnectButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -17,9 +17,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>LOGIN</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_LargeBtnNormal</Normal>
@@ -29,7 +29,7 @@
 			<PressedFlyby>A_EQLS_LargeBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "LOGIN_QuickConnectButton">
+	<Button item="LOGIN_QuickConnectButton">
 		<ScreenID>QuickConnectButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -46,9 +46,9 @@
 		<Text>QUICK CONNECT</Text>
 		<NoWrap>false</NoWrap>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_LargeBtnNormal</Normal>
@@ -58,7 +58,7 @@
 			<PressedFlyby>A_EQLS_LargeBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "LOGIN_ChatButton">
+	<Button item="LOGIN_ChatButton">
 		<ScreenID>ChatButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -75,9 +75,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>CHAT</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -87,7 +87,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "LOGIN_CancelButton">
+	<Button item="LOGIN_CancelButton">
 		<ScreenID>CancelButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -103,9 +103,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>CANCEL</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -113,9 +113,9 @@
 			<Flyby>A_EQLS_SmallBtnHover</Flyby>
 			<Disabled>A_EQLS_SmallBtnDisabled</Disabled>
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
-		</ButtonDrawTemplate>			
+		</ButtonDrawTemplate>
 	</Button>
-			<Label item = "LOGIN_UsernameLabel">
+	<Label item="LOGIN_UsernameLabel">
 		<ScreenID>UsernameLabel</ScreenID>
 		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
@@ -129,15 +129,15 @@
 		</Size>
 		<Text>USERNAME</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item = "LOGIN_PasswordLabel">
+	<Label item="LOGIN_PasswordLabel">
 		<ScreenID>PasswordLabel</ScreenID>
 		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
@@ -151,15 +151,15 @@
 		</Size>
 		<Text>PASSWORD</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Label item = "LOGIN_QuickConnectToLabel">
+	<Label item="LOGIN_QuickConnectToLabel">
 		<ScreenID>QuickConnectToLabel</ScreenID>
 		<Font>3</Font>
 		<RelativePosition>true</RelativePosition>
@@ -173,15 +173,15 @@
 		</Size>
 		<Text>(SERVER NAME)</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Editbox item = "LOGIN_UsernameEdit">
+	<Editbox item="LOGIN_UsernameEdit">
 		<ScreenID>UsernameEdit</ScreenID>
 		<Font>4</Font>
 		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
@@ -196,12 +196,12 @@
 			<CY>38</CY>
 		</Size>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 	</Editbox>
-	<Editbox item = "LOGIN_PasswordEdit">
+	<Editbox item="LOGIN_PasswordEdit">
 		<ScreenID>PasswordEdit</ScreenID>
 		<Font>4</Font>
 		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
@@ -216,13 +216,13 @@
 			<CY>38</CY>
 		</Size>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 	</Editbox>
-		<Screen item = "connect">
-				<RelativePosition>true</RelativePosition>
+	<Screen item="connect">
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -235,7 +235,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-				<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>

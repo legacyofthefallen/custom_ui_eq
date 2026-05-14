@@ -1,7 +1,7 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<Button item = "HELP_OKButton">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Button item="HELP_OKButton">
 		<ScreenID>OKButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -18,9 +18,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>OK</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -30,7 +30,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<STMLbox item = "HELP_Display">
+	<STMLbox item="HELP_Display">
 		<ScreenID>Display</ScreenID>
 		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -46,7 +46,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<Style_Border>true</Style_Border>
 	</STMLbox>
-	<Label item = "HELP_WndLabel">
+	<Label item="HELP_WndLabel">
 		<ScreenID>WndLabel</ScreenID>
 		<Font>5</Font>
 		<RelativePosition>true</RelativePosition>
@@ -60,16 +60,16 @@
 		</Size>
 		<Text>HELP</Text>
 		<TextColor>
-				<R>255</R>
-				<G>218</G>
-				<B>96</B>
+			<R>255</R>
+			<G>218</G>
+			<B>96</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Screen item = "chathelp">
-				<RelativePosition>true</RelativePosition>
+	<Screen item="chathelp">
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -82,7 +82,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-				<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
@@ -98,7 +98,7 @@
 		<Pieces>HELP_Display</Pieces>
 		<Pieces>HELP_WndLabel</Pieces>
 	</Screen>
-	<Label item = "SHELP_WndLabel">
+	<Label item="SHELP_WndLabel">
 		<ScreenID>SWndLabel</ScreenID>
 		<Font>5</Font>
 		<RelativePosition>true</RelativePosition>
@@ -112,16 +112,16 @@
 		</Size>
 		<Text>Seizure Warning</Text>
 		<TextColor>
-				<R>255</R>
-				<G>218</G>
-				<B>96</B>
+			<R>255</R>
+			<G>218</G>
+			<B>96</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Screen item = "seizurewarning">
-				<RelativePosition>true</RelativePosition>
+	<Screen item="seizurewarning">
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -134,7 +134,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-				<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
@@ -150,7 +150,7 @@
 		<Pieces>HELP_Display</Pieces>
 		<Pieces>SHELP_WndLabel</Pieces>
 	</Screen>
-	<Button item = "MAINHELP_OKButton">
+	<Button item="MAINHELP_OKButton">
 		<ScreenID>OKButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -166,9 +166,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>OK</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -178,7 +178,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<STMLbox item = "MAINHELP_Display">
+	<STMLbox item="MAINHELP_Display">
 		<ScreenID>Display</ScreenID>
 		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -193,8 +193,8 @@
 		</Size>
 		<Style_Border>true</Style_Border>
 	</STMLbox>
-	<Screen item = "mainhelp">
-				<RelativePosition>true</RelativePosition>
+	<Screen item="mainhelp">
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -207,7 +207,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-				<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>

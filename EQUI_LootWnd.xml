@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Label item="LW_CorpseName">
 		<ScreenID>LW_CorpseName</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>1</Y>
@@ -19,7 +19,7 @@
 	</Label>
 	<Button item="LW_BroadcastButton">
 		<ScreenID>BroadcastButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>10</X>
 			<Y>42</Y>
@@ -29,8 +29,8 @@
 			<CY>24</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<Text>Link all</Text>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Link all</Text>
 		<Template>BDT_BigNormal</Template>
 	</Button>
 	<InvSlot item="LW_LootSlotTemplate">
@@ -44,7 +44,7 @@
 	</InvSlot>
 	<TileLayoutBox item="LW_LootInvWnd">
 		<ScreenID>LootInvWnd</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>8</LeftAnchorOffset>
 		<TopAnchorOffset>68</TopAnchorOffset>
@@ -54,13 +54,13 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<Style_VScroll>true</Style_VScroll>
 		<Style_Transparent>false</Style_Transparent>
-				<DrawTemplate>WDT_Inner</DrawTemplate>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<FirstPieceTemplate>true</FirstPieceTemplate>
 		<Pieces>LW_LootSlotTemplate</Pieces>
 	</TileLayoutBox>
 	<Button item="LW_DoneButton">
 		<ScreenID>DoneButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
 		<TopAnchorOffset>26</TopAnchorOffset>
@@ -70,13 +70,13 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<Text>Done</Text>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Done</Text>
 		<Template>BDT_BigNormal</Template>
 	</Button>
 	<Button item="LW_LootAllButton">
 		<ScreenID>LootAllButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
 		<TopAnchorOffset>52</TopAnchorOffset>
@@ -86,8 +86,8 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<Text>Loot All</Text>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Loot All</Text>
 		<Template>BDT_BigNormal</Template>
 	</Button>
 	<Screen item="LootWnd">

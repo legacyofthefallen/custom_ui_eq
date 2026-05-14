@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<LayoutStrategy item="ACHI_Layout">
 		<Padding>0</Padding>
 		<ResizeVertical>true</ResizeVertical>
@@ -38,7 +38,7 @@
 		<Style_Transparent>true</Style_Transparent>
 		<ResizeHeightToText>true</ResizeHeightToText>
 	</Label>
-	
+
 	<Label item="ACHI_AchievementTimeStamp_Label">
 		<ScreenID>ACHI_AchievementTimeStamp_Label</ScreenID>
 		<Text>[Timestamp]</Text>
@@ -55,7 +55,7 @@
 		<Style_Transparent>true</Style_Transparent>
 		<ResizeHeightToText>true</ResizeHeightToText>
 	</Label>
-	
+
 	<Label item="ACHI_AchievementSub_Spacer">
 		<ScreenID>ACHI_AchievementSub_Spacer</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -64,7 +64,7 @@
 			<CY>20</CY>
 		</Size>
 	</Label>
-	
+
 	<Button item="ACHI_AchievementSub_CompletedButton">
 		<ScreenID>ACHI_AchievementSub_CompletedButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -85,7 +85,7 @@
 			<PressedDisabled>A_TransparentCheckBoxPressed</PressedDisabled>
 		</ButtonDrawTemplate>
 	</Button>
-	
+
 	<Label item="ACHI_AchievementSub_Label">
 		<ScreenID>ACHI_AchievementSub_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -107,29 +107,29 @@
 			<B>66</B>
 		</TextColor>
 	</Label>
-  <Label item="ACHI_AchievementSub_CountLabel">
-    <ScreenID>ACHI_AchievementSub_CountLabel</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>45</LeftAnchorOffset>
-    <TopAnchorOffset>0</TopAnchorOffset>
-    <RightAnchorOffset>5</RightAnchorOffset>
-    <BottomAnchorOffset>20</BottomAnchorOffset>
-    <TopAnchorToTop>true</TopAnchorToTop>
-    <BottomAnchorToTop>true</BottomAnchorToTop>
-    <LeftAnchorToLeft>false</LeftAnchorToLeft>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <Style_Transparent>true</Style_Transparent>
-    <AlignRight>true</AlignRight>
-    <Text/>
-    <ResizeHeightToText>true</ResizeHeightToText>
-    <TextColor>
-      <R>176</R>
-      <G>141</G>
-      <B>66</B>
-    </TextColor>
-  </Label>
-	
+	<Label item="ACHI_AchievementSub_CountLabel">
+		<ScreenID>ACHI_AchievementSub_CountLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>45</LeftAnchorOffset>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<RightAnchorOffset>5</RightAnchorOffset>
+		<BottomAnchorOffset>20</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Style_Transparent>true</Style_Transparent>
+		<AlignRight>true</AlignRight>
+		<Text/>
+		<ResizeHeightToText>true</ResizeHeightToText>
+		<TextColor>
+			<R>176</R>
+			<G>141</G>
+			<B>66</B>
+		</TextColor>
+	</Label>
+
 	<Label item="ACHI_Spacer">
 		<ScreenID>ACHI_Spacer</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -138,7 +138,7 @@
 			<CY>1</CY>
 		</Size>
 	</Label>
-	
+
 	<Screen item="ACHI_SubAchievement">
 		<ScreenID>ACHI_SubAchievement</ScreenID>
 		<Layout>ACHI_Layout</Layout>
@@ -153,11 +153,11 @@
 		<Spacing>5</Spacing>
 		<Pieces>ACHI_AchievementSub_CompletedButton</Pieces>
 		<Pieces>ACHI_AchievementSub_Label</Pieces>
-    <Pieces>ACHI_AchievementSub_CountLabel</Pieces>
-    <Pieces>ACHI_AchievementSub_Spacer</Pieces>
+		<Pieces>ACHI_AchievementSub_CountLabel</Pieces>
+		<Pieces>ACHI_AchievementSub_Spacer</Pieces>
 		<NoWrap>true</NoWrap>
 	</Screen>
-	
+
 	<Button item="ACHI_AchievementSub_CompletedButtonIndirect">
 		<ScreenID>ACHI_AchievementSub_CompletedButtonIndirect</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -178,7 +178,7 @@
 			<PressedDisabled>A_TransparentCheckBoxPressed</PressedDisabled>
 		</ButtonDrawTemplate>
 	</Button>
-	
+
 	<Label item="ACHI_AchievementSub_LabelIndirect">
 		<ScreenID>ACHI_AchievementSub_LabelIndirect</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -200,7 +200,7 @@
 			<B>66</B>
 		</TextColor>
 	</Label>
-	
+
 	<Screen item="ACHI_SubAchievementIndirect">
 		<ScreenID>ACHI_SubAchievementIndirect</ScreenID>
 		<Layout>ACHI_Layout</Layout>
@@ -215,12 +215,12 @@
 		<Spacing>5</Spacing>
 		<Pieces>ACHI_AchievementSub_CompletedButtonIndirect</Pieces>
 		<Pieces>ACHI_AchievementSub_LabelIndirect</Pieces>
-    <Pieces>ACHI_AchievementSub_CountLabel</Pieces>
-    <Pieces>ACHI_AchievementSub_Spacer</Pieces>
+		<Pieces>ACHI_AchievementSub_CountLabel</Pieces>
+		<Pieces>ACHI_AchievementSub_Spacer</Pieces>
 		<NoWrap>true</NoWrap>
 	</Screen>
-	
-	<Button item ="ACHI_AchievementViewRewardButton">
+
+	<Button item="ACHI_AchievementViewRewardButton">
 		<ScreenID>ACHI_AchievementViewRewardButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -242,7 +242,7 @@
 			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	
+
 	<Screen item="ACHI_AchievementViewRewardScreen">
 		<ScreenID>ACHI_AchievementViewRewardScreen</ScreenID>
 		<Layout>ACHI_Layout</Layout>
@@ -258,8 +258,8 @@
 		<Pieces>ACHI_AchievementViewRewardButton</Pieces>
 		<NoWrap>true</NoWrap>
 	</Screen>
-	
-		<VerticalLayoutBox item="ACHI_SubAchievements">
+
+	<VerticalLayoutBox item="ACHI_SubAchievements">
 		<ScreenID>ACHI_SubAchievements</ScreenID>
 		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -291,7 +291,7 @@
 		<Pieces>Screen:ACHI_SubAchievementIndirect</Pieces>
 		<Pieces>Screen:ACHI_AchievementViewRewardScreen</Pieces>
 	</VerticalLayoutBox>
-	
+
 	<Screen item="ACHI_Achievement_Screen">
 		<ScreenID>ACHI_Achievement_Screen</ScreenID>
 		<DrawTemplate>WDT_AchievementOpen</DrawTemplate>
@@ -341,7 +341,7 @@
 		<LayerOneTextureIndex>0</LayerOneTextureIndex>
 		<LayerTwoTextureIndex>0</LayerTwoTextureIndex>
 	</StaticTintedBlendAnimation>
-	
+
 	<Button item="ACHI_ViewMineButton">
 		<ScreenID>ACHI_ViewMineButton</ScreenID>
 		<RelativePosition>true</RelativePosition>

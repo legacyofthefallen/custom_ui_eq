@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
   <Ui2DAnimation item="BarbarianIcon">
     <Cycle>false</Cycle>
     <Grid>false</Grid>
@@ -1124,18 +1124,18 @@
   </Ui2DAnimation>
   <Ui2DAnimation item="CC_CreateHeroicCharacterDisabledIcon">
     <Cycle>false</Cycle>
-	<Grid>false</Grid>
-	<Frames>
-	  <Texture>window_pieces11.tga</Texture>
-	  <Location>
-	    <X>0</X>
-    	<Y>35</Y>
-	  </Location>
-	  <Size>
-		<CX>170</CX>
-		<CY>22</CY>
-	  </Size>
-	</Frames>
+    <Grid>false</Grid>
+    <Frames>
+      <Texture>window_pieces11.tga</Texture>
+      <Location>
+        <X>0</X>
+        <Y>35</Y>
+      </Location>
+      <Size>
+        <CX>170</CX>
+        <CY>22</CY>
+      </Size>
+    </Frames>
   </Ui2DAnimation>
   <StaticAnimation item="CC_LogoAnim">
     <ScreenID>CC_LogoAnim</ScreenID>
@@ -3663,7 +3663,8 @@
     <BottomAnchorToTop>true</BottomAnchorToTop>
     <Style_Checkbox>false</Style_Checkbox>
     <Style_Checkbox>false</Style_Checkbox>
-    <TooltipReference>Select for the one-time creation of a fully equipped level 51 character with 50 AA points.</TooltipReference>
+    <TooltipReference>Select for the one-time creation of a fully equipped level 51 character with
+      50 AA points.</TooltipReference>
     <TextColor>
       <R>255</R>
       <G>233</G>
@@ -4006,7 +4007,7 @@
     <BottomAnchorOffset>77</BottomAnchorOffset>
     <LeftAnchorToLeft>false</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <TooltipReference />
+    <TooltipReference/>
     <Style_Checkbox>false</Style_Checkbox>
     <Text/>
     <ButtonDrawTemplate>
@@ -4552,7 +4553,7 @@
     <AlignCenter>true</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-  <Combobox item = "CC_City_Combo">
+  <Combobox item="CC_City_Combo">
     <ScreenID>CC_City_Combo</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -4589,7 +4590,7 @@
     <AlignCenter>true</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-  <Combobox item = "CC_Deity_Combo">
+  <Combobox item="CC_Deity_Combo">
     <ScreenID>CC_Deity_Combo</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>

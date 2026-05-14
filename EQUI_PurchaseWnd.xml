@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-	
-		<Label item="PCW_AvailableFundsLabel">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+
+	<Label item="PCW_AvailableFundsLabel">
 		<ScreenID>PCW_AvailableFundsLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -48,8 +48,8 @@
 			<CY>15</CY>
 		</DecalSize>
 	</Button>
-	
-		<Label item="PCW_ProductName">
+
+	<Label item="PCW_ProductName">
 		<ScreenID>PCW_ProductName</ScreenID>
 		<Text>Item</Text>
 		<Font>3</Font>
@@ -224,7 +224,7 @@
 		<LeftAnchorOffset>155</LeftAnchorOffset>
 		<RightAnchorOffset>225</RightAnchorOffset>
 		<TopAnchorToTop>false</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>  
+		<BottomAnchorToTop>false</BottomAnchorToTop>
 	</Label>
 	<Label item="PCW_ProductPriceLabel">
 		<ScreenID>PCW_ProductPriceLabel</ScreenID>
@@ -249,7 +249,7 @@
 		<LeftAnchorOffset>155</LeftAnchorOffset>
 		<RightAnchorOffset>225</RightAnchorOffset>
 		<TopAnchorToTop>false</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>  
+		<BottomAnchorToTop>false</BottomAnchorToTop>
 	</Label>
 	<Button item="PCW_ProductPriceIcon">
 		<ScreenID>PCW_ProductPriceIcon</ScreenID>
@@ -293,7 +293,7 @@
 		<LeftAnchorOffset>155</LeftAnchorOffset>
 		<RightAnchorOffset>225</RightAnchorOffset>
 		<TopAnchorToTop>false</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>  
+		<BottomAnchorToTop>false</BottomAnchorToTop>
 	</Label>
 	<Button item="PCW_DiscountIcon">
 		<ScreenID>PCW_DiscountIcon</ScreenID>
@@ -362,7 +362,7 @@
 		<LeftAnchorOffset>155</LeftAnchorOffset>
 		<RightAnchorOffset>225</RightAnchorOffset>
 		<TopAnchorToTop>false</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>   
+		<BottomAnchorToTop>false</BottomAnchorToTop>
 	</Label>
 	<Button item="PCW_TotalIcon">
 		<ScreenID>PCW_TotalIcon</ScreenID>
@@ -381,7 +381,7 @@
 		<LeftAnchorOffset>138</LeftAnchorOffset>
 		<RightAnchorOffset>153</RightAnchorOffset>
 		<TopAnchorToTop>false</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>        
+		<BottomAnchorToTop>false</BottomAnchorToTop>
 	</Button>
 	<Label item="PCW_TotalMoneyType">
 		<ScreenID>PCW_TotalMoneyType</ScreenID>
@@ -394,7 +394,7 @@
 		<LeftAnchorOffset>149</LeftAnchorOffset>
 		<RightAnchorOffset>154</RightAnchorOffset>
 		<TopAnchorToTop>false</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop> 
+		<BottomAnchorToTop>false</BottomAnchorToTop>
 	</Label>
 	<Label item="PCW_MemberDiscountLabel">
 		<ScreenID>PCW_MemberDiscountLabel</ScreenID>
@@ -405,8 +405,8 @@
 		<LeftAnchorOffset>5</LeftAnchorOffset>
 		<RightAnchorOffset>5</RightAnchorOffset>
 		<TopAnchorToTop>false</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>    
-		<RightAnchorToLeft>false</RightAnchorToLeft>  
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<AlignCenter>true</AlignCenter>
 		<Style_Transparent>true</Style_Transparent>
 		<Text>You save XDB (Y%) for being a member.</Text>
@@ -425,11 +425,11 @@
 		<RightAnchorOffset>5</RightAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorToTop>false</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop> 
+		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<Animation>A_DividerMiddle</Animation>
 	</StaticAnimation>
-	
-		<Button item="PCW_CompleteBtn">
+
+	<Button item="PCW_CompleteBtn">
 		<ScreenID>PCW_CompleteBtn</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -484,7 +484,7 @@
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	
+
 	<Screen item="PurchaseWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Label item="BNK_BankerName">
 		<ScreenID>BNK_BankerName</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>-11</X>
 			<Y>0</Y>
@@ -19,7 +19,7 @@
 	</Label>
 	<InvSlot item="BNK_BankSlot0">
 		<ScreenID>BNK_BankSlot0</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>31</Y>
@@ -33,7 +33,7 @@
 	</InvSlot>
 	<InvSlot item="BNK_BankSlot1">
 		<ScreenID>BNK_BankSlot1</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>71</Y>
@@ -47,7 +47,7 @@
 	</InvSlot>
 	<InvSlot item="BNK_BankSlot2">
 		<ScreenID>BNK_BankSlot2</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>111</Y>
@@ -61,7 +61,7 @@
 	</InvSlot>
 	<InvSlot item="BNK_BankSlot3">
 		<ScreenID>BNK_BankSlot3</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>151</Y>
@@ -75,7 +75,7 @@
 	</InvSlot>
 	<InvSlot item="BNK_BankSlot4">
 		<ScreenID>BNK_BankSlot4</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>45</X>
 			<Y>31</Y>
@@ -89,7 +89,7 @@
 	</InvSlot>
 	<InvSlot item="BNK_BankSlot5">
 		<ScreenID>BNK_BankSlot5</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>45</X>
 			<Y>71</Y>
@@ -103,7 +103,7 @@
 	</InvSlot>
 	<InvSlot item="BNK_BankSlot6">
 		<ScreenID>BNK_BankSlot6</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>45</X>
 			<Y>111</Y>
@@ -117,7 +117,7 @@
 	</InvSlot>
 	<InvSlot item="BNK_BankSlot7">
 		<ScreenID>BNK_BankSlot7</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>45</X>
 			<Y>151</Y>
@@ -131,7 +131,7 @@
 	</InvSlot>
 	<InvSlot item="BNK_BankSlot8">
 		<ScreenID>BNK_BankSlot8</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>99</X>
 			<Y>31</Y>
@@ -145,7 +145,7 @@
 	</InvSlot>
 	<InvSlot item="BNK_BankSlot9">
 		<ScreenID>BNK_BankSlot9</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>99</X>
 			<Y>71</Y>
@@ -159,7 +159,7 @@
 	</InvSlot>
 	<InvSlot item="BNK_BankSlot10">
 		<ScreenID>BNK_BankSlot10</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>99</X>
 			<Y>111</Y>
@@ -173,7 +173,7 @@
 	</InvSlot>
 	<InvSlot item="BNK_BankSlot11">
 		<ScreenID>BNK_BankSlot11</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>99</X>
 			<Y>151</Y>
@@ -187,7 +187,7 @@
 	</InvSlot>
 	<InvSlot item="BNK_BankSlot12">
 		<ScreenID>BNK_BankSlot12</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>139</X>
 			<Y>31</Y>
@@ -201,7 +201,7 @@
 	</InvSlot>
 	<InvSlot item="BNK_BankSlot13">
 		<ScreenID>BNK_BankSlot13</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>139</X>
 			<Y>71</Y>
@@ -215,7 +215,7 @@
 	</InvSlot>
 	<InvSlot item="BNK_BankSlot14">
 		<ScreenID>BNK_BankSlot14</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>139</X>
 			<Y>111</Y>
@@ -229,7 +229,7 @@
 	</InvSlot>
 	<InvSlot item="BNK_BankSlot15">
 		<ScreenID>BNK_BankSlot15</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>139</X>
 			<Y>151</Y>
@@ -243,7 +243,7 @@
 	</InvSlot>
 	<InvSlot item="BNK_BankSlot16">
 		<ScreenID>BNK_BankSlot16</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>194</X>
 			<Y>31</Y>
@@ -255,9 +255,9 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>inventory/Bank 16</EQType>
 	</InvSlot>
-		<InvSlot item="BNK_BankSlot17">
+	<InvSlot item="BNK_BankSlot17">
 		<ScreenID>BNK_BankSlot17</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>194</X>
 			<Y>71</Y>
@@ -269,9 +269,9 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>inventory/Bank 17</EQType>
 	</InvSlot>
-		<InvSlot item="BNK_BankSlot18">
+	<InvSlot item="BNK_BankSlot18">
 		<ScreenID>BNK_BankSlot18</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>194</X>
 			<Y>111</Y>
@@ -283,9 +283,9 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>inventory/Bank 18</EQType>
 	</InvSlot>
-		<InvSlot item="BNK_BankSlot19">
+	<InvSlot item="BNK_BankSlot19">
 		<ScreenID>BNK_BankSlot19</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>194</X>
 			<Y>151</Y>
@@ -297,9 +297,9 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>inventory/Bank 19</EQType>
 	</InvSlot>
-		<InvSlot item="BNK_BankSlot20">
+	<InvSlot item="BNK_BankSlot20">
 		<ScreenID>BNK_BankSlot20</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>234</X>
 			<Y>31</Y>
@@ -311,9 +311,9 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>inventory/Bank 20</EQType>
 	</InvSlot>
-		<InvSlot item="BNK_BankSlot21">
+	<InvSlot item="BNK_BankSlot21">
 		<ScreenID>BNK_BankSlot21</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>234</X>
 			<Y>71</Y>
@@ -325,9 +325,9 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>inventory/Bank 21</EQType>
 	</InvSlot>
-		<InvSlot item="BNK_BankSlot22">
+	<InvSlot item="BNK_BankSlot22">
 		<ScreenID>BNK_BankSlot22</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>234</X>
 			<Y>111</Y>
@@ -339,9 +339,9 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>inventory/Bank 22</EQType>
 	</InvSlot>
-		<InvSlot item="BNK_BankSlot23">
+	<InvSlot item="BNK_BankSlot23">
 		<ScreenID>BNK_BankSlot23</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>234</X>
 			<Y>151</Y>
@@ -369,7 +369,7 @@
 	</Label>
 	<InvSlot item="BNK_SharedBankSlot0">
 		<ScreenID>BNK_SharedBankSlot0</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>194</X>
 			<Y>215</Y>
@@ -383,7 +383,7 @@
 	</InvSlot>
 	<InvSlot item="BNK_SharedBankSlot1">
 		<ScreenID>BNK_SharedBankSlot1</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>234</X>
 			<Y>215</Y>
@@ -397,49 +397,49 @@
 	</InvSlot>
 	<InvSlot item="BNK_SharedBankSlot2">
 		<ScreenID>BNK_SharedBankSlot2</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
-		<X>194</X>
-		<Y>256</Y>
+			<X>194</X>
+			<Y>256</Y>
 		</Location>
 		<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</Size>
 		<Background>A_RecessedBox</Background>
 		<EQType>inventory/SharedBank 2</EQType>
 	</InvSlot>
 	<InvSlot item="BNK_SharedBankSlot3">
 		<ScreenID>BNK_SharedBankSlot3</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
-		<X>234</X>
-		<Y>256</Y>
+			<X>234</X>
+			<Y>256</Y>
 		</Location>
 		<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</Size>
 		<Background>A_RecessedBox</Background>
 		<EQType>inventory/SharedBank 3</EQType>
 	</InvSlot>
 	<InvSlot item="BNK_SharedBankSlot4">
 		<ScreenID>BNK_SharedBankSlot4</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
-		<X>194</X>
-		<Y>296</Y>
+			<X>194</X>
+			<Y>296</Y>
 		</Location>
 		<Size>
-		<CX>40</CX>
-		<CY>40</CY>
+			<CX>40</CX>
+			<CY>40</CY>
 		</Size>
 		<Background>A_RecessedBox</Background>
 		<EQType>inventory/SharedBank 4</EQType>
 	</InvSlot>
 	<InvSlot item="BNK_SharedBankSlot5">
 		<ScreenID>BNK_SharedBankSlot5</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>234</X>
 			<Y>296</Y>
@@ -453,7 +453,7 @@
 	</InvSlot>
 	<InvSlot item="BNK_SharedBankSlot6">
 		<ScreenID>BNK_SharedBankSlot6</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>194</X>
 			<Y>336</Y>
@@ -467,7 +467,7 @@
 	</InvSlot>
 	<InvSlot item="BNK_SharedBankSlot7">
 		<ScreenID>BNK_SharedBankSlot7</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>234</X>
 			<Y>336</Y>
@@ -479,9 +479,9 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>inventory/SharedBank 7</EQType>
 	</InvSlot>
-  <Button item="BNK_SharedMoney0">
+	<Button item="BNK_SharedMoney0">
 		<ScreenID>BNK_SharedMoney0</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>194</X>
 			<Y>380</Y>
@@ -493,7 +493,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Drop coins here or click to pick up Platinum</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-				<Text/>
+		<Text/>
 		<Template>BDT_PlatinumCoin</Template>
 		<DecalOffset>
 			<X>2</X>
@@ -506,7 +506,7 @@
 	</Button>
 	<Button item="BNK_AutoButton">
 		<ScreenID>BNK_AutoButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>195</Y>
@@ -516,14 +516,15 @@
 			<CY>32</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference>Click on this button with an item on your cursor, and it will be placed in your non-shared bank, if possible.</TooltipReference>
+		<TooltipReference>Click on this button with an item on your cursor, and it will be placed in
+			your non-shared bank, if possible.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-				<Text>Auto-Bank</Text>
+		<Text>Auto-Bank</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item="BNK_AltStorageButton">
 		<ScreenID>BNK_AltStorageButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>230</Y>
@@ -535,7 +536,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Click on this button to open the Alt Storage access window.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-				<Text>Shroud Bank</Text>
+		<Text>Shroud Bank</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item="BNK_DragonHoard">
@@ -574,7 +575,7 @@
 	</Button>
 	<Button item="BNK_Money0">
 		<ScreenID>BNK_Money0</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>96</X>
 			<Y>197</Y>
@@ -586,7 +587,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Drop coins here or click to pick up Platinum</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-				<Text/>
+		<Text/>
 		<Template>BDT_PlatinumCoin</Template>
 		<DecalOffset>
 			<X>2</X>
@@ -599,7 +600,7 @@
 	</Button>
 	<Button item="BNK_Money1">
 		<ScreenID>BNK_Money1</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>96</X>
 			<Y>221</Y>
@@ -611,7 +612,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Drop coins here or click to pick up Gold</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-				<Text/>
+		<Text/>
 		<Template>BDT_GoldCoin</Template>
 		<!--	
 			<SoundPressed/>
@@ -629,7 +630,7 @@
 	</Button>
 	<Button item="BNK_Money2">
 		<ScreenID>BNK_Money2</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>96</X>
 			<Y>245</Y>
@@ -641,7 +642,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Drop coins here or click to pick up Silver</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-				<Text/>
+		<Text/>
 		<Template>BDT_SilverCoin</Template>
 		<!-- 
 			<SoundPressed/>
@@ -659,7 +660,7 @@
 	</Button>
 	<Button item="BNK_Money3">
 		<ScreenID>BNK_Money3</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>96</X>
 			<Y>269</Y>
@@ -671,7 +672,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Drop coins here or click to pick up Copper</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-				<Text/>
+		<Text/>
 		<Template>BDT_CopperCoin</Template>
 		<!-- 
 			<SoundPressed/>
@@ -689,7 +690,7 @@
 	</Button>
 	<Button item="BNK_ChangeButton">
 		<ScreenID>BNK_ChangeButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>96</X>
 			<Y>295</Y>
@@ -699,8 +700,8 @@
 			<CY>20</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<Text>Change</Text>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Change</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item="BNK_FindItemButton">
@@ -736,7 +737,7 @@
 	</Button>
 	<Button item="BNK_DoneButton">
 		<ScreenID>BNK_DoneButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>96</X>
 			<Y>383</Y>
@@ -746,12 +747,12 @@
 			<CY>20</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-				<Style_Checkbox>false</Style_Checkbox>
-				<Text>Done</Text>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Done</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Screen item="BigBankWnd">
-						<RelativePosition>false</RelativePosition>
+		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>25</Y>
@@ -762,7 +763,7 @@
 		</Size>
 		<Text>Bank</Text>
 		<Style_Transparent>false</Style_Transparent>
-				<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Qmarkbox>true</Style_Qmarkbox>
 		<Style_Closebox>true</Style_Closebox>

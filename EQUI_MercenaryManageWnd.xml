@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
+<XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Label item="MMGW_TimeLeftLabel">
 		<ScreenID>TimeLeftLabel</ScreenID>
@@ -89,7 +89,9 @@
 		<Text>Call Assist</Text>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<TooltipReference>For tank mercenaries opens up valid NPCs on the group enemy list as targets.  For healer mercenaries, overrides the range restrictions on healing pullers for 3 seconds.</TooltipReference>
+		<TooltipReference>For tank mercenaries opens up valid NPCs on the group enemy list as
+			targets. For healer mercenaries, overrides the range restrictions on healing pullers for
+			3 seconds.</TooltipReference>
 		<Template>BDT_BigNormal</Template>
 	</Button>
 	<Button item="MMGW_SetActiveStanceButton">
@@ -353,9 +355,9 @@
 		<Pieces>Listbox:MMGW_StanceListBox</Pieces>
 		<Pieces>Button:MMGW_AssistModeCheckbox</Pieces>
 		<Pieces>Button:MMGW_CallForAssistButton</Pieces>
-		<Pieces>Button:MMGW_SetActiveStanceButton</Pieces>		
+		<Pieces>Button:MMGW_SetActiveStanceButton</Pieces>
 		<Pieces>Button:MMGW_SetStanceHotkeyButton</Pieces>
-		<Pieces>Button:MMGW_SetOwnerButton</Pieces>		
+		<Pieces>Button:MMGW_SetOwnerButton</Pieces>
 		<Pieces>Button:MMGW_DismissButton</Pieces>
 		<Pieces>Button:MMGW_InfoButton</Pieces>
 		<Pieces>Button:MMGW_SuspendButton</Pieces>
@@ -401,7 +403,7 @@
 	</TabBox>
 	<Screen item="MMGW_ManageWnd">
 		<ScreenID>ManageWnd</ScreenID>
-		<EQType>mercenary/ManageWnd</EQType>		
+		<EQType>mercenary/ManageWnd</EQType>
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>15</X>

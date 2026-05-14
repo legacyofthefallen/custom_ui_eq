@@ -1,7 +1,7 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<Listbox item = "SKSW_SkillSelectorList">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Listbox item="SKSW_SkillSelectorList">
 		<ScreenID>SKSW_SkillSelectorList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -26,8 +26,8 @@
 			<Heading>Value</Heading>
 		</Columns-->
 	</Listbox>
-	<Screen item = "SkillsSelectWindow">
-						<RelativePosition>false</RelativePosition>
+	<Screen item="SkillsSelectWindow">
+		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>400</X>
 			<Y>250</Y>
@@ -39,13 +39,13 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-				<Text>Choose a skill</Text>
+		<Text>Choose a skill</Text>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Minimizebox>true</Style_Minimizebox>
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>true</Style_Sizable>
-			<Pieces>SKSW_SkillSelectorList</Pieces>
+		<Pieces>SKSW_SkillSelectorList</Pieces>
 	</Screen>
 </XML>

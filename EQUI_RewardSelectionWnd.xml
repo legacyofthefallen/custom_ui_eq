@@ -1,7 +1,7 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<Listbox item = "RewardSelectionOptionList">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Listbox item="RewardSelectionOptionList">
 		<ScreenID>RewardSelectionOptionList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -23,7 +23,7 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-	<Listbox item = "RewardSelectionItemList">
+	<Listbox item="RewardSelectionItemList">
 		<ScreenID>RewardSelectionItemList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -44,7 +44,7 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-	<HorizontalLayoutBox item = "RewardSelectionTopLayout">
+	<HorizontalLayoutBox item="RewardSelectionTopLayout">
 		<ScreenID>RewardSelectionTopLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -64,7 +64,7 @@
 		<Pieces>Listbox:RewardSelectionOptionList</Pieces>
 		<Pieces>Listbox:RewardSelectionItemList</Pieces>
 	</HorizontalLayoutBox>
-	<Screen item = "RewardSelectionTopPane">
+	<Screen item="RewardSelectionTopPane">
 		<ScreenID>RewardSelectionTopPane</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -85,7 +85,7 @@
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>HorizontalLayoutBox:RewardSelectionTopLayout</Pieces>
 	</Screen>
-	<STMLbox item = "RewardSelectionDescriptionArea">
+	<STMLbox item="RewardSelectionDescriptionArea">
 		<ScreenID>RewardSelectionDescriptionArea</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -101,7 +101,7 @@
 		<Style_VScroll>true</Style_VScroll>
 		<Style_Transparent>true</Style_Transparent>
 	</STMLbox>
-	<Button item = "RewardSelectionIconButton">
+	<Button item="RewardSelectionIconButton">
 		<ScreenID>RewardSelectionIconButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -130,7 +130,7 @@
 			<CY>40</CY>
 		</DecalSize>
 	</Button>
-	<Button item = "RewardSelectionInspectButton">
+	<Button item="RewardSelectionInspectButton">
 		<ScreenID>RewardSelectionInspectButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -148,7 +148,7 @@
 		<Text>Inspect</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Button item = "RewardSelectionPreviewButton">
+	<Button item="RewardSelectionPreviewButton">
 		<ScreenID>RewardSelectionPreviewButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -166,7 +166,7 @@
 		<Text>Preview</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Button item = "RewardSelectionChooseButton">
+	<Button item="RewardSelectionChooseButton">
 		<ScreenID>RewardSelectionChooseButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -184,7 +184,7 @@
 		<Text>Select Option</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Screen item = "RewardSelectionBottomPane">
+	<Screen item="RewardSelectionBottomPane">
 		<ScreenID>RewardSelectionBottomPane</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -209,7 +209,7 @@
 		<Pieces>Button:RewardSelectionPreviewButton</Pieces>
 		<Pieces>Button:RewardSelectionChooseButton</Pieces>
 	</Screen>
-	<VerticalLayoutBox item = "RewardSelectionWindowLayout">
+	<VerticalLayoutBox item="RewardSelectionWindowLayout">
 		<ScreenID>RewardSelectionWindowLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -229,7 +229,7 @@
 		<Pieces>Screen:RewardSelectionTopPane</Pieces>
 		<Pieces>Screen:RewardSelectionBottomPane</Pieces>
 	</VerticalLayoutBox>
-	<Page item = "RewardPageTemplate">
+	<Page item="RewardPageTemplate">
 		<ScreenID>RewardPageTemplate</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Style_VScroll>false</Style_VScroll>
@@ -239,14 +239,14 @@
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Reward</TabText>
 		<TabTextActiveColor>
-				<R>255</R>
-				<G>255</G>
-				<B>0</B>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
 		</TabTextActiveColor>
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>VerticalLayoutBox:RewardSelectionWindowLayout</Pieces>
 	</Page>
-	<TabBox item = "RewardPageTabWindow">
+	<TabBox item="RewardPageTabWindow">
 		<ScreenID>RewardPageTabWindow</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -258,7 +258,7 @@
 		<PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
 		<Pages>Page:RewardPageTemplate</Pages>
 	</TabBox>
-	<Screen item = "RewardSelectionWnd">
+	<Screen item="RewardSelectionWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>100</X>

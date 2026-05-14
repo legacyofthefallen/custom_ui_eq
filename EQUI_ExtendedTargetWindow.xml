@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Label item="ETW_AggroPct0">
 		<ScreenID>ETW_AggroPct0</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -132,7 +132,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
- 
+
 	<Label item="ETW_AggroPct1">
 		<ScreenID>ETW_AggroPct1</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -395,7 +395,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
- 
 	<Label item="ETW_AggroPct3">
 		<ScreenID>ETW_AggroPct3</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -658,7 +657,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
- 
+
 	<Label item="ETW_AggroPct5">
 		<ScreenID>ETW_AggroPct5</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -790,7 +789,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
- 
+
 	<Label item="ETW_AggroPct6">
 		<ScreenID>ETW_AggroPct6</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -922,7 +921,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
- 
+
 	<Label item="ETW_AggroPct7">
 		<ScreenID>ETW_AggroPct7</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1054,7 +1053,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
- 
+
 	<Label item="ETW_AggroPct8">
 		<ScreenID>ETW_AggroPct8</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1186,7 +1185,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
- 
+
 	<Label item="ETW_AggroPct9">
 		<ScreenID>ETW_AggroPct9</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1449,7 +1448,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
- 
+
 	<Label item="ETW_AggroPct11">
 		<ScreenID>ETW_AggroPct11</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1462,7 +1461,7 @@
 		<TopAnchorOffset>394</TopAnchorOffset>
 		<BottomAnchorOffset>406</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-	</Label> 
+	</Label>
 	<Gauge item="ETW_Gauge11">
 		<ScreenID>ETW_Gauge11</ScreenID>
 		<TextColor>
@@ -1581,7 +1580,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
- 
+
 	<Label item="ETW_AggroPct12">
 		<ScreenID>ETW_AggroPct12</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1594,7 +1593,7 @@
 		<TopAnchorOffset>428</TopAnchorOffset>
 		<BottomAnchorOffset>440</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-	</Label> 
+	</Label>
 	<Gauge item="ETW_Gauge12">
 		<ScreenID>ETW_Gauge12</ScreenID>
 		<TextColor>
@@ -1713,7 +1712,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
- 
 	<Label item="ETW_AggroPct13">
 		<ScreenID>ETW_AggroPct13</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1726,7 +1724,7 @@
 		<TopAnchorOffset>462</TopAnchorOffset>
 		<BottomAnchorOffset>474</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-	</Label> 
+	</Label>
 	<Gauge item="ETW_Gauge13">
 		<ScreenID>ETW_Gauge13</ScreenID>
 		<TextColor>
@@ -1976,7 +1974,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
- 
+
 	<Label item="ETW_AggroPct15">
 		<ScreenID>ETW_AggroPct15</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -2108,7 +2106,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
- 
+
 	<Label item="ETW_AggroPct16">
 		<ScreenID>ETW_AggroPct16</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -2240,7 +2238,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
- 
+
 	<Label item="ETW_AggroPct17">
 		<ScreenID>ETW_AggroPct17</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -2372,7 +2370,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
- 
+
 	<Label item="ETW_AggroPct18">
 		<ScreenID>ETW_AggroPct18</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -2504,7 +2502,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
- 
+
 	<Label item="ETW_AggroPct19">
 		<ScreenID>ETW_AggroPct19</ScreenID>
 		<RelativePosition>true</RelativePosition>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
+<XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-	<Label item ="SEW_NameInputLabel">
+	<Label item="SEW_NameInputLabel">
 		<ScreenID>SEW_NameInputLabel</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>5</LeftAnchorOffset>
 		<TopAnchorOffset>212</TopAnchorOffset>
@@ -16,7 +16,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Editbox item = "SEW_NameInput">
+	<Editbox item="SEW_NameInput">
 		<ScreenID>SEW_NameInput</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -30,9 +30,9 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<TooltipReference>Enter a name for this social here</TooltipReference>
 	</Editbox>
-	<Button item = "SEW_TC0Button">
+	<Button item="SEW_TC0Button">
 		<ScreenID>SEW_TC0Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>100</X>
 			<Y>5</Y>
@@ -45,15 +45,15 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<BackgroundTextureTint>
-				<R>240</R>
-				<G>240</G>
-				<B>240</B>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SEW_TC1Button">
+	<Button item="SEW_TC1Button">
 		<ScreenID>SEW_TC1Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>124</X>
 			<Y>5</Y>
@@ -66,15 +66,15 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<BackgroundTextureTint>
-				<R>240</R>
-				<G>180</G>
-				<B>0</B>
+			<R>240</R>
+			<G>180</G>
+			<B>0</B>
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SEW_TC2Button">
+	<Button item="SEW_TC2Button">
 		<ScreenID>SEW_TC2Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>148</X>
 			<Y>5</Y>
@@ -87,15 +87,15 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<BackgroundTextureTint>
-				<R>0</R>
-				<G>128</G>
-				<B>0</B>
+			<R>0</R>
+			<G>128</G>
+			<B>0</B>
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SEW_TC3Button">
+	<Button item="SEW_TC3Button">
 		<ScreenID>SEW_TC3Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>172</X>
 			<Y>5</Y>
@@ -108,15 +108,15 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<BackgroundTextureTint>
-				<R>180</R>
-				<G>100</G>
-				<B>0</B>
+			<R>180</R>
+			<G>100</G>
+			<B>0</B>
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SEW_TC4Button">
+	<Button item="SEW_TC4Button">
 		<ScreenID>SEW_TC4Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>196</X>
 			<Y>5</Y>
@@ -129,15 +129,15 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<BackgroundTextureTint>
-				<R>0</R>
-				<G>0</G>
-				<B>128</B>
+			<R>0</R>
+			<G>0</G>
+			<B>128</B>
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SEW_TC5Button">
+	<Button item="SEW_TC5Button">
 		<ScreenID>SEW_TC5Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>220</X>
 			<Y>5</Y>
@@ -150,15 +150,15 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<BackgroundTextureTint>
-				<R>240</R>
-				<G>0</G>
-				<B>240</B>
+			<R>240</R>
+			<G>0</G>
+			<B>240</B>
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SEW_TC6Button">
+	<Button item="SEW_TC6Button">
 		<ScreenID>SEW_TC6Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>244</X>
 			<Y>5</Y>
@@ -171,15 +171,15 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<BackgroundTextureTint>
-				<R>128</R>
-				<G>128</G>
-				<B>128</B>
+			<R>128</R>
+			<G>128</G>
+			<B>128</B>
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SEW_TC7Button">
+	<Button item="SEW_TC7Button">
 		<ScreenID>SEW_TC7Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>268</X>
 			<Y>5</Y>
@@ -192,15 +192,15 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<BackgroundTextureTint>
-				<R>224</R>
-				<G>224</G>
-				<B>224</B>
+			<R>224</R>
+			<G>224</G>
+			<B>224</B>
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SEW_TC8Button">
+	<Button item="SEW_TC8Button">
 		<ScreenID>SEW_TC8Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>292</X>
 			<Y>5</Y>
@@ -213,15 +213,15 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<BackgroundTextureTint>
-				<R>130</R>
-				<G>130</G>
-				<B>0</B>
+			<R>130</R>
+			<G>130</G>
+			<B>0</B>
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SEW_TC9Button">
+	<Button item="SEW_TC9Button">
 		<ScreenID>SEW_TC9Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>316</X>
 			<Y>5</Y>
@@ -234,15 +234,15 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<BackgroundTextureTint>
-				<R>96</R>
-				<G>96</G>
-				<B>96</B>
+			<R>96</R>
+			<G>96</G>
+			<B>96</B>
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SEW_TC10Button">
+	<Button item="SEW_TC10Button">
 		<ScreenID>SEW_TC10Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>100</X>
 			<Y>30</Y>
@@ -255,15 +255,15 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<BackgroundTextureTint>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SEW_TC11Button">
+	<Button item="SEW_TC11Button">
 		<ScreenID>SEW_TC11Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>124</X>
 			<Y>30</Y>
@@ -276,15 +276,15 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<BackgroundTextureTint>
-				<R>140</R>
-				<G>0</G>
-				<B>0</B>
+			<R>140</R>
+			<G>0</G>
+			<B>0</B>
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SEW_TC12Button">
+	<Button item="SEW_TC12Button">
 		<ScreenID>SEW_TC12Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>148</X>
 			<Y>30</Y>
@@ -297,15 +297,15 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<BackgroundTextureTint>
-				<R>160</R>
-				<G>160</G>
-				<B>160</B>
+			<R>160</R>
+			<G>160</G>
+			<B>160</B>
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SEW_TC13Button">
+	<Button item="SEW_TC13Button">
 		<ScreenID>SEW_TC13Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>172</X>
 			<Y>30</Y>
@@ -318,15 +318,15 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<BackgroundTextureTint>
-				<R>240</R>
-				<G>0</G>
-				<B>0</B>
+			<R>240</R>
+			<G>0</G>
+			<B>0</B>
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SEW_TC14Button">
+	<Button item="SEW_TC14Button">
 		<ScreenID>SEW_TC14Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>196</X>
 			<Y>30</Y>
@@ -339,15 +339,15 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<BackgroundTextureTint>
-				<R>0</R>
-				<G>240</G>
-				<B>0</B>
+			<R>0</R>
+			<G>240</G>
+			<B>0</B>
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SEW_TC15Button">
+	<Button item="SEW_TC15Button">
 		<ScreenID>SEW_TC15Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>220</X>
 			<Y>30</Y>
@@ -360,15 +360,15 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<BackgroundTextureTint>
-				<R>240</R>
-				<G>240</G>
-				<B>0</B>
+			<R>240</R>
+			<G>240</G>
+			<B>0</B>
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SEW_TC16Button">
+	<Button item="SEW_TC16Button">
 		<ScreenID>SEW_TC16Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>244</X>
 			<Y>30</Y>
@@ -381,15 +381,15 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<BackgroundTextureTint>
-				<R>0</R>
-				<G>0</G>
-				<B>240</B>
+			<R>0</R>
+			<G>0</G>
+			<B>240</B>
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SEW_TC17Button">
+	<Button item="SEW_TC17Button">
 		<ScreenID>SEW_TC17Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>268</X>
 			<Y>30</Y>
@@ -402,15 +402,15 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<BackgroundTextureTint>
-				<R>0</R>
-				<G>100</G>
-				<B>240</B>
+			<R>0</R>
+			<G>100</G>
+			<B>240</B>
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SEW_TC18Button">
+	<Button item="SEW_TC18Button">
 		<ScreenID>SEW_TC18Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>292</X>
 			<Y>30</Y>
@@ -423,15 +423,15 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<BackgroundTextureTint>
-				<R>0</R>
-				<G>240</G>
-				<B>240</B>
+			<R>0</R>
+			<G>240</G>
+			<B>240</B>
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SEW_TC19Button">
+	<Button item="SEW_TC19Button">
 		<ScreenID>SEW_TC19Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>316</X>
 			<Y>30</Y>
@@ -444,13 +444,13 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<BackgroundTextureTint>
-				<R>128</R>
-				<G>0</G>
-				<B>128</B>
+			<R>128</R>
+			<G>0</G>
+			<B>128</B>
 		</BackgroundTextureTint>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Editbox item = "SEW_Line0Input">
+	<Editbox item="SEW_Line0Input">
 		<ScreenID>SEW_Line0Input</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -465,7 +465,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TooltipReference>Enter first command here</TooltipReference>
 	</Editbox>
-	<Editbox item = "SEW_Line1Input">
+	<Editbox item="SEW_Line1Input">
 		<ScreenID>SEW_Line1Input</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -480,7 +480,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TooltipReference>Enter second command here</TooltipReference>
 	</Editbox>
-	<Editbox item = "SEW_Line2Input">
+	<Editbox item="SEW_Line2Input">
 		<ScreenID>SEW_Line2Input</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -495,7 +495,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TooltipReference>Enter third command here</TooltipReference>
 	</Editbox>
-	<Editbox item = "SEW_Line3Input">
+	<Editbox item="SEW_Line3Input">
 		<ScreenID>SEW_Line3Input</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -510,7 +510,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TooltipReference>Enter fourth command here</TooltipReference>
 	</Editbox>
-	<Editbox item = "SEW_Line4Input">
+	<Editbox item="SEW_Line4Input">
 		<ScreenID>SEW_Line4Input</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -525,7 +525,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TooltipReference>Enter fifth command here</TooltipReference>
 	</Editbox>
-	<Button item = "SEW_Clear_Button">
+	<Button item="SEW_Clear_Button">
 		<ScreenID>SEW_Clear_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -540,12 +540,12 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Clear all commands</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-				<Text>Clear</Text>
+		<Text>Clear</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Button item = "SEW_Accept_Button">
+	<Button item="SEW_Accept_Button">
 		<ScreenID>SEW_Accept_Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>69</LeftAnchorOffset>
 		<TopAnchorOffset>28</TopAnchorOffset>
@@ -558,11 +558,11 @@
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Accept your changes</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
-				<Text>Accept</Text>
+		<Text>Accept</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Screen item = "SocialEditWnd">
-				<RelativePosition>false</RelativePosition>
+	<Screen item="SocialEditWnd">
+		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>200</X>
 			<Y>100</Y>

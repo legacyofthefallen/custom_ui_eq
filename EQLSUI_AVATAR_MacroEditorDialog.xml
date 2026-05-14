@@ -1,7 +1,7 @@
-﻿<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<Listbox item = "MACRO_MacroList">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Listbox item="MACRO_MacroList">
 		<ScreenID>MacroList</ScreenID>
 		<Font>4</Font>
 		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
@@ -30,7 +30,7 @@
 			<Heading>Macro:</Heading>
 		</Columns>
 	</Listbox>
-	<Label item = "MACRO_IDLabel">
+	<Label item="MACRO_IDLabel">
 		<ScreenID>IDLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -44,15 +44,15 @@
 		</Size>
 		<Text>ID:</Text>
 		<TextColor>
-				<R>255</R>
-				<G>218</G>
-				<B>96</B>
+			<R>255</R>
+			<G>218</G>
+			<B>96</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Editbox item = "MACRO_IDEdit">
+	<Editbox item="MACRO_IDEdit">
 		<ScreenID>IDEdit</ScreenID>
 		<Font>4</Font>
 		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
@@ -67,12 +67,12 @@
 			<CY>35</CY>
 		</Size>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 	</Editbox>
-	<Label item = "MACRO_NameLabel">
+	<Label item="MACRO_NameLabel">
 		<ScreenID>NameLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -86,15 +86,15 @@
 		</Size>
 		<Text>Name:</Text>
 		<TextColor>
-				<R>255</R>
-				<G>218</G>
-				<B>96</B>
+			<R>255</R>
+			<G>218</G>
+			<B>96</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Editbox item = "MACRO_NameEdit">
+	<Editbox item="MACRO_NameEdit">
 		<ScreenID>NameEdit</ScreenID>
 		<Font>4</Font>
 		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
@@ -109,12 +109,12 @@
 			<CY>35</CY>
 		</Size>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 	</Editbox>
-	<Label item = "MACRO_MacroLabel">
+	<Label item="MACRO_MacroLabel">
 		<ScreenID>MacroLabel</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -128,15 +128,15 @@
 		</Size>
 		<Text>Macro:</Text>
 		<TextColor>
-				<R>255</R>
-				<G>218</G>
-				<B>96</B>
+			<R>255</R>
+			<G>218</G>
+			<B>96</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Editbox item = "MACRO_MacroEdit">
+	<Editbox item="MACRO_MacroEdit">
 		<ScreenID>MacroEdit</ScreenID>
 		<Font>4</Font>
 		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
@@ -151,12 +151,12 @@
 			<CY>35</CY>
 		</Size>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 	</Editbox>
-	<Button item = "MACRO_AddButton">
+	<Button item="MACRO_AddButton">
 		<ScreenID>AddButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -172,9 +172,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>INSERT</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -184,7 +184,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "MACRO_OKButton">
+	<Button item="MACRO_OKButton">
 		<ScreenID>OKButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -200,9 +200,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>OK</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -212,7 +212,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "MACRO_CancelButton">
+	<Button item="MACRO_CancelButton">
 		<ScreenID>CancelButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -228,9 +228,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>CANCEL</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -240,7 +240,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "MACRO_UseButton">
+	<Button item="MACRO_UseButton">
 		<ScreenID>UseButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -256,9 +256,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>USE MACRO</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -268,7 +268,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Screen item = "MACRO_Window">
+	<Screen item="MACRO_Window">
 		<ScreenID>Window</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -301,7 +301,7 @@
 		<Pieces>MACRO_AddButton</Pieces>
 		<Pieces>MACRO_UseButton</Pieces>
 	</Screen>
-	<Screen item = "macrodialog">
+	<Screen item="macrodialog">
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>

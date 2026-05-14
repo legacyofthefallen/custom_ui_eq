@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
+<XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Label item="MMTW_TypeLabel">
 		<ScreenID>TypeLabel</ScreenID>
@@ -70,7 +70,7 @@
 			<Heading>Stance</Heading>
 		</Columns>
 	</Listbox>
-	<VerticalLayoutBox item ="MMTW_SubtypeStanceVerticalLayout">
+	<VerticalLayoutBox item="MMTW_SubtypeStanceVerticalLayout">
 		<ScreenID>SubtypeStanceVerticalLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -90,7 +90,7 @@
 		<Pieces>Listbox:MMTW_SubtypeListBox</Pieces>
 		<Pieces>Listbox:MMTW_StanceListBox</Pieces>
 	</VerticalLayoutBox>
-	<LayoutBox item ="MMTW_SelectionLayout">
+	<LayoutBox item="MMTW_SelectionLayout">
 		<ScreenID>SelectionLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<Location>
@@ -367,7 +367,7 @@
 		<Style_Border>true</Style_Border>
 		<TooltipReference>Stance Description</TooltipReference>
 	</STMLbox>
-	<VerticalLayoutBox item ="MMTW_InfoTextStanceTextVerticalLayout">
+	<VerticalLayoutBox item="MMTW_InfoTextStanceTextVerticalLayout">
 		<ScreenID>InfoTextStanceTextVerticalLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -387,7 +387,7 @@
 		<Pieces>STMLbox:MMTW_InfoText</Pieces>
 		<Pieces>STMLbox:MMTW_StanceInfoText</Pieces>
 	</VerticalLayoutBox>
-	<LayoutBox item ="MMTW_InfoLayout">
+	<LayoutBox item="MMTW_InfoLayout">
 		<ScreenID>InfoLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<Location>
@@ -402,24 +402,24 @@
 		<Style_Border>false</Style_Border>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_Transparent>true</Style_Transparent>
-				<Pieces>Label:MMTW_PurchaseCostLabel</Pieces>
+		<Pieces>Label:MMTW_PurchaseCostLabel</Pieces>
 		<Pieces>Label:MMTW_PurchaseCostPlatText</Pieces>
 		<Pieces>Button:MMTW_PurchaseCostPlatIcon</Pieces>
 		<Pieces>Label:MMTW_PurchaseCostGoldText</Pieces>
 		<Pieces>Button:MMTW_PurchaseCostGoldIcon</Pieces>
 		<Pieces>Label:MMTW_AltPurchaseCostText</Pieces>
 		<Pieces>Button:MMTW_AltPurchaseCostIcon</Pieces>
-        <Pieces>Label:MMTW_UpkeepCostPlatText</Pieces>
+		<Pieces>Label:MMTW_UpkeepCostPlatText</Pieces>
 		<Pieces>Button:MMTW_UpkeepCostPlatIcon</Pieces>
 		<Pieces>Label:MMTW_UpkeepCostGoldText</Pieces>
 		<Pieces>Button:MMTW_UpkeepCostGoldIcon</Pieces>
 		<Pieces>Label:MMTW_UpkeepCostLabel</Pieces>
-        <Pieces>Label:MMTW_AltUpkeepCostText</Pieces>
+		<Pieces>Label:MMTW_AltUpkeepCostText</Pieces>
 		<Pieces>Button:MMTW_AltUpkeepCostIcon</Pieces>
 		<Pieces>Label:MMTW_AltCurrencyDividerText</Pieces>
 		<Pieces>VerticalLayoutBox:MMTW_InfoTextStanceTextVerticalLayout</Pieces>
 	</LayoutBox>
-	<HorizontalLayoutBox item ="MMTW_Layout">
+	<HorizontalLayoutBox item="MMTW_Layout">
 		<ScreenID>Layout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -427,7 +427,7 @@
 		<LeftAnchorOffset>0</LeftAnchorOffset>
 		<TopAnchorOffset>0</TopAnchorOffset>
 		<RightAnchorOffset>0</RightAnchorOffset>
-		<BottomAnchorOffset>30</BottomAnchorOffset> 
+		<BottomAnchorOffset>30</BottomAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -478,7 +478,7 @@
 		<Pieces>LayoutBox:MMTW_Layout</Pieces>
 		<Pieces>Button:MMTW_HireButton</Pieces>
 	</VerticalLayoutBox>
-	<Screen item = "MMTW_MerchantWnd">
+	<Screen item="MMTW_MerchantWnd">
 		<ScreenID>MerchantWnd</ScreenID>
 		<EQType>mercenary/MerchantWnd</EQType>
 		<RelativePosition>false</RelativePosition>

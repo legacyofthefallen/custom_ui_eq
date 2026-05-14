@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
+<XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-	<Label item = "BTR_ItemSearchLabel">
+	<Label item="BTR_ItemSearchLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -18,7 +18,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Listbox item = "BTR_ItemSearchList">
+	<Listbox item="BTR_ItemSearchList">
 		<ScreenID>ItemSearchList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -42,7 +42,7 @@
 			<Heading>Item Name</Heading>
 		</Columns>
 	</Listbox>
-	<Editbox item = "BTR_ItemSearchEdit">
+	<Editbox item="BTR_ItemSearchEdit">
 		<ScreenID>ItemSearchEdit</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -59,7 +59,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TooltipReference>List of items that you can try to Buy.</TooltipReference>
 	</Editbox>
-	<Button item = "BTR_ItemSearchButton">
+	<Button item="BTR_ItemSearchButton">
 		<ScreenID>ItemSearchButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -73,13 +73,14 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<TooltipReference>Press this button to see a list of items you can setup to Buy that match the substring entered.</TooltipReference>
+		<TooltipReference>Press this button to see a list of items you can setup to Buy that match
+			the substring entered.</TooltipReference>
 		<Text>Search</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Screen item = "BTR_SearchWnd">
+	<Screen item="BTR_SearchWnd">
 		<ScreenID>SearchWnd</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -101,7 +102,7 @@
 		<Pieces>BTR_ItemSearchEdit</Pieces>
 		<Pieces>BTR_ItemSearchButton</Pieces>
 	</Screen>
-	<Label item = "BTR_InventoryLabel">
+	<Label item="BTR_InventoryLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -118,7 +119,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Button item = "BTR_InventoryRefreshButton">
+	<Button item="BTR_InventoryRefreshButton">
 		<ScreenID>InventoryRefreshButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -136,7 +137,7 @@
 		<Text>Refresh</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Listbox item = "BTR_InventoryList">
+	<Listbox item="BTR_InventoryList">
 		<ScreenID>InventoryList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -164,7 +165,7 @@
 			<Heading>Qty</Heading>
 		</Columns>
 	</Listbox>
-	<Button item = "BTR_InventoryAddButton">
+	<Button item="BTR_InventoryAddButton">
 		<ScreenID>InventoryAddButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -179,10 +180,11 @@
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Add</Text>
-		<TooltipReference>Select an inventory item, and click this button to add that item to your compensation for this Line.</TooltipReference>
+		<TooltipReference>Select an inventory item, and click this button to add that item to your
+			compensation for this Line.</TooltipReference>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Button item = "BTR_InventoryRemoveButton">
+	<Button item="BTR_InventoryRemoveButton">
 		<ScreenID>InventoryRemoveButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -196,11 +198,12 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<TooltipReference>Select a compensation item, and click this button to remove that item from your compensation for this Line.</TooltipReference>
+		<TooltipReference>Select a compensation item, and click this button to remove that item from
+			your compensation for this Line.</TooltipReference>
 		<Text>Remove</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Label item = "BTR_CompensationLabel">
+	<Label item="BTR_CompensationLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -217,7 +220,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Listbox item = "BTR_CompensationList">
+	<Listbox item="BTR_CompensationList">
 		<ScreenID>CompensationList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -248,7 +251,7 @@
 	<Button item="BTR_CompensationPlat">
 		<ScreenID>CompensationPlat</ScreenID>
 		<RelativePosition>true</RelativePosition>
-  		<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
 		<TopAnchorOffset>85</TopAnchorOffset>
@@ -275,7 +278,7 @@
 	<Button item="BTR_CompensationGold">
 		<ScreenID>CompensationGold</ScreenID>
 		<RelativePosition>true</RelativePosition>
-  		<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
 		<TopAnchorOffset>59</TopAnchorOffset>
@@ -302,7 +305,7 @@
 	<Button item="BTR_CompensationSilver">
 		<ScreenID>CompensationSilver</ScreenID>
 		<RelativePosition>true</RelativePosition>
-  		<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>82</LeftAnchorOffset>
 		<TopAnchorOffset>85</TopAnchorOffset>
@@ -329,7 +332,7 @@
 	<Button item="BTR_CompensationCopper">
 		<ScreenID>CompensationCopper</ScreenID>
 		<RelativePosition>true</RelativePosition>
-  		<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>82</LeftAnchorOffset>
 		<TopAnchorOffset>59</TopAnchorOffset>
@@ -353,7 +356,7 @@
 			<CY>18</CY>
 		</DecalSize>
 	</Button>
-	<Button item = "BTR_BuyLineModifyButton">
+	<Button item="BTR_BuyLineModifyButton">
 		<ScreenID>BuyLineModifyButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -371,7 +374,7 @@
 		<Text>Modify</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Label item = "BTR_CountLabel">
+	<Label item="BTR_CountLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -388,7 +391,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-	<Editbox item = "BTR_CountEdit">
+	<Editbox item="BTR_CountEdit">
 		<ScreenID>CountEdit</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -403,9 +406,10 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
-		<TooltipReference>Select number of times you want to buy the item for the given compensation.</TooltipReference>
+		<TooltipReference>Select number of times you want to buy the item for the given
+			compensation.</TooltipReference>
 	</Editbox>
-	<Button item = "BTR_BuyLineAddButton">
+	<Button item="BTR_BuyLineAddButton">
 		<ScreenID>BuyLineAddButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -420,12 +424,13 @@
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Create Buy</Text>
-		<TooltipReference>Click this button to create the Buy Line after selecting the compensation for each of the target item.</TooltipReference>
+		<TooltipReference>Click this button to create the Buy Line after selecting the compensation
+			for each of the target item.</TooltipReference>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Screen item = "BTR_CompensationWnd">
+	<Screen item="BTR_CompensationWnd">
 		<ScreenID>CompensationWnd</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>194</X>
 			<Y>0</Y>
@@ -458,7 +463,7 @@
 		<Pieces>BTR_BuyLineAddButton</Pieces>
 		<Pieces>BTR_BuyLineModifyButton</Pieces>
 	</Screen>
-	<Label item = "BTR_BuyLineLabel">
+	<Label item="BTR_BuyLineLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -475,7 +480,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Listbox item = "BTR_BuyLineList">
+	<Listbox item="BTR_BuyLineList">
 		<ScreenID>BuyLineList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -511,7 +516,7 @@
 			<Heading>Offering</Heading>
 		</Columns>
 	</Listbox>
-	<Button item = "BTR_BuyLineRemoveButton">
+	<Button item="BTR_BuyLineRemoveButton">
 		<ScreenID>BuyLineRemoveButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -529,7 +534,7 @@
 		<Text>Remove</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Button item = "BTR_BuyLineActiveButton">
+	<Button item="BTR_BuyLineActiveButton">
 		<ScreenID>BuyLineActiveButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -547,8 +552,8 @@
 		<Text>Toggle</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	
-	<Button item = "BTR_BuyLineActivateAllButton">
+
+	<Button item="BTR_BuyLineActivateAllButton">
 		<ScreenID>BuyLineActivateAllButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -566,9 +571,9 @@
 		<Text>Activate All</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Screen item = "BTR_BuyLineWnd">
+	<Screen item="BTR_BuyLineWnd">
 		<ScreenID>BuyLineWnd</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -591,7 +596,7 @@
 		<Pieces>BTR_BuyLineActiveButton</Pieces>
 		<Pieces>BTR_BuyLineActivateAllButton</Pieces>
 	</Screen>
-	<STMLbox item = "BTR_StatusText">
+	<STMLbox item="BTR_StatusText">
 		<ScreenID>StatusText</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -609,7 +614,7 @@
 		<Style_Border>true</Style_Border>
 		<Text/>
 	</STMLbox>
-	<Button item = "BTR_ListLinesButton">
+	<Button item="BTR_ListLinesButton">
 		<ScreenID>ListLinesButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -623,11 +628,12 @@
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<TooltipReference>Dump a list of your current lines to the Log window and your Barter Log file.</TooltipReference>
+		<TooltipReference>Dump a list of your current lines to the Log window and your Barter Log
+			file.</TooltipReference>
 		<Text>List</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Button item = "BTR_ClearStatusButton">
+	<Button item="BTR_ClearStatusButton">
 		<ScreenID>ClearStatusButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -645,9 +651,9 @@
 		<Text>Clear</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Screen item = "BTR_StatusTextWnd">
+	<Screen item="BTR_StatusTextWnd">
 		<ScreenID>StatusTextWnd</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>240</Y>
@@ -668,7 +674,7 @@
 		<Pieces>BTR_ListLinesButton</Pieces>
 		<Pieces>BTR_ClearStatusButton</Pieces>
 	</Screen>
-	<VerticalLayoutBox item = "BTR_StatusLayout">
+	<VerticalLayoutBox item="BTR_StatusLayout">
 		<ScreenID>StatusLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -687,9 +693,9 @@
 		<Pieces>Screen:BTR_BuyLineWnd</Pieces>
 		<Pieces>Screen:BTR_StatusTextWnd</Pieces>
 	</VerticalLayoutBox>
-	<Screen item = "BTR_StatusWnd">
+	<Screen item="BTR_StatusWnd">
 		<ScreenID>StatusWnd</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>422</X>
 			<Y>0</Y>
@@ -708,7 +714,7 @@
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>VerticalLayoutBox:BTR_StatusLayout</Pieces>
 	</Screen>
-	<HorizontalLayoutBox item = "BTR_Layout">
+	<HorizontalLayoutBox item="BTR_Layout">
 		<ScreenID>Layout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -728,7 +734,7 @@
 		<Pieces>Screen:BTR_CompensationWnd</Pieces>
 		<Pieces>Screen:BTR_StatusWnd</Pieces>
 	</HorizontalLayoutBox>
-	<Label item = "BTR_WelcomeLabel">
+	<Label item="BTR_WelcomeLabel">
 		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -745,7 +751,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
-	<Editbox item = "BTR_WelcomeEdit">
+	<Editbox item="BTR_WelcomeEdit">
 		<ScreenID>WelcomeEdit</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -762,7 +768,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TooltipReference>Enter the text to display to prospective customers here.</TooltipReference>
 	</Editbox>
-	<Button item = "BTR_WelcomeButton">
+	<Button item="BTR_WelcomeButton">
 		<ScreenID>UpdateWelcomeButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -780,7 +786,7 @@
 		<Text>Update</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Button item = "BTR_StartStopButton">
+	<Button item="BTR_StartStopButton">
 		<ScreenID>StartStopButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -798,7 +804,7 @@
 		<Text>Start Buyer</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Button item = "BTR_OfflineModeButton">
+	<Button item="BTR_OfflineModeButton">
 		<ScreenID>OfflineModeButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -816,7 +822,7 @@
 		<Text>Offline Mode</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-	<Screen item = "BarterWnd">
+	<Screen item="BarterWnd">
 		<ScreenID/>
 		<RelativePosition>false</RelativePosition>
 		<Location>

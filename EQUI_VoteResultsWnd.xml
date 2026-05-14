@@ -1,6 +1,6 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Button item="VRW_Vote_Btn">
 		<ScreenID>VRW_Vote_Btn</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -18,7 +18,7 @@
 	</Button>
 	<Listbox item="VRW_ClosedQuestions_List">
 		<ScreenID>VRW_ClosedQuestions_List</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>	
+		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>35</TopAnchorOffset>
 		<BottomAnchorOffset>0</BottomAnchorOffset>

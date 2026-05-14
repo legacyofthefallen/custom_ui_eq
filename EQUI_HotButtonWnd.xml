@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Ui2DAnimation item="A_HotButton1Normal">
 		<Cycle>true</Cycle>
 		<Frames>
@@ -1503,7 +1503,7 @@
 		<TopAnchorOffset>4</TopAnchorOffset>
 		<BottomAnchorOffset>4</BottomAnchorOffset>
 		<LeftAnchorOffset>4</LeftAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>	
+		<RightAnchorOffset>4</RightAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -1518,7 +1518,7 @@
 		<TopAnchorOffset>4</TopAnchorOffset>
 		<BottomAnchorOffset>4</BottomAnchorOffset>
 		<LeftAnchorOffset>4</LeftAnchorOffset>
-		<RightAnchorOffset>15</RightAnchorOffset>	
+		<RightAnchorOffset>15</RightAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -1533,7 +1533,7 @@
 		<TopAnchorOffset>15</TopAnchorOffset>
 		<BottomAnchorOffset>4</BottomAnchorOffset>
 		<LeftAnchorOffset>4</LeftAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>	
+		<RightAnchorOffset>4</RightAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -1548,7 +1548,7 @@
 		<TopAnchorOffset>4</TopAnchorOffset>
 		<BottomAnchorOffset>4</BottomAnchorOffset>
 		<LeftAnchorOffset>4</LeftAnchorOffset>
-		<RightAnchorOffset>11</RightAnchorOffset>	
+		<RightAnchorOffset>11</RightAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -1656,7 +1656,7 @@
 		<TopAnchorOffset>0</TopAnchorOffset>
 		<BottomAnchorOffset>43</BottomAnchorOffset>
 		<LeftAnchorOffset>11</LeftAnchorOffset>
-		<RightAnchorOffset>0</RightAnchorOffset>	
+		<RightAnchorOffset>0</RightAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
@@ -1691,7 +1691,7 @@
 		<ResizeHorizontal>true</ResizeHorizontal>
 	</LayoutVertical>
 	<Screen item="HotButtonWnd">
-		<ScreenID />
+		<ScreenID/>
 		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
@@ -1718,7 +1718,7 @@
 		<Pieces>Screen:HB_NoSpinnerBarTemplate</Pieces>
 	</Screen>
 	<Screen item="HotButtonWnd2">
-		<ScreenID />
+		<ScreenID/>
 		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
@@ -1745,7 +1745,7 @@
 		<Pieces>Screen:HB_NoSpinnerBarTemplate</Pieces>
 	</Screen>
 	<Screen item="HotButtonWnd3">
-		<ScreenID />
+		<ScreenID/>
 		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
@@ -1772,7 +1772,7 @@
 		<Pieces>Screen:HB_NoSpinnerBarTemplate</Pieces>
 	</Screen>
 	<Screen item="HotButtonWnd4">
-		<ScreenID />
+		<ScreenID/>
 		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
@@ -1799,7 +1799,7 @@
 		<Pieces>Screen:HB_NoSpinnerBarTemplate</Pieces>
 	</Screen>
 	<Screen item="HotButtonWnd5">
-		<ScreenID />
+		<ScreenID/>
 		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
@@ -1826,7 +1826,7 @@
 		<Pieces>Screen:HB_NoSpinnerBarTemplate</Pieces>
 	</Screen>
 	<Screen item="HotButtonWnd6">
-		<ScreenID />
+		<ScreenID/>
 		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
@@ -1853,7 +1853,7 @@
 		<Pieces>Screen:HB_NoSpinnerBarTemplate</Pieces>
 	</Screen>
 	<Screen item="HotButtonWnd7">
-		<ScreenID />
+		<ScreenID/>
 		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
@@ -1880,7 +1880,7 @@
 		<Pieces>Screen:HB_NoSpinnerBarTemplate</Pieces>
 	</Screen>
 	<Screen item="HotButtonWnd8">
-		<ScreenID />
+		<ScreenID/>
 		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
@@ -1907,7 +1907,7 @@
 		<Pieces>Screen:HB_NoSpinnerBarTemplate</Pieces>
 	</Screen>
 	<Screen item="HotButtonWnd9">
-		<ScreenID />
+		<ScreenID/>
 		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
@@ -1934,7 +1934,7 @@
 		<Pieces>Screen:HB_NoSpinnerBarTemplate</Pieces>
 	</Screen>
 	<Screen item="HotButtonWnd10">
-		<ScreenID />
+		<ScreenID/>
 		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
@@ -1961,7 +1961,7 @@
 		<Pieces>Screen:HB_NoSpinnerBarTemplate</Pieces>
 	</Screen>
 	<Screen item="HotButtonWnd11">
-		<ScreenID />
+		<ScreenID/>
 		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
