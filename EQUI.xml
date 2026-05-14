@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
   <Composite>
-    <Include>SIDL.xdr</Include>
+    <Include>SIDL.xml</Include>
     <Include>EQUI_DragItems.xml</Include>
     <Include>EQUI_SpellIcons.xml</Include>
     <Include>EQUI_Animations.xml</Include>
