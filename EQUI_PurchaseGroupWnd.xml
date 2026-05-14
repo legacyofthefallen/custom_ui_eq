@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-	
 	<STMLbox item="PGW_WindowText">
 		<ScreenID>PGW_WindowText</ScreenID>
 		<Text/>
@@ -61,7 +60,6 @@
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 	</Label>
-	
 		<Label item="PGW_ProductName">
 		<ScreenID>PGW_ProductName</ScreenID>
 		<Text>Item</Text>
@@ -315,7 +313,6 @@
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<Animation>A_DividerVertical</Animation>
 	</StaticAnimation>
-	
 	<Button item="PGW_ChooseBtn">
 		<ScreenID>PGW_ChooseBtn</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -331,7 +328,6 @@
 		<Text>Choose This</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	
 	<Screen item="PGW_Item_Screen">
 		<ScreenID>PGW_Item_Screen</ScreenID>
 		<DrawTemplate>WDT_InnerGray</DrawTemplate>
@@ -358,7 +354,6 @@
 		<Pieces>PGW_Separator1</Pieces>
 		<Pieces>PGW_ChooseBtn</Pieces>
 	</Screen>
-	
 	<TileLayoutBox item="PGW_Items">
 		<ScreenID>PGW_Items</ScreenID>
 		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
@@ -384,7 +379,6 @@
 		<FirstPieceTemplate>false</FirstPieceTemplate>
 		<Pieces>Screen:PGW_Item_Screen</Pieces>
 	</TileLayoutBox>
-	
 	<Screen item="PurchaseGroupWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
