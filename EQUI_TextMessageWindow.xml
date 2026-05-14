@@ -1,7 +1,7 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<STMLbox item = "TM_Output">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<STMLbox item="TM_Output">
 		<ScreenID>TM_Output</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -16,7 +16,7 @@
 		<Style_Border>true</Style_Border>
 		<Style_Transparent>true</Style_Transparent>
 	</STMLbox>
-	<Screen item = "TextMessageWindow">
+	<Screen item="TextMessageWindow">
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>100</X>

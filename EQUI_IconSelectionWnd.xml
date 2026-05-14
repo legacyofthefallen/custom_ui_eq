@@ -1,7 +1,7 @@
-<?xml version = "1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
-	<Label item ="ISW_Type_Label">
+	<Label item="ISW_Type_Label">
 		<ScreenID>ISW_Type_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -28,7 +28,7 @@
 		<Choices>Spell</Choices>
 		<Choices>Menu</Choices>
 	</Combobox>
-	<Label item ="ISW_PerPage_Label">
+	<Label item="ISW_PerPage_Label">
 		<ScreenID>ISW_PerPage_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -56,7 +56,7 @@
 		<Choices>1000</Choices>
 		<Choices>All</Choices>
 	</Combobox>
-	<Label item ="ISW_Page_Label">
+	<Label item="ISW_Page_Label">
 		<ScreenID>ISW_Page_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -77,7 +77,7 @@
 		<RightAnchorOffset>257</RightAnchorOffset>
 		<Template>BDT_HSBLeft</Template>
 	</Button>
-	<Label item ="ISW_PageIndex_Label">
+	<Label item="ISW_PageIndex_Label">
 		<ScreenID>ISW_PageIndex_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -99,7 +99,7 @@
 		<RightAnchorOffset>305</RightAnchorOffset>
 		<Template>BDT_HSBRight</Template>
 	</Button>
-	<Label item ="ISW_PageRange_Label">
+	<Label item="ISW_PageRange_Label">
 		<ScreenID>ISW_PageRange_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -117,7 +117,7 @@
 		<TopAnchorOffset>5</TopAnchorOffset>
 		<BottomAnchorOffset>45</BottomAnchorOffset>
 		<LeftAnchorOffset>105</LeftAnchorOffset>
-		<RightAnchorOffset>65</RightAnchorOffset>		
+		<RightAnchorOffset>65</RightAnchorOffset>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Template>BDT_DragItem</Template>
@@ -130,7 +130,7 @@
 			<CY>36</CY>
 		</DecalSize>
 	</Button>
-	<Label item ="ISW_Slot_Label">
+	<Label item="ISW_Slot_Label">
 		<ScreenID>ISW_Slot_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>

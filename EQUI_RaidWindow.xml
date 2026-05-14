@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Label item="RAID_PlayerListLabel">
 		<ScreenID>RAID_PlayerListLabel</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
 			<Y>5</Y>
@@ -19,7 +19,7 @@
 	</Label>
 	<Label item="RAID_PlayerCountLabel">
 		<ScreenID>RAID_PlayerCountLabel</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>34</TopAnchorOffset>
 		<RightAnchorOffset>2</RightAnchorOffset>
@@ -36,7 +36,7 @@
 	</Label>
 	<Label item="RAID_PlayerCountStringLabel">
 		<ScreenID>RAID_PlayerCountStringLabel</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>34</TopAnchorOffset>
 		<RightAnchorOffset>51</RightAnchorOffset>
@@ -53,7 +53,7 @@
 	</Label>
 	<Label item="RAID_LevelAverageLabel">
 		<ScreenID>RAID_LevelAverageLabel</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>46</LeftAnchorOffset>
 		<TopAnchorOffset>18</TopAnchorOffset>
@@ -70,7 +70,7 @@
 	</Label>
 	<Label item="RAID_LevelAverageStringLabel">
 		<ScreenID>RAID_LevelAverageStringLabel</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>159</LeftAnchorOffset>
 		<TopAnchorOffset>19</TopAnchorOffset>
@@ -141,7 +141,7 @@
 	</Listbox>
 	<Label item="RAID_NotInGroupPlayerListLabel">
 		<ScreenID>RAID_NotInGroupPlayerListLabel</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>130</CX>
 			<CY>20</CY>
@@ -215,7 +215,7 @@
 	</Listbox>
 	<Button item="RAID_LockButton">
 		<ScreenID>RAID_LockButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>7</LeftAnchorOffset>
 		<TopAnchorOffset>153</TopAnchorOffset>
@@ -228,14 +228,15 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference>Raid leader may lock the raid to enable buttons for organizing players into groups.</TooltipReference>
+		<TooltipReference>Raid leader may lock the raid to enable buttons for organizing players
+			into groups.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Lock</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_UnlockButton">
 		<ScreenID>RAID_UnlockButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>7</LeftAnchorOffset>
 		<TopAnchorOffset>153</TopAnchorOffset>
@@ -255,7 +256,7 @@
 	</Button>
 	<Button item="RAID_RemoveLeaderButton">
 		<ScreenID>RAID_RemoveLeaderButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>82</LeftAnchorOffset>
 		<TopAnchorOffset>153</TopAnchorOffset>
@@ -275,7 +276,7 @@
 	</Button>
 	<Button item="RAID_NoGroupButton">
 		<ScreenID>RAID_NoGroupButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>157</LeftAnchorOffset>
 		<TopAnchorOffset>153</TopAnchorOffset>
@@ -295,7 +296,7 @@
 	</Button>
 	<Button item="RAID_Group1Button">
 		<ScreenID>RAID_Group1Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>232</LeftAnchorOffset>
 		<TopAnchorOffset>150</TopAnchorOffset>
@@ -315,7 +316,7 @@
 	</Button>
 	<Button item="RAID_Group2Button">
 		<ScreenID>RAID_Group2Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>252</LeftAnchorOffset>
 		<TopAnchorOffset>150</TopAnchorOffset>
@@ -335,7 +336,7 @@
 	</Button>
 	<Button item="RAID_Group3Button">
 		<ScreenID>RAID_Group3Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>272</LeftAnchorOffset>
 		<TopAnchorOffset>150</TopAnchorOffset>
@@ -355,7 +356,7 @@
 	</Button>
 	<Button item="RAID_Group4Button">
 		<ScreenID>RAID_Group4Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>292</LeftAnchorOffset>
 		<TopAnchorOffset>150</TopAnchorOffset>
@@ -375,7 +376,7 @@
 	</Button>
 	<Button item="RAID_Group5Button">
 		<ScreenID>RAID_Group5Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>232</LeftAnchorOffset>
 		<TopAnchorOffset>123</TopAnchorOffset>
@@ -395,7 +396,7 @@
 	</Button>
 	<Button item="RAID_Group6Button">
 		<ScreenID>RAID_Group6Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>252</LeftAnchorOffset>
 		<TopAnchorOffset>123</TopAnchorOffset>
@@ -415,7 +416,7 @@
 	</Button>
 	<Button item="RAID_Group7Button">
 		<ScreenID>RAID_Group7Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>272</LeftAnchorOffset>
 		<TopAnchorOffset>123</TopAnchorOffset>
@@ -435,7 +436,7 @@
 	</Button>
 	<Button item="RAID_Group8Button">
 		<ScreenID>RAID_Group8Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>292</LeftAnchorOffset>
 		<TopAnchorOffset>123</TopAnchorOffset>
@@ -455,7 +456,7 @@
 	</Button>
 	<Button item="RAID_Group9Button">
 		<ScreenID>RAID_Group9Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>231</LeftAnchorOffset>
 		<TopAnchorOffset>95</TopAnchorOffset>
@@ -475,7 +476,7 @@
 	</Button>
 	<Button item="RAID_Group10Button">
 		<ScreenID>RAID_Group10Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>251</LeftAnchorOffset>
 		<TopAnchorOffset>95</TopAnchorOffset>
@@ -495,7 +496,7 @@
 	</Button>
 	<Button item="RAID_Group11Button">
 		<ScreenID>RAID_Group11Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>271</LeftAnchorOffset>
 		<TopAnchorOffset>95</TopAnchorOffset>
@@ -515,7 +516,7 @@
 	</Button>
 	<Button item="RAID_Group12Button">
 		<ScreenID>RAID_Group12Button</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>291</LeftAnchorOffset>
 		<TopAnchorOffset>95</TopAnchorOffset>
@@ -535,7 +536,7 @@
 	</Button>
 	<Button item="RAID_InviteButton">
 		<ScreenID>RAID_InviteButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>7</LeftAnchorOffset>
 		<TopAnchorOffset>123</TopAnchorOffset>
@@ -555,7 +556,7 @@
 	</Button>
 	<Button item="RAID_DisbandButton">
 		<ScreenID>RAID_DisbandButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>82</LeftAnchorOffset>
 		<TopAnchorOffset>123</TopAnchorOffset>
@@ -575,7 +576,7 @@
 	</Button>
 	<Button item="RAID_AcceptButton">
 		<ScreenID>RAID_AcceptButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>7</LeftAnchorOffset>
 		<TopAnchorOffset>123</TopAnchorOffset>
@@ -595,7 +596,7 @@
 	</Button>
 	<Button item="RAID_DeclineButton">
 		<ScreenID>RAID_DeclineButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>82</LeftAnchorOffset>
 		<TopAnchorOffset>123</TopAnchorOffset>
@@ -615,7 +616,7 @@
 	</Button>
 	<Button item="RAID_MakeLeaderButton">
 		<ScreenID>RAID_MakeLeaderButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>157</LeftAnchorOffset>
 		<TopAnchorOffset>123</TopAnchorOffset>
@@ -635,7 +636,7 @@
 	</Button>
 	<Button item="RAID_AddLooterButton">
 		<ScreenID>RAID_AddLooterButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>7</LeftAnchorOffset>
 		<TopAnchorOffset>93</TopAnchorOffset>
@@ -655,7 +656,7 @@
 	</Button>
 	<Button item="RAID_RemoveLooterButton">
 		<ScreenID>RAID_RemoveLooterButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>82</LeftAnchorOffset>
 		<TopAnchorOffset>93</TopAnchorOffset>
@@ -675,7 +676,7 @@
 	</Button>
 	<Button item="RAID_OptionsButton">
 		<ScreenID>RAID_OptionsButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>157</LeftAnchorOffset>
 		<TopAnchorOffset>93</TopAnchorOffset>
@@ -695,7 +696,7 @@
 	</Button>
 	<Button item="RAID_DumpButton">
 		<ScreenID>RAID_DumpButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>232</LeftAnchorOffset>
 		<TopAnchorOffset>64</TopAnchorOffset>
@@ -715,7 +716,7 @@
 	</Button>
 	<Button item="RAID_InviteExpedButton">
 		<ScreenID>RAID_InviteExpedButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>7</LeftAnchorOffset>
 		<TopAnchorOffset>63</TopAnchorOffset>
@@ -735,7 +736,7 @@
 	</Button>
 	<Button item="RAID_InviteTaskButton">
 		<ScreenID>RAID_InviteTaskButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>82</LeftAnchorOffset>
 		<TopAnchorOffset>63</TopAnchorOffset>
@@ -755,7 +756,7 @@
 	</Button>
 	<Button item="RAID_FindPCButton">
 		<ScreenID>RAID_FindPCButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>157</LeftAnchorOffset>
 		<TopAnchorOffset>63</TopAnchorOffset>
@@ -775,7 +776,7 @@
 	</Button>
 	<Button item="RAID_MasterLooterButton">
 		<ScreenID>RAID_MasterLooterButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>317</LeftAnchorOffset>
 		<TopAnchorOffset>153</TopAnchorOffset>
@@ -795,7 +796,7 @@
 	</Button>
 	<Button item="RAID_MainAssistButton">
 		<ScreenID>RAID_MainAssistButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>317</LeftAnchorOffset>
 		<TopAnchorOffset>123</TopAnchorOffset>
@@ -815,7 +816,7 @@
 	</Button>
 	<Button item="RAID_MarkNPCButton">
 		<ScreenID>RAID_MarkNPCButton</ScreenID>
-				<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>317</LeftAnchorOffset>
 		<TopAnchorOffset>93</TopAnchorOffset>
@@ -865,7 +866,7 @@
 		<Pieces>RAID_NotInGroupPlayerListLabel</Pieces>
 		<Pieces>Listbox:RAID_NotInGroupPlayerList</Pieces>
 	</Screen>
-	<VerticalLayoutBox item = "RAID_Main_Layout">
+	<VerticalLayoutBox item="RAID_Main_Layout">
 		<ScreenID>RAID_Main_Layout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -966,7 +967,7 @@
 		</Columns>
 	</Listbox>
 	<Label item="RAID_NoteLabel">
-		<ScreenID />
+		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>5</LeftAnchorOffset>
@@ -1017,7 +1018,7 @@
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Label item="RAID_MOTDLabel">
-		<ScreenID />
+		<ScreenID/>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>5</LeftAnchorOffset>
@@ -1132,7 +1133,7 @@
 		<Pages>RAID_NotePage</Pages>
 	</TabBox>
 	<Screen item="RaidWindow">
-		<ScreenID />
+		<ScreenID/>
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>100</X>

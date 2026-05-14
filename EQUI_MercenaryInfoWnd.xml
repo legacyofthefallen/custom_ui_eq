@@ -1,6 +1,6 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Label item="MIW_PurchaseCostLabel">
 		<ScreenID>PurchaseCostLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -259,7 +259,7 @@
 		<Style_Border>true</Style_Border>
 		<TooltipReference>Stance Description</TooltipReference>
 	</STMLbox>
-	<VerticalLayoutBox item ="MIW_InfoVerticalLayout">
+	<VerticalLayoutBox item="MIW_InfoVerticalLayout">
 		<ScreenID>InfoVerticalLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -278,8 +278,8 @@
 		<Style_Transparent>true</Style_Transparent>
 		<Pieces>STMLbox:MIW_InfoText</Pieces>
 		<Pieces>STMLbox:MIW_StanceInfoText</Pieces>
-  </VerticalLayoutBox>
-	<Screen item = "MIW_InfoWnd">
+	</VerticalLayoutBox>
+	<Screen item="MIW_InfoWnd">
 		<ScreenID>InfoWnd</ScreenID>
 		<EQType>mercenary/InfoWnd</EQType>
 		<RelativePosition>false</RelativePosition>

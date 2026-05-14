@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<TextureInfo item="AttackIndicator.tga">
 		<Size>
 			<CX>128</CX>
@@ -113,7 +113,7 @@
 		<TopAnchorOffset>3</TopAnchorOffset>
 		<BottomAnchorOffset>28</BottomAnchorOffset>
 		<LeftAnchorOffset>0</LeftAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>		
+		<RightAnchorOffset>4</RightAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -310,7 +310,7 @@
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Button>
-	
+
 	<Button item="PW_NewMailIcon">
 		<ScreenID>PW_NewMailIcon</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -328,8 +328,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 	</Button>
-    
-    <Button item="PW_ParcelsIcon">
+
+	<Button item="PW_ParcelsIcon">
 		<ScreenID>PW_ParcelsIcon</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>true</Style_Transparent>
@@ -351,7 +351,8 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<TooltipReference>You are over your parcel limit! Retrieve the excess ones soon or risk losing them!</TooltipReference>
+		<TooltipReference>You are over your parcel limit! Retrieve the excess ones soon or risk
+			losing them!</TooltipReference>
 		<ButtonDrawTemplate>
 			<Normal>A_ParcelsOverLimitIcon</Normal>
 		</ButtonDrawTemplate>
@@ -363,7 +364,7 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 	</Button>
-	
+
 	<Gauge item="Player_HP">
 		<ScreenID>PlayerHP</ScreenID>
 		<TextColor>
@@ -373,7 +374,7 @@
 		</TextColor>
 		<RelativePosition>true</RelativePosition>
 		<TextOffsetX>1</TextOffsetX>
-        <TextOffsetY>-2</TextOffsetY>
+		<TextOffsetY>-2</TextOffsetY>
 		<GaugeOffsetY>34</GaugeOffsetY>
 		<FillTint>
 			<R>240</R>
@@ -395,7 +396,7 @@
 		<RightAnchorOffset>1</RightAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Gauge>
-   
+
 	<Label item="Player_HPLabel">
 		<ScreenID>HPLabel</ScreenID>
 		<EQType>19</EQType>
@@ -652,8 +653,8 @@
 		<AutoStretch>true</AutoStretch>
 		<AlignCenter>true</AlignCenter>
 		<TopAnchorOffset>65</TopAnchorOffset>
-    <LeftAnchorOffset>20</LeftAnchorOffset>
-    <RightAnchorOffset>20</RightAnchorOffset>
+		<LeftAnchorOffset>20</LeftAnchorOffset>
+		<RightAnchorOffset>20</RightAnchorOffset>
 		<BottomAnchorOffset>79</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Label>
@@ -707,7 +708,7 @@
 		<Pieces>PW_CombatStateAnim</Pieces>
 		<Pieces>PW_NewMailIcon</Pieces>
 		<Pieces>PW_ParcelsIcon</Pieces>
-		<Pieces>PW_ParcelsOverLimitIcon</Pieces> 
+		<Pieces>PW_ParcelsOverLimitIcon</Pieces>
 		<Pieces>PW_GroupRoleTank</Pieces>
 		<Pieces>PW_GroupRoleAssist</Pieces>
 		<Pieces>PW_GroupRolePuller</Pieces>

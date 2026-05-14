@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Label item="MKPW_AvailableFundsUpper_Label">
 		<ScreenID>MKPW_AvailableFundsUpper_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -471,7 +471,7 @@
 		<Style_Transparent>true</Style_Transparent>
 		<Columns>
 			<Width>10</Width>
-			<Heading />
+			<Heading/>
 		</Columns>
 		<Columns>
 			<Location>
@@ -483,7 +483,7 @@
 				<CY>19</CY>
 			</DecalSize>
 			<Width>24</Width>
-			<Heading />
+			<Heading/>
 		</Columns>
 		<Columns>
 			<Width>310</Width>
@@ -499,7 +499,7 @@
 				<CY>14</CY>
 			</DecalSize>
 			<Width>18</Width>
-			<Heading />
+			<Heading/>
 		</Columns>
 		<Columns>
 			<Width>75</Width>
@@ -3005,7 +3005,7 @@
 	<Page item="MKPW_MainPage">
 		<ScreenID>MKPW_MainPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3016,7 +3016,7 @@
 	<Page item="MKPW_TaxInfoPage">
 		<ScreenID>MKPW_TaxInfoPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3030,7 +3030,7 @@
 	<Page item="MKPW_PaymentSourcePage">
 		<ScreenID>MKPW_PaymentSourcePage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3045,7 +3045,7 @@
 	<Page item="MKPW_AmtSelectionPage">
 		<ScreenID>MKPW_AmtSelectionPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3061,7 +3061,7 @@
 	<Page item="MKPW_ConfirmPage">
 		<ScreenID>MKPW_ConfirmPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3091,7 +3091,7 @@
 	<Page item="MKPW_CreditCardPurchaseSelectionPage">
 		<ScreenID>MKPW_CreditCardPurchaseSelectionPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3111,7 +3111,7 @@
 	<Page item="MKPW_CreditCardPurchasePage">
 		<ScreenID>MKPW_CreditCardPurchasePage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3144,7 +3144,7 @@
 	<Page item="MKPW_FundConfirmPage">
 		<ScreenID>MKPW_FundConfirmPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3176,7 +3176,7 @@
 	<Page item="MKPW_SCCardRedeemPage">
 		<ScreenID>MKPW_SCCardRedeemPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3189,7 +3189,7 @@
 	<Page item="MKPW_SCChoicePage">
 		<ScreenID>MKPW_SCChoicePage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3203,7 +3203,7 @@
 	<Page item="MKPW_ResultsPage">
 		<ScreenID>MKPW_ResultsPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<TooltipReference />
+		<TooltipReference/>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
@@ -3222,8 +3222,8 @@
 		<PageBorderTemplate>FT_BlankPageBorder</PageBorderTemplate>
 		<ShowTabs>false</ShowTabs>
 		<Pages>MKPW_MainPage</Pages>
-		<Pages>MKPW_TaxInfoPage</Pages>		
-		<Pages>MKPW_PaymentSourcePage</Pages>				
+		<Pages>MKPW_TaxInfoPage</Pages>
+		<Pages>MKPW_PaymentSourcePage</Pages>
 		<Pages>MKPW_AmtSelectionPage</Pages>
 		<Pages>MKPW_ConfirmPage</Pages>
 		<Pages>MKPW_CreditCardPurchaseSelectionPage</Pages>
@@ -3237,7 +3237,7 @@
 		<ScreenID>MKPW_SubwindowsPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<DrawTemplate>WDT_Def</DrawTemplate>
-		<TooltipReference />
+		<TooltipReference/>
 		<Style_Border>false</Style_Border>
 		<Style_Sizable>true</Style_Sizable>
 		<AutoStretch>true</AutoStretch>
@@ -3498,7 +3498,7 @@
 		<ScreenID>MKPW_PreviewPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<DrawTemplate>WDT_Def</DrawTemplate>
-		<TooltipReference />
+		<TooltipReference/>
 		<Style_Border>false</Style_Border>
 		<Style_Sizable>true</Style_Sizable>
 		<AutoStretch>true</AutoStretch>

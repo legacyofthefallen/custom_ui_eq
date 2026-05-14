@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
+<XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Listbox item="REIW_ItemList">
 		<ScreenID>REIW_ItemList</ScreenID>
@@ -42,7 +42,7 @@
 			<Heading>Owner Name</Heading>
 		</Columns>
 	</Listbox>
-	
+
 	<Label item="REIW_ShowLabel">
 		<ScreenID>REIW_ShowLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -449,7 +449,7 @@
 		<Text/>
 		<NoWrap>true</NoWrap>
 	</Label>
-	
+
 	<Button item="REIW_SelectedItem">
 		<ScreenID>REIW_SelectedItem</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -689,7 +689,8 @@
 		<RightAnchorOffset>415</RightAnchorOffset>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<TooltipReference>Click here to to start locating the selected item. If it is already being located, then clicking here again will stop locating the item.</TooltipReference>
+		<TooltipReference>Click here to to start locating the selected item. If it is already being
+			located, then clicking here again will stop locating the item.</TooltipReference>
 		<Text>Locate</Text>
 		<TextColor>
 			<R>255</R>
@@ -726,7 +727,8 @@
 		<RightAnchorOffset>130</RightAnchorOffset>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<TooltipReference>If you are the owner of this real estate, click here to open the trophies window.</TooltipReference>
+		<TooltipReference>If you are the owner of this real estate, click here to open the trophies
+			window.</TooltipReference>
 		<Text>Trophies</Text>
 		<TextColor>
 			<R>255</R>
@@ -765,7 +767,8 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<TooltipReference>Click here to pack the active moving crate with all items at your current location.</TooltipReference>
+		<TooltipReference>Click here to pack the active moving crate with all items at your current
+			location.</TooltipReference>
 		<Text>Pack</Text>
 		<TextColor>
 			<R>255</R>
@@ -804,7 +807,8 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<TooltipReference>Click here to unpack the active moving crate's items into your current location.</TooltipReference>
+		<TooltipReference>Click here to unpack the active moving crate's items into your current
+			location.</TooltipReference>
 		<Text>Unpack</Text>
 		<TextColor>
 			<R>255</R>
@@ -884,11 +888,11 @@
 		<Style_Border>true</Style_Border>
 		<Pieces>REIW_ShowLabel</Pieces>
 		<Pieces>REIW_ShowYardButton</Pieces>
-		<Pieces>REIW_ShowYardButtonLabel</Pieces>	
+		<Pieces>REIW_ShowYardButtonLabel</Pieces>
 		<Pieces>REIW_ShowHouseButton</Pieces>
 		<Pieces>REIW_ShowHouseButtonLabel</Pieces>
 		<Pieces>REIW_ShowMovingCrateButton</Pieces>
-		<Pieces>REIW_ShowMovingCrateButtonLabel</Pieces>				
+		<Pieces>REIW_ShowMovingCrateButtonLabel</Pieces>
 		<Pieces>REIW_ShowStoredButton</Pieces>
 		<Pieces>REIW_ShowStoredButtonLabel</Pieces>
 		<Pieces>REIW_ShowPlacedButton</Pieces>
@@ -900,19 +904,19 @@
 		<Pieces>REIW_ShowOwnedItemsButton</Pieces>
 		<Pieces>REIW_ShowOwnedItemsButtonLabel</Pieces>
 		<Pieces>REIW_ShowUnownedItemsButton</Pieces>
-		<Pieces>REIW_ShowUnownedItemsButtonLabel</Pieces>	
+		<Pieces>REIW_ShowUnownedItemsButtonLabel</Pieces>
 		<Pieces>REIW_YardItemsLabel</Pieces>
 		<Pieces>REIW_YardItemsCount</Pieces>
 		<Pieces>REIW_YardNonRealEstateItemsCount</Pieces>
-		<Pieces>REIW_YardNpcItemsCount</Pieces>		
+		<Pieces>REIW_YardNpcItemsCount</Pieces>
 		<Pieces>REIW_HouseItemsLabel</Pieces>
 		<Pieces>REIW_HouseItemsCount</Pieces>
 		<Pieces>REIW_HouseNonRealEstateItemsCount</Pieces>
 		<Pieces>REIW_MovingCrateItemsLabel</Pieces>
-		<Pieces>REIW_MovingCrateItemsCount</Pieces>	
-		<Pieces>REIW_MovingCrateNonRealEstateItemsCount</Pieces>	
+		<Pieces>REIW_MovingCrateItemsCount</Pieces>
+		<Pieces>REIW_MovingCrateNonRealEstateItemsCount</Pieces>
 	</Screen>
-	
+
 	<Listbox item="REIW_LayoutList">
 		<ScreenID>REIW_LayoutList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -936,7 +940,7 @@
 		<Columns>
 			<Width>150</Width>
 			<Heading>Date</Heading>
-		</Columns>	
+		</Columns>
 	</Listbox>
 	<Editbox item="REIW_LayoutName_EditBox">
 		<ScreenID>REIW_LayoutName_EditBox</ScreenID>
@@ -969,24 +973,25 @@
 			<G>158</G>
 			<B>206</B>
 		</TextColor>
-		<TooltipReference>Save the positions of placed items in both the yard and the house within a layout of the entered name.</TooltipReference>
+		<TooltipReference>Save the positions of placed items in both the yard and the house within a
+			layout of the entered name.</TooltipReference>
 		<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
 		<MouseoverColor>
 			<R>107</R>
 			<G>215</G>
-			<B>255</B>	
+			<B>255</B>
 		</MouseoverColor>
 		<UseCustomPressedColor>true</UseCustomPressedColor>
 		<PressedColor>
 			<R>255</R>
 			<G>255</G>
-			<B>255</B>	
+			<B>255</B>
 		</PressedColor>
 		<UseCustomDisabledColor>true</UseCustomDisabledColor>
 		<DisabledColor>
 			<R>120</R>
 			<G>120</G>
-			<B>120</B>	
+			<B>120</B>
 		</DisabledColor>
 		<Template>BDT_Blue</Template>
 	</Button>
@@ -1006,24 +1011,25 @@
 			<G>158</G>
 			<B>206</B>
 		</TextColor>
-		<TooltipReference>Save the positions of placed items in the yard only within a layout of the entered name.</TooltipReference>
+		<TooltipReference>Save the positions of placed items in the yard only within a layout of the
+			entered name.</TooltipReference>
 		<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
 		<MouseoverColor>
 			<R>107</R>
 			<G>215</G>
-			<B>255</B>	
+			<B>255</B>
 		</MouseoverColor>
 		<UseCustomPressedColor>true</UseCustomPressedColor>
 		<PressedColor>
 			<R>255</R>
 			<G>255</G>
-			<B>255</B>	
+			<B>255</B>
 		</PressedColor>
 		<UseCustomDisabledColor>true</UseCustomDisabledColor>
 		<DisabledColor>
 			<R>120</R>
 			<G>120</G>
-			<B>120</B>	
+			<B>120</B>
 		</DisabledColor>
 		<Template>BDT_Blue</Template>
 	</Button>
@@ -1043,24 +1049,25 @@
 			<G>158</G>
 			<B>206</B>
 		</TextColor>
-		<TooltipReference>Save the positions of placed items in the house only within a layout of the entered name.</TooltipReference>
+		<TooltipReference>Save the positions of placed items in the house only within a layout of
+			the entered name.</TooltipReference>
 		<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
 		<MouseoverColor>
 			<R>107</R>
 			<G>215</G>
-			<B>255</B>	
+			<B>255</B>
 		</MouseoverColor>
 		<UseCustomPressedColor>true</UseCustomPressedColor>
 		<PressedColor>
 			<R>255</R>
 			<G>255</G>
-			<B>255</B>	
+			<B>255</B>
 		</PressedColor>
 		<UseCustomDisabledColor>true</UseCustomDisabledColor>
 		<DisabledColor>
 			<R>120</R>
 			<G>120</G>
-			<B>120</B>	
+			<B>120</B>
 		</DisabledColor>
 		<Template>BDT_Blue</Template>
 	</Button>
@@ -1085,19 +1092,19 @@
 		<MouseoverColor>
 			<R>107</R>
 			<G>215</G>
-			<B>255</B>	
+			<B>255</B>
 		</MouseoverColor>
 		<UseCustomPressedColor>true</UseCustomPressedColor>
 		<PressedColor>
 			<R>255</R>
 			<G>255</G>
-			<B>255</B>	
+			<B>255</B>
 		</PressedColor>
 		<UseCustomDisabledColor>true</UseCustomDisabledColor>
 		<DisabledColor>
 			<R>120</R>
 			<G>120</G>
-			<B>120</B>	
+			<B>120</B>
 		</DisabledColor>
 		<Template>BDT_Blue</Template>
 	</Button>
@@ -1118,24 +1125,25 @@
 			<G>158</G>
 			<B>206</B>
 		</TextColor>
-		<TooltipReference>Load all items for the selected layout.  If Used Placed Items or Store Extra Items are selected, then placed items in both the yard and the house will be used.</TooltipReference>
+		<TooltipReference>Load all items for the selected layout. If Used Placed Items or Store
+			Extra Items are selected, then placed items in both the yard and the house will be used.</TooltipReference>
 		<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
 		<MouseoverColor>
 			<R>107</R>
 			<G>215</G>
-			<B>255</B>	
+			<B>255</B>
 		</MouseoverColor>
 		<UseCustomPressedColor>true</UseCustomPressedColor>
 		<PressedColor>
 			<R>255</R>
 			<G>255</G>
-			<B>255</B>	
+			<B>255</B>
 		</PressedColor>
 		<UseCustomDisabledColor>true</UseCustomDisabledColor>
 		<DisabledColor>
 			<R>120</R>
 			<G>120</G>
-			<B>120</B>	
+			<B>120</B>
 		</DisabledColor>
 		<Template>BDT_Blue</Template>
 	</Button>
@@ -1156,24 +1164,26 @@
 			<G>158</G>
 			<B>206</B>
 		</TextColor>
-		<TooltipReference>Load all yard items for the selected layout.  If Used Placed Items or Store Extra Items are selected, then placed items in the yard will be used.  Placed items in the house will be left alone.</TooltipReference>
+		<TooltipReference>Load all yard items for the selected layout. If Used Placed Items or Store
+			Extra Items are selected, then placed items in the yard will be used. Placed items in
+			the house will be left alone.</TooltipReference>
 		<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
 		<MouseoverColor>
 			<R>107</R>
 			<G>215</G>
-			<B>255</B>	
+			<B>255</B>
 		</MouseoverColor>
 		<UseCustomPressedColor>true</UseCustomPressedColor>
 		<PressedColor>
 			<R>255</R>
 			<G>255</G>
-			<B>255</B>	
+			<B>255</B>
 		</PressedColor>
 		<UseCustomDisabledColor>true</UseCustomDisabledColor>
 		<DisabledColor>
 			<R>120</R>
 			<G>120</G>
-			<B>120</B>	
+			<B>120</B>
 		</DisabledColor>
 		<Template>BDT_Blue</Template>
 	</Button>
@@ -1194,24 +1204,26 @@
 			<G>158</G>
 			<B>206</B>
 		</TextColor>
-		<TooltipReference>Load all house items for the selected layout.  If Used Placed Items or Store Extra Items are selected, then placed items in the house will be used.  Placed items in the yard will be left alone.</TooltipReference>
+		<TooltipReference>Load all house items for the selected layout. If Used Placed Items or
+			Store Extra Items are selected, then placed items in the house will be used. Placed
+			items in the yard will be left alone.</TooltipReference>
 		<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
 		<MouseoverColor>
 			<R>107</R>
 			<G>215</G>
-			<B>255</B>	
+			<B>255</B>
 		</MouseoverColor>
 		<UseCustomPressedColor>true</UseCustomPressedColor>
 		<PressedColor>
 			<R>255</R>
 			<G>255</G>
-			<B>255</B>	
+			<B>255</B>
 		</PressedColor>
 		<UseCustomDisabledColor>true</UseCustomDisabledColor>
 		<DisabledColor>
 			<R>120</R>
 			<G>120</G>
-			<B>120</B>	
+			<B>120</B>
 		</DisabledColor>
 		<Template>BDT_Blue</Template>
 	</Button>
@@ -1232,24 +1244,25 @@
 			<G>158</G>
 			<B>206</B>
 		</TextColor>
-		<TooltipReference>View all items required for this layout and whether or not you can fully load the layout with your desired settings.</TooltipReference>
+		<TooltipReference>View all items required for this layout and whether or not you can fully
+			load the layout with your desired settings.</TooltipReference>
 		<UseCustomMouseoverColor>true</UseCustomMouseoverColor>
 		<MouseoverColor>
 			<R>107</R>
 			<G>215</G>
-			<B>255</B>	
+			<B>255</B>
 		</MouseoverColor>
 		<UseCustomPressedColor>true</UseCustomPressedColor>
 		<PressedColor>
 			<R>255</R>
 			<G>255</G>
-			<B>255</B>	
+			<B>255</B>
 		</PressedColor>
 		<UseCustomDisabledColor>true</UseCustomDisabledColor>
 		<DisabledColor>
 			<R>120</R>
 			<G>120</G>
-			<B>120</B>	
+			<B>120</B>
 		</DisabledColor>
 		<Template>BDT_Blue</Template>
 	</Button>
@@ -1323,7 +1336,8 @@
 			<CY>16</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
-		<TooltipReference>Stores any previously placed items that are not in the layout.  This overrides the Use Placed Items option.</TooltipReference>
+		<TooltipReference>Stores any previously placed items that are not in the layout. This
+			overrides the Use Placed Items option.</TooltipReference>
 		<Template>BDT_Checkbox</Template>
 	</Button>
 	<Label item="REIW_LayoutStoreExtraItems_Label">
@@ -1385,7 +1399,7 @@
 		<Pieces>REIW_LayoutLoadAll_Btn</Pieces>
 		<Pieces>REIW_LayoutLoadYard_Btn</Pieces>
 		<Pieces>REIW_LayoutLoadHouse_Btn</Pieces>
-		<Pieces>REIW_LayoutDetails_Btn</Pieces>		
+		<Pieces>REIW_LayoutDetails_Btn</Pieces>
 		<Pieces>REIW_LayoutDelete_Btn</Pieces>
 		<Pieces>REIW_LayoutUsePlacedItems_Btn</Pieces>
 		<Pieces>REIW_LayoutUsePlacedItems_Label</Pieces>
@@ -1396,20 +1410,20 @@
 		<Pieces>REIW_LayoutRotateYard_Label</Pieces>
 		<Pieces>REIW_LayoutRotateYard_Combobox</Pieces>
 	</Screen>
-	
+
 	<Page item="REIW_ItemsPage">
 		<ScreenID>REIW_ItemsPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Items</TabText>
-    <TabTextActiveColor>
+		<TabTextActiveColor>
 			<R>255</R>
 			<G>255</G>
 			<B>0</B>
 		</TabTextActiveColor>
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>REIW_Pack_Moving_Crate_Button</Pieces>
-		<Pieces>REIW_Unpack_Moving_Crate_Button</Pieces>	
+		<Pieces>REIW_Unpack_Moving_Crate_Button</Pieces>
 		<Pieces>REIW_Stow_Placed_Button</Pieces>
 		<Pieces>REIW_Trophies_Button</Pieces>
 		<Pieces>Screen:REIW_Summary_Screen</Pieces>
@@ -1423,7 +1437,7 @@
 		<Pieces>REIW_SelectedItemLocation</Pieces>
 		<Pieces>REIW_SelectedItem</Pieces>
 		<Pieces>REIW_ItemList</Pieces>
-  </Page>
+	</Page>
 	<Page item="REIW_LayoutPage">
 		<ScreenID>REIW_LayoutPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1438,10 +1452,10 @@
 		<Pieces>REIW_LayoutList</Pieces>
 		<Pieces>REIW_LayoutName_EditBox</Pieces>
 		<Pieces>REIW_LayoutSaveAll_Btn</Pieces>
-		<Pieces>REIW_LayoutSaveYard_Btn</Pieces>	
-		<Pieces>REIW_LayoutSaveHouse_Btn</Pieces>	
+		<Pieces>REIW_LayoutSaveYard_Btn</Pieces>
+		<Pieces>REIW_LayoutSaveHouse_Btn</Pieces>
 		<Pieces>Screen:REIW_LayoutLoad_Screen</Pieces>
-  </Page>
+	</Page>
 	<TabBox item="REIW_Subwindows">
 		<ScreenID>REIW_Subwindows</ScreenID>
 		<RelativePosition>true</RelativePosition>

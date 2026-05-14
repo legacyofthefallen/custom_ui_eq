@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
   <Combobox item="ADOW_MemoryModeCombobox">
     <ScreenID>ADOW_MemoryModeCombobox</ScreenID>
     <Font>3</Font>
@@ -378,7 +378,7 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
- <Label item="ADOW_ActorClipPlaneLabel">
+  <Label item="ADOW_ActorClipPlaneLabel">
     <ScreenID>ADOW_ActorClipPlaneLabel</ScreenID>
     <Font>3</Font>
     <RelativePosition>true</RelativePosition>
@@ -948,7 +948,7 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-    <Slider item="ADOW_MaxFPSSlider">
+  <Slider item="ADOW_MaxFPSSlider">
     <ScreenID>ADOW_MaxFPSSlider</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -977,7 +977,7 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>true</AlignRight>
   </Label>
-    <Label item="ADOW_MaxBGFPSLabel">
+  <Label item="ADOW_MaxBGFPSLabel">
     <ScreenID>ADOW_MaxBGFPSLabel</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -1022,7 +1022,7 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>true</AlignRight>
   </Label>
-    <Label item="ADOW_NameFlashLabel">
+  <Label item="ADOW_NameFlashLabel">
     <ScreenID>ADOW_NameFlashLabel</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -1038,7 +1038,7 @@
     <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
   </Label>
-    <Slider item="ADOW_NameFlashSlider">
+  <Slider item="ADOW_NameFlashSlider">
     <ScreenID>ADOW_NameFlashSlider</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -1132,8 +1132,8 @@
     <Pieces>ADOW_MaxBGFPSLabel</Pieces>
     <Pieces>ADOW_MaxBGFPSSlider</Pieces>
     <Pieces>ADOW_MaxBGFPSSliderValueLabel</Pieces>
-	<Pieces>ADOW_NameFlashLabel</Pieces>
-	<Pieces>ADOW_NameFlashSlider</Pieces>
+    <Pieces>ADOW_NameFlashLabel</Pieces>
+    <Pieces>ADOW_NameFlashSlider</Pieces>
     <Pieces>ADOW_NameFlashSliderValueLabel</Pieces>
   </Screen>
 </XML>

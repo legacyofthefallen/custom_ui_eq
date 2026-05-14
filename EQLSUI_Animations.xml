@@ -1,133 +1,133 @@
-<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<TextureInfo item = "EQLS_background_01.tga">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<TextureInfo item="EQLS_background_01.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQLS_background_02.tga">
+	<TextureInfo item="EQLS_background_02.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQLS_background_03.tga">
+	<TextureInfo item="EQLS_background_03.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQLS_background_04.tga">
+	<TextureInfo item="EQLS_background_04.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQLS_background_05.tga">
+	<TextureInfo item="EQLS_background_05.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQLS_background_06.tga">
+	<TextureInfo item="EQLS_background_06.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQLS_WndBorder_01.tga">
+	<TextureInfo item="EQLS_WndBorder_01.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQLS_WndBorder_02.tga">
+	<TextureInfo item="EQLS_WndBorder_02.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQLS_WndBorder_03.tga">
+	<TextureInfo item="EQLS_WndBorder_03.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQLS_WndBorder_04.tga">
+	<TextureInfo item="EQLS_WndBorder_04.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQLS_WndBorder_05.tga">
+	<TextureInfo item="EQLS_WndBorder_05.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQLS_WndBorder_06.tga">
+	<TextureInfo item="EQLS_WndBorder_06.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "wnd_bg_dark_rock.tga">
+	<TextureInfo item="wnd_bg_dark_rock.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "wnd_bg_light_rock.tga">
+	<TextureInfo item="wnd_bg_light_rock.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "window_pieces01.tga">
+	<TextureInfo item="window_pieces01.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "window_pieces02.tga">
+	<TextureInfo item="window_pieces02.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "window_pieces03.tga">
+	<TextureInfo item="window_pieces03.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQLS_window_pieces_01.tga">
+	<TextureInfo item="EQLS_window_pieces_01.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQLS_window_pieces_02.tga">
+	<TextureInfo item="EQLS_window_pieces_02.tga">
 		<Size>
 			<CX>256</CX>
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQLS_scrollbar_gutter.tga">
+	<TextureInfo item="EQLS_scrollbar_gutter.tga">
 		<Size>
 			<CX>16</CX>
 			<CY>16</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item = "EQLS_BlackFill.tga">
+	<TextureInfo item="EQLS_BlackFill.tga">
 		<Size>
 			<CX>32</CX>
 			<CY>32</CY>
 		</Size>
 	</TextureInfo>
-	<Ui2DAnimation item = "A_MainBG01">
+	<Ui2DAnimation item="A_MainBG01">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_background_01.tga</Texture>
@@ -146,7 +146,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MainBG02">
+	<Ui2DAnimation item="A_MainBG02">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_background_02.tga</Texture>
@@ -165,7 +165,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MainBG03">
+	<Ui2DAnimation item="A_MainBG03">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_background_03.tga</Texture>
@@ -184,7 +184,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MainBG04">
+	<Ui2DAnimation item="A_MainBG04">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_background_04.tga</Texture>
@@ -203,7 +203,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MainBG05">
+	<Ui2DAnimation item="A_MainBG05">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_background_05.tga</Texture>
@@ -222,7 +222,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MainBG06">
+	<Ui2DAnimation item="A_MainBG06">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_background_06.tga</Texture>
@@ -241,7 +241,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_AltBG01">
+	<Ui2DAnimation item="A_AltBG01">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_WndBorder_01.tga</Texture>
@@ -260,7 +260,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_AltBG02">
+	<Ui2DAnimation item="A_AltBG02">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_WndBorder_02.tga</Texture>
@@ -279,7 +279,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_AltBG03">
+	<Ui2DAnimation item="A_AltBG03">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_WndBorder_03.tga</Texture>
@@ -298,7 +298,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_AltBG04">
+	<Ui2DAnimation item="A_AltBG04">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_WndBorder_04.tga</Texture>
@@ -317,7 +317,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_AltBG05">
+	<Ui2DAnimation item="A_AltBG05">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_WndBorder_05.tga</Texture>
@@ -336,7 +336,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_AltBG06">
+	<Ui2DAnimation item="A_AltBG06">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_WndBorder_06.tga</Texture>
@@ -355,7 +355,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<StaticAnimation item = "EQLS_MainBG01">
+	<StaticAnimation item="EQLS_MainBG01">
 		<ScreenID>MainBG01</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -368,7 +368,7 @@
 		</Size>
 		<Animation>A_MainBG01</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "EQLS_MainBG02">
+	<StaticAnimation item="EQLS_MainBG02">
 		<ScreenID>MainBG02</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -381,7 +381,7 @@
 		</Size>
 		<Animation>A_MainBG02</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "EQLS_MainBG03">
+	<StaticAnimation item="EQLS_MainBG03">
 		<ScreenID>MainBG03</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -394,7 +394,7 @@
 		</Size>
 		<Animation>A_MainBG03</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "EQLS_MainBG04">
+	<StaticAnimation item="EQLS_MainBG04">
 		<ScreenID>MainBG04</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -407,7 +407,7 @@
 		</Size>
 		<Animation>A_MainBG04</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "EQLS_MainBG05">
+	<StaticAnimation item="EQLS_MainBG05">
 		<ScreenID>MainBG05</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -420,7 +420,7 @@
 		</Size>
 		<Animation>A_MainBG05</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "EQLS_MainBG06">
+	<StaticAnimation item="EQLS_MainBG06">
 		<ScreenID>MainBG06</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -433,7 +433,7 @@
 		</Size>
 		<Animation>A_MainBG06</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "EQLS_AltBG01">
+	<StaticAnimation item="EQLS_AltBG01">
 		<ScreenID>AltBG01</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -446,7 +446,7 @@
 		</Size>
 		<Animation>A_AltBG01</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "EQLS_AltBG02">
+	<StaticAnimation item="EQLS_AltBG02">
 		<ScreenID>AltBG02</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -459,7 +459,7 @@
 		</Size>
 		<Animation>A_AltBG02</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "EQLS_AltBG03">
+	<StaticAnimation item="EQLS_AltBG03">
 		<ScreenID>AltBG03</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -472,7 +472,7 @@
 		</Size>
 		<Animation>A_AltBG03</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "EQLS_AltBG04">
+	<StaticAnimation item="EQLS_AltBG04">
 		<ScreenID>AltBG04</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -485,7 +485,7 @@
 		</Size>
 		<Animation>A_AltBG04</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "EQLS_AltBG05">
+	<StaticAnimation item="EQLS_AltBG05">
 		<ScreenID>AltBG05</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -498,7 +498,7 @@
 		</Size>
 		<Animation>A_AltBG05</Animation>
 	</StaticAnimation>
-	<StaticAnimation item = "EQLS_AltBG06">
+	<StaticAnimation item="EQLS_AltBG06">
 		<ScreenID>AltBG06</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -510,8 +510,8 @@
 			<CY>224</CY>
 		</Size>
 		<Animation>A_AltBG06</Animation>
-	</StaticAnimation>	
-	<Ui2DAnimation item = "A_EQLS_LargeBtnNormal">
+	</StaticAnimation>
+	<Ui2DAnimation item="A_EQLS_LargeBtnNormal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_01.tga</Texture>
@@ -530,7 +530,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_LargeBtnHover">
+	<Ui2DAnimation item="A_EQLS_LargeBtnHover">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_01.tga</Texture>
@@ -549,7 +549,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_LargeBtnPressed">
+	<Ui2DAnimation item="A_EQLS_LargeBtnPressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_01.tga</Texture>
@@ -568,7 +568,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_LargeBtnPressedHover">
+	<Ui2DAnimation item="A_EQLS_LargeBtnPressedHover">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_01.tga</Texture>
@@ -587,7 +587,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_LargeBtnDisabled">
+	<Ui2DAnimation item="A_EQLS_LargeBtnDisabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_01.tga</Texture>
@@ -606,7 +606,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_SmallBtnNormal">
+	<Ui2DAnimation item="A_EQLS_SmallBtnNormal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_01.tga</Texture>
@@ -625,7 +625,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_SmallBtnHover">
+	<Ui2DAnimation item="A_EQLS_SmallBtnHover">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_01.tga</Texture>
@@ -644,7 +644,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_SmallBtnPressed">
+	<Ui2DAnimation item="A_EQLS_SmallBtnPressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_01.tga</Texture>
@@ -663,7 +663,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_SmallBtnPressedHover">
+	<Ui2DAnimation item="A_EQLS_SmallBtnPressedHover">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_01.tga</Texture>
@@ -682,7 +682,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_SmallBtnDisabled">
+	<Ui2DAnimation item="A_EQLS_SmallBtnDisabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -701,7 +701,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_RadioBtnNormal">
+	<Ui2DAnimation item="A_EQLS_RadioBtnNormal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -720,7 +720,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_RadioBtnPressed">
+	<Ui2DAnimation item="A_EQLS_RadioBtnPressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -739,7 +739,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_RadioBtnDisabled">
+	<Ui2DAnimation item="A_EQLS_RadioBtnDisabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -758,7 +758,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_VSBUpNormal">
+	<Ui2DAnimation item="A_EQLS_VSBUpNormal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -777,7 +777,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_VSBUpPressed">
+	<Ui2DAnimation item="A_EQLS_VSBUpPressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -796,7 +796,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_VSBUpDisabled">
+	<Ui2DAnimation item="A_EQLS_VSBUpDisabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -815,7 +815,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_VSBDownNormal">
+	<Ui2DAnimation item="A_EQLS_VSBDownNormal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -834,7 +834,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_VSBDownPressed">
+	<Ui2DAnimation item="A_EQLS_VSBDownPressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -853,7 +853,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_VSBDownDisabled">
+	<Ui2DAnimation item="A_EQLS_VSBDownDisabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -872,7 +872,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_VSBThumbTop">
+	<Ui2DAnimation item="A_EQLS_VSBThumbTop">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -891,7 +891,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_VSBThumbMiddle">
+	<Ui2DAnimation item="A_EQLS_VSBThumbMiddle">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -910,7 +910,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_VSBThumbBottom">
+	<Ui2DAnimation item="A_EQLS_VSBThumbBottom">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -929,7 +929,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_HSBLeftNormal">
+	<Ui2DAnimation item="A_EQLS_HSBLeftNormal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -948,7 +948,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_HSBLeftPressed">
+	<Ui2DAnimation item="A_EQLS_HSBLeftPressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -967,7 +967,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_HSBLeftDisabled">
+	<Ui2DAnimation item="A_EQLS_HSBLeftDisabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -986,7 +986,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_HSBRightNormal">
+	<Ui2DAnimation item="A_EQLS_HSBRightNormal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -1005,7 +1005,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_HSBRightPressed">
+	<Ui2DAnimation item="A_EQLS_HSBRightPressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -1024,7 +1024,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_HSBRightDisabled">
+	<Ui2DAnimation item="A_EQLS_HSBRightDisabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -1043,7 +1043,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_HSBThumbLeft">
+	<Ui2DAnimation item="A_EQLS_HSBThumbLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -1062,7 +1062,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_HSBThumbMiddle">
+	<Ui2DAnimation item="A_EQLS_HSBThumbMiddle">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -1081,7 +1081,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_HSBThumbRight">
+	<Ui2DAnimation item="A_EQLS_HSBThumbRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_02.tga</Texture>
@@ -1100,7 +1100,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_BorderFrameTopLeft">
+	<Ui2DAnimation item="A_EQLS_BorderFrameTopLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_01.tga</Texture>
@@ -1119,7 +1119,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_BorderFrameTop">
+	<Ui2DAnimation item="A_EQLS_BorderFrameTop">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_01.tga</Texture>
@@ -1138,7 +1138,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_BorderFrameTopRight">
+	<Ui2DAnimation item="A_EQLS_BorderFrameTopRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_01.tga</Texture>
@@ -1157,7 +1157,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_BorderFrameLeftTop">
+	<Ui2DAnimation item="A_EQLS_BorderFrameLeftTop">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_01.tga</Texture>
@@ -1176,7 +1176,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_BorderFrameRightTop">
+	<Ui2DAnimation item="A_EQLS_BorderFrameRightTop">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_01.tga</Texture>
@@ -1195,7 +1195,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_BorderFrameLeft">
+	<Ui2DAnimation item="A_EQLS_BorderFrameLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_01.tga</Texture>
@@ -1214,7 +1214,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_BorderFrameRight">
+	<Ui2DAnimation item="A_EQLS_BorderFrameRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_01.tga</Texture>
@@ -1233,7 +1233,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_BorderFrameBottomLeft">
+	<Ui2DAnimation item="A_EQLS_BorderFrameBottomLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_01.tga</Texture>
@@ -1252,7 +1252,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_BorderFrameBottom">
+	<Ui2DAnimation item="A_EQLS_BorderFrameBottom">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_01.tga</Texture>
@@ -1271,7 +1271,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_BorderFrameBottomRight">
+	<Ui2DAnimation item="A_EQLS_BorderFrameBottomRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>EQLS_window_pieces_01.tga</Texture>
@@ -1290,7 +1290,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_DefaultCursor">
+	<Ui2DAnimation item="A_DefaultCursor">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1309,7 +1309,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CursorResizeEW">
+	<Ui2DAnimation item="A_CursorResizeEW">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1328,7 +1328,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CursorResizeIBeam">
+	<Ui2DAnimation item="A_CursorResizeIBeam">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1347,7 +1347,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CursorResizeNESW">
+	<Ui2DAnimation item="A_CursorResizeNESW">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1366,7 +1366,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CursorResizeNS">
+	<Ui2DAnimation item="A_CursorResizeNS">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1385,7 +1385,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CursorResizeNWSE">
+	<Ui2DAnimation item="A_CursorResizeNWSE">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1404,7 +1404,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CursorDrag">
+	<Ui2DAnimation item="A_CursorDrag">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1423,7 +1423,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CloseBtnNormal">
+	<Ui2DAnimation item="A_CloseBtnNormal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1442,7 +1442,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CloseBtnPressed">
+	<Ui2DAnimation item="A_CloseBtnPressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1461,7 +1461,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CloseBtnFlyby">
+	<Ui2DAnimation item="A_CloseBtnFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1480,7 +1480,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CloseBtnDisabled">
+	<Ui2DAnimation item="A_CloseBtnDisabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1488,7 +1488,7 @@
 				<X>100</X>
 				<Y>90</Y>
 			</Location>
-			<Size>	
+			<Size>
 				<CX>12</CX>
 				<CY>12</CY>
 			</Size>
@@ -1499,7 +1499,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CloseBtnPressedFlyby">
+	<Ui2DAnimation item="A_CloseBtnPressedFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1518,7 +1518,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_QMarkBtnNormal">
+	<Ui2DAnimation item="A_QMarkBtnNormal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1537,7 +1537,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_QMarkBtnPressed">
+	<Ui2DAnimation item="A_QMarkBtnPressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1556,7 +1556,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_QMarkBtnFlyby">
+	<Ui2DAnimation item="A_QMarkBtnFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1575,7 +1575,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_QMarkBtnDisabled">
+	<Ui2DAnimation item="A_QMarkBtnDisabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1583,7 +1583,7 @@
 				<X>171</X>
 				<Y>236</Y>
 			</Location>
-			<Size>	
+			<Size>
 				<CX>12</CX>
 				<CY>12</CY>
 			</Size>
@@ -1594,7 +1594,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_QMarkBtnPressedFlyby">
+	<Ui2DAnimation item="A_QMarkBtnPressedFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1613,7 +1613,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MinimizeBtnNormal">
+	<Ui2DAnimation item="A_MinimizeBtnNormal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1632,7 +1632,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MinimizeBtnPressed">
+	<Ui2DAnimation item="A_MinimizeBtnPressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1651,7 +1651,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MinimizeBtnFlyby">
+	<Ui2DAnimation item="A_MinimizeBtnFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1670,7 +1670,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MinimizeBtnDisabled">
+	<Ui2DAnimation item="A_MinimizeBtnDisabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1689,7 +1689,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MinimizeBtnPressedFlyby">
+	<Ui2DAnimation item="A_MinimizeBtnPressedFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1708,7 +1708,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_ListHeaderLeft">
+	<Ui2DAnimation item="A_ListHeaderLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1727,7 +1727,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_ListHeaderMiddle">
+	<Ui2DAnimation item="A_ListHeaderMiddle">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1746,7 +1746,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_ListHeaderRight">
+	<Ui2DAnimation item="A_ListHeaderRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1765,7 +1765,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_LightRockFrameTopBottom">
+	<Ui2DAnimation item="A_LightRockFrameTopBottom">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>wnd_bg_light_rock.tga</Texture>
@@ -1784,7 +1784,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_LightRockFrameSide">
+	<Ui2DAnimation item="A_LightRockFrameSide">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>wnd_bg_light_rock.tga</Texture>
@@ -1803,7 +1803,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BorderFrameTopLeft">
+	<Ui2DAnimation item="A_BorderFrameTopLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1822,7 +1822,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BorderFrameTop">
+	<Ui2DAnimation item="A_BorderFrameTop">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1841,7 +1841,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BorderFrameTopRight">
+	<Ui2DAnimation item="A_BorderFrameTopRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1860,7 +1860,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BorderFrameLeftTop">
+	<Ui2DAnimation item="A_BorderFrameLeftTop">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1879,7 +1879,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BorderFrameRightTop">
+	<Ui2DAnimation item="A_BorderFrameRightTop">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1898,7 +1898,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BorderFrameLeft">
+	<Ui2DAnimation item="A_BorderFrameLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1917,7 +1917,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BorderFrameRight">
+	<Ui2DAnimation item="A_BorderFrameRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1936,7 +1936,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BorderFrameLeftBottom">
+	<Ui2DAnimation item="A_BorderFrameLeftBottom">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1955,7 +1955,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BorderFrameRightBottom">
+	<Ui2DAnimation item="A_BorderFrameRightBottom">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1974,7 +1974,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BorderFrameBottomLeft">
+	<Ui2DAnimation item="A_BorderFrameBottomLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -1993,7 +1993,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BorderFrameBottom">
+	<Ui2DAnimation item="A_BorderFrameBottom">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2012,7 +2012,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BorderFrameBottomRight">
+	<Ui2DAnimation item="A_BorderFrameBottomRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2031,7 +2031,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_WindowTitleLeft">
+	<Ui2DAnimation item="A_WindowTitleLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2050,7 +2050,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_WindowTitleMiddle">
+	<Ui2DAnimation item="A_WindowTitleMiddle">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2069,7 +2069,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_WindowTitleRight">
+	<Ui2DAnimation item="A_WindowTitleRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2088,7 +2088,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_WindowTitleLeft">
+	<Ui2DAnimation item="A_EQLS_WindowTitleLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2107,7 +2107,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_WindowTitleMiddle">
+	<Ui2DAnimation item="A_EQLS_WindowTitleMiddle">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2126,7 +2126,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_EQLS_WindowTitleRight">
+	<Ui2DAnimation item="A_EQLS_WindowTitleRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2145,7 +2145,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BtnNormal">
+	<Ui2DAnimation item="A_BtnNormal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>
@@ -2164,7 +2164,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BtnPressed">
+	<Ui2DAnimation item="A_BtnPressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>
@@ -2183,7 +2183,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BtnFlyby">
+	<Ui2DAnimation item="A_BtnFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>
@@ -2202,7 +2202,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BtnPressedFlyby">
+	<Ui2DAnimation item="A_BtnPressedFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>
@@ -2221,7 +2221,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BtnDisabled">
+	<Ui2DAnimation item="A_BtnDisabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>
@@ -2240,7 +2240,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SmallBtnNormal">
+	<Ui2DAnimation item="A_SmallBtnNormal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>
@@ -2259,7 +2259,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SmallBtnPressed">
+	<Ui2DAnimation item="A_SmallBtnPressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>
@@ -2278,7 +2278,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SmallBtnFlyby">
+	<Ui2DAnimation item="A_SmallBtnFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>
@@ -2297,7 +2297,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SmallBtnPressedFlyby">
+	<Ui2DAnimation item="A_SmallBtnPressedFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>
@@ -2316,7 +2316,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SmallBtnDisabled">
+	<Ui2DAnimation item="A_SmallBtnDisabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>
@@ -2335,7 +2335,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BigBtnNormal">
+	<Ui2DAnimation item="A_BigBtnNormal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>
@@ -2354,7 +2354,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BigBtnPressed">
+	<Ui2DAnimation item="A_BigBtnPressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>
@@ -2373,7 +2373,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BigBtnFlyby">
+	<Ui2DAnimation item="A_BigBtnFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>
@@ -2392,7 +2392,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BigBtnPressedFlyby">
+	<Ui2DAnimation item="A_BigBtnPressedFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>
@@ -2411,7 +2411,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_BigBtnDisabled">
+	<Ui2DAnimation item="A_BigBtnDisabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>
@@ -2430,7 +2430,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SquareBtnNormal">
+	<Ui2DAnimation item="A_SquareBtnNormal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>
@@ -2449,7 +2449,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SquareBtnPressed">
+	<Ui2DAnimation item="A_SquareBtnPressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>
@@ -2468,7 +2468,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SquareBtnFlyby">
+	<Ui2DAnimation item="A_SquareBtnFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>
@@ -2487,7 +2487,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SquareBtnPressedFlyby">
+	<Ui2DAnimation item="A_SquareBtnPressedFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>
@@ -2506,7 +2506,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SquareBtnDisabled">
+	<Ui2DAnimation item="A_SquareBtnDisabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>
@@ -2525,7 +2525,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_InnerFrameTopLeft">
+	<Ui2DAnimation item="A_InnerFrameTopLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2544,7 +2544,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_InnerFrameTopRight">
+	<Ui2DAnimation item="A_InnerFrameTopRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2563,7 +2563,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_InnerFrameTop">
+	<Ui2DAnimation item="A_InnerFrameTop">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2582,7 +2582,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_InnerFrameLeft">
+	<Ui2DAnimation item="A_InnerFrameLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2601,7 +2601,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_InnerFrameRight">
+	<Ui2DAnimation item="A_InnerFrameRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2620,7 +2620,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_InnerFrameBottomLeft">
+	<Ui2DAnimation item="A_InnerFrameBottomLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2639,7 +2639,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_InnerFrameBottomRight">
+	<Ui2DAnimation item="A_InnerFrameBottomRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2658,7 +2658,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_InnerFrameBottom">
+	<Ui2DAnimation item="A_InnerFrameBottom">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2677,7 +2677,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RoundedFrameTopLeft">
+	<Ui2DAnimation item="A_RoundedFrameTopLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2696,7 +2696,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RoundedFrameTop">
+	<Ui2DAnimation item="A_RoundedFrameTop">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2715,7 +2715,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RoundedFrameTopRight">
+	<Ui2DAnimation item="A_RoundedFrameTopRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2734,7 +2734,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RoundedFrameRightTop">
+	<Ui2DAnimation item="A_RoundedFrameRightTop">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2753,7 +2753,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RoundedFrameRight">
+	<Ui2DAnimation item="A_RoundedFrameRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2772,7 +2772,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RoundedFrameRightBottom">
+	<Ui2DAnimation item="A_RoundedFrameRightBottom">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2791,7 +2791,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RoundedFrameBottomRight">
+	<Ui2DAnimation item="A_RoundedFrameBottomRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2810,7 +2810,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RoundedFrameBottom">
+	<Ui2DAnimation item="A_RoundedFrameBottom">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2829,7 +2829,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RoundedFrameBottomLeft">
+	<Ui2DAnimation item="A_RoundedFrameBottomLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2848,7 +2848,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RoundedFrameLeftBottom">
+	<Ui2DAnimation item="A_RoundedFrameLeftBottom">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2867,7 +2867,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RoundedFrameLeft">
+	<Ui2DAnimation item="A_RoundedFrameLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2886,7 +2886,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RoundedFrameLeftTop">
+	<Ui2DAnimation item="A_RoundedFrameLeftTop">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2905,7 +2905,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RoundedFrameWithTitleTopLeft">
+	<Ui2DAnimation item="A_RoundedFrameWithTitleTopLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2924,7 +2924,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RoundedFrameWithTitleTop">
+	<Ui2DAnimation item="A_RoundedFrameWithTitleTop">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2943,7 +2943,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RoundedFrameWithTitleTopRight">
+	<Ui2DAnimation item="A_RoundedFrameWithTitleTopRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2962,7 +2962,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RoundedFrameTitleLeft">
+	<Ui2DAnimation item="A_RoundedFrameTitleLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -2981,7 +2981,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RoundedFrameTitleMiddle">
+	<Ui2DAnimation item="A_RoundedFrameTitleMiddle">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3000,7 +3000,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RoundedFrameTitleRight">
+	<Ui2DAnimation item="A_RoundedFrameTitleRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3019,7 +3019,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RoundedFrameWithTitleLeftTop">
+	<Ui2DAnimation item="A_RoundedFrameWithTitleLeftTop">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3038,7 +3038,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RoundedFrameWithTitleRightTop">
+	<Ui2DAnimation item="A_RoundedFrameWithTitleRightTop">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3057,7 +3057,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_RecessedBox">
+	<Ui2DAnimation item="A_RecessedBox">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3076,7 +3076,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_PlusBtnNormal">
+	<Ui2DAnimation item="A_PlusBtnNormal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3095,7 +3095,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_PlusBtnFlyby">
+	<Ui2DAnimation item="A_PlusBtnFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3114,7 +3114,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_PlusBtnPressed">
+	<Ui2DAnimation item="A_PlusBtnPressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3133,7 +3133,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_PlusBtnPressedFlyby">
+	<Ui2DAnimation item="A_PlusBtnPressedFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3152,7 +3152,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_PlusBtnDisabled">
+	<Ui2DAnimation item="A_PlusBtnDisabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3171,7 +3171,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MinusBtnNormal">
+	<Ui2DAnimation item="A_MinusBtnNormal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3190,7 +3190,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MinusBtnFlyby">
+	<Ui2DAnimation item="A_MinusBtnFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3209,7 +3209,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MinusBtnPressed">
+	<Ui2DAnimation item="A_MinusBtnPressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3228,7 +3228,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MinusBtnPressedFlyby">
+	<Ui2DAnimation item="A_MinusBtnPressedFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3247,7 +3247,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_MinusBtnDisabled">
+	<Ui2DAnimation item="A_MinusBtnDisabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3266,7 +3266,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_GaugeBackground">
+	<Ui2DAnimation item="A_GaugeBackground">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3285,7 +3285,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_GaugeFill">
+	<Ui2DAnimation item="A_GaugeFill">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3304,7 +3304,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_GaugeLines">
+	<Ui2DAnimation item="A_GaugeLines">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3323,7 +3323,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_GaugeLinesFill">
+	<Ui2DAnimation item="A_GaugeLinesFill">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3342,7 +3342,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_GaugeEndCapLeft">
+	<Ui2DAnimation item="A_GaugeEndCapLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3361,7 +3361,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_GaugeEndCapRight">
+	<Ui2DAnimation item="A_GaugeEndCapRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3380,7 +3380,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SliderBackground">
+	<Ui2DAnimation item="A_SliderBackground">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3399,7 +3399,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SliderEndCapLeft">
+	<Ui2DAnimation item="A_SliderEndCapLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3418,7 +3418,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SliderEndCapRight">
+	<Ui2DAnimation item="A_SliderEndCapRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3437,7 +3437,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SliderThumbNormal">
+	<Ui2DAnimation item="A_SliderThumbNormal">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3456,7 +3456,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SliderThumbPressed">
+	<Ui2DAnimation item="A_SliderThumbPressed">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3475,7 +3475,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SliderThumbFlyby">
+	<Ui2DAnimation item="A_SliderThumbFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3494,7 +3494,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SliderThumbDisabled">
+	<Ui2DAnimation item="A_SliderThumbDisabled">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3513,7 +3513,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_SliderThumbPressedFlyby">
+	<Ui2DAnimation item="A_SliderThumbPressedFlyby">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3532,7 +3532,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_TabBottomLeft">
+	<Ui2DAnimation item="A_TabBottomLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3551,7 +3551,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_TabBottomRight">
+	<Ui2DAnimation item="A_TabBottomRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3570,7 +3570,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_TabLeftBottom">
+	<Ui2DAnimation item="A_TabLeftBottom">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3589,7 +3589,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_TabRightBottom">
+	<Ui2DAnimation item="A_TabRightBottom">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3608,7 +3608,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_TabFrameTopLeft">
+	<Ui2DAnimation item="A_TabFrameTopLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3627,7 +3627,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_TabFrameTop">
+	<Ui2DAnimation item="A_TabFrameTop">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3646,7 +3646,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_TabFrameTopRight">
+	<Ui2DAnimation item="A_TabFrameTopRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3665,7 +3665,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_TabFrameLeftTop">
+	<Ui2DAnimation item="A_TabFrameLeftTop">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3684,7 +3684,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_TabFrameRightTop">
+	<Ui2DAnimation item="A_TabFrameRightTop">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3703,7 +3703,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_TabFrameLeft">
+	<Ui2DAnimation item="A_TabFrameLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3722,7 +3722,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_TabFrameRight">
+	<Ui2DAnimation item="A_TabFrameRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3741,7 +3741,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_TabFrameLeftBottom">
+	<Ui2DAnimation item="A_TabFrameLeftBottom">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3760,7 +3760,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_TabFrameRightBottom">
+	<Ui2DAnimation item="A_TabFrameRightBottom">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3779,7 +3779,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_TabFrameBottomLeft">
+	<Ui2DAnimation item="A_TabFrameBottomLeft">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3798,7 +3798,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_TabFrameBottom">
+	<Ui2DAnimation item="A_TabFrameBottom">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3817,7 +3817,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_TabFrameBottomRight">
+	<Ui2DAnimation item="A_TabFrameBottomRight">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
@@ -3836,7 +3836,7 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_OptionsBtnNormal">
+	<Ui2DAnimation item="A_OptionsBtnNormal">
 		<Frames>
 			<Texture>window_pieces02.tga</Texture>
 			<Location>
@@ -3853,7 +3853,7 @@
 			</Hotspot>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_OptionsBtnFlyby">
+	<Ui2DAnimation item="A_OptionsBtnFlyby">
 		<Frames>
 			<Texture>window_pieces02.tga</Texture>
 			<Location>
@@ -3870,7 +3870,7 @@
 			</Hotspot>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_OptionsBtnPressed">
+	<Ui2DAnimation item="A_OptionsBtnPressed">
 		<Frames>
 			<Texture>window_pieces02.tga</Texture>
 			<Location>
@@ -3887,7 +3887,7 @@
 			</Hotspot>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_OptionsBtnPressedFlyby">
+	<Ui2DAnimation item="A_OptionsBtnPressedFlyby">
 		<Frames>
 			<Texture>window_pieces02.tga</Texture>
 			<Location>
@@ -3904,7 +3904,7 @@
 			</Hotspot>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CheckBoxNormal">
+	<Ui2DAnimation item="A_CheckBoxNormal">
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
 			<Location>
@@ -3921,7 +3921,7 @@
 			</Hotspot>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_CheckBoxPressed">
+	<Ui2DAnimation item="A_CheckBoxPressed">
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
 			<Location>
@@ -3938,7 +3938,7 @@
 			</Hotspot>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_DividerLeft">
+	<Ui2DAnimation item="A_DividerLeft">
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
 			<Location>
@@ -3951,7 +3951,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_DividerMiddle">
+	<Ui2DAnimation item="A_DividerMiddle">
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
 			<Location>
@@ -3964,7 +3964,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_DividerRight">
+	<Ui2DAnimation item="A_DividerRight">
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
 			<Location>
@@ -3977,7 +3977,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_WhitePixel">
+	<Ui2DAnimation item="A_WhitePixel">
 		<Frames>
 			<Texture>window_pieces01.tga</Texture>
 			<Location>
@@ -3990,7 +3990,7 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
-	<Ui2DAnimation item = "A_DividerVertical">
+	<Ui2DAnimation item="A_DividerVertical">
 		<Cycle>true</Cycle>
 		<Frames>
 			<Texture>window_pieces03.tga</Texture>

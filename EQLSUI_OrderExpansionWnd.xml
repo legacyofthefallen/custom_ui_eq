@@ -1,7 +1,7 @@
-﻿<?xml version = "1.0" encoding="utf-8"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	<Button item = "OrderExp_AcceptButton">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Button item="OrderExp_AcceptButton">
 		<ScreenID>OrderExp_AcceptButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -17,9 +17,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text/>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -29,7 +29,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<Button item = "OrderExp_DeclineButton">
+	<Button item="OrderExp_DeclineButton">
 		<ScreenID>OrderExp_DeclineButton</ScreenID>
 		<Font>4</Font>
 		<RelativePosition>true</RelativePosition>
@@ -45,9 +45,9 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Skip</Text>
 		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
 		</TextColor>
 		<ButtonDrawTemplate>
 			<Normal>A_EQLS_SmallBtnNormal</Normal>
@@ -57,7 +57,7 @@
 			<PressedFlyby>A_EQLS_SmallBtnPressedHover</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-	<STMLbox item = "OrderExp_Display">
+	<STMLbox item="OrderExp_Display">
 		<ScreenID>OrderExp_Display</ScreenID>
 		<Font>4</Font>
 		<DrawTemplate>WDT_EQLS_Def_Bordered</DrawTemplate>
@@ -74,7 +74,7 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<Style_Border>true</Style_Border>
 	</STMLbox>
-	<Label item = "OrderExp_WndLabel">
+	<Label item="OrderExp_WndLabel">
 		<ScreenID>OrderExp_WndLabel</ScreenID>
 		<Font>5</Font>
 		<RelativePosition>true</RelativePosition>
@@ -88,16 +88,16 @@
 		</Size>
 		<Text>Expansion Upgrade</Text>
 		<TextColor>
-				<R>255</R>
-				<G>218</G>
-				<B>96</B>
+			<R>255</R>
+			<G>218</G>
+			<B>96</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<Screen item = "OrderExpansionWindow">
-				<RelativePosition>true</RelativePosition>
+	<Screen item="OrderExpansionWindow">
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -109,14 +109,14 @@
 		<Font>5</Font>
 		<Text>Expansion Upgrade</Text>
 		<TextColor>
-				<R>231</R>
-				<G>252</G>
-				<B>82</B>
+			<R>231</R>
+			<G>252</G>
+			<B>82</B>
 		</TextColor>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-				<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
+		<DrawTemplate>WDT_EQLS_Def_NoFrame</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
