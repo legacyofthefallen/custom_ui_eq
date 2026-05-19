@@ -38,7 +38,6 @@
 		<Style_Transparent>true</Style_Transparent>
 		<ResizeHeightToText>true</ResizeHeightToText>
 	</Label>
-
 	<Label item="ACHI_AchievementTimeStamp_Label">
 		<ScreenID>ACHI_AchievementTimeStamp_Label</ScreenID>
 		<Text>[Timestamp]</Text>
@@ -55,7 +54,6 @@
 		<Style_Transparent>true</Style_Transparent>
 		<ResizeHeightToText>true</ResizeHeightToText>
 	</Label>
-
 	<Label item="ACHI_AchievementSub_Spacer">
 		<ScreenID>ACHI_AchievementSub_Spacer</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -64,7 +62,6 @@
 			<CY>20</CY>
 		</Size>
 	</Label>
-
 	<Button item="ACHI_AchievementSub_CompletedButton">
 		<ScreenID>ACHI_AchievementSub_CompletedButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -85,7 +82,6 @@
 			<PressedDisabled>A_TransparentCheckBoxPressed</PressedDisabled>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Label item="ACHI_AchievementSub_Label">
 		<ScreenID>ACHI_AchievementSub_Label</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -129,7 +125,6 @@
 			<B>66</B>
 		</TextColor>
 	</Label>
-
 	<Label item="ACHI_Spacer">
 		<ScreenID>ACHI_Spacer</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -138,7 +133,6 @@
 			<CY>1</CY>
 		</Size>
 	</Label>
-
 	<Screen item="ACHI_SubAchievement">
 		<ScreenID>ACHI_SubAchievement</ScreenID>
 		<Layout>ACHI_Layout</Layout>
@@ -157,7 +151,6 @@
 		<Pieces>ACHI_AchievementSub_Spacer</Pieces>
 		<NoWrap>true</NoWrap>
 	</Screen>
-
 	<Button item="ACHI_AchievementSub_CompletedButtonIndirect">
 		<ScreenID>ACHI_AchievementSub_CompletedButtonIndirect</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -178,7 +171,6 @@
 			<PressedDisabled>A_TransparentCheckBoxPressed</PressedDisabled>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Label item="ACHI_AchievementSub_LabelIndirect">
 		<ScreenID>ACHI_AchievementSub_LabelIndirect</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -200,7 +192,6 @@
 			<B>66</B>
 		</TextColor>
 	</Label>
-
 	<Screen item="ACHI_SubAchievementIndirect">
 		<ScreenID>ACHI_SubAchievementIndirect</ScreenID>
 		<Layout>ACHI_Layout</Layout>
@@ -219,7 +210,6 @@
 		<Pieces>ACHI_AchievementSub_Spacer</Pieces>
 		<NoWrap>true</NoWrap>
 	</Screen>
-
 	<Button item="ACHI_AchievementViewRewardButton">
 		<ScreenID>ACHI_AchievementViewRewardButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -242,7 +232,6 @@
 			<PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
 	<Screen item="ACHI_AchievementViewRewardScreen">
 		<ScreenID>ACHI_AchievementViewRewardScreen</ScreenID>
 		<Layout>ACHI_Layout</Layout>
@@ -258,7 +247,6 @@
 		<Pieces>ACHI_AchievementViewRewardButton</Pieces>
 		<NoWrap>true</NoWrap>
 	</Screen>
-
 	<VerticalLayoutBox item="ACHI_SubAchievements">
 		<ScreenID>ACHI_SubAchievements</ScreenID>
 		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
@@ -291,7 +279,6 @@
 		<Pieces>Screen:ACHI_SubAchievementIndirect</Pieces>
 		<Pieces>Screen:ACHI_AchievementViewRewardScreen</Pieces>
 	</VerticalLayoutBox>
-
 	<Screen item="ACHI_Achievement_Screen">
 		<ScreenID>ACHI_Achievement_Screen</ScreenID>
 		<DrawTemplate>WDT_AchievementOpen</DrawTemplate>
@@ -341,7 +328,6 @@
 		<LayerOneTextureIndex>0</LayerOneTextureIndex>
 		<LayerTwoTextureIndex>0</LayerTwoTextureIndex>
 	</StaticTintedBlendAnimation>
-
 	<Button item="ACHI_ViewMineButton">
 		<ScreenID>ACHI_ViewMineButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
