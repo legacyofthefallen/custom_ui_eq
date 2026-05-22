@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
   <Label item="TRW_AutoUpateLabel">
@@ -49,7 +49,6 @@
   </Button>
   <Label item="TRW_FiltersLabel">
     <ScreenID>TRW_FiltersLabel</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>3</LeftAnchorOffset>
@@ -64,7 +63,6 @@
   </Label>
   <Button item="TRW_FilterRedButton">
     <ScreenID>TRW_FilterRedButton</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>3</X>
@@ -74,7 +72,6 @@
       <CX>25</CX>
       <CY>20</CY>
     </Size>
-    <!--<TooltipReference/>-->
     <Style_Checkbox>true</Style_Checkbox>
     <Text>RD</Text>
     <TextColor>
@@ -83,13 +80,9 @@
       <B>0</B>
     </TextColor>
     <Template>BDT_Normal</Template>
-    <!--<SoundPressed/>-->
-    <!--<SoundUp/>-->
-    <!--<SoundFlyby/>-->
   </Button>
   <Button item="TRW_FilterYellowButton">
     <ScreenID>TRW_FilterYellowButton</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>30</X>
@@ -99,7 +92,6 @@
       <CX>25</CX>
       <CY>20</CY>
     </Size>
-    <!--<TooltipReference/>-->
     <Style_Checkbox>true</Style_Checkbox>
     <Text>YL</Text>
     <TextColor>
@@ -108,13 +100,9 @@
       <B>0</B>
     </TextColor>
     <Template>BDT_Normal</Template>
-    <!--<SoundPressed/>-->
-    <!--<SoundUp/>-->
-    <!--<SoundFlyby/>-->
   </Button>
   <Button item="TRW_FilterWhiteButton">
     <ScreenID>TRW_FilterWhiteButton</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>57</X>
@@ -124,7 +112,6 @@
       <CX>25</CX>
       <CY>20</CY>
     </Size>
-    <!--<TooltipReference/>-->
     <Style_Checkbox>true</Style_Checkbox>
     <Text>WT</Text>
     <TextColor>
@@ -133,13 +120,9 @@
       <B>240</B>
     </TextColor>
     <Template>BDT_Normal</Template>
-    <!--<SoundPressed/>-->
-    <!--<SoundUp/>-->
-    <!--<SoundFlyby/>-->
   </Button>
   <Button item="TRW_FilterBlueButton">
     <ScreenID>TRW_FilterBlueButton</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>84</X>
@@ -149,7 +132,6 @@
       <CX>25</CX>
       <CY>20</CY>
     </Size>
-    <!--<TooltipReference/>-->
     <Style_Checkbox>true</Style_Checkbox>
     <Text>BL</Text>
     <TextColor>
@@ -158,13 +140,9 @@
       <B>240</B>
     </TextColor>
     <Template>BDT_Normal</Template>
-    <!--<SoundPressed/>-->
-    <!--<SoundUp/>-->
-    <!--<SoundFlyby/>-->
   </Button>
   <Button item="TRW_FilterLightBlueButton">
     <ScreenID>TRW_FilterLightBlueButton</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>111</X>
@@ -174,7 +152,6 @@
       <CX>25</CX>
       <CY>20</CY>
     </Size>
-    <!--<TooltipReference/>-->
     <Style_Checkbox>true</Style_Checkbox>
     <Text>LB</Text>
     <TextColor>
@@ -183,13 +160,9 @@
       <B>240</B>
     </TextColor>
     <Template>BDT_Normal</Template>
-    <!--<SoundPressed/>-->
-    <!--<SoundUp/>-->
-    <!--<SoundFlyby/>-->
   </Button>
   <Button item="TRW_FilterGreenButton">
     <ScreenID>TRW_FilterGreenButton</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>138</X>
@@ -199,7 +172,6 @@
       <CX>25</CX>
       <CY>20</CY>
     </Size>
-    <!--<TooltipReference/>-->
     <Style_Checkbox>true</Style_Checkbox>
     <Text>GN</Text>
     <TextColor>
@@ -208,13 +180,9 @@
       <B>60</B>
     </TextColor>
     <Template>BDT_Normal</Template>
-    <!--<SoundPressed/>-->
-    <!--<SoundUp/>-->
-    <!--<SoundFlyby/>-->
   </Button>
   <Button item="TRW_FilterGray">
     <ScreenID>TRW_FilterGray</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
       <X>165</X>
@@ -224,7 +192,6 @@
       <CX>25</CX>
       <CY>20</CY>
     </Size>
-    <!--<TooltipReference/>-->
     <Style_Checkbox>true</Style_Checkbox>
     <Text>GY</Text>
     <TextColor>
@@ -233,9 +200,6 @@
       <B>90</B>
     </TextColor>
     <Template>BDT_Normal</Template>
-    <!--<SoundPressed/>-->
-    <!--<SoundUp/>-->
-    <!--<SoundFlyby/>-->
   </Button>
   <Listbox item="TRW_TrackingList">
     <ScreenID>TRW_TrackingList</ScreenID>
@@ -255,7 +219,6 @@
   </Listbox>
   <Label item="TRW_TrackSortLabel">
     <ScreenID>TRW_TrackSortLabel</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>3</LeftAnchorOffset>
@@ -287,7 +250,6 @@
   </Combobox>
   <Label item="TRW_TrackPlayersLabel">
     <ScreenID>TRW_TrackPlayersLabel</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>3</LeftAnchorOffset>
@@ -317,7 +279,6 @@
     <Button>BDT_Combo</Button>
     <Style_Border>true</Style_Border>
   </Combobox>
-  
   <Label item="TRW_TrackPetsLabel">
     <ScreenID>TRW_TrackPetsLabel</ScreenID>
     <Font>3</Font>
@@ -364,7 +325,6 @@
     <TopAnchorToTop>false</TopAnchorToTop>
     <TopAnchorOffset>99</TopAnchorOffset>
   </Button>
-  
   <Label item="TRW_TrackMercsLabel">
     <ScreenID>TRW_TrackMercsLabel</ScreenID>
     <Font>3</Font>
@@ -411,10 +371,8 @@
     <TopAnchorToTop>false</TopAnchorToTop>
     <TopAnchorOffset>74</TopAnchorOffset>
   </Button>
-  
   <Button item="TRW_TrackButton">
     <ScreenID>TRW_TrackButton</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>3</LeftAnchorOffset>
@@ -424,17 +382,12 @@
     <TopAnchorToTop>false</TopAnchorToTop>
     <BottomAnchorToTop>false</BottomAnchorToTop>
     <RightAnchorToLeft>false</RightAnchorToLeft>
-    <!--<TooltipReference/>-->
     <Style_Checkbox>false</Style_Checkbox>
     <Text>Track</Text>
     <Template>BDT_Normal</Template>
-    <!--<SoundPressed/>-->
-    <!--<SoundUp/>-->
-    <!--<SoundFlyby/>-->
   </Button>
   <Button item="TRW_DoneButton">
     <ScreenID>DoneButton</ScreenID>
-    <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
     <LeftAnchorOffset>3</LeftAnchorOffset>
@@ -446,18 +399,11 @@
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <Style_Transparent>false</Style_Transparent>
-    <!--<TooltipReference/>-->
     <Style_Checkbox>false</Style_Checkbox>
-    <!--<RadioGroup/>-->
     <Text>Cancel</Text>
     <Template>BDT_Normal</Template>
-    <!--<SoundPressed/>-->
-    <!--<<SoundUp/>-->
-    <!--<SoundFlyby/>-->
   </Button>
   <Screen item="TrackingWnd">
-    <!--<ScreenID/>-->
-    <!--<Font/>-->
     <RelativePosition>false</RelativePosition>
     <Location>
       <X>0</X>
@@ -470,7 +416,6 @@
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
-    <!--<TooltipReference/>-->
     <Text>Tracking Window</Text>
     <DrawTemplate>WDT_defaultChat_Def</DrawTemplate>
     <Style_Titlebar>true</Style_Titlebar>
