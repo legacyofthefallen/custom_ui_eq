@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes">
 		<ElementType name="Class">
 			<attribute name="item" type="string"/>
 		</ElementType>
@@ -91,10 +91,10 @@
 			<element name="Left" type="Ui2DAnimation:item"/>
 			<element name="LeftBottom" type="Ui2DAnimation:item"/>
 			<element name="Middle" type="Ui2DAnimation:item"/>
-			<element name="OverlapLeft" type = "int"/>
-			<element name="OverlapTop" type = "int"/>
-			<element name="OverlapRight" type = "int"/>
-			<element name="OverlapBottom" type = "int"/>
+			<element name="OverlapLeft" type="int"/>
+			<element name="OverlapTop" type="int"/>
+			<element name="OverlapRight" type="int"/>
+			<element name="OverlapBottom" type="int"/>
 		</ElementType>
 		<ElementType name="ScrollbarDrawTemplate">
 			<superType type="Class"/>
@@ -135,10 +135,10 @@
 			<element name="AutoStretch" type="boolean"/>
 			<element name="AutoStretchVertical" type="boolean"/>
 			<element name="AutoStretchHorizontal" type="boolean"/>
-			<element name="TopAnchorToTop" type = "boolean"/>
-			<element name="LeftAnchorToLeft" type = "boolean"/>
-			<element name="BottomAnchorToTop" type = "boolean"/>
-			<element name="RightAnchorToLeft" type = "boolean"/>
+			<element name="TopAnchorToTop" type="boolean"/>
+			<element name="LeftAnchorToLeft" type="boolean"/>
+			<element name="BottomAnchorToTop" type="boolean"/>
+			<element name="RightAnchorToLeft" type="boolean"/>
 			<element name="TopAnchorOffset" type="int"/>
 			<element name="BottomAnchorOffset" type="int"/>
 			<element name="LeftAnchorOffset" type="int"/>
@@ -150,8 +150,8 @@
 			<element name="Text" type="string"/>
 			<element name="TextColor" type="TextRGB"/>
 			<element name="DisabledColor" type="RGB"/>
-			<element name="UseInLayoutHorizontal" type = "boolean"/>
-			<element name="UseInLayoutVertical" type = "boolean"/>
+			<element name="UseInLayoutHorizontal" type="boolean"/>
+			<element name="UseInLayoutVertical" type="boolean"/>
 			<element name="BackgroundTextureTint" type="RGB"/>
 			<element name="DisabledBackgroundTextureTint" type="RGB"/>
 		</ElementType>
@@ -318,10 +318,10 @@
 		</ElementType>
 		<ElementType name="Combobox">
 			<superType type="Control"/>
-			<element name = "Button" type = "ButtonDrawTemplate:item"/>
-			<element name = "ListHeight" type = "int"/>
-			<element name = "Choices" type = "string" minOccurs = "0" maxOccurs = "*"/>
-			<element name = "AutoStretchList" type="boolean"/>
+			<element name="Button" type="ButtonDrawTemplate:item"/>
+			<element name="ListHeight" type="int"/>
+			<element name="Choices" type="string" minOccurs="0" maxOccurs="*"/>
+			<element name="AutoStretchList" type="boolean"/>
 		</ElementType>
 		<ElementType name="Page">
 			<superType type="Control"/>
@@ -343,33 +343,33 @@
 		</ElementType>
 		<ElementType name="LayoutBox">
 			<superType type="Control"/>
-			<element name = "Spacing" type = "int"/>
+			<element name="Spacing" type="int"/>
 			<element name="ResizeLast" type="boolean"/>
-			<element name = "PaddingLeft" type = "int"/>
-			<element name = "PaddingRight" type = "int"/>
-			<element name = "PaddingTop" type = "int"/>
-			<element name = "PaddingBottom" type = "int"/>
+			<element name="PaddingLeft" type="int"/>
+			<element name="PaddingRight" type="int"/>
+			<element name="PaddingTop" type="int"/>
+			<element name="PaddingBottom" type="int"/>
 			<element name="Pieces" type="ScreenPiece:item" minOccurs="0" maxOccurs="*"/>
 		</ElementType>
 		<ElementType name="HorizontalLayoutBox">
 			<superType type="LayoutBox"/>
-			<element name = "Style_Dividers" type = "boolean"/>
+			<element name="Style_Dividers" type="boolean"/>
 		</ElementType>
 		<ElementType name="VerticalLayoutBox">
 			<superType type="LayoutBox"/>
-			<element name = "Style_Dividers" type = "boolean"/>
+			<element name="Style_Dividers" type="boolean"/>
 		</ElementType>
 		<ElementType name="FinderBox">
 			<superType type="VerticalLayoutBox"/>
 		</ElementType>
 		<ElementType name="TileLayoutBox">
 			<superType type="LayoutBox"/>
-			<element name = "HorizontalFirst" type = "boolean"/>
-			<element name = "AnchorToTop" type = "boolean"/>
-			<element name = "AnchorToLeft" type = "boolean"/>
-			<element name = "SecondarySpacing" type = "int"/>
-			<element name = "FirstPieceTemplate" type = "boolean"/>
-			<element name = "SnapToChildren" type = "boolean"/>
+			<element name="HorizontalFirst" type="boolean"/>
+			<element name="AnchorToTop" type="boolean"/>
+			<element name="AnchorToLeft" type="boolean"/>
+			<element name="SecondarySpacing" type="int"/>
+			<element name="FirstPieceTemplate" type="boolean"/>
+			<element name="SnapToChildren" type="boolean"/>
 		</ElementType>
 		<ElementType name="NamedTemplatePiece">
 			<superType type="Class"/>
