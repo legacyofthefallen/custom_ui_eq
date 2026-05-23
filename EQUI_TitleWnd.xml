@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-	<!--	Display of player info -->
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Label item="Title_CurrentNameLabel">
 		<ScreenID>Title_CurrentNameLabel</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -31,7 +30,7 @@
 		<BottomAnchorOffset>25</BottomAnchorOffset>
 		<LeftAnchorOffset>75</LeftAnchorOffset>
 		<RightAnchorOffset>20</RightAnchorOffset>
-		<Text />
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -65,12 +64,11 @@
 		<BottomAnchorOffset>45</BottomAnchorOffset>
 		<LeftAnchorOffset>75</LeftAnchorOffset>
 		<RightAnchorOffset>20</RightAnchorOffset>
-		<Text />
+		<Text/>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-	<!-- Title Prefix info.	This is the normal title that players are used to -->
 	<Listbox item="Title_AvailableTitles">
 		<ScreenID>Title_AvailableTitles</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -92,13 +90,12 @@
 			<Heading>Available Titles</Heading>
 		</Columns>
 		<Columns>
-			<Width />
-			<Heading />
+			<Width/>
+			<Heading/>
 		</Columns>
 	</Listbox>
 	<Button item="Title_ChangeTitlePrefix">
 		<ScreenID>Title_ChangeTitlePrefix</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
@@ -110,15 +107,12 @@
 		<LeftAnchorOffset>5</LeftAnchorOffset>
 		<RightAnchorOffset>88</RightAnchorOffset>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Text>Change Title</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item="Title_ClearTitlePrefix">
 		<ScreenID>Title_ClearTitlePrefix</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
@@ -130,20 +124,17 @@
 		<LeftAnchorOffset>92</LeftAnchorOffset>
 		<RightAnchorOffset>170</RightAnchorOffset>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Text>Clear Title</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Page item="Title_PrefixPage">
 		<ScreenID>Title_PrefixPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<!-- Pages are sized and positioned by their parent tab -->
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference />
+		<TooltipReference/>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Titles</TabText>
 		<TabTextActiveColor>
@@ -164,8 +155,6 @@
 			<CY>189</CY>
 		</Size>
 	</Page>
-	<!-- End of the prefix components -->
-	<!-- Title Suffix info.	This will go after the player's name. -->
 	<Listbox item="Title_AvailableSuffixes">
 		<ScreenID>Title_AvailableSuffixes</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -186,13 +175,12 @@
 			<Heading>Available Suffixes</Heading>
 		</Columns>
 		<Columns>
-			<Width />
-			<Heading />
+			<Width/>
+			<Heading/>
 		</Columns>
 	</Listbox>
 	<Button item="Title_ChangeTitleSuffix">
 		<ScreenID>Title_ChangeTitleSuffix</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
@@ -204,15 +192,12 @@
 		<LeftAnchorOffset>5</LeftAnchorOffset>
 		<RightAnchorOffset>88</RightAnchorOffset>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Text>Change Suffix</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item="Title_ClearTitleSuffix">
 		<ScreenID>Title_ClearTitleSuffix</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
@@ -224,16 +209,13 @@
 		<LeftAnchorOffset>92</LeftAnchorOffset>
 		<RightAnchorOffset>170</RightAnchorOffset>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Text>Clear Suffix</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Page item="Title_SuffixPage">
 		<ScreenID>Title_SuffixPage</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<!-- Pages are sized and positioned by their parent tab -->
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
@@ -258,8 +240,6 @@
 			<CY>189</CY>
 		</Size>
 	</Page>
-	<!-- End of title suffix components -->
-	<!-- This tab box contains the list of title prefixes/suffixes -->
 	<TabBox item="Title_TitleSheet">
 		<ScreenID>Title_TitleSheet</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -296,7 +276,6 @@
 	</Label>
 	<Button item="Title_NotifyNewTitles">
 		<ScreenID>Title_NotifyNewTitles</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>false</TopAnchorToTop>
@@ -308,13 +287,10 @@
 		<LeftAnchorOffset>10</LeftAnchorOffset>
 		<RightAnchorOffset>22</RightAnchorOffset>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>true</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text />
+		<Text/>
 		<Template>BDT_Checkbox</Template>
 	</Button>
-	<!-- The Title	Window -->
 	<Screen item="TitleWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
