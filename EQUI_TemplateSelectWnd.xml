@@ -1,8 +1,7 @@
-<?xml version = "1.0"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
-	<Listbox item = "TemplateSelectList1">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Listbox item="TemplateSelectList1">
 		<ScreenID>TemplateSelectList1</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -24,8 +23,7 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-
-	<Listbox item = "TemplateSelectList2">
+	<Listbox item="TemplateSelectList2">
 		<ScreenID>TemplateSelectList2</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -46,8 +44,7 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-
-	<VerticalLayoutBox item = "TemplateSelectListLayout">
+	<VerticalLayoutBox item="TemplateSelectListLayout">
 		<ScreenID>TemplateSelectListLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -67,10 +64,8 @@
 		<Pieces>Listbox:TemplateSelectList1</Pieces>
 		<Pieces>Listbox:TemplateSelectList2</Pieces>
 	</VerticalLayoutBox>
-
-	<Screen item = "TemplateSelectListPane">
+	<Screen item="TemplateSelectListPane">
 		<ScreenID>TemplateSelectListPane</ScreenID>
-		<!--<Font/>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
@@ -90,8 +85,7 @@
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>VerticalLayoutBox:TemplateSelectListLayout</Pieces>
 	</Screen>
-
-	<Listbox item = "TemplateSelectStatsList">
+	<Listbox item="TemplateSelectStatsList">
 		<ScreenID>TemplateSelectStatsList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -114,10 +108,8 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-
-	<Screen item = "TemplateSelectStatsPane">
+	<Screen item="TemplateSelectStatsPane">
 		<ScreenID>TemplateSelectStatsPane</ScreenID>
-		<!--<Font/>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>180</X>
@@ -137,8 +129,7 @@
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>TemplateSelectStatsList</Pieces>
 	</Screen>
-
-	<Listbox item = "TemplateSelectAbilitiesList">
+	<Listbox item="TemplateSelectAbilitiesList">
 		<ScreenID>TemplateSelectAbilitiesList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -160,10 +151,8 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-
-	<Screen item = "TemplateSelectAbilitiesPane">
+	<Screen item="TemplateSelectAbilitiesPane">
 		<ScreenID>TemplateSelectAbilitiesPane</ScreenID>
-		<!--<Font/>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
@@ -183,8 +172,7 @@
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>TemplateSelectAbilitiesList</Pieces>
 	</Screen>
-
-	<Listbox item = "TemplateSelectEquipmentList">
+	<Listbox item="TemplateSelectEquipmentList">
 		<ScreenID>TemplateSelectEquipmentList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -206,11 +194,8 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-
-
-	<Screen item = "TemplateSelectEquipmentPane">
+	<Screen item="TemplateSelectEquipmentPane">
 		<ScreenID>TemplateSelectEquipmentPane</ScreenID>
-		<!--<Font/>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
@@ -230,8 +215,7 @@
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>TemplateSelectEquipmentList</Pieces>
 	</Screen>
-
-	<STMLbox item = "TemplateSelectOtherData">
+	<STMLbox item="TemplateSelectOtherData">
 		<ScreenID>TemplateSelectOtherData</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -245,10 +229,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Border>true</Style_Border>
 	</STMLbox>
-
-	<Screen item = "TemplateSelectOtherPane">
+	<Screen item="TemplateSelectOtherPane">
 		<ScreenID>TemplateSelectOtherPane</ScreenID>
-		<!--<Font/>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
@@ -268,8 +250,7 @@
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>TemplateSelectOtherData</Pieces>
 	</Screen>
-
-	<VerticalLayoutBox item = "TemplateDataListLayout">
+	<VerticalLayoutBox item="TemplateDataListLayout">
 		<ScreenID>TemplateDataListLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -290,10 +271,8 @@
 		<Pieces>Screen:TemplateSelectEquipmentPane</Pieces>
 		<Pieces>Screen:TemplateSelectOtherPane</Pieces>
 	</VerticalLayoutBox>
-
-	<Screen item = "TemplateDataListPane">
+	<Screen item="TemplateDataListPane">
 		<ScreenID>TemplateDataListPane</ScreenID>
-		<!--<Font/>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
@@ -313,8 +292,7 @@
 		<Style_Sizable>true</Style_Sizable>
 		<Pieces>VerticalLayoutBox:TemplateDataListLayout</Pieces>
 	</Screen>
-
-	<HorizontalLayoutBox item = "TemplateTopLayout">
+	<HorizontalLayoutBox item="TemplateTopLayout">
 		<ScreenID>TemplateTopLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -334,11 +312,8 @@
 		<Pieces>Screen:TemplateSelectStatsPane</Pieces>
 		<Pieces>Screen:TemplateDataListPane</Pieces>
 	</HorizontalLayoutBox>
-
-
-	<Screen item = "TemplateSelectTopPane">
+	<Screen item="TemplateSelectTopPane">
 		<ScreenID>TemplateSelectTopPane</ScreenID>
-		<!--<Font/>-->
 		<Location>
 			<X>0</X>
 			<Y>0</Y>
@@ -357,8 +332,7 @@
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>HorizontalLayoutBox:TemplateTopLayout</Pieces>
 	</Screen>
-
-	<STMLbox item = "TemplateSelectDescription">
+	<STMLbox item="TemplateSelectDescription">
 		<ScreenID>TemplateSelectDescription</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -375,8 +349,7 @@
 		<Style_Border>true</Style_Border>
 		<Text>Description</Text>
 	</STMLbox>
-
-	<VerticalLayoutBox item = "TemplateSelectLayout">
+	<VerticalLayoutBox item="TemplateSelectLayout">
 		<ScreenID>TemplateSelectLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -395,10 +368,8 @@
 		<Pieces>Screen:TemplateSelectTopPane</Pieces>
 		<Pieces>STMLbox:TemplateSelectDescription</Pieces>
 	</VerticalLayoutBox>
-
-	<Button item = "TemplateSelectCancelButton">
+	<Button item="TemplateSelectCancelButton">
 		<ScreenID>TemplateSelectCancelButton</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>10</LeftAnchorOffset>
@@ -415,10 +386,8 @@
 		<Text>Cancel</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
-	<Button item = "TemplateSelectAcceptButton">
+	<Button item="TemplateSelectAcceptButton">
 		<ScreenID>TemplateSelectAcceptButton</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>130</LeftAnchorOffset>
@@ -435,10 +404,7 @@
 		<Text>Accept</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
-	<Screen item = "TemplateSelectWnd">
-		<!--<ScreenID/>-->
-		<!--<Font/>-->
+	<Screen item="TemplateSelectWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>100</X>
@@ -450,7 +416,6 @@
 		</Size>
 		<Text>Select a Character</Text>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Closebox>true</Style_Closebox>
