@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
 	<WindowDrawTemplate item="WDT_defaultChat_Def">
@@ -130,7 +130,6 @@
 		</Titlebar>
 		<Background>wnd_bg_dark_rock.tga</Background>
 	</WindowDrawTemplate>
-	<!-- Chat Window -->
 	<WindowDrawTemplate item="WDT_DefaultInnerBottom">
 		<Background>wnd_bg_dark_rock.tga</Background>
 		<VSBTemplate>
@@ -985,7 +984,6 @@
 		</HSBTemplate>
 		<CloseBox>
 			<Normal>A_CloseBtnNormal</Normal>
-			<!--<Normal>A_UnlockBtn</Normal>-->
 			<Pressed>A_CloseBtnPressed</Pressed>
 			<Flyby>A_CloseBtnFlyby</Flyby>
 			<Disabled>A_CloseBtnDisabled</Disabled>
@@ -1000,7 +998,6 @@
 		</QMarkBox>
 		<MinimizeBox>
 			<Normal>A_MinimizeBtnNormal</Normal>
-			<!--<Normal>A_LockBtn</Normal>-->
 			<Pressed>A_MinimizeBtnPressed</Pressed>
 			<Flyby>A_MinimizeBtnFlyby</Flyby>
 			<Disabled>A_MinimizeBtnDisabled</Disabled>
@@ -1033,15 +1030,6 @@
 			<LeftTop>A_AchievementOpenFiligreeFrameLeftTop</LeftTop>
 			<Left>A_AchievementOpenFiligreeFrameLeft</Left>
 			<LeftBottom>A_AchievementOpenFiligreeFrameLeftBottom</LeftBottom>
-<!--
-			<RightTop>A_SmallBlank</RightTop>
-			<Right>A_SmallBlank</Right>
-			<RightBottom>A_SmallBlank</RightBottom>
-			<BottomRight>A_SmallBlank</BottomRight>
-			<Bottom>A_SmallBlank</Bottom>
-			<BottomLeft>A_SmallBlank</BottomLeft>
-			<Left>A_SmallBlank</Left>
--->
 			<OverlapLeft>0</OverlapLeft>
 			<OverlapTop>0</OverlapTop>
 			<OverlapRight>0</OverlapRight>
@@ -1057,7 +1045,6 @@
 			<OverlapBottom>0</OverlapBottom>
 		</Titlebar>
 	</WindowDrawTemplate>
-	
 	<WindowDrawTemplate item="WDT_AchievementAccountOpen">
 		<Background>Achievement_account_unlock_color.tga</Background>
 		<VSBTemplate>
@@ -1126,7 +1113,6 @@
 		</HSBTemplate>
 		<CloseBox>
 			<Normal>A_CloseBtnNormal</Normal>
-			<!--<Normal>A_UnlockBtn</Normal>-->
 			<Pressed>A_CloseBtnPressed</Pressed>
 			<Flyby>A_CloseBtnFlyby</Flyby>
 			<Disabled>A_CloseBtnDisabled</Disabled>
@@ -1141,7 +1127,6 @@
 		</QMarkBox>
 		<MinimizeBox>
 			<Normal>A_MinimizeBtnNormal</Normal>
-			<!--<Normal>A_LockBtn</Normal>-->
 			<Pressed>A_MinimizeBtnPressed</Pressed>
 			<Flyby>A_MinimizeBtnFlyby</Flyby>
 			<Disabled>A_MinimizeBtnDisabled</Disabled>
@@ -1174,15 +1159,6 @@
 			<LeftTop>A_AchievementOpenAcctFiligreeFrameLeftTop</LeftTop>
 			<Left>A_AchievementOpenAcctFiligreeFrameLeft</Left>
 			<LeftBottom>A_AchievementOpenAcctFiligreeFrameLeftBottom</LeftBottom>
-<!--
-			<RightTop>A_SmallBlank</RightTop>
-			<Right>A_SmallBlank</Right>
-			<RightBottom>A_SmallBlank</RightBottom>
-			<BottomRight>A_SmallBlank</BottomRight>
-			<Bottom>A_SmallBlank</Bottom>
-			<BottomLeft>A_SmallBlank</BottomLeft>
-			<Left>A_SmallBlank</Left>
--->
 			<OverlapLeft>0</OverlapLeft>
 			<OverlapTop>0</OverlapTop>
 			<OverlapRight>0</OverlapRight>
@@ -1198,7 +1174,6 @@
 			<OverlapBottom>0</OverlapBottom>
 		</Titlebar>
 	</WindowDrawTemplate>
-
 	<WindowDrawTemplate item="WDT_AchievementCompleted">
 		<Background>Achievement_achieved_color.tga</Background>
 		<VSBTemplate>
@@ -1267,7 +1242,6 @@
 		</HSBTemplate>
 		<CloseBox>
 			<Normal>A_CloseBtnNormal</Normal>
-			<!--<Normal>A_UnlockBtn</Normal>-->
 			<Pressed>A_CloseBtnPressed</Pressed>
 			<Flyby>A_CloseBtnFlyby</Flyby>
 			<Disabled>A_CloseBtnDisabled</Disabled>
@@ -1282,7 +1256,6 @@
 		</QMarkBox>
 		<MinimizeBox>
 			<Normal>A_MinimizeBtnNormal</Normal>
-			<!--<Normal>A_LockBtn</Normal>-->
 			<Pressed>A_MinimizeBtnPressed</Pressed>
 			<Flyby>A_MinimizeBtnFlyby</Flyby>
 			<Disabled>A_MinimizeBtnDisabled</Disabled>
@@ -1315,15 +1288,6 @@
 			<LeftTop>A_AchievementCompletedFiligreeFrameLeftTop</LeftTop>
 			<Left>A_AchievementCompletedFiligreeFrameLeft</Left>
 			<LeftBottom>A_AchievementCompletedFiligreeFrameLeftBottom</LeftBottom>
-<!--
-			<RightTop>A_SmallBlank</RightTop>
-			<Right>A_SmallBlank</Right>
-			<RightBottom>A_SmallBlank</RightBottom>
-			<BottomRight>A_SmallBlank</BottomRight>
-			<Bottom>A_SmallBlank</Bottom>
-			<BottomLeft>A_SmallBlank</BottomLeft>
-			<Left>A_SmallBlank</Left>
--->
 			<OverlapLeft>0</OverlapLeft>
 			<OverlapTop>0</OverlapTop>
 			<OverlapRight>0</OverlapRight>
@@ -1339,8 +1303,7 @@
 			<OverlapBottom>0</OverlapBottom>
 		</Titlebar>
 	</WindowDrawTemplate>
-
-		<WindowDrawTemplate item="WDT_AchievementLocked">
+	<WindowDrawTemplate item="WDT_AchievementLocked">
 		<Background>Achievement_lock_color.tga</Background>
 		<VSBTemplate>
 			<UpButton>
@@ -1408,7 +1371,6 @@
 		</HSBTemplate>
 		<CloseBox>
 			<Normal>A_CloseBtnNormal</Normal>
-			<!--<Normal>A_UnlockBtn</Normal>-->
 			<Pressed>A_CloseBtnPressed</Pressed>
 			<Flyby>A_CloseBtnFlyby</Flyby>
 			<Disabled>A_CloseBtnDisabled</Disabled>
@@ -1423,7 +1385,6 @@
 		</QMarkBox>
 		<MinimizeBox>
 			<Normal>A_MinimizeBtnNormal</Normal>
-			<!--<Normal>A_LockBtn</Normal>-->
 			<Pressed>A_MinimizeBtnPressed</Pressed>
 			<Flyby>A_MinimizeBtnFlyby</Flyby>
 			<Disabled>A_MinimizeBtnDisabled</Disabled>
@@ -1456,15 +1417,6 @@
 			<LeftTop>A_AchievementLockedFiligreeFrameLeftTop</LeftTop>
 			<Left>A_AchievementLockedFiligreeFrameLeft</Left>
 			<LeftBottom>A_AchievementLockedFiligreeFrameLeftBottom</LeftBottom>
-<!--
-			<RightTop>A_SmallBlank</RightTop>
-			<Right>A_SmallBlank</Right>
-			<RightBottom>A_SmallBlank</RightBottom>
-			<BottomRight>A_SmallBlank</BottomRight>
-			<Bottom>A_SmallBlank</Bottom>
-			<BottomLeft>A_SmallBlank</BottomLeft>
-			<Left>A_SmallBlank</Left>
--->
 			<OverlapLeft>0</OverlapLeft>
 			<OverlapTop>0</OverlapTop>
 			<OverlapRight>0</OverlapRight>
@@ -1480,7 +1432,6 @@
 			<OverlapBottom>0</OverlapBottom>
 		</Titlebar>
 	</WindowDrawTemplate>
-
 	<WindowDrawTemplate item="WDT_Highlight">
 		<Background>transp_mp.tga</Background>
 		<VSBTemplate>
@@ -1997,7 +1948,6 @@
 			<OverlapBottom>0</OverlapBottom>
 		</Titlebar>
 	</WindowDrawTemplate>
-	<!-- Filigree Border -->
 	<WindowDrawTemplate item="WDT_Filigree">
 		<Background>wnd_bg_light_rock.tga</Background>
 		<VSBTemplate>
@@ -2127,8 +2077,6 @@
 			<OverlapBottom>0</OverlapBottom>
 		</Titlebar>
 	</WindowDrawTemplate>
-	<!-- ********** -->
-
 	<WindowDrawTemplate item="WDT_FiligreeThin">
 		<Background>wnd_bg_light_rock.tga</Background>
 		<VSBTemplate>
@@ -2258,7 +2206,6 @@
 			<OverlapBottom>0</OverlapBottom>
 		</Titlebar>
 	</WindowDrawTemplate>
-	<!-- Filigree No Title Border -->
 	<WindowDrawTemplate item="WDT_Filigree2">
 		<Background>wnd_bg_light_rock.tga</Background>
 		<VSBTemplate>
@@ -2388,8 +2335,6 @@
 			<OverlapBottom>0</OverlapBottom>
 		</Titlebar>
 	</WindowDrawTemplate>
-	<!-- ********** -->
-	<!-- Filigree No Title Border -->
 	<WindowDrawTemplate item="WDT_Filigree3">
 		<Background>wnd_bg_light_rock.tga</Background>
 		<VSBTemplate>
@@ -2519,7 +2464,6 @@
 			<OverlapBottom>0</OverlapBottom>
 		</Titlebar>
 	</WindowDrawTemplate>
-	<!-- ********** -->
 	<WindowDrawTemplate item="WDT_SimpleFilgree">
 		<Background>RE_bkg.tga</Background>
 		<VSBTemplate>
@@ -2649,7 +2593,6 @@
 			<OverlapBottom>0</OverlapBottom>
 		</Titlebar>
 	</WindowDrawTemplate>
-	<!-- ********** -->
 	<SliderDrawTemplate item="SDT_DefSlider">
 		<Thumb>
 			<Normal>A_SliderThumbNormal</Normal>
@@ -2696,7 +2639,6 @@
 		<OverlapRight>0</OverlapRight>
 		<OverlapBottom>0</OverlapBottom>
 	</FrameTemplate>
-	<!-- Templates to put coins at top of list (in the header) -->
 	<FrameTemplate item="Header_PlatCoin">
 		<Middle>A_PlatinumCoin</Middle>
 		<OverlapLeft>0</OverlapLeft>
@@ -3060,7 +3002,7 @@
 		<Pressed>A_UpconvertCommonPressed</Pressed>
 		<Flyby>A_UpconvertCommonSelected</Flyby>
 		<Disabled>A_UpconvertCommonDisabled</Disabled>
-	</ButtonDrawTemplate>    
+	</ButtonDrawTemplate>
 	<ButtonDrawTemplate item="BDT_SCFSBtn">
 		<Normal>A_SCBtnFlashSaleNormal</Normal>
 		<Pressed>A_SCBtnFlashSalePressed</Pressed>
@@ -3154,7 +3096,6 @@
 		<PressedDecal>A_Station</PressedDecal>
 		<FlybyDecal>A_Station</FlybyDecal>
 		<PressedFlybyDecal>A_Station</PressedFlybyDecal>
-		<!--A_StationColumn-->
 	</ButtonDrawTemplate>
 	<ButtonDrawTemplate item="BDT_ExportCalendar">
 		<Normal>A_BtnNormal</Normal>
