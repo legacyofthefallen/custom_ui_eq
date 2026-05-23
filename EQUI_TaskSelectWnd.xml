@@ -1,7 +1,6 @@
-<?xml version = "1.0"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Label item ="TSEL_ChooseLabel">
 		<ScreenID/>
 		<Font>4</Font>
@@ -20,8 +19,7 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-
-	<Listbox item = "TSEL_TaskList">
+	<Listbox item="TSEL_TaskList">
 		<ScreenID>TaskList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -44,10 +42,8 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-
-	<Screen item = "TSEL_SelectWnd">
+	<Screen item="TSEL_SelectWnd">
 		<ScreenID>SelectWnd</ScreenID>
-		<!--<Font/>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
@@ -69,8 +65,7 @@
 		<Pieces>TSEL_ChooseLabel</Pieces>
 		<Pieces>TSEL_TaskList</Pieces>
 	</Screen>
-
-	<STMLbox item = "TSEL_Description">
+	<STMLbox item="TSEL_Description">
 		<ScreenID>Description</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -87,8 +82,7 @@
 		<Style_Border>true</Style_Border>
 		<Text>Description Area</Text>
 	</STMLbox>
-
-	<VerticalLayoutBox item = "TSEL_Layout">
+	<VerticalLayoutBox item="TSEL_Layout">
 		<ScreenID>Layout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
@@ -107,10 +101,8 @@
 		<Pieces>Screen:TSEL_SelectWnd</Pieces>
 		<Pieces>STMLbox:TSEL_Description</Pieces>
 	</VerticalLayoutBox>
-
-	<Button item = "TSEL_AcceptButton">
+	<Button item="TSEL_AcceptButton">
 		<ScreenID>AcceptButton</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
@@ -127,10 +119,8 @@
 		<Text>Accept</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
-	<Button item = "TSEL_DeclineButton">
+	<Button item="TSEL_DeclineButton">
 		<ScreenID>DeclineButton</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>100</LeftAnchorOffset>
@@ -147,10 +137,8 @@
 		<Text>Decline All</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
-	<Button item = "TSEL_PreviewRewardButton">
+	<Button item="TSEL_PreviewRewardButton">
 		<ScreenID>TSEL_PreviewRewardButton</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>125</LeftAnchorOffset>
@@ -167,10 +155,7 @@
 		<Text>Preview Reward</Text>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
-	<Screen item = "TaskSelectWnd">
-		<!--<ScreenID/>-->
-		<!--<Font/>-->
+	<Screen item="TaskSelectWnd">
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>120</X>
@@ -184,7 +169,6 @@
 		<MinVSize>260</MinVSize>
 		<Text>Task Window</Text>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Qmarkbox>true</Style_Qmarkbox>
