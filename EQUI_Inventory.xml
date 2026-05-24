@@ -7891,17 +7891,6 @@
 		<Text>Load Set</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<!-- <StaticAnimation item="PersonaAnim">
-		<ScreenID>PersonaAnim</ScreenID>
-		<Location>
-			<X>3</X>
-			<Y>11</Y>
-		</Location>
-		<Size>
-			<CX>75</CX>
-			<CY>142</CY>
-		</Size>
-	</StaticAnimation> -->
 	<Screen item="IWP_CharacterView">
 		<ScreenID>IWP_CharacterView</ScreenID>
 		<RelativePosition>true</RelativePosition>
