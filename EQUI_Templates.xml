@@ -3105,4 +3105,8 @@
 		<FlybyDecal>A_ExportBtnFlyby</FlybyDecal>
 		<PressedDecal>A_ExportBtnFlyby</PressedDecal>
 	</ButtonDrawTemplate>
+		<ButtonDrawTemplate item="BDT_PersonalLoot">
+		<Normal>A_BtnPersonalLoot</Normal>
+		<NormalDecal>A_BtnPersonalLoot</NormalDecal>
+	</ButtonDrawTemplate>
 </XML>
