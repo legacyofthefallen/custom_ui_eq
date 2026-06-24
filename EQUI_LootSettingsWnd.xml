@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
 	<Button item="LS_AutoSplitCoinCheckbox">
@@ -169,7 +169,6 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
-	
 	<Button item="LS_IgnorePLWarning">
 		<ScreenID>LS_IgnorePLWarning</ScreenID>
 		<Location>
@@ -192,7 +191,6 @@
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
 	<Screen item="LootSettingsWnd">
-		<!--<ScreenID/>-->
 		<Location>
 			<X>200</X>
 			<Y>200</Y>
