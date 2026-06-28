@@ -15,8 +15,6 @@ jobs:
       - uses: actions/checkout@v5
       - name: Action actors
         run: echo "${{ github.actor }} triggered action by ${{ github.triggering_actor }}"
-      - name: install xml linter from utils
-        run: sudo apt-get install libxml2-utils
       - name: lint xml files
         run: |
           for file in $(ls *.xml); 
