@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
 	<Gauge item="BREATH_Gauge">
 		<ScreenID>Gauge</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>6</X>
@@ -17,7 +16,6 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<FillTint>
 			<R>0</R>
 			<G>240</G>
@@ -40,8 +38,6 @@
 		</GaugeDrawTemplate>
 	</Gauge>
 	<Screen item="BreathWindow">
-		<!--<ScreenID/>-->
-		<!--<Font/>-->
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>154</X>
