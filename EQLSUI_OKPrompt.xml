@@ -71,7 +71,7 @@
 		<Pieces>OK_OKButton</Pieces>
 		<Pieces>OK_Display</Pieces>
 	</Screen>
-	<Screen item="okdialog">
+	<Screen item="okprompt">
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>0</X>
