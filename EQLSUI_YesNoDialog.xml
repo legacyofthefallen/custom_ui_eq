@@ -73,7 +73,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<Style_Border>true</Style_Border>
 	</STMLbox>
-	<!-- The actual box of the dialog -->
 	<Screen item="YESNO_Box">
 		<ScreenID>Box</ScreenID>
 		<RelativePosition>true</RelativePosition>
