@@ -17,14 +17,6 @@
 			<Width>200</Width>
 			<Heading>Skill Name</Heading>
 		</Columns>
-		<!--Columns>
-			<Width>85</Width>
-			<Heading>Rank</Heading>
-		</Columns>
-		<Columns>
-			<Width>50</Width>
-			<Heading>Value</Heading>
-		</Columns-->
 	</Listbox>
 	<Screen item="SkillsSelectWindow">
 		<RelativePosition>false</RelativePosition>
