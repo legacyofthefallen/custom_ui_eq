@@ -439,6 +439,52 @@
 		<LeftAnchorOffset>5</LeftAnchorOffset>
 		<RightAnchorOffset>67</RightAnchorOffset>
 	</Editbox>
+		<Label item="BZR_MaxStatLabel">
+		<ScreenID>BZR_MaxStatLabel</ScreenID>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>368</TopAnchorOffset>
+		<BottomAnchorOffset>383</BottomAnchorOffset>
+		<LeftAnchorOffset>75</LeftAnchorOffset>
+		<RightAnchorOffset>137</RightAnchorOffset>
+		<Text>Max Stat</Text>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+	<Editbox item="BZR_MaxStatInput">
+		<ScreenID>BZR_MaxStatInput</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<TooltipReference>Enter a stat value that is greater than the value in the Min Stat edit window.</TooltipReference>
+		<Style_Border>true</Style_Border>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>383</TopAnchorOffset>
+		<BottomAnchorOffset>403</BottomAnchorOffset>
+		<LeftAnchorOffset>75</LeftAnchorOffset>
+		<RightAnchorOffset>137</RightAnchorOffset>
+	</Editbox>
+	<Label item="BZR_MinStatLabel">
+		<ScreenID>BZR_MinStatLabel</ScreenID>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>368</TopAnchorOffset>
+		<BottomAnchorOffset>383</BottomAnchorOffset>
+		<LeftAnchorOffset>5</LeftAnchorOffset>
+		<RightAnchorOffset>67</RightAnchorOffset>
+		<Text>Min Stat</Text>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+	<Editbox item="BZR_MinStatInput">
+		<ScreenID>BZR_MinStatInput</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<TooltipReference>Enter a stat value that is less than the value in the Max Stat edit window.</TooltipReference>
+		<Style_Border>true</Style_Border>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>383</TopAnchorOffset>
+		<BottomAnchorOffset>403</BottomAnchorOffset>
+		<LeftAnchorOffset>5</LeftAnchorOffset>
+		<RightAnchorOffset>67</RightAnchorOffset>
+	</Editbox>
 	<Label item="BZR_MaxResultsPerTraderLabel">
 		<ScreenID>BZR_MaxResultsPerTraderLabel</ScreenID>
 		<AutoStretch>true</AutoStretch>
@@ -576,6 +622,10 @@
 		<Pieces>BZR_MinPriceInput</Pieces>
 		<Pieces>BZR_MaxPriceLabel</Pieces>
 		<Pieces>BZR_MinPriceLabel</Pieces>
+		<Pieces>BZR_MaxStatInput</Pieces>
+		<Pieces>BZR_MinStatInput</Pieces>
+		<Pieces>BZR_MaxStatLabel</Pieces>
+		<Pieces>BZR_MinStatLabel</Pieces>
 		<Pieces>BZR_MaxLevelInput</Pieces>
 		<Pieces>BZR_MinLevelInput</Pieces>
 		<Pieces>BZR_MaxLevelLabel</Pieces>
