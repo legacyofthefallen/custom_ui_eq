@@ -1,11 +1,8 @@
-<?xml version = "1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	
-	<Button item = "CD_Yes_Button">
-
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Button item="CD_Yes_Button">
 		<ScreenID>Yes_Button</ScreenID>
-
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
@@ -17,16 +14,11 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<Style_Checkbox>false</Style_Checkbox>
-
 		<Text>Yes</Text>
-
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
-	<Button item = "CD_No_Button">
-
+	<Button item="CD_No_Button">
 		<ScreenID>No_Button</ScreenID>
-
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>105</LeftAnchorOffset>
@@ -38,16 +30,11 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<Style_Checkbox>false</Style_Checkbox>
-
 		<Text>No</Text>
-
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
-	<Button item = "CD_Cancel_Button">
-	
+	<Button item="CD_Cancel_Button">
 		<ScreenID>Cancel_Button</ScreenID>
-
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>66</LeftAnchorOffset>
@@ -59,16 +46,11 @@
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Checkbox>false</Style_Checkbox>
-
 		<Text>Cancel</Text>
-
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
-	<Button item = "CD_OK_Button">
-
+	<Button item="CD_OK_Button">
 		<ScreenID>OK_Button</ScreenID>
-
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>105</LeftAnchorOffset>
@@ -80,15 +62,11 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<Style_Checkbox>false</Style_Checkbox>
-
 		<Text>Ok</Text>
-
 		<Template>BDT_SmallNormal</Template>
 	</Button>
-
-	<StaticText item ="CD_StaticText1">
+	<StaticText item="CD_StaticText1">
 		<ScreenID>Text1</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -108,12 +86,9 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</StaticText>
-
-	<STMLbox item = "CD_TextOutput">
-
+	<STMLbox item="CD_TextOutput">
 		<ScreenID>TextOutput</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
-
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
@@ -126,12 +101,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Style_VScroll>true</Style_VScroll>
-
 	</STMLbox>
-
-	<Screen item = "ConfirmationDialogBox">
-		<!--<ScreenID/>-->
-		<!--<Font/>-->
+	<Screen item="ConfirmationDialogBox">
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>550</X>
@@ -142,7 +113,6 @@
 			<CY>200</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<DrawTemplate>WDT_Rounded</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
@@ -155,5 +125,4 @@
 		<Pieces>CD_Cancel_Button</Pieces>
 		<Pieces>CD_TextOutput</Pieces>
 	</Screen>
-
 </XML>
