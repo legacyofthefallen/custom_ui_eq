@@ -129,7 +129,7 @@
     <Include>EQUI_PurchaseGroupWnd.xml</Include>
     <Include>EQUI_GuildCreationWnd.xml</Include>
     <Include>EQUI/AchievementsWnd.xml</Include>
-    <Include>EQUI_AchievementWnd.xml</Include>
+    <Include>EQUI/AchievementWnd.xml</Include>
     <Include>EQUI_NameChangeWnd.xml</Include>
     <Include>EQUI_RaceChangeWnd.xml</Include>
     <Include>EQUI_ExtendedTargetWindow.xml</Include>
