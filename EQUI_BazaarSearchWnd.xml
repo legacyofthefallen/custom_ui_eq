@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Label item="BZR_SearchResultLabel">
 		<ScreenID>BZR_SearchResultLabel</ScreenID>
 		<AutoStretch>true</AutoStretch>
@@ -104,9 +104,6 @@
 		<RightAnchorOffset>135</RightAnchorOffset>
 		<Text>Reset</Text>
 		<Template>BDT_Normal</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 	</Button>
 	<Button item="BZR_WelcomeButton">
 		<ScreenID>BZR_WelcomeButton</ScreenID>
@@ -120,9 +117,6 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<Text>Welcome</Text>
 		<Template>BDT_Normal</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 	</Button>
 	<Button item="BZR_UpdatePlayerButton">
 		<ScreenID>BZR_UpdatePlayerButton</ScreenID>
@@ -136,9 +130,6 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<Text>Update Traders</Text>
 		<Template>BDT_Normal</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 	</Button>
 	<Button item="BZR_FindTraderButton">
 		<ScreenID>BZR_FindTraderButton</ScreenID>
@@ -152,9 +143,6 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<Text>Find Trader</Text>
 		<Template>BDT_Normal</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 	</Button>
 	<Button item="BZR_HideTradersButton">
 		<ScreenID>BZR_HideTradersButton</ScreenID>
@@ -169,9 +157,6 @@
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>Hide All Traders</Text>
 		<Template>BDT_Normal</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 	</Button>
 	<Button item="BZR_QueryButton">
 		<ScreenID>BZR_QueryButton</ScreenID>
@@ -187,9 +172,6 @@
 		<Text>Find Items</Text>
 		<TooltipReference>Search the Bazaar for a list of items that match your search criteria.</TooltipReference>
 		<Template>BDT_Normal</Template>
-		<!--<SoundPressed/>-->
-		<!--<SoundUp/>-->
-		<!--<SoundFlyby/>-->
 	</Button>
 	<Label item="BZR_ItemNameLabel">
 		<ScreenID>BZR_ItemNameLabel</ScreenID>
@@ -570,7 +552,7 @@
 		<Style_Border>true</Style_Border>
 	</Combobox>
 	<Screen item="BazaarSearchWnd">
-		<ScreenID />
+		<ScreenID/>
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>100</X>
@@ -584,7 +566,6 @@
 		<MinHSize>503</MinHSize>
 		<Text>Bazaar Search Window</Text>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Closebox>true</Style_Closebox>
