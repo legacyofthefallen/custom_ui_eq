@@ -1,7 +1,6 @@
-<?xml version = "1.0"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-	
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<StaticAnimation item="PCW_Inv_Seperator1">
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -14,7 +13,6 @@
 		</Size>
 		<Animation>A_DividerMiddle</Animation>
 	</StaticAnimation>
-
 	<StaticText item="PCW_Heritage_Text">
 		<ScreenID>Heritage_Text</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -41,10 +39,8 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</StaticText>
-
-	<Button item = "PCW_ParentId_Down_Button">
+	<Button item="PCW_ParentId_Down_Button">
 		<ScreenID>ParentId_Down_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>5</X>
@@ -57,15 +53,11 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Template>BDT_HSBLeft</Template>
 	</Button>
-
 	<StaticText item ="PCW_ParentId_Text">
 		<ScreenID>ParentId_Text</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>28</X>
@@ -90,10 +82,8 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</StaticText>
-
-	<Button item = "PCW_ParentId_Up_Button">
+	<Button item="PCW_ParentId_Up_Button">
 		<ScreenID>ParentId_Up_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>147</X>
@@ -106,15 +96,12 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Template>BDT_HSBRight</Template>
 		<SoundPressed/>
 		<SoundUp/>
 		<SoundFlyby/>
 	</Button>
-
 	<StaticAnimation item="PCW_Inv_Seperator2">
 		<RelativePosition>true</RelativePosition>
 		<Location>
@@ -127,10 +114,8 @@
 		</Size>
 		<Animation>A_DividerMiddle</Animation>
 	</StaticAnimation>
-
-	<Button item = "PCW_Face_Down_Button">
+	<Button item="PCW_Face_Down_Button">
 		<ScreenID>Face_Down_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>15</X>
@@ -144,13 +129,10 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
 	</Button>
-
 	<StaticText item ="PCW_Face_Text">
 		<ScreenID>Face_Text</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>45</X>
@@ -170,10 +152,8 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</StaticText>
-
-	<Button item = "PCW_Face_Up_Button">
+	<Button item="PCW_Face_Up_Button">
 		<ScreenID>Face_Up_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>133</X>
@@ -186,18 +166,14 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Template>BDT_HSBRight</Template>
 		<SoundPressed/>
 		<SoundUp/>
 		<SoundFlyby/>
 	</Button>
-
-	<Button item = "PCW_Hair_Down_Button">
+	<Button item="PCW_Hair_Down_Button">
 		<ScreenID>Hair_Down_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>15</X>
@@ -215,10 +191,8 @@
 		<RadioGroup/>
 		<Template>BDT_HSBLeft</Template>
 	</Button>
-
 	<StaticText item ="PCW_Hair_Text">
 		<ScreenID>Hair_Text</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>45</X>
@@ -238,11 +212,8 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</StaticText>
-
-
-	<Button item = "PCW_Hair_Up_Button">
+	<Button item="PCW_Hair_Up_Button">
 		<ScreenID>Hair_Up_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>133</X>
@@ -260,10 +231,8 @@
 		<RadioGroup/>
 		<Template>BDT_HSBRight</Template>
 	</Button>
-
-	<Button item = "PCW_Hair_Color_Down_Button">
+	<Button item="PCW_Hair_Color_Down_Button">
 		<ScreenID>Hair_Color_Down_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>15</X>
@@ -276,15 +245,12 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
 		<RadioGroup/>
 		<Template>BDT_HSBLeft</Template>
 	</Button>
-
 	<StaticText item ="PCW_Hair_Color_Text">
 		<ScreenID>Hair_Color_Text</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>45</X>
@@ -304,10 +270,8 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</StaticText>
-
-	<Button item = "PCW_Hair_Color_Up_Button">
+	<Button item="PCW_Hair_Color_Up_Button">
 		<ScreenID>Hair_Color_Up_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>133</X>
@@ -320,15 +284,11 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Template>BDT_HSBRight</Template>
 	</Button>
-
-	<Button item = "PCW_Eyes_Down_Button">
+	<Button item="PCW_Eyes_Down_Button">
 		<ScreenID>Eyes_Down_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>15</X>
@@ -341,15 +301,11 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Template>BDT_HSBLeft</Template>
 	</Button>
-
 	<StaticText item ="PCW_Eyes_Text">
 		<ScreenID>Eyes_Text</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>45</X>
@@ -369,10 +325,8 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</StaticText>
-
-	<Button item = "PCW_Eyes_Up_Button">
+	<Button item="PCW_Eyes_Up_Button">
 		<ScreenID>Eyes_Up_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>133</X>
@@ -385,15 +339,11 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Template>BDT_HSBRight</Template>
 	</Button>
-
-	<Button item = "PCW_Beard_Down_Button">
+	<Button item="PCW_Beard_Down_Button">
 		<ScreenID>Beard_Down_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>15</X>
@@ -406,15 +356,11 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Template>BDT_HSBLeft</Template>
 	</Button>
-
 	<StaticText item ="PCW_Beard_Text">
 		<ScreenID>Beard_Text</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>45</X>
@@ -434,11 +380,8 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</StaticText>
-
-
-	<Button item = "PCW_Beard_Up_Button">
+	<Button item="PCW_Beard_Up_Button">
 		<ScreenID>Beard_Up_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>133</X>
@@ -451,15 +394,11 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Template>BDT_HSBRight</Template>
 	</Button>
-
-	<Button item = "PCW_Beard_Color_Down_Button">
+	<Button item="PCW_Beard_Color_Down_Button">
 		<ScreenID>Beard_Color_Down_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>15</X>
@@ -472,15 +411,11 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Template>BDT_HSBLeft</Template>
 	</Button>
-
 	<StaticText item ="PCW_Beard_Color_Text">
 		<ScreenID>Beard_Color_Text</ScreenID>
-		<!--<Font>2</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>40</X>
@@ -500,10 +435,8 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</StaticText>
-
-	<Button item = "PCW_Beard_Color_Up_Button">
+	<Button item="PCW_Beard_Color_Up_Button">
 		<ScreenID>Beard_Color_Up_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>133</X>
@@ -516,15 +449,11 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Template>BDT_HSBRight</Template>
 	</Button>
-
-	<Button item = "PCW_TattooIndex_Down_Button">
+	<Button item="PCW_TattooIndex_Down_Button">
 		<ScreenID>TattooIndex_Down_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>15</X>
@@ -537,15 +466,11 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Template>BDT_HSBLeft</Template>
 	</Button>
-
 	<StaticText item ="PCW_TattooIndex_Text">
 		<ScreenID>TattooIndex_Text</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>45</X>
@@ -565,10 +490,8 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</StaticText>
-
-	<Button item = "PCW_TattooIndex_Up_Button">
+	<Button item="PCW_TattooIndex_Up_Button">
 		<ScreenID>TattooIndex_Up_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>133</X>
@@ -581,18 +504,14 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Template>BDT_HSBRight</Template>
 		<SoundPressed/>
 		<SoundUp/>
 		<SoundFlyby/>
 	</Button>
-
-		<Button item = "PCW_FacialAttachmentIndex_Down_Button">
+		<Button item="PCW_FacialAttachmentIndex_Down_Button">
 		<ScreenID>FacialAttachmentIndex_Down_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>15</X>
@@ -605,15 +524,11 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Template>BDT_HSBLeft</Template>
 	</Button>
-
 	<StaticText item ="PCW_FacialAttachmentIndex_Text">
 		<ScreenID>FacialAttachmentIndex_Text</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>45</X>
@@ -633,10 +548,8 @@
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</StaticText>
-
-	<Button item = "PCW_FacialAttachmentIndex_Up_Button">
+	<Button item="PCW_FacialAttachmentIndex_Up_Button">
 		<ScreenID>FacialAttachmentIndex_Up_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>133</X>
@@ -649,18 +562,14 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Template>BDT_HSBRight</Template>
 		<SoundPressed/>
 		<SoundUp/>
 		<SoundFlyby/>
 	</Button>
-
-	<Button item = "PCW_Random_Button">
+	<Button item="PCW_Random_Button">
 		<ScreenID>Random_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
@@ -673,16 +582,12 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Text>Random</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
-	<Button item = "PCW_Accept_Button">
+	<Button item="PCW_Accept_Button">
 		<ScreenID>Accept_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>15</X>
@@ -695,16 +600,12 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Text>Accept</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
-	<Button item = "PCW_Cancel_Button">
+	<Button item="PCW_Cancel_Button">
 		<ScreenID>Cancel_Button</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>89</X>
@@ -717,17 +618,11 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
 		<Text>Cancel</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
-
-	<Screen item = "PlayerCustomizationWnd">
-		<!--<ScreenID/>-->
-		<!--<Font/>-->
+	<Screen item="PlayerCustomizationWnd">
 		<Text>Set Appearance</Text>
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -741,7 +636,6 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<DrawTemplate>WDT_Rounded</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Qmarkbox>true</Style_Qmarkbox>
@@ -783,5 +677,4 @@
 		<Pieces>PCW_Accept_Button</Pieces>
 		<Pieces>PCW_Cancel_Button</Pieces>
 	</Screen>
-
 </XML>
