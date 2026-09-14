@@ -2,7 +2,7 @@
 <XML ID="EQInterfaceDefinitionLanguage">
   <Composite>
     <Include>SIDL.xml</Include>
-    <Include>EQUI_DragItems.xml</Include>
+    <Include>EQUI/DragItems.xml</Include>
     <Include>EQUI/SpellIcons.xml</Include>
     <Include>EQUI_Animations.xml</Include>
     <Include>EQUI_Templates.xml</Include>
