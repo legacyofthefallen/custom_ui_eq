@@ -22,7 +22,7 @@
     <Include>EQUI_PlayerWindow.xml</Include>
     <Include>EQUI_CastingWindow.xml</Include>
     <Include>EQUI_TargetWindow.xml</Include>
-    <Include>EQUI_AAWindow.xml</Include>
+    <Include>EQUI/AAWindow.xml</Include>
     <Include>EQUI_Inventory.xml</Include>
     <Include>EQUI_KeyRingWnd.xml</Include>
     <Include>EQUI_CursorAttachment.xml</Include>
