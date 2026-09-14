@@ -118,8 +118,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -132,7 +131,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
-
 	<Label item="ETW_AggroPct1">
 		<ScreenID>ETW_AggroPct1</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -250,8 +248,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -381,8 +378,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -512,8 +508,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -643,8 +638,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -657,7 +651,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
-
 	<Label item="ETW_AggroPct5">
 		<ScreenID>ETW_AggroPct5</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -775,8 +768,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -907,8 +899,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -921,7 +912,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
-
 	<Label item="ETW_AggroPct7">
 		<ScreenID>ETW_AggroPct7</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1039,8 +1029,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -1171,8 +1160,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -1303,8 +1291,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -1434,8 +1421,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -1566,8 +1552,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -1698,8 +1683,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -1829,8 +1813,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -1960,8 +1943,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -1974,7 +1956,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
-
 	<Label item="ETW_AggroPct15">
 		<ScreenID>ETW_AggroPct15</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -2092,8 +2073,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -2224,8 +2204,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -2238,7 +2217,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
-
 	<Label item="ETW_AggroPct17">
 		<ScreenID>ETW_AggroPct17</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -2356,8 +2334,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -2370,7 +2347,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
-
 	<Label item="ETW_AggroPct18">
 		<ScreenID>ETW_AggroPct18</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -2488,8 +2464,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -2502,7 +2477,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Button>
-
 	<Label item="ETW_AggroPct19">
 		<ScreenID>ETW_AggroPct19</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -2620,8 +2594,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -2751,8 +2724,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -2882,8 +2854,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -3013,8 +2984,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<ButtonDrawTemplate>
-		</ButtonDrawTemplate>
+		<ButtonDrawTemplate/>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
