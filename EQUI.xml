@@ -11,7 +11,7 @@
     <Include>EQUI/ChatWindow.xml</Include>
     <Include>EQUI/ChatContainerWindow.xml</Include>
     <Include>EQUI/ConfirmationDialog.xml</Include>
-    <Include>EQUI_CharacterListWnd.xml</Include>
+    <Include>EQUI/CharacterListWnd.xml</Include>
     <Include>EQUI_PlayerCustomizationWnd.xml</Include>
     <Include>EQUI_GroupWindow.xml</Include>
     <Include>EQUI_ItemDisplay.xml</Include>
