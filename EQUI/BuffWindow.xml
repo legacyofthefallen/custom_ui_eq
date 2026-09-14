@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Button item="BW_Player_Buff_Template">
 		<ScreenID>Player_Buff_Template</ScreenID>
 		<RelativePosition>true</RelativePosition>

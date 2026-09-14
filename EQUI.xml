@@ -5,9 +5,9 @@
     <Include>EQUI/DragItems.xml</Include>
     <Include>EQUI/SpellIcons.xml</Include>
     <Include>EQUI/Animations.xml</Include>
-    <Include>EQUI_Templates.xml</Include>
-    <Include>EQUI_CharacterCreate.xml</Include>
-    <Include>EQUI_BuffWindow.xml</Include>
+    <Include>EQUI/Templates.xml</Include>
+    <Include>EQUI/CharacterCreate.xml</Include>
+    <Include>EQUI/BuffWindow.xml</Include>
     <Include>EQUI_ChatWindow.xml</Include>
     <Include>EQUI_ChatContainerWindow.xml</Include>
     <Include>EQUI_ConfirmationDialog.xml</Include>
