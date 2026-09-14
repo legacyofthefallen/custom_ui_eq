@@ -13,7 +13,7 @@
     <Include>EQUI/ConfirmationDialog.xml</Include>
     <Include>EQUI/CharacterListWnd.xml</Include>
     <Include>EQUI/PlayerCustomizationWnd.xml</Include>
-    <Include>EQUI_GroupWindow.xml</Include>
+    <Include>EQUI/GroupWindow.xml</Include>
     <Include>EQUI_ItemDisplay.xml</Include>
     <Include>EQUI_BreathWindow.xml</Include>
     <Include>EQUI_NoteWindow.xml</Include>
