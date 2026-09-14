@@ -10,7 +10,7 @@
     <Include>EQUI/BuffWindow.xml</Include>
     <Include>EQUI/ChatWindow.xml</Include>
     <Include>EQUI/ChatContainerWindow.xml</Include>
-    <Include>EQUI_ConfirmationDialog.xml</Include>
+    <Include>EQUI/ConfirmationDialog.xml</Include>
     <Include>EQUI_CharacterListWnd.xml</Include>
     <Include>EQUI_PlayerCustomizationWnd.xml</Include>
     <Include>EQUI_GroupWindow.xml</Include>
