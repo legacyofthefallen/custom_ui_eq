@@ -405,7 +405,7 @@
 		<ElementType name="SuiteDefaults">
 			<superType type="Class"/>
 			<element name="DefaultWindowDrawTemplate" type="WindowDrawTemplate:item"/>
-			<element name="CursorDefault" type="Ui2DAnimation:item"/>
+			<element name="DefaultCursor" type="Ui2DAnimation:item"/>
 			<element name="CursorResizeNS" type="Ui2DAnimation:item"/>
 			<element name="CursorResizeEW" type="Ui2DAnimation:item"/>
 			<element name="CursorResizeNESW" type="Ui2DAnimation:item"/>
