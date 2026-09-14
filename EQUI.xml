@@ -8,7 +8,7 @@
     <Include>EQUI/Templates.xml</Include>
     <Include>EQUI/CharacterCreate.xml</Include>
     <Include>EQUI/BuffWindow.xml</Include>
-    <Include>EQUI_ChatWindow.xml</Include>
+    <Include>EQUI/ChatWindow.xml</Include>
     <Include>EQUI_ChatContainerWindow.xml</Include>
     <Include>EQUI_ConfirmationDialog.xml</Include>
     <Include>EQUI_CharacterListWnd.xml</Include>
