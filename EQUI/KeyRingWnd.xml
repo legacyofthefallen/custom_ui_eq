@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="us-ascii" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <XML ID="EQInterfaceDefinitionLanguage">
-	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
 	<Button item="KRW_ItemBtnTemplate">
 		<ScreenID>KRW_ItemBtnTemplate</ScreenID>
 		<Size>
@@ -18,7 +18,6 @@
 		</DecalSize>
 		<Template>BDT_LootWndIcon</Template>
 	</Button>
-	<!-- Mounts Tab -->
 	<Listbox item="KRW_Mounts_List">
 		<ScreenID>KRW_Mounts_List</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -39,7 +38,7 @@
 		</Columns>	
 		<Columns>
 			<Width>20</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>	
 		<Columns>
 			<Width>300</Width>
@@ -165,8 +164,6 @@
 			<CY>401</CY>
 		</Size>
 	</Page>
-	
-	<!-- Illusions Tab -->
 	<Listbox item="KRW_Illusions_List">
 		<ScreenID>KRW_Illusions_List</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -187,7 +184,7 @@
 		</Columns>	
 		<Columns>
 			<Width>20</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>	
 		<Columns>
 			<Width>300</Width>
@@ -313,8 +310,6 @@
 			<CY>401</CY>
 		</Size>
 	</Page>
-	
-	<!-- Familiars Tab -->
 	<Listbox item="KRW_Familiars_List">
 		<ScreenID>KRW_Familiars_List</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -335,7 +330,7 @@
 		</Columns>	
 		<Columns>
 			<Width>20</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>	
 		<Columns>
 			<Width>300</Width>
@@ -504,8 +499,6 @@
 			<CY>401</CY>
 		</Size>
 	</Page>
-	
-	<!-- HeroForge Tab -->
 	<Listbox item="KRW_HeroForge_List">
 		<ScreenID>KRW_HeroForge_List</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -526,7 +519,7 @@
 		</Columns>	
 		<Columns>
 			<Width>20</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>	
 		<Columns>
 			<Width>300</Width>
@@ -599,8 +592,6 @@
 			<CY>401</CY>
 		</Size>
 	</Page>
-	
-	<!-- Teleportation Items Tab -->
 	<Listbox item="KRW_TeleportationItems_List">
 		<ScreenID>KRW_TeleportationItems_List</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -621,7 +612,7 @@
 		</Columns>	
 		<Columns>
 			<Width>20</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>	
 		<Columns>
 			<Width>300</Width>
@@ -694,8 +685,6 @@
 			<CY>401</CY>
 		</Size>
 	</Page>
-	
-	<!-- Activated Items Tab -->
 	<Listbox item="KRW_ActivatedItems_List">
 		<ScreenID>KRW_ActivatedItems_List</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -716,7 +705,7 @@
 		</Columns>
 		<Columns>
 			<Width>20</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 		<Columns>
 			<Width>300</Width>
@@ -789,9 +778,6 @@
 			<CY>401</CY>
 		</Size>
 	</Page>
-	<!-- End Activated Items -->
-	
-	<!-- Equipment Items Tab -->
 	<Listbox item="KRW_Equipment_List">
 		<ScreenID>KRW_Equipment_List</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
@@ -812,7 +798,7 @@
 		</Columns>
 		<Columns>
 			<Width>20</Width>
-			<Heading></Heading>
+			<Heading/>
 		</Columns>
 		<Columns>
 			<Width>300</Width>
@@ -912,7 +898,6 @@
 			<CY>401</CY>
 		</Size>
 	</Page>
-	
 	<TabBox item="KRW_Subwindows">
 		<ScreenID>KRW_Subwindows</ScreenID>
 		<RelativePosition>true</RelativePosition>
