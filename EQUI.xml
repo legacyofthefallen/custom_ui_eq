@@ -24,7 +24,7 @@
     <Include>EQUI/TargetWindow.xml</Include>
     <Include>EQUI/AAWindow.xml</Include>
     <Include>EQUI/Inventory.xml</Include>
-    <Include>EQUI_KeyRingWnd.xml</Include>
+    <Include>EQUI/KeyRingWnd.xml</Include>
     <Include>EQUI/CursorAttachment.xml</Include>
     <Include>EQUI/CastSpellWnd.xml</Include>
     <Include>EQUI/SpellBookWnd.xml</Include>
