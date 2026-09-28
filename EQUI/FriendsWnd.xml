@@ -1,8 +1,7 @@
-<?xml version = "1.0"?>
-<XML ID = "EQInterfaceDefinitionLanguage">
-	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
-
-	<Editbox item = "FW_NameInput">
+<?xml version="1.0" encoding="utf-8"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+	<Editbox item="FW_NameInput">
 		<ScreenID>NameInput</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -16,10 +15,8 @@
 			<CY>24</CY>
 		</Size>
 	</Editbox>
-
-	<Button item = "FW_AddButton">
+	<Button item="FW_AddButton">
 		<ScreenID>AddButton</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>104</X>
@@ -29,15 +26,12 @@
 			<CX>40</CX>
 			<CY>20</CY>
 		</Size>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Add</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
-	<Button item = "FW_ContactButton">
+	<Button item="FW_ContactButton">
 		<ScreenID>ContactButton</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>3</X>
@@ -47,15 +41,12 @@
 			<CX>70</CX>
 			<CY>20</CY>
 		</Size>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Contact</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
-	<Button item = "FW_WhoButton">
+	<Button item="FW_WhoButton">
 		<ScreenID>WhoButton</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>78</X>
@@ -65,15 +56,12 @@
 			<CX>70</CX>
 			<CY>20</CY>
 		</Size>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Who</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
-	<Button item = "FW_DeleteButton">
+	<Button item="FW_DeleteButton">
 		<ScreenID>DeleteButton</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>3</X>
@@ -83,13 +71,11 @@
 			<CX>144</CX>
 			<CY>20</CY>
 		</Size>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Delete</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
-	<Listbox item = "FW_FriendsList">
+	<Listbox item="FW_FriendsList">
 		<ScreenID>FriendsList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<Location>
@@ -102,14 +88,11 @@
 		</Size>
 		<Columns>
 			<Width>150</Width>
-
 		</Columns>
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-
-	<Page item = "FW_FriendsPage">
-		<!--<ScreenID/>-->
+	<Page item="FW_FriendsPage">
 		<RelativePosition>false</RelativePosition>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Friends</TabText>
@@ -126,8 +109,7 @@
 		<Pieces>FW_ContactButton</Pieces>
 		<Pieces>FW_WhoButton</Pieces>
 	</Page>
-
-	<Editbox item = "FW_IgnoreNameInput">
+	<Editbox item="FW_IgnoreNameInput">
 		<ScreenID>IgnoreNameInput</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
@@ -141,10 +123,8 @@
 			<CY>24</CY>
 		</Size>
 	</Editbox>
-
-	<Button item = "FW_IgnoreAddButton">
+	<Button item="FW_IgnoreAddButton">
 		<ScreenID>IgnoreAddButton</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>104</X>
@@ -154,15 +134,12 @@
 			<CX>40</CX>
 			<CY>20</CY>
 		</Size>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Add</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
-	<Button item = "FW_IgnoreDeleteButton">
+	<Button item="FW_IgnoreDeleteButton">
 		<ScreenID>IgnoreDeleteButton</ScreenID>
-		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>3</X>
@@ -172,13 +149,11 @@
 			<CX>144</CX>
 			<CY>20</CY>
 		</Size>
-		<!--<TooltipReference/>-->
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Delete</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-
-	<Listbox item = "FW_IgnoreList">
+	<Listbox item="FW_IgnoreList">
 		<ScreenID>IgnoreList</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<Location>
@@ -195,9 +170,7 @@
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 	</Listbox>
-
-	<Page item = "FW_IgnorePage">
-		<!--<ScreenID/>-->
+	<Page item="FW_IgnorePage">
 		<RelativePosition>false</RelativePosition>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Ignored</TabText>
@@ -212,11 +185,9 @@
 		<Pieces>FW_IgnoreNameInput</Pieces>
 		<Pieces>FW_IgnoreDeleteButton</Pieces>
 	</Page>
-
-	<TabBox item = "FW_Subwindows">
+	<TabBox item="FW_Subwindows">
 		<ScreenID>Subwindows</ScreenID>
 		<RelativePosition>true</RelativePosition>
-
 		<Location>
 			<X>2</X>
 			<Y>0</Y>
@@ -225,15 +196,12 @@
 			<CX>158</CX>
 			<CY>264</CY>
 		</Size>
-
 		<TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
 		<PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
 		<Pages>FW_FriendsPage</Pages>
 		<Pages>FW_IgnorePage</Pages>
 	</TabBox>
-
-	<Screen item = "FriendsWindow">
-		<!--<ScreenID/>-->
+	<Screen item="FriendsWindow">
 		<RelativePosition>false</RelativePosition>
 		<Location>
 			<X>196</X>
@@ -246,7 +214,6 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
 		<Text>Friends Window</Text>
 		<DrawTemplate>WDT_Rounded</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
@@ -257,5 +224,4 @@
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>FW_Subwindows</Pieces>
 	</Screen>
-
 </XML>
