@@ -28,7 +28,7 @@
     <Include>EQUI/CursorAttachment.xml</Include>
     <Include>EQUI/CastSpellWnd.xml</Include>
     <Include>EQUI/SpellBookWnd.xml</Include>
-    <Include>EQUI_FriendsWnd.xml</Include>
+    <Include>EQUI/FriendsWnd.xml</Include>
     <Include>EQUI/PetInfoWindow.xml</Include>
     <Include>EQUI/TrainWindow.xml</Include>
     <Include>EQUI_Container.xml</Include>
