@@ -1,4 +1,4 @@
-# Custom UI [For EverQuest](https://www.everquest.com)
+# Custom UI for [EverQuest](https://www.everquest.com)
 
 ## Custom Targeting rings
 Specific color for difficulty and text to describe the targeted object
