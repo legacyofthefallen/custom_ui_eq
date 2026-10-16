@@ -1258,6 +1258,46 @@
 		<TextAlignCenter>false</TextAlignCenter>
 		<TextOffsetX>20</TextOffsetX>
 	</Button>
+		<Label item="OGP_MultItemSelectLabel">
+		<ScreenID>OGP_MultItemSelectLabel</ScreenID>
+		<Size>
+			<CX>160</CX>
+			<CY>15</CY>
+		</Size>
+		<Text>Select Multiple Items Hotkey:</Text>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<TooltipReference>Change the key used to select multiple items. Currently only works when sending parcels.</TooltipReference>
+	</Label>
+	<Combobox item="OGP_MultItemSelectCombobox">
+		<ScreenID>OGP_MultItemSelectCombobox</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Size>
+			<CX>160</CX>
+			<CY>24</CY>
+		</Size>
+		<ListHeight>60</ListHeight>
+		<Button>BDT_Combo</Button>
+		<Style_Border>true</Style_Border>
+	</Combobox>
+	<Button item="OGP_MultItemSelectWarnCheckbox">
+		<ScreenID>OGP_MultItemSelectWarnCheckbox</ScreenID>
+		<Size>
+			<CX>180</CX>
+			<CY>30</CY>
+		</Size>
+		<Style_Checkbox>true</Style_Checkbox>
+		<Text>Warn when sending multiple items</Text>
+		<TooltipReference>Toggles whether a warning (with confirmation) will be displayed when attempting to send a parcel with multiple items.</TooltipReference>
+		<Template>BDT_CheckboxWithText</Template>
+		<DecalSize>
+			<CX>16</CX>
+			<CY>16</CY>
+		</DecalSize>
+		<TextAlignCenter>false</TextAlignCenter>
+		<TextOffsetX>20</TextOffsetX>
+	</Button>
 	<Screen item="OGP_BlinkChatWindowPreSpacer">
 		<RelativePosition>true</RelativePosition>
 		<Size>
@@ -1391,7 +1431,7 @@
 		</Location>
 		<Size>
 			<CX>175</CX>
-			<CY>450</CY>
+			<CY>515</CY>
 		</Size>
 		<Spacing>0</Spacing>
 		<ResizeLast>false</ResizeLast>
@@ -1423,6 +1463,9 @@
 		<Pieces>Screen:OGP_TributePreSpacer</Pieces>
 		<Pieces>OGP_TributeLogoffAutoOffCheckbox</Pieces>
 		<Pieces>OGP_TrophyTributeLogoffAutoOffCheckbox</Pieces>
+		<Pieces>OGP_MultItemSelectLabel</Pieces>
+		<Pieces>OGP_MultItemSelectCombobox</Pieces>
+		<Pieces>OGP_MultItemSelectWarnCheckbox</Pieces>
 	</VerticalLayoutBox>
 	<Page item="OptionsGeneralPage">
 		<ScreenID>OptionsGeneralPage</ScreenID>
